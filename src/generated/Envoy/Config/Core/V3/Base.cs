@@ -82,52 +82,53 @@ namespace Envoy.Config.Core.V3 {
             "EAESDQoFdmFsdWUYAiABKAkicwoLSGVhZGVyVmFsdWUSHgoDa2V5GAEgASgJ",
             "QhH6Qg5yDBABKICAAcABAcgBABIeCgV2YWx1ZRgCIAEoCUIP+kIMcgoogIAB",
             "wAECyAEAOiSaxYgeHwodZW52b3kuYXBpLnYyLmNvcmUuSGVhZGVyVmFsdWUi",
-            "6wIKEUhlYWRlclZhbHVlT3B0aW9uEjsKBmhlYWRlchgBIAEoCzIhLmVudm95",
+            "hQMKEUhlYWRlclZhbHVlT3B0aW9uEjsKBmhlYWRlchgBIAEoCzIhLmVudm95",
             "LmNvbmZpZy5jb3JlLnYzLkhlYWRlclZhbHVlQgj6QgWKAQIQARIqCgZhcHBl",
             "bmQYAiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlElsKDWFwcGVu",
             "ZF9hY3Rpb24YAyABKA4yOi5lbnZveS5jb25maWcuY29yZS52My5IZWFkZXJW",
-            "YWx1ZU9wdGlvbi5IZWFkZXJBcHBlbmRBY3Rpb25CCPpCBYIBAhABImQKEkhl",
-            "YWRlckFwcGVuZEFjdGlvbhIbChdBUFBFTkRfSUZfRVhJU1RTX09SX0FERBAA",
-            "EhEKDUFERF9JRl9BQlNFTlQQARIeChpPVkVSV1JJVEVfSUZfRVhJU1RTX09S",
-            "X0FERBACOiqaxYgeJQojZW52b3kuYXBpLnYyLmNvcmUuSGVhZGVyVmFsdWVP",
-            "cHRpb24iYwoJSGVhZGVyTWFwEjIKB2hlYWRlcnMYASADKAsyIS5lbnZveS5j",
-            "b25maWcuY29yZS52My5IZWFkZXJWYWx1ZToimsWIHh0KG2Vudm95LmFwaS52",
-            "Mi5jb3JlLkhlYWRlck1hcCIpChBXYXRjaGVkRGlyZWN0b3J5EhUKBHBhdGgY",
-            "ASABKAlCB/pCBHICEAEiugEKCkRhdGFTb3VyY2USGwoIZmlsZW5hbWUYASAB",
-            "KAlCB/pCBHICEAFIABIWCgxpbmxpbmVfYnl0ZXMYAiABKAxIABIXCg1pbmxp",
-            "bmVfc3RyaW5nGAMgASgJSAASJwoUZW52aXJvbm1lbnRfdmFyaWFibGUYBCAB",
-            "KAlCB/pCBHICEAFIADojmsWIHh4KHGVudm95LmFwaS52Mi5jb3JlLkRhdGFT",
-            "b3VyY2VCEAoJc3BlY2lmaWVyEgP4QgEiugEKC1JldHJ5UG9saWN5Ej0KDnJl",
-            "dHJ5X2JhY2tfb2ZmGAEgASgLMiUuZW52b3kuY29uZmlnLmNvcmUudjMuQmFj",
-            "a29mZlN0cmF0ZWd5EkYKC251bV9yZXRyaWVzGAIgASgLMhwuZ29vZ2xlLnBy",
-            "b3RvYnVmLlVJbnQzMlZhbHVlQhPymP6PBQ0KC21heF9yZXRyaWVzOiSaxYge",
-            "HwodZW52b3kuYXBpLnYyLmNvcmUuUmV0cnlQb2xpY3kiygEKEFJlbW90ZURh",
-            "dGFTb3VyY2USOQoIaHR0cF91cmkYASABKAsyHS5lbnZveS5jb25maWcuY29y",
-            "ZS52My5IdHRwVXJpQgj6QgWKAQIQARIXCgZzaGEyNTYYAiABKAlCB/pCBHIC",
-            "EAESNwoMcmV0cnlfcG9saWN5GAMgASgLMiEuZW52b3kuY29uZmlnLmNvcmUu",
-            "djMuUmV0cnlQb2xpY3k6KZrFiB4kCiJlbnZveS5hcGkudjIuY29yZS5SZW1v",
-            "dGVEYXRhU291cmNlIroBCg9Bc3luY0RhdGFTb3VyY2USMQoFbG9jYWwYASAB",
-            "KAsyIC5lbnZveS5jb25maWcuY29yZS52My5EYXRhU291cmNlSAASOAoGcmVt",
-            "b3RlGAIgASgLMiYuZW52b3kuY29uZmlnLmNvcmUudjMuUmVtb3RlRGF0YVNv",
-            "dXJjZUgAOiiaxYgeIwohZW52b3kuYXBpLnYyLmNvcmUuQXN5bmNEYXRhU291",
-            "cmNlQhAKCXNwZWNpZmllchID+EIBIp0BCg9UcmFuc3BvcnRTb2NrZXQSFQoE",
-            "bmFtZRgBIAEoCUIH+kIEcgIQARIsCgx0eXBlZF9jb25maWcYAyABKAsyFC5n",
-            "b29nbGUucHJvdG9idWYuQW55SAA6KJrFiB4jCiFlbnZveS5hcGkudjIuY29y",
-            "ZS5UcmFuc3BvcnRTb2NrZXRCDQoLY29uZmlnX3R5cGVKBAgCEANSBmNvbmZp",
-            "ZyKlAQoYUnVudGltZUZyYWN0aW9uYWxQZXJjZW50EkEKDWRlZmF1bHRfdmFs",
-            "dWUYASABKAsyIC5lbnZveS50eXBlLnYzLkZyYWN0aW9uYWxQZXJjZW50Qgj6",
-            "QgWKAQIQARITCgtydW50aW1lX2tleRgCIAEoCToxmsWIHiwKKmVudm95LmFw",
-            "aS52Mi5jb3JlLlJ1bnRpbWVGcmFjdGlvbmFsUGVyY2VudCJJCgxDb250cm9s",
-            "UGxhbmUSEgoKaWRlbnRpZmllchgBIAEoCTolmsWIHiAKHmVudm95LmFwaS52",
-            "Mi5jb3JlLkNvbnRyb2xQbGFuZSooCg9Sb3V0aW5nUHJpb3JpdHkSCwoHREVG",
-            "QVVMVBAAEggKBEhJR0gQASqJAQoNUmVxdWVzdE1ldGhvZBIWChJNRVRIT0Rf",
-            "VU5TUEVDSUZJRUQQABIHCgNHRVQQARIICgRIRUFEEAISCAoEUE9TVBADEgcK",
-            "A1BVVBAEEgoKBkRFTEVURRAFEgsKB0NPTk5FQ1QQBhILCgdPUFRJT05TEAcS",
-            "CQoFVFJBQ0UQCBIJCgVQQVRDSBAJKj4KEFRyYWZmaWNEaXJlY3Rpb24SDwoL",
-            "VU5TUEVDSUZJRUQQABILCgdJTkJPVU5EEAESDAoIT1VUQk9VTkQQAkJ9CiJp",
-            "by5lbnZveXByb3h5LmVudm95LmNvbmZpZy5jb3JlLnYzQglCYXNlUHJvdG9Q",
-            "AVpCZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52",
-            "b3kvY29uZmlnL2NvcmUvdjM7Y29yZXYzuoDI0QYCEAJiBnByb3RvMw=="));
+            "YWx1ZU9wdGlvbi5IZWFkZXJBcHBlbmRBY3Rpb25CCPpCBYIBAhABEhgKEGtl",
+            "ZXBfZW1wdHlfdmFsdWUYBCABKAgiZAoSSGVhZGVyQXBwZW5kQWN0aW9uEhsK",
+            "F0FQUEVORF9JRl9FWElTVFNfT1JfQUREEAASEQoNQUREX0lGX0FCU0VOVBAB",
+            "Eh4KGk9WRVJXUklURV9JRl9FWElTVFNfT1JfQUREEAI6KprFiB4lCiNlbnZv",
+            "eS5hcGkudjIuY29yZS5IZWFkZXJWYWx1ZU9wdGlvbiJjCglIZWFkZXJNYXAS",
+            "MgoHaGVhZGVycxgBIAMoCzIhLmVudm95LmNvbmZpZy5jb3JlLnYzLkhlYWRl",
+            "clZhbHVlOiKaxYgeHQobZW52b3kuYXBpLnYyLmNvcmUuSGVhZGVyTWFwIikK",
+            "EFdhdGNoZWREaXJlY3RvcnkSFQoEcGF0aBgBIAEoCUIH+kIEcgIQASK6AQoK",
+            "RGF0YVNvdXJjZRIbCghmaWxlbmFtZRgBIAEoCUIH+kIEcgIQAUgAEhYKDGlu",
+            "bGluZV9ieXRlcxgCIAEoDEgAEhcKDWlubGluZV9zdHJpbmcYAyABKAlIABIn",
+            "ChRlbnZpcm9ubWVudF92YXJpYWJsZRgEIAEoCUIH+kIEcgIQAUgAOiOaxYge",
+            "HgocZW52b3kuYXBpLnYyLmNvcmUuRGF0YVNvdXJjZUIQCglzcGVjaWZpZXIS",
+            "A/hCASK6AQoLUmV0cnlQb2xpY3kSPQoOcmV0cnlfYmFja19vZmYYASABKAsy",
+            "JS5lbnZveS5jb25maWcuY29yZS52My5CYWNrb2ZmU3RyYXRlZ3kSRgoLbnVt",
+            "X3JldHJpZXMYAiABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVC",
+            "E/KY/o8FDQoLbWF4X3JldHJpZXM6JJrFiB4fCh1lbnZveS5hcGkudjIuY29y",
+            "ZS5SZXRyeVBvbGljeSLKAQoQUmVtb3RlRGF0YVNvdXJjZRI5CghodHRwX3Vy",
+            "aRgBIAEoCzIdLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHBVcmlCCPpCBYoB",
+            "AhABEhcKBnNoYTI1NhgCIAEoCUIH+kIEcgIQARI3CgxyZXRyeV9wb2xpY3kY",
+            "AyABKAsyIS5lbnZveS5jb25maWcuY29yZS52My5SZXRyeVBvbGljeTopmsWI",
+            "HiQKImVudm95LmFwaS52Mi5jb3JlLlJlbW90ZURhdGFTb3VyY2UiugEKD0Fz",
+            "eW5jRGF0YVNvdXJjZRIxCgVsb2NhbBgBIAEoCzIgLmVudm95LmNvbmZpZy5j",
+            "b3JlLnYzLkRhdGFTb3VyY2VIABI4CgZyZW1vdGUYAiABKAsyJi5lbnZveS5j",
+            "b25maWcuY29yZS52My5SZW1vdGVEYXRhU291cmNlSAA6KJrFiB4jCiFlbnZv",
+            "eS5hcGkudjIuY29yZS5Bc3luY0RhdGFTb3VyY2VCEAoJc3BlY2lmaWVyEgP4",
+            "QgEinQEKD1RyYW5zcG9ydFNvY2tldBIVCgRuYW1lGAEgASgJQgf6QgRyAhAB",
+            "EiwKDHR5cGVkX2NvbmZpZxgDIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnlI",
+            "ADoomsWIHiMKIWVudm95LmFwaS52Mi5jb3JlLlRyYW5zcG9ydFNvY2tldEIN",
+            "Cgtjb25maWdfdHlwZUoECAIQA1IGY29uZmlnIqUBChhSdW50aW1lRnJhY3Rp",
+            "b25hbFBlcmNlbnQSQQoNZGVmYXVsdF92YWx1ZRgBIAEoCzIgLmVudm95LnR5",
+            "cGUudjMuRnJhY3Rpb25hbFBlcmNlbnRCCPpCBYoBAhABEhMKC3J1bnRpbWVf",
+            "a2V5GAIgASgJOjGaxYgeLAoqZW52b3kuYXBpLnYyLmNvcmUuUnVudGltZUZy",
+            "YWN0aW9uYWxQZXJjZW50IkkKDENvbnRyb2xQbGFuZRISCgppZGVudGlmaWVy",
+            "GAEgASgJOiWaxYgeIAoeZW52b3kuYXBpLnYyLmNvcmUuQ29udHJvbFBsYW5l",
+            "KigKD1JvdXRpbmdQcmlvcml0eRILCgdERUZBVUxUEAASCAoESElHSBABKokB",
+            "Cg1SZXF1ZXN0TWV0aG9kEhYKEk1FVEhPRF9VTlNQRUNJRklFRBAAEgcKA0dF",
+            "VBABEggKBEhFQUQQAhIICgRQT1NUEAMSBwoDUFVUEAQSCgoGREVMRVRFEAUS",
+            "CwoHQ09OTkVDVBAGEgsKB09QVElPTlMQBxIJCgVUUkFDRRAIEgkKBVBBVENI",
+            "EAkqPgoQVHJhZmZpY0RpcmVjdGlvbhIPCgtVTlNQRUNJRklFRBAAEgsKB0lO",
+            "Qk9VTkQQARIMCghPVVRCT1VORBACQn0KImlvLmVudm95cHJveHkuZW52b3ku",
+            "Y29uZmlnLmNvcmUudjNCCUJhc2VQcm90b1ABWkJnaXRodWIuY29tL2Vudm95",
+            "cHJveHkvZ28tY29udHJvbC1wbGFuZS9lbnZveS9jb25maWcvY29yZS92Mztj",
+            "b3JldjO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.AddressReflection.Descriptor, global::Envoy.Config.Core.V3.BackoffReflection.Descriptor, global::Envoy.Config.Core.V3.HttpUriReflection.Descriptor, global::Envoy.Type.V3.PercentReflection.Descriptor, global::Envoy.Type.V3.SemanticVersionReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Xds.Core.V3.ContextParamsReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.MigrateReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Envoy.Config.Core.V3.RoutingPriority), typeof(global::Envoy.Config.Core.V3.RequestMethod), typeof(global::Envoy.Config.Core.V3.TrafficDirection), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -142,7 +143,7 @@ namespace Envoy.Config.Core.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.RuntimeFeatureFlag), global::Envoy.Config.Core.V3.RuntimeFeatureFlag.Parser, new[]{ "DefaultValue", "RuntimeKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.QueryParameter), global::Envoy.Config.Core.V3.QueryParameter.Parser, new[]{ "Key", "Value" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HeaderValue), global::Envoy.Config.Core.V3.HeaderValue.Parser, new[]{ "Key", "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HeaderValueOption), global::Envoy.Config.Core.V3.HeaderValueOption.Parser, new[]{ "Header", "Append", "AppendAction" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HeaderValueOption), global::Envoy.Config.Core.V3.HeaderValueOption.Parser, new[]{ "Header", "Append", "AppendAction", "KeepEmptyValue" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HeaderMap), global::Envoy.Config.Core.V3.HeaderMap.Parser, new[]{ "Headers" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.WatchedDirectory), global::Envoy.Config.Core.V3.WatchedDirectory.Parser, new[]{ "Path" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.DataSource), global::Envoy.Config.Core.V3.DataSource.Parser, new[]{ "Filename", "InlineBytes", "InlineString", "EnvironmentVariable" }, new[]{ "Specifier" }, null, null, null),
@@ -3488,6 +3489,7 @@ namespace Envoy.Config.Core.V3 {
       header_ = other.header_ != null ? other.header_.Clone() : null;
       Append = other.Append;
       appendAction_ = other.appendAction_;
+      keepEmptyValue_ = other.keepEmptyValue_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3546,6 +3548,22 @@ namespace Envoy.Config.Core.V3 {
       }
     }
 
+    /// <summary>Field number for the "keep_empty_value" field.</summary>
+    public const int KeepEmptyValueFieldNumber = 4;
+    private bool keepEmptyValue_;
+    /// <summary>
+    /// Is the header value allowed to be empty? If false (default), custom headers with empty values are dropped,
+    /// otherwise they are added.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool KeepEmptyValue {
+      get { return keepEmptyValue_; }
+      set {
+        keepEmptyValue_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3564,6 +3582,7 @@ namespace Envoy.Config.Core.V3 {
       if (!object.Equals(Header, other.Header)) return false;
       if (Append != other.Append) return false;
       if (AppendAction != other.AppendAction) return false;
+      if (KeepEmptyValue != other.KeepEmptyValue) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3574,6 +3593,7 @@ namespace Envoy.Config.Core.V3 {
       if (header_ != null) hash ^= Header.GetHashCode();
       if (append_ != null) hash ^= Append.GetHashCode();
       if (AppendAction != global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction.AppendIfExistsOrAdd) hash ^= AppendAction.GetHashCode();
+      if (KeepEmptyValue != false) hash ^= KeepEmptyValue.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3603,6 +3623,10 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(24);
         output.WriteEnum((int) AppendAction);
       }
+      if (KeepEmptyValue != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(KeepEmptyValue);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3624,6 +3648,10 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(24);
         output.WriteEnum((int) AppendAction);
       }
+      if (KeepEmptyValue != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(KeepEmptyValue);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3642,6 +3670,9 @@ namespace Envoy.Config.Core.V3 {
       }
       if (AppendAction != global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction.AppendIfExistsOrAdd) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AppendAction);
+      }
+      if (KeepEmptyValue != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3668,6 +3699,9 @@ namespace Envoy.Config.Core.V3 {
       }
       if (other.AppendAction != global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction.AppendIfExistsOrAdd) {
         AppendAction = other.AppendAction;
+      }
+      if (other.KeepEmptyValue != false) {
+        KeepEmptyValue = other.KeepEmptyValue;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3702,6 +3736,10 @@ namespace Envoy.Config.Core.V3 {
             AppendAction = (global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction) input.ReadEnum();
             break;
           }
+          case 32: {
+            KeepEmptyValue = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -3733,6 +3771,10 @@ namespace Envoy.Config.Core.V3 {
           }
           case 24: {
             AppendAction = (global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            KeepEmptyValue = input.ReadBool();
             break;
           }
         }

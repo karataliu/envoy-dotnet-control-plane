@@ -29,51 +29,87 @@ namespace Envoy.Service.Discovery.V3 {
             "ZS92My9iYXNlLnByb3RvGhlnb29nbGUvcHJvdG9idWYvYW55LnByb3RvGh5n",
             "b29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJvdG8aF2dvb2dsZS9ycGMvc3Rh",
             "dHVzLnByb3RvGh11ZHBhL2Fubm90YXRpb25zL3N0YXR1cy5wcm90bxohdWRw",
-            "YS9hbm5vdGF0aW9ucy92ZXJzaW9uaW5nLnByb3RvIuQBChBEaXNjb3ZlcnlS",
-            "ZXF1ZXN0EhQKDHZlcnNpb25faW5mbxgBIAEoCRIoCgRub2RlGAIgASgLMhou",
-            "ZW52b3kuY29uZmlnLmNvcmUudjMuTm9kZRIWCg5yZXNvdXJjZV9uYW1lcxgD",
-            "IAMoCRIQCgh0eXBlX3VybBgEIAEoCRIWCg5yZXNwb25zZV9ub25jZRgFIAEo",
-            "CRIoCgxlcnJvcl9kZXRhaWwYBiABKAsyEi5nb29nbGUucnBjLlN0YXR1czok",
-            "msWIHh8KHWVudm95LmFwaS52Mi5EaXNjb3ZlcnlSZXF1ZXN0IuUBChFEaXNj",
-            "b3ZlcnlSZXNwb25zZRIUCgx2ZXJzaW9uX2luZm8YASABKAkSJwoJcmVzb3Vy",
-            "Y2VzGAIgAygLMhQuZ29vZ2xlLnByb3RvYnVmLkFueRIOCgZjYW5hcnkYAyAB",
-            "KAgSEAoIdHlwZV91cmwYBCABKAkSDQoFbm9uY2UYBSABKAkSOQoNY29udHJv",
-            "bF9wbGFuZRgGIAEoCzIiLmVudm95LmNvbmZpZy5jb3JlLnYzLkNvbnRyb2xQ",
-            "bGFuZTolmsWIHiAKHmVudm95LmFwaS52Mi5EaXNjb3ZlcnlSZXNwb25zZSK5",
-            "AwoVRGVsdGFEaXNjb3ZlcnlSZXF1ZXN0EigKBG5vZGUYASABKAsyGi5lbnZv",
-            "eS5jb25maWcuY29yZS52My5Ob2RlEhAKCHR5cGVfdXJsGAIgASgJEiAKGHJl",
-            "c291cmNlX25hbWVzX3N1YnNjcmliZRgDIAMoCRIiChpyZXNvdXJjZV9uYW1l",
-            "c191bnN1YnNjcmliZRgEIAMoCRJxChlpbml0aWFsX3Jlc291cmNlX3ZlcnNp",
-            "b25zGAUgAygLMk4uZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuRGVsdGFE",
-            "aXNjb3ZlcnlSZXF1ZXN0LkluaXRpYWxSZXNvdXJjZVZlcnNpb25zRW50cnkS",
-            "FgoOcmVzcG9uc2Vfbm9uY2UYBiABKAkSKAoMZXJyb3JfZGV0YWlsGAcgASgL",
-            "MhIuZ29vZ2xlLnJwYy5TdGF0dXMaPgocSW5pdGlhbFJlc291cmNlVmVyc2lv",
-            "bnNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBOimaxYge",
-            "JAoiZW52b3kuYXBpLnYyLkRlbHRhRGlzY292ZXJ5UmVxdWVzdCKRAgoWRGVs",
-            "dGFEaXNjb3ZlcnlSZXNwb25zZRIbChNzeXN0ZW1fdmVyc2lvbl9pbmZvGAEg",
-            "ASgJEjcKCXJlc291cmNlcxgCIAMoCzIkLmVudm95LnNlcnZpY2UuZGlzY292",
-            "ZXJ5LnYzLlJlc291cmNlEhAKCHR5cGVfdXJsGAQgASgJEhkKEXJlbW92ZWRf",
-            "cmVzb3VyY2VzGAYgAygJEg0KBW5vbmNlGAUgASgJEjkKDWNvbnRyb2xfcGxh",
-            "bmUYByABKAsyIi5lbnZveS5jb25maWcuY29yZS52My5Db250cm9sUGxhbmU6",
-            "KprFiB4lCiNlbnZveS5hcGkudjIuRGVsdGFEaXNjb3ZlcnlSZXNwb25zZSKY",
-            "AgoIUmVzb3VyY2USDAoEbmFtZRgDIAEoCRIPCgdhbGlhc2VzGAQgAygJEg8K",
-            "B3ZlcnNpb24YASABKAkSJgoIcmVzb3VyY2UYAiABKAsyFC5nb29nbGUucHJv",
-            "dG9idWYuQW55EiYKA3R0bBgGIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJh",
-            "dGlvbhJICg1jYWNoZV9jb250cm9sGAcgASgLMjEuZW52b3kuc2VydmljZS5k",
-            "aXNjb3ZlcnkudjMuUmVzb3VyY2UuQ2FjaGVDb250cm9sGiQKDENhY2hlQ29u",
-            "dHJvbBIUCgxkb19ub3RfY2FjaGUYASABKAg6HJrFiB4XChVlbnZveS5hcGku",
-            "djIuUmVzb3VyY2VCkwEKKGlvLmVudm95cHJveHkuZW52b3kuc2VydmljZS5k",
-            "aXNjb3ZlcnkudjNCDkRpc2NvdmVyeVByb3RvUAFaTWdpdGh1Yi5jb20vZW52",
-            "b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95L3NlcnZpY2UvZGlzY292",
-            "ZXJ5L3YzO2Rpc2NvdmVyeXYzuoDI0QYCEAJiBnByb3RvMw=="));
+            "YS9hbm5vdGF0aW9ucy92ZXJzaW9uaW5nLnByb3RvGhd2YWxpZGF0ZS92YWxp",
+            "ZGF0ZS5wcm90byK5AQoPUmVzb3VyY2VMb2NhdG9yEgwKBG5hbWUYASABKAkS",
+            "XgoSZHluYW1pY19wYXJhbWV0ZXJzGAIgAygLMkIuZW52b3kuc2VydmljZS5k",
+            "aXNjb3ZlcnkudjMuUmVzb3VyY2VMb2NhdG9yLkR5bmFtaWNQYXJhbWV0ZXJz",
+            "RW50cnkaOAoWRHluYW1pY1BhcmFtZXRlcnNFbnRyeRILCgNrZXkYASABKAkS",
+            "DQoFdmFsdWUYAiABKAk6AjgBInwKDFJlc291cmNlTmFtZRIMCgRuYW1lGAEg",
+            "ASgJEl4KHWR5bmFtaWNfcGFyYW1ldGVyX2NvbnN0cmFpbnRzGAIgASgLMjcu",
+            "ZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuRHluYW1pY1BhcmFtZXRlckNv",
+            "bnN0cmFpbnRzIqwCChBEaXNjb3ZlcnlSZXF1ZXN0EhQKDHZlcnNpb25faW5m",
+            "bxgBIAEoCRIoCgRub2RlGAIgASgLMhouZW52b3kuY29uZmlnLmNvcmUudjMu",
+            "Tm9kZRIWCg5yZXNvdXJjZV9uYW1lcxgDIAMoCRJGChFyZXNvdXJjZV9sb2Nh",
+            "dG9ycxgHIAMoCzIrLmVudm95LnNlcnZpY2UuZGlzY292ZXJ5LnYzLlJlc291",
+            "cmNlTG9jYXRvchIQCgh0eXBlX3VybBgEIAEoCRIWCg5yZXNwb25zZV9ub25j",
+            "ZRgFIAEoCRIoCgxlcnJvcl9kZXRhaWwYBiABKAsyEi5nb29nbGUucnBjLlN0",
+            "YXR1czokmsWIHh8KHWVudm95LmFwaS52Mi5EaXNjb3ZlcnlSZXF1ZXN0IuUB",
+            "ChFEaXNjb3ZlcnlSZXNwb25zZRIUCgx2ZXJzaW9uX2luZm8YASABKAkSJwoJ",
+            "cmVzb3VyY2VzGAIgAygLMhQuZ29vZ2xlLnByb3RvYnVmLkFueRIOCgZjYW5h",
+            "cnkYAyABKAgSEAoIdHlwZV91cmwYBCABKAkSDQoFbm9uY2UYBSABKAkSOQoN",
+            "Y29udHJvbF9wbGFuZRgGIAEoCzIiLmVudm95LmNvbmZpZy5jb3JlLnYzLkNv",
+            "bnRyb2xQbGFuZTolmsWIHiAKHmVudm95LmFwaS52Mi5EaXNjb3ZlcnlSZXNw",
+            "b25zZSLfBAoVRGVsdGFEaXNjb3ZlcnlSZXF1ZXN0EigKBG5vZGUYASABKAsy",
+            "Gi5lbnZveS5jb25maWcuY29yZS52My5Ob2RlEhAKCHR5cGVfdXJsGAIgASgJ",
+            "EiAKGHJlc291cmNlX25hbWVzX3N1YnNjcmliZRgDIAMoCRIiChpyZXNvdXJj",
+            "ZV9uYW1lc191bnN1YnNjcmliZRgEIAMoCRJQChtyZXNvdXJjZV9sb2NhdG9y",
+            "c19zdWJzY3JpYmUYCCADKAsyKy5lbnZveS5zZXJ2aWNlLmRpc2NvdmVyeS52",
+            "My5SZXNvdXJjZUxvY2F0b3ISUgodcmVzb3VyY2VfbG9jYXRvcnNfdW5zdWJz",
+            "Y3JpYmUYCSADKAsyKy5lbnZveS5zZXJ2aWNlLmRpc2NvdmVyeS52My5SZXNv",
+            "dXJjZUxvY2F0b3IScQoZaW5pdGlhbF9yZXNvdXJjZV92ZXJzaW9ucxgFIAMo",
+            "CzJOLmVudm95LnNlcnZpY2UuZGlzY292ZXJ5LnYzLkRlbHRhRGlzY292ZXJ5",
+            "UmVxdWVzdC5Jbml0aWFsUmVzb3VyY2VWZXJzaW9uc0VudHJ5EhYKDnJlc3Bv",
+            "bnNlX25vbmNlGAYgASgJEigKDGVycm9yX2RldGFpbBgHIAEoCzISLmdvb2ds",
+            "ZS5ycGMuU3RhdHVzGj4KHEluaXRpYWxSZXNvdXJjZVZlcnNpb25zRW50cnkS",
+            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ATopmsWIHiQKImVudm95",
+            "LmFwaS52Mi5EZWx0YURpc2NvdmVyeVJlcXVlc3Qi2wIKFkRlbHRhRGlzY292",
+            "ZXJ5UmVzcG9uc2USGwoTc3lzdGVtX3ZlcnNpb25faW5mbxgBIAEoCRI3Cgly",
+            "ZXNvdXJjZXMYAiADKAsyJC5lbnZveS5zZXJ2aWNlLmRpc2NvdmVyeS52My5S",
+            "ZXNvdXJjZRIQCgh0eXBlX3VybBgEIAEoCRIZChFyZW1vdmVkX3Jlc291cmNl",
+            "cxgGIAMoCRJIChZyZW1vdmVkX3Jlc291cmNlX25hbWVzGAggAygLMiguZW52",
+            "b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuUmVzb3VyY2VOYW1lEg0KBW5vbmNl",
+            "GAUgASgJEjkKDWNvbnRyb2xfcGxhbmUYByABKAsyIi5lbnZveS5jb25maWcu",
+            "Y29yZS52My5Db250cm9sUGxhbmU6KprFiB4lCiNlbnZveS5hcGkudjIuRGVs",
+            "dGFEaXNjb3ZlcnlSZXNwb25zZSK2BQobRHluYW1pY1BhcmFtZXRlckNvbnN0",
+            "cmFpbnRzEl4KCmNvbnN0cmFpbnQYASABKAsySC5lbnZveS5zZXJ2aWNlLmRp",
+            "c2NvdmVyeS52My5EeW5hbWljUGFyYW1ldGVyQ29uc3RyYWludHMuU2luZ2xl",
+            "Q29uc3RyYWludEgAEmAKDm9yX2NvbnN0cmFpbnRzGAIgASgLMkYuZW52b3ku",
+            "c2VydmljZS5kaXNjb3ZlcnkudjMuRHluYW1pY1BhcmFtZXRlckNvbnN0cmFp",
+            "bnRzLkNvbnN0cmFpbnRMaXN0SAASYQoPYW5kX2NvbnN0cmFpbnRzGAMgASgL",
+            "MkYuZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuRHluYW1pY1BhcmFtZXRl",
+            "ckNvbnN0cmFpbnRzLkNvbnN0cmFpbnRMaXN0SAASUgoPbm90X2NvbnN0cmFp",
+            "bnRzGAQgASgLMjcuZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuRHluYW1p",
+            "Y1BhcmFtZXRlckNvbnN0cmFpbnRzSAAatQEKEFNpbmdsZUNvbnN0cmFpbnQS",
+            "CwoDa2V5GAEgASgJEg8KBXZhbHVlGAIgASgJSAASYQoGZXhpc3RzGAMgASgL",
+            "Mk8uZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuRHluYW1pY1BhcmFtZXRl",
+            "ckNvbnN0cmFpbnRzLlNpbmdsZUNvbnN0cmFpbnQuRXhpc3RzSAAaCAoGRXhp",
+            "c3RzQhYKD2NvbnN0cmFpbnRfdHlwZRID+EIBGl4KDkNvbnN0cmFpbnRMaXN0",
+            "EkwKC2NvbnN0cmFpbnRzGAEgAygLMjcuZW52b3kuc2VydmljZS5kaXNjb3Zl",
+            "cnkudjMuRHluYW1pY1BhcmFtZXRlckNvbnN0cmFpbnRzQgYKBHR5cGUi2QIK",
+            "CFJlc291cmNlEgwKBG5hbWUYAyABKAkSPwoNcmVzb3VyY2VfbmFtZRgIIAEo",
+            "CzIoLmVudm95LnNlcnZpY2UuZGlzY292ZXJ5LnYzLlJlc291cmNlTmFtZRIP",
+            "CgdhbGlhc2VzGAQgAygJEg8KB3ZlcnNpb24YASABKAkSJgoIcmVzb3VyY2UY",
+            "AiABKAsyFC5nb29nbGUucHJvdG9idWYuQW55EiYKA3R0bBgGIAEoCzIZLmdv",
+            "b2dsZS5wcm90b2J1Zi5EdXJhdGlvbhJICg1jYWNoZV9jb250cm9sGAcgASgL",
+            "MjEuZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuUmVzb3VyY2UuQ2FjaGVD",
+            "b250cm9sGiQKDENhY2hlQ29udHJvbBIUCgxkb19ub3RfY2FjaGUYASABKAg6",
+            "HJrFiB4XChVlbnZveS5hcGkudjIuUmVzb3VyY2VCkwEKKGlvLmVudm95cHJv",
+            "eHkuZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjNCDkRpc2NvdmVyeVByb3Rv",
+            "UAFaTWdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vu",
+            "dm95L3NlcnZpY2UvZGlzY292ZXJ5L3YzO2Rpc2NvdmVyeXYzuoDI0QYCEAJi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DiscoveryRequest), global::Envoy.Service.Discovery.V3.DiscoveryRequest.Parser, new[]{ "VersionInfo", "Node", "ResourceNames", "TypeUrl", "ResponseNonce", "ErrorDetail" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.ResourceLocator), global::Envoy.Service.Discovery.V3.ResourceLocator.Parser, new[]{ "Name", "DynamicParameters" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.ResourceName), global::Envoy.Service.Discovery.V3.ResourceName.Parser, new[]{ "Name", "DynamicParameterConstraints" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DiscoveryRequest), global::Envoy.Service.Discovery.V3.DiscoveryRequest.Parser, new[]{ "VersionInfo", "Node", "ResourceNames", "ResourceLocators", "TypeUrl", "ResponseNonce", "ErrorDetail" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DiscoveryResponse), global::Envoy.Service.Discovery.V3.DiscoveryResponse.Parser, new[]{ "VersionInfo", "Resources", "Canary", "TypeUrl", "Nonce", "ControlPlane" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DeltaDiscoveryRequest), global::Envoy.Service.Discovery.V3.DeltaDiscoveryRequest.Parser, new[]{ "Node", "TypeUrl", "ResourceNamesSubscribe", "ResourceNamesUnsubscribe", "InitialResourceVersions", "ResponseNonce", "ErrorDetail" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DeltaDiscoveryResponse), global::Envoy.Service.Discovery.V3.DeltaDiscoveryResponse.Parser, new[]{ "SystemVersionInfo", "Resources", "TypeUrl", "RemovedResources", "Nonce", "ControlPlane" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource), global::Envoy.Service.Discovery.V3.Resource.Parser, new[]{ "Name", "Aliases", "Version", "Resource_", "Ttl", "CacheControl" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl), global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl.Parser, new[]{ "DoNotCache" }, null, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DeltaDiscoveryRequest), global::Envoy.Service.Discovery.V3.DeltaDiscoveryRequest.Parser, new[]{ "Node", "TypeUrl", "ResourceNamesSubscribe", "ResourceNamesUnsubscribe", "ResourceLocatorsSubscribe", "ResourceLocatorsUnsubscribe", "InitialResourceVersions", "ResponseNonce", "ErrorDetail" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DeltaDiscoveryResponse), global::Envoy.Service.Discovery.V3.DeltaDiscoveryResponse.Parser, new[]{ "SystemVersionInfo", "Resources", "TypeUrl", "RemovedResources", "RemovedResourceNames", "Nonce", "ControlPlane" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Parser, new[]{ "Constraint", "OrConstraints", "AndConstraints", "NotConstraints" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Parser, new[]{ "Key", "Value", "Exists" }, new[]{ "ConstraintType" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists.Parser, null, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList.Parser, new[]{ "Constraints" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource), global::Envoy.Service.Discovery.V3.Resource.Parser, new[]{ "Name", "ResourceName", "Aliases", "Version", "Resource_", "Ttl", "CacheControl" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl), global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl.Parser, new[]{ "DoNotCache" }, null, null, null, null)})
           }));
     }
     #endregion
@@ -81,9 +117,480 @@ namespace Envoy.Service.Discovery.V3 {
   }
   #region Messages
   /// <summary>
+  /// Specifies a resource to be subscribed to.
+  /// </summary>
+  public sealed partial class ResourceLocator : pb::IMessage<ResourceLocator>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ResourceLocator> _parser = new pb::MessageParser<ResourceLocator>(() => new ResourceLocator());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ResourceLocator> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResourceLocator() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResourceLocator(ResourceLocator other) : this() {
+      name_ = other.name_;
+      dynamicParameters_ = other.dynamicParameters_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResourceLocator Clone() {
+      return new ResourceLocator(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The resource name to subscribe to.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "dynamic_parameters" field.</summary>
+    public const int DynamicParametersFieldNumber = 2;
+    private static readonly pbc::MapField<string, string>.Codec _map_dynamicParameters_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 18);
+    private readonly pbc::MapField<string, string> dynamicParameters_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// A set of dynamic parameters used to match against the dynamic parameter
+    /// constraints on the resource. This allows clients to select between
+    /// multiple variants of the same resource.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<string, string> DynamicParameters {
+      get { return dynamicParameters_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ResourceLocator);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ResourceLocator other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!DynamicParameters.Equals(other.DynamicParameters)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= DynamicParameters.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      dynamicParameters_.WriteTo(output, _map_dynamicParameters_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      dynamicParameters_.WriteTo(ref output, _map_dynamicParameters_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      size += dynamicParameters_.CalculateSize(_map_dynamicParameters_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ResourceLocator other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      dynamicParameters_.Add(other.dynamicParameters_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            dynamicParameters_.AddEntriesFrom(input, _map_dynamicParameters_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            dynamicParameters_.AddEntriesFrom(ref input, _map_dynamicParameters_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Specifies a concrete resource name.
+  /// </summary>
+  public sealed partial class ResourceName : pb::IMessage<ResourceName>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ResourceName> _parser = new pb::MessageParser<ResourceName>(() => new ResourceName());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ResourceName> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResourceName() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResourceName(ResourceName other) : this() {
+      name_ = other.name_;
+      dynamicParameterConstraints_ = other.dynamicParameterConstraints_ != null ? other.dynamicParameterConstraints_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResourceName Clone() {
+      return new ResourceName(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The name of the resource.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "dynamic_parameter_constraints" field.</summary>
+    public const int DynamicParameterConstraintsFieldNumber = 2;
+    private global::Envoy.Service.Discovery.V3.DynamicParameterConstraints dynamicParameterConstraints_;
+    /// <summary>
+    /// Dynamic parameter constraints associated with this resource. To be used by client-side caches
+    /// (including xDS proxies) when matching subscribed resource locators.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Discovery.V3.DynamicParameterConstraints DynamicParameterConstraints {
+      get { return dynamicParameterConstraints_; }
+      set {
+        dynamicParameterConstraints_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ResourceName);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ResourceName other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!object.Equals(DynamicParameterConstraints, other.DynamicParameterConstraints)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (dynamicParameterConstraints_ != null) hash ^= DynamicParameterConstraints.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (dynamicParameterConstraints_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DynamicParameterConstraints);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (dynamicParameterConstraints_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DynamicParameterConstraints);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (dynamicParameterConstraints_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DynamicParameterConstraints);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ResourceName other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.dynamicParameterConstraints_ != null) {
+        if (dynamicParameterConstraints_ == null) {
+          DynamicParameterConstraints = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints();
+        }
+        DynamicParameterConstraints.MergeFrom(other.DynamicParameterConstraints);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (dynamicParameterConstraints_ == null) {
+              DynamicParameterConstraints = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints();
+            }
+            input.ReadMessage(DynamicParameterConstraints);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (dynamicParameterConstraints_ == null) {
+              DynamicParameterConstraints = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints();
+            }
+            input.ReadMessage(DynamicParameterConstraints);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// A DiscoveryRequest requests a set of versioned resources of the same type for
   /// a given Envoy node on some API.
-  /// [#next-free-field: 7]
+  /// [#next-free-field: 8]
   /// </summary>
   public sealed partial class DiscoveryRequest : pb::IMessage<DiscoveryRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -99,7 +606,7 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -122,6 +629,7 @@ namespace Envoy.Service.Discovery.V3 {
       versionInfo_ = other.versionInfo_;
       node_ = other.node_ != null ? other.node_.Clone() : null;
       resourceNames_ = other.resourceNames_.Clone();
+      resourceLocators_ = other.resourceLocators_.Clone();
       typeUrl_ = other.typeUrl_;
       responseNonce_ = other.responseNonce_;
       errorDetail_ = other.errorDetail_ != null ? other.errorDetail_.Clone() : null;
@@ -187,6 +695,26 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> ResourceNames {
       get { return resourceNames_; }
+    }
+
+    /// <summary>Field number for the "resource_locators" field.</summary>
+    public const int ResourceLocatorsFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::Envoy.Service.Discovery.V3.ResourceLocator> _repeated_resourceLocators_codec
+        = pb::FieldCodec.ForMessage(58, global::Envoy.Service.Discovery.V3.ResourceLocator.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> resourceLocators_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator>();
+    /// <summary>
+    /// [#not-implemented-hide:]
+    /// Alternative to *resource_names* field that allows specifying dynamic
+    /// parameters along with each resource name. Clients that populate this
+    /// field must be able to handle responses from the server where resources
+    /// are wrapped in a Resource message.
+    /// Note that it is legal for a request to have some resources listed
+    /// in *resource_names* and others in *resource_locators*.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> ResourceLocators {
+      get { return resourceLocators_; }
     }
 
     /// <summary>Field number for the "type_url" field.</summary>
@@ -262,6 +790,7 @@ namespace Envoy.Service.Discovery.V3 {
       if (VersionInfo != other.VersionInfo) return false;
       if (!object.Equals(Node, other.Node)) return false;
       if(!resourceNames_.Equals(other.resourceNames_)) return false;
+      if(!resourceLocators_.Equals(other.resourceLocators_)) return false;
       if (TypeUrl != other.TypeUrl) return false;
       if (ResponseNonce != other.ResponseNonce) return false;
       if (!object.Equals(ErrorDetail, other.ErrorDetail)) return false;
@@ -275,6 +804,7 @@ namespace Envoy.Service.Discovery.V3 {
       if (VersionInfo.Length != 0) hash ^= VersionInfo.GetHashCode();
       if (node_ != null) hash ^= Node.GetHashCode();
       hash ^= resourceNames_.GetHashCode();
+      hash ^= resourceLocators_.GetHashCode();
       if (TypeUrl.Length != 0) hash ^= TypeUrl.GetHashCode();
       if (ResponseNonce.Length != 0) hash ^= ResponseNonce.GetHashCode();
       if (errorDetail_ != null) hash ^= ErrorDetail.GetHashCode();
@@ -317,6 +847,7 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(50);
         output.WriteMessage(ErrorDetail);
       }
+      resourceLocators_.WriteTo(output, _repeated_resourceLocators_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -348,6 +879,7 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(50);
         output.WriteMessage(ErrorDetail);
       }
+      resourceLocators_.WriteTo(ref output, _repeated_resourceLocators_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -365,6 +897,7 @@ namespace Envoy.Service.Discovery.V3 {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Node);
       }
       size += resourceNames_.CalculateSize(_repeated_resourceNames_codec);
+      size += resourceLocators_.CalculateSize(_repeated_resourceLocators_codec);
       if (TypeUrl.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(TypeUrl);
       }
@@ -396,6 +929,7 @@ namespace Envoy.Service.Discovery.V3 {
         Node.MergeFrom(other.Node);
       }
       resourceNames_.Add(other.resourceNames_);
+      resourceLocators_.Add(other.resourceLocators_);
       if (other.TypeUrl.Length != 0) {
         TypeUrl = other.TypeUrl;
       }
@@ -453,6 +987,10 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ErrorDetail);
             break;
           }
+          case 58: {
+            resourceLocators_.AddEntriesFrom(input, _repeated_resourceLocators_codec);
+            break;
+          }
         }
       }
     #endif
@@ -498,6 +1036,10 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ErrorDetail);
             break;
           }
+          case 58: {
+            resourceLocators_.AddEntriesFrom(ref input, _repeated_resourceLocators_codec);
+            break;
+          }
         }
       }
     }
@@ -522,7 +1064,7 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -952,7 +1494,7 @@ namespace Envoy.Service.Discovery.V3 {
   /// In particular, initial_resource_versions being sent at the "start" of every
   /// gRPC stream actually entails a message for each type_url, each with its own
   /// initial_resource_versions.
-  /// [#next-free-field: 8]
+  /// [#next-free-field: 10]
   /// </summary>
   public sealed partial class DeltaDiscoveryRequest : pb::IMessage<DeltaDiscoveryRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -968,7 +1510,7 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -992,6 +1534,8 @@ namespace Envoy.Service.Discovery.V3 {
       typeUrl_ = other.typeUrl_;
       resourceNamesSubscribe_ = other.resourceNamesSubscribe_.Clone();
       resourceNamesUnsubscribe_ = other.resourceNamesUnsubscribe_.Clone();
+      resourceLocatorsSubscribe_ = other.resourceLocatorsSubscribe_.Clone();
+      resourceLocatorsUnsubscribe_ = other.resourceLocatorsUnsubscribe_.Clone();
       initialResourceVersions_ = other.initialResourceVersions_.Clone();
       responseNonce_ = other.responseNonce_;
       errorDetail_ = other.errorDetail_ != null ? other.errorDetail_.Clone() : null;
@@ -1085,6 +1629,42 @@ namespace Envoy.Service.Discovery.V3 {
       get { return resourceNamesUnsubscribe_; }
     }
 
+    /// <summary>Field number for the "resource_locators_subscribe" field.</summary>
+    public const int ResourceLocatorsSubscribeFieldNumber = 8;
+    private static readonly pb::FieldCodec<global::Envoy.Service.Discovery.V3.ResourceLocator> _repeated_resourceLocatorsSubscribe_codec
+        = pb::FieldCodec.ForMessage(66, global::Envoy.Service.Discovery.V3.ResourceLocator.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> resourceLocatorsSubscribe_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator>();
+    /// <summary>
+    /// [#not-implemented-hide:]
+    /// Alternative to *resource_names_subscribe* field that allows specifying dynamic parameters
+    /// along with each resource name.
+    /// Note that it is legal for a request to have some resources listed
+    /// in *resource_names_subscribe* and others in *resource_locators_subscribe*.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> ResourceLocatorsSubscribe {
+      get { return resourceLocatorsSubscribe_; }
+    }
+
+    /// <summary>Field number for the "resource_locators_unsubscribe" field.</summary>
+    public const int ResourceLocatorsUnsubscribeFieldNumber = 9;
+    private static readonly pb::FieldCodec<global::Envoy.Service.Discovery.V3.ResourceLocator> _repeated_resourceLocatorsUnsubscribe_codec
+        = pb::FieldCodec.ForMessage(74, global::Envoy.Service.Discovery.V3.ResourceLocator.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> resourceLocatorsUnsubscribe_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator>();
+    /// <summary>
+    /// [#not-implemented-hide:]
+    /// Alternative to *resource_names_unsubscribe* field that allows specifying dynamic parameters
+    /// along with each resource name.
+    /// Note that it is legal for a request to have some resources listed
+    /// in *resource_names_unsubscribe* and others in *resource_locators_unsubscribe*.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> ResourceLocatorsUnsubscribe {
+      get { return resourceLocatorsUnsubscribe_; }
+    }
+
     /// <summary>Field number for the "initial_resource_versions" field.</summary>
     public const int InitialResourceVersionsFieldNumber = 5;
     private static readonly pbc::MapField<string, string>.Codec _map_initialResourceVersions_codec
@@ -1160,6 +1740,8 @@ namespace Envoy.Service.Discovery.V3 {
       if (TypeUrl != other.TypeUrl) return false;
       if(!resourceNamesSubscribe_.Equals(other.resourceNamesSubscribe_)) return false;
       if(!resourceNamesUnsubscribe_.Equals(other.resourceNamesUnsubscribe_)) return false;
+      if(!resourceLocatorsSubscribe_.Equals(other.resourceLocatorsSubscribe_)) return false;
+      if(!resourceLocatorsUnsubscribe_.Equals(other.resourceLocatorsUnsubscribe_)) return false;
       if (!InitialResourceVersions.Equals(other.InitialResourceVersions)) return false;
       if (ResponseNonce != other.ResponseNonce) return false;
       if (!object.Equals(ErrorDetail, other.ErrorDetail)) return false;
@@ -1174,6 +1756,8 @@ namespace Envoy.Service.Discovery.V3 {
       if (TypeUrl.Length != 0) hash ^= TypeUrl.GetHashCode();
       hash ^= resourceNamesSubscribe_.GetHashCode();
       hash ^= resourceNamesUnsubscribe_.GetHashCode();
+      hash ^= resourceLocatorsSubscribe_.GetHashCode();
+      hash ^= resourceLocatorsUnsubscribe_.GetHashCode();
       hash ^= InitialResourceVersions.GetHashCode();
       if (ResponseNonce.Length != 0) hash ^= ResponseNonce.GetHashCode();
       if (errorDetail_ != null) hash ^= ErrorDetail.GetHashCode();
@@ -1214,6 +1798,8 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(58);
         output.WriteMessage(ErrorDetail);
       }
+      resourceLocatorsSubscribe_.WriteTo(output, _repeated_resourceLocatorsSubscribe_codec);
+      resourceLocatorsUnsubscribe_.WriteTo(output, _repeated_resourceLocatorsUnsubscribe_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1243,6 +1829,8 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(58);
         output.WriteMessage(ErrorDetail);
       }
+      resourceLocatorsSubscribe_.WriteTo(ref output, _repeated_resourceLocatorsSubscribe_codec);
+      resourceLocatorsUnsubscribe_.WriteTo(ref output, _repeated_resourceLocatorsUnsubscribe_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1261,6 +1849,8 @@ namespace Envoy.Service.Discovery.V3 {
       }
       size += resourceNamesSubscribe_.CalculateSize(_repeated_resourceNamesSubscribe_codec);
       size += resourceNamesUnsubscribe_.CalculateSize(_repeated_resourceNamesUnsubscribe_codec);
+      size += resourceLocatorsSubscribe_.CalculateSize(_repeated_resourceLocatorsSubscribe_codec);
+      size += resourceLocatorsUnsubscribe_.CalculateSize(_repeated_resourceLocatorsUnsubscribe_codec);
       size += initialResourceVersions_.CalculateSize(_map_initialResourceVersions_codec);
       if (ResponseNonce.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ResponseNonce);
@@ -1291,6 +1881,8 @@ namespace Envoy.Service.Discovery.V3 {
       }
       resourceNamesSubscribe_.Add(other.resourceNamesSubscribe_);
       resourceNamesUnsubscribe_.Add(other.resourceNamesUnsubscribe_);
+      resourceLocatorsSubscribe_.Add(other.resourceLocatorsSubscribe_);
+      resourceLocatorsUnsubscribe_.Add(other.resourceLocatorsUnsubscribe_);
       initialResourceVersions_.Add(other.initialResourceVersions_);
       if (other.ResponseNonce.Length != 0) {
         ResponseNonce = other.ResponseNonce;
@@ -1350,6 +1942,14 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ErrorDetail);
             break;
           }
+          case 66: {
+            resourceLocatorsSubscribe_.AddEntriesFrom(input, _repeated_resourceLocatorsSubscribe_codec);
+            break;
+          }
+          case 74: {
+            resourceLocatorsUnsubscribe_.AddEntriesFrom(input, _repeated_resourceLocatorsUnsubscribe_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1399,6 +1999,14 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ErrorDetail);
             break;
           }
+          case 66: {
+            resourceLocatorsSubscribe_.AddEntriesFrom(ref input, _repeated_resourceLocatorsSubscribe_codec);
+            break;
+          }
+          case 74: {
+            resourceLocatorsUnsubscribe_.AddEntriesFrom(ref input, _repeated_resourceLocatorsUnsubscribe_codec);
+            break;
+          }
         }
       }
     }
@@ -1407,7 +2015,7 @@ namespace Envoy.Service.Discovery.V3 {
   }
 
   /// <summary>
-  /// [#next-free-field: 8]
+  /// [#next-free-field: 9]
   /// </summary>
   public sealed partial class DeltaDiscoveryResponse : pb::IMessage<DeltaDiscoveryResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1423,7 +2031,7 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1447,6 +2055,7 @@ namespace Envoy.Service.Discovery.V3 {
       resources_ = other.resources_.Clone();
       typeUrl_ = other.typeUrl_;
       removedResources_ = other.removedResources_.Clone();
+      removedResourceNames_ = other.removedResourceNames_.Clone();
       nonce_ = other.nonce_;
       controlPlane_ = other.controlPlane_ != null ? other.controlPlane_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1519,6 +2128,22 @@ namespace Envoy.Service.Discovery.V3 {
       get { return removedResources_; }
     }
 
+    /// <summary>Field number for the "removed_resource_names" field.</summary>
+    public const int RemovedResourceNamesFieldNumber = 8;
+    private static readonly pb::FieldCodec<global::Envoy.Service.Discovery.V3.ResourceName> _repeated_removedResourceNames_codec
+        = pb::FieldCodec.ForMessage(66, global::Envoy.Service.Discovery.V3.ResourceName.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceName> removedResourceNames_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceName>();
+    /// <summary>
+    /// Alternative to removed_resources that allows specifying which variant of
+    /// a resource is being removed. This variant must be used for any resource
+    /// for which dynamic parameter constraints were sent to the client.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceName> RemovedResourceNames {
+      get { return removedResourceNames_; }
+    }
+
     /// <summary>Field number for the "nonce" field.</summary>
     public const int NonceFieldNumber = 5;
     private string nonce_ = "";
@@ -1570,6 +2195,7 @@ namespace Envoy.Service.Discovery.V3 {
       if(!resources_.Equals(other.resources_)) return false;
       if (TypeUrl != other.TypeUrl) return false;
       if(!removedResources_.Equals(other.removedResources_)) return false;
+      if(!removedResourceNames_.Equals(other.removedResourceNames_)) return false;
       if (Nonce != other.Nonce) return false;
       if (!object.Equals(ControlPlane, other.ControlPlane)) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1583,6 +2209,7 @@ namespace Envoy.Service.Discovery.V3 {
       hash ^= resources_.GetHashCode();
       if (TypeUrl.Length != 0) hash ^= TypeUrl.GetHashCode();
       hash ^= removedResources_.GetHashCode();
+      hash ^= removedResourceNames_.GetHashCode();
       if (Nonce.Length != 0) hash ^= Nonce.GetHashCode();
       if (controlPlane_ != null) hash ^= ControlPlane.GetHashCode();
       if (_unknownFields != null) {
@@ -1621,6 +2248,7 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(58);
         output.WriteMessage(ControlPlane);
       }
+      removedResourceNames_.WriteTo(output, _repeated_removedResourceNames_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1649,6 +2277,7 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(58);
         output.WriteMessage(ControlPlane);
       }
+      removedResourceNames_.WriteTo(ref output, _repeated_removedResourceNames_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1667,6 +2296,7 @@ namespace Envoy.Service.Discovery.V3 {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(TypeUrl);
       }
       size += removedResources_.CalculateSize(_repeated_removedResources_codec);
+      size += removedResourceNames_.CalculateSize(_repeated_removedResourceNames_codec);
       if (Nonce.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Nonce);
       }
@@ -1693,6 +2323,7 @@ namespace Envoy.Service.Discovery.V3 {
         TypeUrl = other.TypeUrl;
       }
       removedResources_.Add(other.removedResources_);
+      removedResourceNames_.Add(other.removedResourceNames_);
       if (other.Nonce.Length != 0) {
         Nonce = other.Nonce;
       }
@@ -1744,6 +2375,10 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ControlPlane);
             break;
           }
+          case 66: {
+            removedResourceNames_.AddEntriesFrom(input, _repeated_removedResourceNames_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1786,6 +2421,10 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ControlPlane);
             break;
           }
+          case 66: {
+            removedResourceNames_.AddEntriesFrom(ref input, _repeated_removedResourceNames_codec);
+            break;
+          }
         }
       }
     }
@@ -1794,7 +2433,1089 @@ namespace Envoy.Service.Discovery.V3 {
   }
 
   /// <summary>
-  /// [#next-free-field: 8]
+  /// A set of dynamic parameter constraints associated with a variant of an individual xDS resource.
+  /// These constraints determine whether the resource matches a subscription based on the set of
+  /// dynamic parameters in the subscription, as specified in the
+  /// :ref:`ResourceLocator.dynamic_parameters&lt;envoy_v3_api_field_service.discovery.v3.ResourceLocator.dynamic_parameters>`
+  /// field. This allows xDS implementations (clients, servers, and caching proxies) to determine
+  /// which variant of a resource is appropriate for a given client.
+  /// </summary>
+  public sealed partial class DynamicParameterConstraints : pb::IMessage<DynamicParameterConstraints>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DynamicParameterConstraints> _parser = new pb::MessageParser<DynamicParameterConstraints>(() => new DynamicParameterConstraints());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<DynamicParameterConstraints> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DynamicParameterConstraints() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DynamicParameterConstraints(DynamicParameterConstraints other) : this() {
+      switch (other.TypeCase) {
+        case TypeOneofCase.Constraint:
+          Constraint = other.Constraint.Clone();
+          break;
+        case TypeOneofCase.OrConstraints:
+          OrConstraints = other.OrConstraints.Clone();
+          break;
+        case TypeOneofCase.AndConstraints:
+          AndConstraints = other.AndConstraints.Clone();
+          break;
+        case TypeOneofCase.NotConstraints:
+          NotConstraints = other.NotConstraints.Clone();
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DynamicParameterConstraints Clone() {
+      return new DynamicParameterConstraints(this);
+    }
+
+    /// <summary>Field number for the "constraint" field.</summary>
+    public const int ConstraintFieldNumber = 1;
+    /// <summary>
+    /// A single constraint to evaluate.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint Constraint {
+      get { return typeCase_ == TypeOneofCase.Constraint ? (global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint) type_ : null; }
+      set {
+        type_ = value;
+        typeCase_ = value == null ? TypeOneofCase.None : TypeOneofCase.Constraint;
+      }
+    }
+
+    /// <summary>Field number for the "or_constraints" field.</summary>
+    public const int OrConstraintsFieldNumber = 2;
+    /// <summary>
+    /// A list of constraints that match if any one constraint in the list
+    /// matches.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList OrConstraints {
+      get { return typeCase_ == TypeOneofCase.OrConstraints ? (global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList) type_ : null; }
+      set {
+        type_ = value;
+        typeCase_ = value == null ? TypeOneofCase.None : TypeOneofCase.OrConstraints;
+      }
+    }
+
+    /// <summary>Field number for the "and_constraints" field.</summary>
+    public const int AndConstraintsFieldNumber = 3;
+    /// <summary>
+    /// A list of constraints that must all match.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList AndConstraints {
+      get { return typeCase_ == TypeOneofCase.AndConstraints ? (global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList) type_ : null; }
+      set {
+        type_ = value;
+        typeCase_ = value == null ? TypeOneofCase.None : TypeOneofCase.AndConstraints;
+      }
+    }
+
+    /// <summary>Field number for the "not_constraints" field.</summary>
+    public const int NotConstraintsFieldNumber = 4;
+    /// <summary>
+    /// The inverse (NOT) of a set of constraints.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Discovery.V3.DynamicParameterConstraints NotConstraints {
+      get { return typeCase_ == TypeOneofCase.NotConstraints ? (global::Envoy.Service.Discovery.V3.DynamicParameterConstraints) type_ : null; }
+      set {
+        type_ = value;
+        typeCase_ = value == null ? TypeOneofCase.None : TypeOneofCase.NotConstraints;
+      }
+    }
+
+    private object type_;
+    /// <summary>Enum of possible cases for the "type" oneof.</summary>
+    public enum TypeOneofCase {
+      None = 0,
+      Constraint = 1,
+      OrConstraints = 2,
+      AndConstraints = 3,
+      NotConstraints = 4,
+    }
+    private TypeOneofCase typeCase_ = TypeOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TypeOneofCase TypeCase {
+      get { return typeCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearType() {
+      typeCase_ = TypeOneofCase.None;
+      type_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as DynamicParameterConstraints);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(DynamicParameterConstraints other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Constraint, other.Constraint)) return false;
+      if (!object.Equals(OrConstraints, other.OrConstraints)) return false;
+      if (!object.Equals(AndConstraints, other.AndConstraints)) return false;
+      if (!object.Equals(NotConstraints, other.NotConstraints)) return false;
+      if (TypeCase != other.TypeCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (typeCase_ == TypeOneofCase.Constraint) hash ^= Constraint.GetHashCode();
+      if (typeCase_ == TypeOneofCase.OrConstraints) hash ^= OrConstraints.GetHashCode();
+      if (typeCase_ == TypeOneofCase.AndConstraints) hash ^= AndConstraints.GetHashCode();
+      if (typeCase_ == TypeOneofCase.NotConstraints) hash ^= NotConstraints.GetHashCode();
+      hash ^= (int) typeCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (typeCase_ == TypeOneofCase.Constraint) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Constraint);
+      }
+      if (typeCase_ == TypeOneofCase.OrConstraints) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OrConstraints);
+      }
+      if (typeCase_ == TypeOneofCase.AndConstraints) {
+        output.WriteRawTag(26);
+        output.WriteMessage(AndConstraints);
+      }
+      if (typeCase_ == TypeOneofCase.NotConstraints) {
+        output.WriteRawTag(34);
+        output.WriteMessage(NotConstraints);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (typeCase_ == TypeOneofCase.Constraint) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Constraint);
+      }
+      if (typeCase_ == TypeOneofCase.OrConstraints) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OrConstraints);
+      }
+      if (typeCase_ == TypeOneofCase.AndConstraints) {
+        output.WriteRawTag(26);
+        output.WriteMessage(AndConstraints);
+      }
+      if (typeCase_ == TypeOneofCase.NotConstraints) {
+        output.WriteRawTag(34);
+        output.WriteMessage(NotConstraints);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (typeCase_ == TypeOneofCase.Constraint) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Constraint);
+      }
+      if (typeCase_ == TypeOneofCase.OrConstraints) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OrConstraints);
+      }
+      if (typeCase_ == TypeOneofCase.AndConstraints) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AndConstraints);
+      }
+      if (typeCase_ == TypeOneofCase.NotConstraints) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(NotConstraints);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(DynamicParameterConstraints other) {
+      if (other == null) {
+        return;
+      }
+      switch (other.TypeCase) {
+        case TypeOneofCase.Constraint:
+          if (Constraint == null) {
+            Constraint = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint();
+          }
+          Constraint.MergeFrom(other.Constraint);
+          break;
+        case TypeOneofCase.OrConstraints:
+          if (OrConstraints == null) {
+            OrConstraints = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList();
+          }
+          OrConstraints.MergeFrom(other.OrConstraints);
+          break;
+        case TypeOneofCase.AndConstraints:
+          if (AndConstraints == null) {
+            AndConstraints = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList();
+          }
+          AndConstraints.MergeFrom(other.AndConstraints);
+          break;
+        case TypeOneofCase.NotConstraints:
+          if (NotConstraints == null) {
+            NotConstraints = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints();
+          }
+          NotConstraints.MergeFrom(other.NotConstraints);
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint();
+            if (typeCase_ == TypeOneofCase.Constraint) {
+              subBuilder.MergeFrom(Constraint);
+            }
+            input.ReadMessage(subBuilder);
+            Constraint = subBuilder;
+            break;
+          }
+          case 18: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList();
+            if (typeCase_ == TypeOneofCase.OrConstraints) {
+              subBuilder.MergeFrom(OrConstraints);
+            }
+            input.ReadMessage(subBuilder);
+            OrConstraints = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList();
+            if (typeCase_ == TypeOneofCase.AndConstraints) {
+              subBuilder.MergeFrom(AndConstraints);
+            }
+            input.ReadMessage(subBuilder);
+            AndConstraints = subBuilder;
+            break;
+          }
+          case 34: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints();
+            if (typeCase_ == TypeOneofCase.NotConstraints) {
+              subBuilder.MergeFrom(NotConstraints);
+            }
+            input.ReadMessage(subBuilder);
+            NotConstraints = subBuilder;
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint();
+            if (typeCase_ == TypeOneofCase.Constraint) {
+              subBuilder.MergeFrom(Constraint);
+            }
+            input.ReadMessage(subBuilder);
+            Constraint = subBuilder;
+            break;
+          }
+          case 18: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList();
+            if (typeCase_ == TypeOneofCase.OrConstraints) {
+              subBuilder.MergeFrom(OrConstraints);
+            }
+            input.ReadMessage(subBuilder);
+            OrConstraints = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList();
+            if (typeCase_ == TypeOneofCase.AndConstraints) {
+              subBuilder.MergeFrom(AndConstraints);
+            }
+            input.ReadMessage(subBuilder);
+            AndConstraints = subBuilder;
+            break;
+          }
+          case 34: {
+            global::Envoy.Service.Discovery.V3.DynamicParameterConstraints subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints();
+            if (typeCase_ == TypeOneofCase.NotConstraints) {
+              subBuilder.MergeFrom(NotConstraints);
+            }
+            input.ReadMessage(subBuilder);
+            NotConstraints = subBuilder;
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the DynamicParameterConstraints message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      /// <summary>
+      /// A single constraint for a given key.
+      /// </summary>
+      public sealed partial class SingleConstraint : pb::IMessage<SingleConstraint>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<SingleConstraint> _parser = new pb::MessageParser<SingleConstraint>(() => new SingleConstraint());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<SingleConstraint> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public SingleConstraint() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public SingleConstraint(SingleConstraint other) : this() {
+          key_ = other.key_;
+          switch (other.ConstraintTypeCase) {
+            case ConstraintTypeOneofCase.Value:
+              Value = other.Value;
+              break;
+            case ConstraintTypeOneofCase.Exists:
+              Exists = other.Exists.Clone();
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public SingleConstraint Clone() {
+          return new SingleConstraint(this);
+        }
+
+        /// <summary>Field number for the "key" field.</summary>
+        public const int KeyFieldNumber = 1;
+        private string key_ = "";
+        /// <summary>
+        /// The key to match against.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Key {
+          get { return key_; }
+          set {
+            key_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "value" field.</summary>
+        public const int ValueFieldNumber = 2;
+        /// <summary>
+        /// Matches this exact value.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Value {
+          get { return constraintTypeCase_ == ConstraintTypeOneofCase.Value ? (string) constraintType_ : ""; }
+          set {
+            constraintType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+            constraintTypeCase_ = ConstraintTypeOneofCase.Value;
+          }
+        }
+
+        /// <summary>Field number for the "exists" field.</summary>
+        public const int ExistsFieldNumber = 3;
+        /// <summary>
+        /// Key is present (matches any value except for the key being absent).
+        /// This allows setting a default constraint for clients that do
+        /// not send a key at all, while there may be other clients that need
+        /// special configuration based on that key.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists Exists {
+          get { return constraintTypeCase_ == ConstraintTypeOneofCase.Exists ? (global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists) constraintType_ : null; }
+          set {
+            constraintType_ = value;
+            constraintTypeCase_ = value == null ? ConstraintTypeOneofCase.None : ConstraintTypeOneofCase.Exists;
+          }
+        }
+
+        private object constraintType_;
+        /// <summary>Enum of possible cases for the "constraint_type" oneof.</summary>
+        public enum ConstraintTypeOneofCase {
+          None = 0,
+          Value = 2,
+          Exists = 3,
+        }
+        private ConstraintTypeOneofCase constraintTypeCase_ = ConstraintTypeOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public ConstraintTypeOneofCase ConstraintTypeCase {
+          get { return constraintTypeCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearConstraintType() {
+          constraintTypeCase_ = ConstraintTypeOneofCase.None;
+          constraintType_ = null;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as SingleConstraint);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(SingleConstraint other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Key != other.Key) return false;
+          if (Value != other.Value) return false;
+          if (!object.Equals(Exists, other.Exists)) return false;
+          if (ConstraintTypeCase != other.ConstraintTypeCase) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Key.Length != 0) hash ^= Key.GetHashCode();
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Value) hash ^= Value.GetHashCode();
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Exists) hash ^= Exists.GetHashCode();
+          hash ^= (int) constraintTypeCase_;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Key.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Key);
+          }
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Value) {
+            output.WriteRawTag(18);
+            output.WriteString(Value);
+          }
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Exists) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Exists);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Key.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Key);
+          }
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Value) {
+            output.WriteRawTag(18);
+            output.WriteString(Value);
+          }
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Exists) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Exists);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Key.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Key);
+          }
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Value) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+          }
+          if (constraintTypeCase_ == ConstraintTypeOneofCase.Exists) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Exists);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(SingleConstraint other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Key.Length != 0) {
+            Key = other.Key;
+          }
+          switch (other.ConstraintTypeCase) {
+            case ConstraintTypeOneofCase.Value:
+              Value = other.Value;
+              break;
+            case ConstraintTypeOneofCase.Exists:
+              if (Exists == null) {
+                Exists = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists();
+              }
+              Exists.MergeFrom(other.Exists);
+              break;
+          }
+
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Key = input.ReadString();
+                break;
+              }
+              case 18: {
+                Value = input.ReadString();
+                break;
+              }
+              case 26: {
+                global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists();
+                if (constraintTypeCase_ == ConstraintTypeOneofCase.Exists) {
+                  subBuilder.MergeFrom(Exists);
+                }
+                input.ReadMessage(subBuilder);
+                Exists = subBuilder;
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Key = input.ReadString();
+                break;
+              }
+              case 18: {
+                Value = input.ReadString();
+                break;
+              }
+              case 26: {
+                global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists subBuilder = new global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists();
+                if (constraintTypeCase_ == ConstraintTypeOneofCase.Exists) {
+                  subBuilder.MergeFrom(Exists);
+                }
+                input.ReadMessage(subBuilder);
+                Exists = subBuilder;
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the SingleConstraint message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static partial class Types {
+          public sealed partial class Exists : pb::IMessage<Exists>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<Exists> _parser = new pb::MessageParser<Exists>(() => new Exists());
+            private pb::UnknownFieldSet _unknownFields;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<Exists> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Descriptor.NestedTypes[0]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Exists() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Exists(Exists other) : this() {
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Exists Clone() {
+              return new Exists(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as Exists);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(Exists other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(Exists other) {
+              if (other == null) {
+                return;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+                switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+                switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                }
+              }
+            }
+            #endif
+
+          }
+
+        }
+        #endregion
+
+      }
+
+      public sealed partial class ConstraintList : pb::IMessage<ConstraintList>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<ConstraintList> _parser = new pb::MessageParser<ConstraintList>(() => new ConstraintList());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<ConstraintList> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public ConstraintList() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public ConstraintList(ConstraintList other) : this() {
+          constraints_ = other.constraints_.Clone();
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public ConstraintList Clone() {
+          return new ConstraintList(this);
+        }
+
+        /// <summary>Field number for the "constraints" field.</summary>
+        public const int ConstraintsFieldNumber = 1;
+        private static readonly pb::FieldCodec<global::Envoy.Service.Discovery.V3.DynamicParameterConstraints> _repeated_constraints_codec
+            = pb::FieldCodec.ForMessage(10, global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Parser);
+        private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.DynamicParameterConstraints> constraints_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.DynamicParameterConstraints>();
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public pbc::RepeatedField<global::Envoy.Service.Discovery.V3.DynamicParameterConstraints> Constraints {
+          get { return constraints_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as ConstraintList);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(ConstraintList other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if(!constraints_.Equals(other.constraints_)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          hash ^= constraints_.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          constraints_.WriteTo(output, _repeated_constraints_codec);
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          constraints_.WriteTo(ref output, _repeated_constraints_codec);
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          size += constraints_.CalculateSize(_repeated_constraints_codec);
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(ConstraintList other) {
+          if (other == null) {
+            return;
+          }
+          constraints_.Add(other.constraints_);
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                constraints_.AddEntriesFrom(input, _repeated_constraints_codec);
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                constraints_.AddEntriesFrom(ref input, _repeated_constraints_codec);
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
+  /// [#next-free-field: 9]
   /// </summary>
   public sealed partial class Resource : pb::IMessage<Resource>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1810,7 +3531,7 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1831,6 +3552,7 @@ namespace Envoy.Service.Discovery.V3 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Resource(Resource other) : this() {
       name_ = other.name_;
+      resourceName_ = other.resourceName_ != null ? other.resourceName_.Clone() : null;
       aliases_ = other.aliases_.Clone();
       version_ = other.version_;
       resource_ = other.resource_ != null ? other.resource_.Clone() : null;
@@ -1850,6 +3572,7 @@ namespace Envoy.Service.Discovery.V3 {
     private string name_ = "";
     /// <summary>
     /// The resource's name, to distinguish it from others of the same type of resource.
+    /// Only one of *name* or *resource_name* may be set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1857,6 +3580,24 @@ namespace Envoy.Service.Discovery.V3 {
       get { return name_; }
       set {
         name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "resource_name" field.</summary>
+    public const int ResourceNameFieldNumber = 8;
+    private global::Envoy.Service.Discovery.V3.ResourceName resourceName_;
+    /// <summary>
+    /// Alternative to the *name* field, to be used when the server supports
+    /// multiple variants of the named resource that are differentiated by
+    /// dynamic parameter constraints.
+    /// Only one of *name* or *resource_name* may be set.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Discovery.V3.ResourceName ResourceName {
+      get { return resourceName_; }
+      set {
+        resourceName_ = value;
       }
     }
 
@@ -1964,6 +3705,7 @@ namespace Envoy.Service.Discovery.V3 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (!object.Equals(ResourceName, other.ResourceName)) return false;
       if(!aliases_.Equals(other.aliases_)) return false;
       if (Version != other.Version) return false;
       if (!object.Equals(Resource_, other.Resource_)) return false;
@@ -1977,6 +3719,7 @@ namespace Envoy.Service.Discovery.V3 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (resourceName_ != null) hash ^= ResourceName.GetHashCode();
       hash ^= aliases_.GetHashCode();
       if (Version.Length != 0) hash ^= Version.GetHashCode();
       if (resource_ != null) hash ^= Resource_.GetHashCode();
@@ -2021,6 +3764,10 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(58);
         output.WriteMessage(CacheControl);
       }
+      if (resourceName_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(ResourceName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2052,6 +3799,10 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(58);
         output.WriteMessage(CacheControl);
       }
+      if (resourceName_ != null) {
+        output.WriteRawTag(66);
+        output.WriteMessage(ResourceName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2064,6 +3815,9 @@ namespace Envoy.Service.Discovery.V3 {
       int size = 0;
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (resourceName_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResourceName);
       }
       size += aliases_.CalculateSize(_repeated_aliases_codec);
       if (Version.Length != 0) {
@@ -2092,6 +3846,12 @@ namespace Envoy.Service.Discovery.V3 {
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
+      }
+      if (other.resourceName_ != null) {
+        if (resourceName_ == null) {
+          ResourceName = new global::Envoy.Service.Discovery.V3.ResourceName();
+        }
+        ResourceName.MergeFrom(other.ResourceName);
       }
       aliases_.Add(other.aliases_);
       if (other.Version.Length != 0) {
@@ -2163,6 +3923,13 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(CacheControl);
             break;
           }
+          case 66: {
+            if (resourceName_ == null) {
+              ResourceName = new global::Envoy.Service.Discovery.V3.ResourceName();
+            }
+            input.ReadMessage(ResourceName);
+            break;
+          }
         }
       }
     #endif
@@ -2209,6 +3976,13 @@ namespace Envoy.Service.Discovery.V3 {
               CacheControl = new global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl();
             }
             input.ReadMessage(CacheControl);
+            break;
+          }
+          case 66: {
+            if (resourceName_ == null) {
+              ResourceName = new global::Envoy.Service.Discovery.V3.ResourceName();
+            }
+            input.ReadMessage(ResourceName);
             break;
           }
         }

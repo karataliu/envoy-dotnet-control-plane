@@ -2529,6 +2529,9 @@ namespace Envoy.Config.Core.V3 {
     /// .. attention::
     ///   Enabling this option might lead to request smuggling vulnerability, especially if traffic
     ///   is proxied via multiple layers of proxies.
+    /// [#comment:TODO: This field is ignored when the
+    /// :ref:`header validation configuration &lt;envoy_v3_api_field_extensions.filters.network.http_connection_manager.v3.HttpConnectionManager.typed_header_validation_config>`
+    /// is present.]
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

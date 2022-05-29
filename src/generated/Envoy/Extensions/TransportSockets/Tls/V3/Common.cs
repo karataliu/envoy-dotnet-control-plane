@@ -219,12 +219,8 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     ///
     ///   [ECDHE-ECDSA-AES128-GCM-SHA256|ECDHE-ECDSA-CHACHA20-POLY1305]
     ///   [ECDHE-RSA-AES128-GCM-SHA256|ECDHE-RSA-CHACHA20-POLY1305]
-    ///   ECDHE-ECDSA-AES128-SHA
-    ///   ECDHE-RSA-AES128-SHA
     ///   ECDHE-ECDSA-AES256-GCM-SHA384
     ///   ECDHE-RSA-AES256-GCM-SHA384
-    ///   ECDHE-ECDSA-AES256-SHA
-    ///   ECDHE-RSA-AES256-SHA
     ///
     /// In builds using :ref:`BoringSSL FIPS &lt;arch_overview_ssl_fips>`, the default server cipher list is:
     ///
@@ -232,12 +228,8 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     ///
     ///   ECDHE-ECDSA-AES128-GCM-SHA256
     ///   ECDHE-RSA-AES128-GCM-SHA256
-    ///   ECDHE-ECDSA-AES128-SHA
-    ///   ECDHE-RSA-AES128-SHA
     ///   ECDHE-ECDSA-AES256-GCM-SHA384
     ///   ECDHE-RSA-AES256-GCM-SHA384
-    ///   ECDHE-ECDSA-AES256-SHA
-    ///   ECDHE-RSA-AES256-SHA
     ///
     /// In non-FIPS builds, the default client cipher list is:
     ///
