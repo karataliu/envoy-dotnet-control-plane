@@ -50,95 +50,97 @@ namespace Envoy.Config.Core.V3 {
             "dG9fc25pGAEgASgIEhsKE2F1dG9fc2FuX3ZhbGlkYXRpb24YAiABKAgSLQoY",
             "b3ZlcnJpZGVfYXV0b19zbmlfaGVhZGVyGAMgASgJQgv6QghyBsABAdABATo0",
             "msWIHi8KLWVudm95LmFwaS52Mi5jb3JlLlVwc3RyZWFtSHR0cFByb3RvY29s",
-            "T3B0aW9ucyKKAwoeQWx0ZXJuYXRlUHJvdG9jb2xzQ2FjaGVPcHRpb25zEhUK",
+            "T3B0aW9ucyKmAwoeQWx0ZXJuYXRlUHJvdG9jb2xzQ2FjaGVPcHRpb25zEhUK",
             "BG5hbWUYASABKAlCB/pCBHICEAESOgoLbWF4X2VudHJpZXMYAiABKAsyHC5n",
             "b29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCB/pCBCoCIAASSgoWa2V5X3Zh",
             "bHVlX3N0b3JlX2NvbmZpZxgDIAEoCzIqLmVudm95LmNvbmZpZy5jb3JlLnYz",
             "LlR5cGVkRXh0ZW5zaW9uQ29uZmlnEm8KFHByZXBvcHVsYXRlZF9lbnRyaWVz",
             "GAQgAygLMlEuZW52b3kuY29uZmlnLmNvcmUudjMuQWx0ZXJuYXRlUHJvdG9j",
-            "b2xzQ2FjaGVPcHRpb25zLkFsdGVybmF0ZVByb3RvY29sc0NhY2hlRW50cnka",
-            "WAocQWx0ZXJuYXRlUHJvdG9jb2xzQ2FjaGVFbnRyeRIdCghob3N0bmFtZRgB",
-            "IAEoCUIL+kIIcgbAAQHQAQESGQoEcG9ydBgCIAEoDUIL+kIIKgYQ//8DIAAi",
-            "rgQKE0h0dHBQcm90b2NvbE9wdGlvbnMSLwoMaWRsZV90aW1lb3V0GAEgASgL",
-            "MhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEjoKF21heF9jb25uZWN0aW9u",
-            "X2R1cmF0aW9uGAMgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEkAK",
-            "EW1heF9oZWFkZXJzX2NvdW50GAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJ",
-            "bnQzMlZhbHVlQgf6QgQqAigBEjYKE21heF9zdHJlYW1fZHVyYXRpb24YBCAB",
-            "KAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24SbwofaGVhZGVyc193aXRo",
-            "X3VuZGVyc2NvcmVzX2FjdGlvbhgFIAEoDjJGLmVudm95LmNvbmZpZy5jb3Jl",
-            "LnYzLkh0dHBQcm90b2NvbE9wdGlvbnMuSGVhZGVyc1dpdGhVbmRlcnNjb3Jl",
-            "c0FjdGlvbhJBChttYXhfcmVxdWVzdHNfcGVyX2Nvbm5lY3Rpb24YBiABKAsy",
-            "HC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWUiTgocSGVhZGVyc1dpdGhV",
-            "bmRlcnNjb3Jlc0FjdGlvbhIJCgVBTExPVxAAEhIKDlJFSkVDVF9SRVFVRVNU",
-            "EAESDwoLRFJPUF9IRUFERVIQAjosmsWIHicKJWVudm95LmFwaS52Mi5jb3Jl",
-            "Lkh0dHBQcm90b2NvbE9wdGlvbnMilgYKFEh0dHAxUHJvdG9jb2xPcHRpb25z",
-            "EjYKEmFsbG93X2Fic29sdXRlX3VybBgBIAEoCzIaLmdvb2dsZS5wcm90b2J1",
-            "Zi5Cb29sVmFsdWUSFgoOYWNjZXB0X2h0dHBfMTAYAiABKAgSIAoYZGVmYXVs",
-            "dF9ob3N0X2Zvcl9odHRwXzEwGAMgASgJElUKEWhlYWRlcl9rZXlfZm9ybWF0",
-            "GAQgASgLMjouZW52b3kuY29uZmlnLmNvcmUudjMuSHR0cDFQcm90b2NvbE9w",
-            "dGlvbnMuSGVhZGVyS2V5Rm9ybWF0EhcKD2VuYWJsZV90cmFpbGVycxgFIAEo",
-            "CBIcChRhbGxvd19jaHVua2VkX2xlbmd0aBgGIAEoCBJRCi1vdmVycmlkZV9z",
-            "dHJlYW1fZXJyb3Jfb25faW52YWxpZF9odHRwX21lc3NhZ2UYByABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuQm9vbFZhbHVlGvsCCg9IZWFkZXJLZXlGb3JtYXQS",
-            "ZwoRcHJvcGVyX2Nhc2Vfd29yZHMYASABKAsySi5lbnZveS5jb25maWcuY29y",
-            "ZS52My5IdHRwMVByb3RvY29sT3B0aW9ucy5IZWFkZXJLZXlGb3JtYXQuUHJv",
-            "cGVyQ2FzZVdvcmRzSAASSAoSc3RhdGVmdWxfZm9ybWF0dGVyGAggASgLMiou",
-            "ZW52b3kuY29uZmlnLmNvcmUudjMuVHlwZWRFeHRlbnNpb25Db25maWdIABpg",
-            "Cg9Qcm9wZXJDYXNlV29yZHM6TZrFiB5ICkZlbnZveS5hcGkudjIuY29yZS5I",
-            "dHRwMVByb3RvY29sT3B0aW9ucy5IZWFkZXJLZXlGb3JtYXQuUHJvcGVyQ2Fz",
-            "ZVdvcmRzOj2axYgeOAo2ZW52b3kuYXBpLnYyLmNvcmUuSHR0cDFQcm90b2Nv",
-            "bE9wdGlvbnMuSGVhZGVyS2V5Rm9ybWF0QhQKDWhlYWRlcl9mb3JtYXQSA/hC",
-            "ATotmsWIHigKJmVudm95LmFwaS52Mi5jb3JlLkh0dHAxUHJvdG9jb2xPcHRp",
-            "b25zIoYCChFLZWVwYWxpdmVTZXR0aW5ncxI5CghpbnRlcnZhbBgBIAEoCzIZ",
-            "Lmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkIM+kIJqgEGMgQQwIQ9EjoKB3Rp",
-            "bWVvdXQYAiABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25CDvpCC6oB",
-            "CAgBMgQQwIQ9Ei8KD2ludGVydmFsX2ppdHRlchgDIAEoCzIWLmVudm95LnR5",
-            "cGUudjMuUGVyY2VudBJJChhjb25uZWN0aW9uX2lkbGVfaW50ZXJ2YWwYBCAB",
-            "KAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25CDPpCCaoBBjIEEMCEPSLN",
-            "CgoUSHR0cDJQcm90b2NvbE9wdGlvbnMSNgoQaHBhY2tfdGFibGVfc2l6ZRgB",
-            "IAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZRJLChZtYXhfY29u",
-            "Y3VycmVudF9zdHJlYW1zGAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQz",
-            "MlZhbHVlQg36QgoqCBj/////BygBElEKGmluaXRpYWxfc3RyZWFtX3dpbmRv",
-            "d19zaXplGAMgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQg/6",
-            "QgwqChj/////Byj//wMSVQoeaW5pdGlhbF9jb25uZWN0aW9uX3dpbmRvd19z",
-            "aXplGAQgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQg/6Qgwq",
-            "Chj/////Byj//wMSFQoNYWxsb3dfY29ubmVjdBgFIAEoCBIWCg5hbGxvd19t",
-            "ZXRhZGF0YRgGIAEoCBJCChNtYXhfb3V0Ym91bmRfZnJhbWVzGAcgASgLMhwu",
-            "Z29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQgf6QgQqAigBEkoKG21heF9v",
-            "dXRib3VuZF9jb250cm9sX2ZyYW1lcxgIIAEoCzIcLmdvb2dsZS5wcm90b2J1",
-            "Zi5VSW50MzJWYWx1ZUIH+kIEKgIoARJXCjFtYXhfY29uc2VjdXRpdmVfaW5i",
-            "b3VuZF9mcmFtZXNfd2l0aF9lbXB0eV9wYXlsb2FkGAkgASgLMhwuZ29vZ2xl",
-            "LnByb3RvYnVmLlVJbnQzMlZhbHVlEkwKJm1heF9pbmJvdW5kX3ByaW9yaXR5",
-            "X2ZyYW1lc19wZXJfc3RyZWFtGAogASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJ",
-            "bnQzMlZhbHVlEmMKNG1heF9pbmJvdW5kX3dpbmRvd191cGRhdGVfZnJhbWVz",
-            "X3Blcl9kYXRhX2ZyYW1lX3NlbnQYCyABKAsyHC5nb29nbGUucHJvdG9idWYu",
-            "VUludDMyVmFsdWVCB/pCBCoCKAESOwomc3RyZWFtX2Vycm9yX29uX2ludmFs",
-            "aWRfaHR0cF9tZXNzYWdpbmcYDCABKAhCCxgBkseG2AQDMy4wElEKLW92ZXJy",
-            "aWRlX3N0cmVhbV9lcnJvcl9vbl9pbnZhbGlkX2h0dHBfbWVzc2FnZRgOIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSYAoaY3VzdG9tX3NldHRp",
-            "bmdzX3BhcmFtZXRlcnMYDSADKAsyPC5lbnZveS5jb25maWcuY29yZS52My5I",
-            "dHRwMlByb3RvY29sT3B0aW9ucy5TZXR0aW5nc1BhcmFtZXRlchJFChRjb25u",
-            "ZWN0aW9uX2tlZXBhbGl2ZRgPIAEoCzInLmVudm95LmNvbmZpZy5jb3JlLnYz",
-            "LktlZXBhbGl2ZVNldHRpbmdzGtIBChFTZXR0aW5nc1BhcmFtZXRlchJFCgpp",
-            "ZGVudGlmaWVyGAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVl",
-            "QhP6QggqBhj//wMoAPpCBYoBAhABEjUKBXZhbHVlGAIgASgLMhwuZ29vZ2xl",
-            "LnByb3RvYnVmLlVJbnQzMlZhbHVlQgj6QgWKAQIQATo/msWIHjoKOGVudm95",
-            "LmFwaS52Mi5jb3JlLkh0dHAyUHJvdG9jb2xPcHRpb25zLlNldHRpbmdzUGFy",
-            "YW1ldGVyOi2axYgeKAomZW52b3kuYXBpLnYyLmNvcmUuSHR0cDJQcm90b2Nv",
-            "bE9wdGlvbnMijwEKE0dycGNQcm90b2NvbE9wdGlvbnMSSgoWaHR0cDJfcHJv",
-            "dG9jb2xfb3B0aW9ucxgBIAEoCzIqLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0",
-            "dHAyUHJvdG9jb2xPcHRpb25zOiyaxYgeJwolZW52b3kuYXBpLnYyLmNvcmUu",
-            "R3JwY1Byb3RvY29sT3B0aW9ucyLdAQoUSHR0cDNQcm90b2NvbE9wdGlvbnMS",
-            "SAoVcXVpY19wcm90b2NvbF9vcHRpb25zGAEgASgLMikuZW52b3kuY29uZmln",
-            "LmNvcmUudjMuUXVpY1Byb3RvY29sT3B0aW9ucxJRCi1vdmVycmlkZV9zdHJl",
-            "YW1fZXJyb3Jfb25faW52YWxpZF9odHRwX21lc3NhZ2UYAiABKAsyGi5nb29n",
-            "bGUucHJvdG9idWYuQm9vbFZhbHVlEigKFmFsbG93X2V4dGVuZGVkX2Nvbm5l",
-            "Y3QYBSABKAhCCNLGpOEGAggBImEKGlNjaGVtZUhlYWRlclRyYW5zZm9ybWF0",
-            "aW9uEjEKE3NjaGVtZV90b19vdmVyd3JpdGUYASABKAlCEvpCD3INUgRodHRw",
-            "UgVodHRwc0gAQhAKDnRyYW5zZm9ybWF0aW9uQoEBCiJpby5lbnZveXByb3h5",
-            "LmVudm95LmNvbmZpZy5jb3JlLnYzQg1Qcm90b2NvbFByb3RvUAFaQmdpdGh1",
-            "Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95L2NvbmZp",
-            "Zy9jb3JlL3YzO2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
+            "b2xzQ2FjaGVPcHRpb25zLkFsdGVybmF0ZVByb3RvY29sc0NhY2hlRW50cnkS",
+            "GgoSY2Fub25pY2FsX3N1ZmZpeGVzGAUgAygJGlgKHEFsdGVybmF0ZVByb3Rv",
+            "Y29sc0NhY2hlRW50cnkSHQoIaG9zdG5hbWUYASABKAlCC/pCCHIGwAEB0AEB",
+            "EhkKBHBvcnQYAiABKA1CC/pCCCoGEP//AyAAIq4EChNIdHRwUHJvdG9jb2xP",
+            "cHRpb25zEi8KDGlkbGVfdGltZW91dBgBIAEoCzIZLmdvb2dsZS5wcm90b2J1",
+            "Zi5EdXJhdGlvbhI6ChdtYXhfY29ubmVjdGlvbl9kdXJhdGlvbhgDIAEoCzIZ",
+            "Lmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhJAChFtYXhfaGVhZGVyc19jb3Vu",
+            "dBgCIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZUIH+kIEKgIo",
+            "ARI2ChNtYXhfc3RyZWFtX2R1cmF0aW9uGAQgASgLMhkuZ29vZ2xlLnByb3Rv",
+            "YnVmLkR1cmF0aW9uEm8KH2hlYWRlcnNfd2l0aF91bmRlcnNjb3Jlc19hY3Rp",
+            "b24YBSABKA4yRi5lbnZveS5jb25maWcuY29yZS52My5IdHRwUHJvdG9jb2xP",
+            "cHRpb25zLkhlYWRlcnNXaXRoVW5kZXJzY29yZXNBY3Rpb24SQQobbWF4X3Jl",
+            "cXVlc3RzX3Blcl9jb25uZWN0aW9uGAYgASgLMhwuZ29vZ2xlLnByb3RvYnVm",
+            "LlVJbnQzMlZhbHVlIk4KHEhlYWRlcnNXaXRoVW5kZXJzY29yZXNBY3Rpb24S",
+            "CQoFQUxMT1cQABISCg5SRUpFQ1RfUkVRVUVTVBABEg8KC0RST1BfSEVBREVS",
+            "EAI6LJrFiB4nCiVlbnZveS5hcGkudjIuY29yZS5IdHRwUHJvdG9jb2xPcHRp",
+            "b25zIrgGChRIdHRwMVByb3RvY29sT3B0aW9ucxI2ChJhbGxvd19hYnNvbHV0",
+            "ZV91cmwYASABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEhYKDmFj",
+            "Y2VwdF9odHRwXzEwGAIgASgIEiAKGGRlZmF1bHRfaG9zdF9mb3JfaHR0cF8x",
+            "MBgDIAEoCRJVChFoZWFkZXJfa2V5X2Zvcm1hdBgEIAEoCzI6LmVudm95LmNv",
+            "bmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9jb2xPcHRpb25zLkhlYWRlcktleUZv",
+            "cm1hdBIXCg9lbmFibGVfdHJhaWxlcnMYBSABKAgSHAoUYWxsb3dfY2h1bmtl",
+            "ZF9sZW5ndGgYBiABKAgSUQotb3ZlcnJpZGVfc3RyZWFtX2Vycm9yX29uX2lu",
+            "dmFsaWRfaHR0cF9tZXNzYWdlGAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJv",
+            "b2xWYWx1ZRIgChhzZW5kX2Z1bGx5X3F1YWxpZmllZF91cmwYCCABKAga+wIK",
+            "D0hlYWRlcktleUZvcm1hdBJnChFwcm9wZXJfY2FzZV93b3JkcxgBIAEoCzJK",
+            "LmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9jb2xPcHRpb25zLkhl",
+            "YWRlcktleUZvcm1hdC5Qcm9wZXJDYXNlV29yZHNIABJIChJzdGF0ZWZ1bF9m",
+            "b3JtYXR0ZXIYCCABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5UeXBlZEV4",
+            "dGVuc2lvbkNvbmZpZ0gAGmAKD1Byb3BlckNhc2VXb3JkczpNmsWIHkgKRmVu",
+            "dm95LmFwaS52Mi5jb3JlLkh0dHAxUHJvdG9jb2xPcHRpb25zLkhlYWRlcktl",
+            "eUZvcm1hdC5Qcm9wZXJDYXNlV29yZHM6PZrFiB44CjZlbnZveS5hcGkudjIu",
+            "Y29yZS5IdHRwMVByb3RvY29sT3B0aW9ucy5IZWFkZXJLZXlGb3JtYXRCFAoN",
+            "aGVhZGVyX2Zvcm1hdBID+EIBOi2axYgeKAomZW52b3kuYXBpLnYyLmNvcmUu",
+            "SHR0cDFQcm90b2NvbE9wdGlvbnMihgIKEUtlZXBhbGl2ZVNldHRpbmdzEjkK",
+            "CGludGVydmFsGAEgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgz6",
+            "QgmqAQYyBBDAhD0SOgoHdGltZW91dBgCIAEoCzIZLmdvb2dsZS5wcm90b2J1",
+            "Zi5EdXJhdGlvbkIO+kILqgEICAEyBBDAhD0SLwoPaW50ZXJ2YWxfaml0dGVy",
+            "GAMgASgLMhYuZW52b3kudHlwZS52My5QZXJjZW50EkkKGGNvbm5lY3Rpb25f",
+            "aWRsZV9pbnRlcnZhbBgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlv",
+            "bkIM+kIJqgEGMgQQwIQ9Is0KChRIdHRwMlByb3RvY29sT3B0aW9ucxI2ChBo",
+            "cGFja190YWJsZV9zaXplGAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQz",
+            "MlZhbHVlEksKFm1heF9jb25jdXJyZW50X3N0cmVhbXMYAiABKAsyHC5nb29n",
+            "bGUucHJvdG9idWYuVUludDMyVmFsdWVCDfpCCioIGP////8HKAESUQoaaW5p",
+            "dGlhbF9zdHJlYW1fd2luZG93X3NpemUYAyABKAsyHC5nb29nbGUucHJvdG9i",
+            "dWYuVUludDMyVmFsdWVCD/pCDCoKGP////8HKP//AxJVCh5pbml0aWFsX2Nv",
+            "bm5lY3Rpb25fd2luZG93X3NpemUYBCABKAsyHC5nb29nbGUucHJvdG9idWYu",
+            "VUludDMyVmFsdWVCD/pCDCoKGP////8HKP//AxIVCg1hbGxvd19jb25uZWN0",
+            "GAUgASgIEhYKDmFsbG93X21ldGFkYXRhGAYgASgIEkIKE21heF9vdXRib3Vu",
+            "ZF9mcmFtZXMYByABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVC",
+            "B/pCBCoCKAESSgobbWF4X291dGJvdW5kX2NvbnRyb2xfZnJhbWVzGAggASgL",
+            "MhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQgf6QgQqAigBElcKMW1h",
+            "eF9jb25zZWN1dGl2ZV9pbmJvdW5kX2ZyYW1lc193aXRoX2VtcHR5X3BheWxv",
+            "YWQYCSABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWUSTAombWF4",
+            "X2luYm91bmRfcHJpb3JpdHlfZnJhbWVzX3Blcl9zdHJlYW0YCiABKAsyHC5n",
+            "b29nbGUucHJvdG9idWYuVUludDMyVmFsdWUSYwo0bWF4X2luYm91bmRfd2lu",
+            "ZG93X3VwZGF0ZV9mcmFtZXNfcGVyX2RhdGFfZnJhbWVfc2VudBgLIAEoCzIc",
+            "Lmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZUIH+kIEKgIoARI7CiZzdHJl",
+            "YW1fZXJyb3Jfb25faW52YWxpZF9odHRwX21lc3NhZ2luZxgMIAEoCEILGAGS",
+            "x4bYBAMzLjASUQotb3ZlcnJpZGVfc3RyZWFtX2Vycm9yX29uX2ludmFsaWRf",
+            "aHR0cF9tZXNzYWdlGA4gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1",
+            "ZRJgChpjdXN0b21fc2V0dGluZ3NfcGFyYW1ldGVycxgNIAMoCzI8LmVudm95",
+            "LmNvbmZpZy5jb3JlLnYzLkh0dHAyUHJvdG9jb2xPcHRpb25zLlNldHRpbmdz",
+            "UGFyYW1ldGVyEkUKFGNvbm5lY3Rpb25fa2VlcGFsaXZlGA8gASgLMicuZW52",
+            "b3kuY29uZmlnLmNvcmUudjMuS2VlcGFsaXZlU2V0dGluZ3Ma0gEKEVNldHRp",
+            "bmdzUGFyYW1ldGVyEkUKCmlkZW50aWZpZXIYASABKAsyHC5nb29nbGUucHJv",
+            "dG9idWYuVUludDMyVmFsdWVCE/pCCCoGGP//AygA+kIFigECEAESNQoFdmFs",
+            "dWUYAiABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCCPpCBYoB",
+            "AhABOj+axYgeOgo4ZW52b3kuYXBpLnYyLmNvcmUuSHR0cDJQcm90b2NvbE9w",
+            "dGlvbnMuU2V0dGluZ3NQYXJhbWV0ZXI6LZrFiB4oCiZlbnZveS5hcGkudjIu",
+            "Y29yZS5IdHRwMlByb3RvY29sT3B0aW9ucyKPAQoTR3JwY1Byb3RvY29sT3B0",
+            "aW9ucxJKChZodHRwMl9wcm90b2NvbF9vcHRpb25zGAEgASgLMiouZW52b3ku",
+            "Y29uZmlnLmNvcmUudjMuSHR0cDJQcm90b2NvbE9wdGlvbnM6LJrFiB4nCiVl",
+            "bnZveS5hcGkudjIuY29yZS5HcnBjUHJvdG9jb2xPcHRpb25zIt0BChRIdHRw",
+            "M1Byb3RvY29sT3B0aW9ucxJIChVxdWljX3Byb3RvY29sX29wdGlvbnMYASAB",
+            "KAsyKS5lbnZveS5jb25maWcuY29yZS52My5RdWljUHJvdG9jb2xPcHRpb25z",
+            "ElEKLW92ZXJyaWRlX3N0cmVhbV9lcnJvcl9vbl9pbnZhbGlkX2h0dHBfbWVz",
+            "c2FnZRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSKAoWYWxs",
+            "b3dfZXh0ZW5kZWRfY29ubmVjdBgFIAEoCEII0sak4QYCCAEiYQoaU2NoZW1l",
+            "SGVhZGVyVHJhbnNmb3JtYXRpb24SMQoTc2NoZW1lX3RvX292ZXJ3cml0ZRgB",
+            "IAEoCUIS+kIPcg1SBGh0dHBSBWh0dHBzSABCEAoOdHJhbnNmb3JtYXRpb25C",
+            "gQEKImlvLmVudm95cHJveHkuZW52b3kuY29uZmlnLmNvcmUudjNCDVByb3Rv",
+            "Y29sUHJvdG9QAVpCZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wt",
+            "cGxhbmUvZW52b3kvY29uZmlnL2NvcmUvdjM7Y29yZXYzuoDI0QYCEAJiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.ExtensionReflection.Descriptor, global::Envoy.Type.V3.PercentReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Xds.Annotations.V3.StatusReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -146,9 +148,9 @@ namespace Envoy.Config.Core.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.QuicKeepAliveSettings), global::Envoy.Config.Core.V3.QuicKeepAliveSettings.Parser, new[]{ "MaxInterval", "InitialInterval" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.QuicProtocolOptions), global::Envoy.Config.Core.V3.QuicProtocolOptions.Parser, new[]{ "MaxConcurrentStreams", "InitialStreamWindowSize", "InitialConnectionWindowSize", "NumTimeoutsToTriggerPortMigration", "ConnectionKeepalive" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.UpstreamHttpProtocolOptions), global::Envoy.Config.Core.V3.UpstreamHttpProtocolOptions.Parser, new[]{ "AutoSni", "AutoSanValidation", "OverrideAutoSniHeader" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions), global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Parser, new[]{ "Name", "MaxEntries", "KeyValueStoreConfig", "PrepopulatedEntries" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Types.AlternateProtocolsCacheEntry), global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Types.AlternateProtocolsCacheEntry.Parser, new[]{ "Hostname", "Port" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions), global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Parser, new[]{ "Name", "MaxEntries", "KeyValueStoreConfig", "PrepopulatedEntries", "CanonicalSuffixes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Types.AlternateProtocolsCacheEntry), global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Types.AlternateProtocolsCacheEntry.Parser, new[]{ "Hostname", "Port" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HttpProtocolOptions), global::Envoy.Config.Core.V3.HttpProtocolOptions.Parser, new[]{ "IdleTimeout", "MaxConnectionDuration", "MaxHeadersCount", "MaxStreamDuration", "HeadersWithUnderscoresAction", "MaxRequestsPerConnection" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.HttpProtocolOptions.Types.HeadersWithUnderscoresAction) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Parser, new[]{ "AllowAbsoluteUrl", "AcceptHttp10", "DefaultHostForHttp10", "HeaderKeyFormat", "EnableTrailers", "AllowChunkedLength", "OverrideStreamErrorOnInvalidHttpMessage" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Parser, new[]{ "ProperCaseWords", "StatefulFormatter" }, new[]{ "HeaderFormat" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords.Parser, null, null, null, null, null)})}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Parser, new[]{ "AllowAbsoluteUrl", "AcceptHttp10", "DefaultHostForHttp10", "HeaderKeyFormat", "EnableTrailers", "AllowChunkedLength", "OverrideStreamErrorOnInvalidHttpMessage", "SendFullyQualifiedUrl" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Parser, new[]{ "ProperCaseWords", "StatefulFormatter" }, new[]{ "HeaderFormat" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords.Parser, null, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.KeepaliveSettings), global::Envoy.Config.Core.V3.KeepaliveSettings.Parser, new[]{ "Interval", "Timeout", "IntervalJitter", "ConnectionIdleInterval" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http2ProtocolOptions), global::Envoy.Config.Core.V3.Http2ProtocolOptions.Parser, new[]{ "HpackTableSize", "MaxConcurrentStreams", "InitialStreamWindowSize", "InitialConnectionWindowSize", "AllowConnect", "AllowMetadata", "MaxOutboundFrames", "MaxOutboundControlFrames", "MaxConsecutiveInboundFramesWithEmptyPayload", "MaxInboundPriorityFramesPerStream", "MaxInboundWindowUpdateFramesPerDataFrameSent", "StreamErrorOnInvalidHttpMessaging", "OverrideStreamErrorOnInvalidHttpMessage", "CustomSettingsParameters", "ConnectionKeepalive" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http2ProtocolOptions.Types.SettingsParameter), global::Envoy.Config.Core.V3.Http2ProtocolOptions.Types.SettingsParameter.Parser, new[]{ "Identifier", "Value" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.GrpcProtocolOptions), global::Envoy.Config.Core.V3.GrpcProtocolOptions.Parser, new[]{ "Http2ProtocolOptions" }, null, null, null, null),
@@ -680,9 +682,9 @@ namespace Envoy.Config.Core.V3 {
     private static readonly pb::FieldCodec<uint?> _single_initialConnectionWindowSize_codec = pb::FieldCodec.ForStructWrapper<uint>(26);
     private uint? initialConnectionWindowSize_;
     /// <summary>
-    /// Similar to *initial_stream_window_size*, but for connection-level
+    /// Similar to ``initial_stream_window_size``, but for connection-level
     /// flow-control. Valid values rage from 1 to 25165824 (24MB, maximum supported by QUICHE) and defaults to 65536 (2^16).
-    /// window. Currently, this has the same minimum/default as *initial_stream_window_size*.
+    /// window. Currently, this has the same minimum/default as ``initial_stream_window_size``.
     ///
     /// NOTE: 16384 (2^14) is the minimum window size supported in Google QUIC. We only support increasing the default
     /// window size now, so it's also the minimum.
@@ -1066,7 +1068,7 @@ namespace Envoy.Config.Core.V3 {
     /// Automatic validate upstream presented certificate for new upstream connections based on the
     /// downstream HTTP host/authority header or any other arbitrary header when :ref:`override_auto_sni_header &lt;envoy_v3_api_field_config.core.v3.UpstreamHttpProtocolOptions.override_auto_sni_header>`
     /// is set, as seen by the :ref:`router filter &lt;config_http_filters_router>`.
-    /// This field is intended to be set with `auto_sni` field.
+    /// This field is intended to be set with ``auto_sni`` field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1086,7 +1088,7 @@ namespace Envoy.Config.Core.V3 {
     /// :ref:`router filter &lt;config_http_filters_router>`.
     /// If unset, host/authority header will be used for populating the SNI. If the specified header
     /// is not found or the value is empty, host/authority header will be used instead.
-    /// This field is intended to be set with `auto_sni` and/or `auto_san_validation` fields.
+    /// This field is intended to be set with ``auto_sni`` and/or ``auto_san_validation`` fields.
     /// If none of these fields are set then setting this would be a no-op.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1284,6 +1286,7 @@ namespace Envoy.Config.Core.V3 {
   /// make an HTTP connection to an origin server. See https://tools.ietf.org/html/rfc7838 for
   /// HTTP Alternative Services and https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-https-04
   /// for the "HTTPS" DNS resource record.
+  /// [#next-free-field: 6]
   /// </summary>
   public sealed partial class AlternateProtocolsCacheOptions : pb::IMessage<AlternateProtocolsCacheOptions>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1323,6 +1326,7 @@ namespace Envoy.Config.Core.V3 {
       MaxEntries = other.MaxEntries;
       keyValueStoreConfig_ = other.keyValueStoreConfig_ != null ? other.keyValueStoreConfig_.Clone() : null;
       prepopulatedEntries_ = other.prepopulatedEntries_.Clone();
+      canonicalSuffixes_ = other.canonicalSuffixes_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1407,6 +1411,28 @@ namespace Envoy.Config.Core.V3 {
       get { return prepopulatedEntries_; }
     }
 
+    /// <summary>Field number for the "canonical_suffixes" field.</summary>
+    public const int CanonicalSuffixesFieldNumber = 5;
+    private static readonly pb::FieldCodec<string> _repeated_canonicalSuffixes_codec
+        = pb::FieldCodec.ForString(42);
+    private readonly pbc::RepeatedField<string> canonicalSuffixes_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Optional list of hostnames suffixes for which Alt-Svc entries can be shared. For example, if
+    /// this list contained the value ``.c.example.com``, then an Alt-Svc entry for ``foo.c.example.com``
+    /// could be shared with ``bar.c.example.com`` but would not be shared with ``baz.example.com``. On
+    /// the other hand, if the list contained the value ``.example.com`` then all three hosts could share
+    /// Alt-Svc entries. Each entry must start with ``.``.  If a hostname matches multiple suffixes, the
+    /// first listed suffix will be used.
+    ///
+    /// Since lookup in this list is O(n), it is recommended that the number of suffixes be limited.
+    /// [#not-implemented-hide:]
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> CanonicalSuffixes {
+      get { return canonicalSuffixes_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1426,6 +1452,7 @@ namespace Envoy.Config.Core.V3 {
       if (MaxEntries != other.MaxEntries) return false;
       if (!object.Equals(KeyValueStoreConfig, other.KeyValueStoreConfig)) return false;
       if(!prepopulatedEntries_.Equals(other.prepopulatedEntries_)) return false;
+      if(!canonicalSuffixes_.Equals(other.canonicalSuffixes_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1437,6 +1464,7 @@ namespace Envoy.Config.Core.V3 {
       if (maxEntries_ != null) hash ^= MaxEntries.GetHashCode();
       if (keyValueStoreConfig_ != null) hash ^= KeyValueStoreConfig.GetHashCode();
       hash ^= prepopulatedEntries_.GetHashCode();
+      hash ^= canonicalSuffixes_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1467,6 +1495,7 @@ namespace Envoy.Config.Core.V3 {
         output.WriteMessage(KeyValueStoreConfig);
       }
       prepopulatedEntries_.WriteTo(output, _repeated_prepopulatedEntries_codec);
+      canonicalSuffixes_.WriteTo(output, _repeated_canonicalSuffixes_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1489,6 +1518,7 @@ namespace Envoy.Config.Core.V3 {
         output.WriteMessage(KeyValueStoreConfig);
       }
       prepopulatedEntries_.WriteTo(ref output, _repeated_prepopulatedEntries_codec);
+      canonicalSuffixes_.WriteTo(ref output, _repeated_canonicalSuffixes_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1509,6 +1539,7 @@ namespace Envoy.Config.Core.V3 {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(KeyValueStoreConfig);
       }
       size += prepopulatedEntries_.CalculateSize(_repeated_prepopulatedEntries_codec);
+      size += canonicalSuffixes_.CalculateSize(_repeated_canonicalSuffixes_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1536,6 +1567,7 @@ namespace Envoy.Config.Core.V3 {
         KeyValueStoreConfig.MergeFrom(other.KeyValueStoreConfig);
       }
       prepopulatedEntries_.Add(other.prepopulatedEntries_);
+      canonicalSuffixes_.Add(other.canonicalSuffixes_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1573,6 +1605,10 @@ namespace Envoy.Config.Core.V3 {
             prepopulatedEntries_.AddEntriesFrom(input, _repeated_prepopulatedEntries_codec);
             break;
           }
+          case 42: {
+            canonicalSuffixes_.AddEntriesFrom(input, _repeated_canonicalSuffixes_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1608,6 +1644,10 @@ namespace Envoy.Config.Core.V3 {
           }
           case 34: {
             prepopulatedEntries_.AddEntriesFrom(ref input, _repeated_prepopulatedEntries_codec);
+            break;
+          }
+          case 42: {
+            canonicalSuffixes_.AddEntriesFrom(ref input, _repeated_canonicalSuffixes_codec);
             break;
           }
         }
@@ -2371,7 +2411,7 @@ namespace Envoy.Config.Core.V3 {
   }
 
   /// <summary>
-  /// [#next-free-field: 8]
+  /// [#next-free-field: 9]
   /// </summary>
   public sealed partial class Http1ProtocolOptions : pb::IMessage<Http1ProtocolOptions>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2414,6 +2454,7 @@ namespace Envoy.Config.Core.V3 {
       enableTrailers_ = other.enableTrailers_;
       allowChunkedLength_ = other.allowChunkedLength_;
       OverrideStreamErrorOnInvalidHttpMessage = other.OverrideStreamErrorOnInvalidHttpMessage;
+      sendFullyQualifiedUrl_ = other.sendFullyQualifiedUrl_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2431,7 +2472,7 @@ namespace Envoy.Config.Core.V3 {
     /// Handle HTTP requests with absolute URLs in the requests. These requests
     /// are generally sent by clients to forward/explicit proxies. This allows clients to configure
     /// envoy as their HTTP proxy. In Unix, for example, this is typically done by setting the
-    /// *http_proxy* environment variable.
+    /// ``http_proxy`` environment variable.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2450,7 +2491,7 @@ namespace Envoy.Config.Core.V3 {
     /// Handle incoming HTTP/1.0 and HTTP 0.9 requests.
     /// This is off by default, and not fully standards compliant. There is support for pre-HTTP/1.1
     /// style connect logic, dechunking, and handling lack of client host iff
-    /// *default_host_for_http_10* is configured.
+    /// ``default_host_for_http_10`` is configured.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2465,9 +2506,9 @@ namespace Envoy.Config.Core.V3 {
     public const int DefaultHostForHttp10FieldNumber = 3;
     private string defaultHostForHttp10_ = "";
     /// <summary>
-    /// A default host for HTTP/1.0 requests. This is highly suggested if *accept_http_10* is true as
+    /// A default host for HTTP/1.0 requests. This is highly suggested if ``accept_http_10`` is true as
     /// Envoy does not otherwise support HTTP/1.0 without a Host header.
-    /// This is a no-op if *accept_http_10* is not true.
+    /// This is a no-op if ``accept_http_10`` is not true.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2521,7 +2562,7 @@ namespace Envoy.Config.Core.V3 {
     public const int AllowChunkedLengthFieldNumber = 6;
     private bool allowChunkedLength_;
     /// <summary>
-    /// Allows Envoy to process requests/responses with both `Content-Length` and `Transfer-Encoding`
+    /// Allows Envoy to process requests/responses with both ``Content-Length`` and ``Transfer-Encoding``
     /// headers set. By default such messages are rejected, but if option is enabled - Envoy will
     /// remove Content-Length header and process message.
     /// See `RFC7230, sec. 3.3.3 &lt;https://tools.ietf.org/html/rfc7230#section-3.3.3>`_ for details.
@@ -2564,6 +2605,25 @@ namespace Envoy.Config.Core.V3 {
     }
 
 
+    /// <summary>Field number for the "send_fully_qualified_url" field.</summary>
+    public const int SendFullyQualifiedUrlFieldNumber = 8;
+    private bool sendFullyQualifiedUrl_;
+    /// <summary>
+    /// Allows sending fully qualified URLs when proxying the first line of the
+    /// response. By default, Envoy will only send the path components in the first line.
+    /// If this is true, Envoy will create a fully qualified URI composing scheme
+    /// (inferred if not present), host (from the host/:authority header) and path
+    /// (from first line or :path header).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool SendFullyQualifiedUrl {
+      get { return sendFullyQualifiedUrl_; }
+      set {
+        sendFullyQualifiedUrl_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2586,6 +2646,7 @@ namespace Envoy.Config.Core.V3 {
       if (EnableTrailers != other.EnableTrailers) return false;
       if (AllowChunkedLength != other.AllowChunkedLength) return false;
       if (OverrideStreamErrorOnInvalidHttpMessage != other.OverrideStreamErrorOnInvalidHttpMessage) return false;
+      if (SendFullyQualifiedUrl != other.SendFullyQualifiedUrl) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2600,6 +2661,7 @@ namespace Envoy.Config.Core.V3 {
       if (EnableTrailers != false) hash ^= EnableTrailers.GetHashCode();
       if (AllowChunkedLength != false) hash ^= AllowChunkedLength.GetHashCode();
       if (overrideStreamErrorOnInvalidHttpMessage_ != null) hash ^= OverrideStreamErrorOnInvalidHttpMessage.GetHashCode();
+      if (SendFullyQualifiedUrl != false) hash ^= SendFullyQualifiedUrl.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2644,6 +2706,10 @@ namespace Envoy.Config.Core.V3 {
       if (overrideStreamErrorOnInvalidHttpMessage_ != null) {
         _single_overrideStreamErrorOnInvalidHttpMessage_codec.WriteTagAndValue(output, OverrideStreamErrorOnInvalidHttpMessage);
       }
+      if (SendFullyQualifiedUrl != false) {
+        output.WriteRawTag(64);
+        output.WriteBool(SendFullyQualifiedUrl);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2680,6 +2746,10 @@ namespace Envoy.Config.Core.V3 {
       if (overrideStreamErrorOnInvalidHttpMessage_ != null) {
         _single_overrideStreamErrorOnInvalidHttpMessage_codec.WriteTagAndValue(ref output, OverrideStreamErrorOnInvalidHttpMessage);
       }
+      if (SendFullyQualifiedUrl != false) {
+        output.WriteRawTag(64);
+        output.WriteBool(SendFullyQualifiedUrl);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2710,6 +2780,9 @@ namespace Envoy.Config.Core.V3 {
       }
       if (overrideStreamErrorOnInvalidHttpMessage_ != null) {
         size += _single_overrideStreamErrorOnInvalidHttpMessage_codec.CalculateSizeWithTag(OverrideStreamErrorOnInvalidHttpMessage);
+      }
+      if (SendFullyQualifiedUrl != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2750,6 +2823,9 @@ namespace Envoy.Config.Core.V3 {
         if (overrideStreamErrorOnInvalidHttpMessage_ == null || other.OverrideStreamErrorOnInvalidHttpMessage != false) {
           OverrideStreamErrorOnInvalidHttpMessage = other.OverrideStreamErrorOnInvalidHttpMessage;
         }
+      }
+      if (other.SendFullyQualifiedUrl != false) {
+        SendFullyQualifiedUrl = other.SendFullyQualifiedUrl;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2803,6 +2879,10 @@ namespace Envoy.Config.Core.V3 {
             }
             break;
           }
+          case 64: {
+            SendFullyQualifiedUrl = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -2853,6 +2933,10 @@ namespace Envoy.Config.Core.V3 {
             if (overrideStreamErrorOnInvalidHttpMessage_ == null || value != false) {
               OverrideStreamErrorOnInvalidHttpMessage = value;
             }
+            break;
+          }
+          case 64: {
+            SendFullyQualifiedUrl = input.ReadBool();
             break;
           }
         }
@@ -3830,8 +3914,8 @@ namespace Envoy.Config.Core.V3 {
     private static readonly pb::FieldCodec<uint?> _single_initialConnectionWindowSize_codec = pb::FieldCodec.ForStructWrapper<uint>(34);
     private uint? initialConnectionWindowSize_;
     /// <summary>
-    /// Similar to *initial_stream_window_size*, but for connection-level flow-control
-    /// window. Currently, this has the same minimum/maximum/default as *initial_stream_window_size*.
+    /// Similar to ``initial_stream_window_size``, but for connection-level flow-control
+    /// window. Currently, this has the same minimum/maximum/default as ``initial_stream_window_size``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3950,11 +4034,11 @@ namespace Envoy.Config.Core.V3 {
     /// of PRIORITY frames received over the lifetime of connection exceeds the value calculated
     /// using this formula::
     ///
-    ///   max_inbound_priority_frames_per_stream * (1 + opened_streams)
+    ///   ``max_inbound_priority_frames_per_stream`` * (1 + ``opened_streams``)
     ///
-    /// the connection is terminated. For downstream connections the `opened_streams` is incremented when
+    /// the connection is terminated. For downstream connections the ``opened_streams`` is incremented when
     /// Envoy receives complete response headers from the upstream server. For upstream connection the
-    /// `opened_streams` is incremented when Envoy send the HEADERS frame for a new stream. The
+    /// ``opened_streams`` is incremented when Envoy send the HEADERS frame for a new stream. The
     /// ``http2.inbound_priority_frames_flood`` stat tracks
     /// the number of connections terminated due to flood mitigation. The default limit is 100.
     /// </summary>
@@ -3977,12 +4061,12 @@ namespace Envoy.Config.Core.V3 {
     /// of WINDOW_UPDATE frames received over the lifetime of connection exceeds the value calculated
     /// using this formula::
     ///
-    ///   5 + 2 * (opened_streams +
-    ///            max_inbound_window_update_frames_per_data_frame_sent * outbound_data_frames)
+    ///   5 + 2 * (``opened_streams`` +
+    ///            ``max_inbound_window_update_frames_per_data_frame_sent`` * ``outbound_data_frames``)
     ///
-    /// the connection is terminated. For downstream connections the `opened_streams` is incremented when
+    /// the connection is terminated. For downstream connections the ``opened_streams`` is incremented when
     /// Envoy receives complete response headers from the upstream server. For upstream connections the
-    /// `opened_streams` is incremented when Envoy sends the HEADERS frame for a new stream. The
+    /// ``opened_streams`` is incremented when Envoy sends the HEADERS frame for a new stream. The
     /// ``http2.inbound_priority_frames_flood`` stat tracks the number of connections terminated due to
     /// flood mitigation. The default max_inbound_window_update_frames_per_data_frame_sent value is 10.
     /// Setting this to 1 should be enough to support HTTP/2 implementations with basic flow control,

@@ -134,8 +134,8 @@ namespace Envoy.Type.V3 {
     private global::Google.Protobuf.WellKnownTypes.Duration fillInterval_;
     /// <summary>
     /// The fill interval that tokens are added to the bucket. During each fill interval
-    /// `tokens_per_fill` are added to the bucket. The bucket will never contain more than
-    /// `max_tokens` tokens.
+    /// ``tokens_per_fill`` are added to the bucket. The bucket will never contain more than
+    /// ``max_tokens`` tokens.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

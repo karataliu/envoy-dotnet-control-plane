@@ -172,6 +172,13 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     private global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Types.TlsProtocol tlsMinimumProtocolVersion_ = global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Types.TlsProtocol.TlsAuto;
     /// <summary>
     /// Minimum TLS protocol version. By default, it's ``TLSv1_2`` for both clients and servers.
+    ///
+    /// TLS protocol versions below TLSv1_2 require setting compatible ciphers with the
+    /// ``cipher_suites`` setting as the default ciphers no longer include compatible ciphers.
+    ///
+    /// .. attention::
+    ///
+    ///   Using TLS protocol versions below TLSv1_2 has serious security considerations and risks.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -837,9 +844,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// <summary>
     /// The TLS certificate chain.
     ///
-    /// If *certificate_chain* is a filesystem path, a watch will be added to the
+    /// If ``certificate_chain`` is a filesystem path, a watch will be added to the
     /// parent directory for any file moves to support rotation. This currently
-    /// only applies to dynamic secrets, when the *TlsCertificate* is delivered via
+    /// only applies to dynamic secrets, when the ``TlsCertificate`` is delivered via
     /// SDS.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -857,9 +864,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// <summary>
     /// The TLS private key.
     ///
-    /// If *private_key* is a filesystem path, a watch will be added to the parent
+    /// If ``private_key`` is a filesystem path, a watch will be added to the parent
     /// directory for any file moves to support rotation. This currently only
-    /// applies to dynamic secrets, when the *TlsCertificate* is delivered via SDS.
+    /// applies to dynamic secrets, when the ``TlsCertificate`` is delivered via SDS.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -874,11 +881,11 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     public const int Pkcs12FieldNumber = 8;
     private global::Envoy.Config.Core.V3.DataSource pkcs12_;
     /// <summary>
-    /// `Pkcs12` data containing TLS certificate, chain, and private key.
+    /// ``Pkcs12`` data containing TLS certificate, chain, and private key.
     ///
-    /// If *pkcs12* is a filesystem path, the file will be read, but no watch will
-    /// be added to the parent directory, since *pkcs12* isn't used by SDS.
-    /// This field is mutually exclusive with *certificate_chain*, *private_key* and *private_key_provider*.
+    /// If ``pkcs12`` is a filesystem path, the file will be read, but no watch will
+    /// be added to the parent directory, since ``pkcs12`` isn't used by SDS.
+    /// This field is mutually exclusive with ``certificate_chain``, ``private_key`` and ``private_key_provider``.
     /// This can't be marked as ``oneof`` due to API compatibility reasons. Setting
     /// both :ref:`private_key &lt;envoy_v3_api_field_extensions.transport_sockets.tls.v3.TlsCertificate.private_key>`,
     /// :ref:`certificate_chain &lt;envoy_v3_api_field_extensions.transport_sockets.tls.v3.TlsCertificate.certificate_chain>`,
@@ -886,7 +893,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// and :ref:`pkcs12 &lt;envoy_v3_api_field_extensions.transport_sockets.tls.v3.TlsCertificate.pkcs12>`
     /// fields will result in an error. Use :ref:`password
     /// &lt;envoy_v3_api_field_extensions.transport_sockets.tls.v3.TlsCertificate.password>`
-    /// to specify the password to unprotect the `PKCS12` data, if necessary.
+    /// to specify the password to unprotect the ``PKCS12`` data, if necessary.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -901,14 +908,14 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     public const int WatchedDirectoryFieldNumber = 7;
     private global::Envoy.Config.Core.V3.WatchedDirectory watchedDirectory_;
     /// <summary>
-    /// If specified, updates of file-based *certificate_chain* and *private_key*
+    /// If specified, updates of file-based ``certificate_chain`` and ``private_key``
     /// sources will be triggered by this watch. The certificate/key pair will be
     /// read together and validated for atomic read consistency (i.e. no
     /// intervening modification occurred between cert/key read, verified by file
     /// hash comparisons). This allows explicit control over the path watched, by
     /// default the parent directories of the filesystem paths in
-    /// *certificate_chain* and *private_key* are watched if this field is not
-    /// specified. This only applies when a *TlsCertificate* is delivered by SDS
+    /// ``certificate_chain`` and ``private_key`` are watched if this field is not
+    /// specified. This only applies when a ``TlsCertificate`` is delivered by SDS
     /// with references to filesystem paths. See the :ref:`SDS key rotation
     /// &lt;sds_key_rotation>` documentation for further details.
     /// </summary>
@@ -2146,12 +2153,12 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// See :ref:`the TLS overview &lt;arch_overview_ssl_enabling_verification>` for a list of common
     /// system CA locations.
     ///
-    /// If *trusted_ca* is a filesystem path, a watch will be added to the parent
+    /// If ``trusted_ca`` is a filesystem path, a watch will be added to the parent
     /// directory for any file moves to support rotation. This currently only
-    /// applies to dynamic secrets, when the *CertificateValidationContext* is
+    /// applies to dynamic secrets, when the ``CertificateValidationContext`` is
     /// delivered via SDS.
     ///
-    /// Only one of *trusted_ca* and *ca_certificate_provider_instance* may be specified.
+    /// Only one of ``trusted_ca`` and ``ca_certificate_provider_instance`` may be specified.
     ///
     /// [#next-major-version: This field and watched_directory below should ideally be moved into a
     /// separate sub-message, since there's no point in specifying the latter field without this one.]
@@ -2171,7 +2178,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// <summary>
     /// Certificate provider instance for fetching TLS certificates.
     ///
-    /// Only one of *trusted_ca* and *ca_certificate_provider_instance* may be specified.
+    /// Only one of ``trusted_ca`` and ``ca_certificate_provider_instance`` may be specified.
     /// [#not-implemented-hide:]
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2187,11 +2194,11 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     public const int WatchedDirectoryFieldNumber = 11;
     private global::Envoy.Config.Core.V3.WatchedDirectory watchedDirectory_;
     /// <summary>
-    /// If specified, updates of a file-based *trusted_ca* source will be triggered
+    /// If specified, updates of a file-based ``trusted_ca`` source will be triggered
     /// by this watch. This allows explicit control over the path watched, by
-    /// default the parent directory of the filesystem path in *trusted_ca* is
+    /// default the parent directory of the filesystem path in ``trusted_ca`` is
     /// watched if this field is not specified. This only applies when a
-    /// *CertificateValidationContext* is delivered by SDS with references to
+    /// ``CertificateValidationContext`` is delivered by SDS with references to
     /// filesystem paths. See the :ref:`SDS key rotation &lt;sds_key_rotation>`
     /// documentation for further details.
     /// </summary>

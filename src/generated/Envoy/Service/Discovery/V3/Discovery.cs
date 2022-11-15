@@ -85,19 +85,20 @@ namespace Envoy.Service.Discovery.V3 {
             "ckNvbnN0cmFpbnRzLlNpbmdsZUNvbnN0cmFpbnQuRXhpc3RzSAAaCAoGRXhp",
             "c3RzQhYKD2NvbnN0cmFpbnRfdHlwZRID+EIBGl4KDkNvbnN0cmFpbnRMaXN0",
             "EkwKC2NvbnN0cmFpbnRzGAEgAygLMjcuZW52b3kuc2VydmljZS5kaXNjb3Zl",
-            "cnkudjMuRHluYW1pY1BhcmFtZXRlckNvbnN0cmFpbnRzQgYKBHR5cGUi2QIK",
+            "cnkudjMuRHluYW1pY1BhcmFtZXRlckNvbnN0cmFpbnRzQgYKBHR5cGUiiwMK",
             "CFJlc291cmNlEgwKBG5hbWUYAyABKAkSPwoNcmVzb3VyY2VfbmFtZRgIIAEo",
             "CzIoLmVudm95LnNlcnZpY2UuZGlzY292ZXJ5LnYzLlJlc291cmNlTmFtZRIP",
             "CgdhbGlhc2VzGAQgAygJEg8KB3ZlcnNpb24YASABKAkSJgoIcmVzb3VyY2UY",
             "AiABKAsyFC5nb29nbGUucHJvdG9idWYuQW55EiYKA3R0bBgGIAEoCzIZLmdv",
             "b2dsZS5wcm90b2J1Zi5EdXJhdGlvbhJICg1jYWNoZV9jb250cm9sGAcgASgL",
             "MjEuZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjMuUmVzb3VyY2UuQ2FjaGVD",
-            "b250cm9sGiQKDENhY2hlQ29udHJvbBIUCgxkb19ub3RfY2FjaGUYASABKAg6",
-            "HJrFiB4XChVlbnZveS5hcGkudjIuUmVzb3VyY2VCkwEKKGlvLmVudm95cHJv",
-            "eHkuZW52b3kuc2VydmljZS5kaXNjb3ZlcnkudjNCDkRpc2NvdmVyeVByb3Rv",
-            "UAFaTWdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vu",
-            "dm95L3NlcnZpY2UvZGlzY292ZXJ5L3YzO2Rpc2NvdmVyeXYzuoDI0QYCEAJi",
-            "BnByb3RvMw=="));
+            "b250cm9sEjAKCG1ldGFkYXRhGAkgASgLMh4uZW52b3kuY29uZmlnLmNvcmUu",
+            "djMuTWV0YWRhdGEaJAoMQ2FjaGVDb250cm9sEhQKDGRvX25vdF9jYWNoZRgB",
+            "IAEoCDocmsWIHhcKFWVudm95LmFwaS52Mi5SZXNvdXJjZUKTAQooaW8uZW52",
+            "b3lwcm94eS5lbnZveS5zZXJ2aWNlLmRpc2NvdmVyeS52M0IORGlzY292ZXJ5",
+            "UHJvdG9QAVpNZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxh",
+            "bmUvZW52b3kvc2VydmljZS9kaXNjb3ZlcnkvdjM7ZGlzY292ZXJ5djO6gMjR",
+            "BgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -109,7 +110,7 @@ namespace Envoy.Service.Discovery.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DeltaDiscoveryResponse), global::Envoy.Service.Discovery.V3.DeltaDiscoveryResponse.Parser, new[]{ "SystemVersionInfo", "Resources", "TypeUrl", "RemovedResources", "RemovedResourceNames", "Nonce", "ControlPlane" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Parser, new[]{ "Constraint", "OrConstraints", "AndConstraints", "NotConstraints" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Parser, new[]{ "Key", "Value", "Exists" }, new[]{ "ConstraintType" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.SingleConstraint.Types.Exists.Parser, null, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList), global::Envoy.Service.Discovery.V3.DynamicParameterConstraints.Types.ConstraintList.Parser, new[]{ "Constraints" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource), global::Envoy.Service.Discovery.V3.Resource.Parser, new[]{ "Name", "ResourceName", "Aliases", "Version", "Resource_", "Ttl", "CacheControl" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl), global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl.Parser, new[]{ "DoNotCache" }, null, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource), global::Envoy.Service.Discovery.V3.Resource.Parser, new[]{ "Name", "ResourceName", "Aliases", "Version", "Resource_", "Ttl", "CacheControl", "Metadata" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl), global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl.Parser, new[]{ "DoNotCache" }, null, null, null, null)})
           }));
     }
     #endregion
@@ -704,12 +705,12 @@ namespace Envoy.Service.Discovery.V3 {
     private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> resourceLocators_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator>();
     /// <summary>
     /// [#not-implemented-hide:]
-    /// Alternative to *resource_names* field that allows specifying dynamic
+    /// Alternative to ``resource_names`` field that allows specifying dynamic
     /// parameters along with each resource name. Clients that populate this
     /// field must be able to handle responses from the server where resources
     /// are wrapped in a Resource message.
     /// Note that it is legal for a request to have some resources listed
-    /// in *resource_names* and others in *resource_locators*.
+    /// in ``resource_names`` and others in ``resource_locators``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -759,7 +760,7 @@ namespace Envoy.Service.Discovery.V3 {
     private global::Google.Rpc.Status errorDetail_;
     /// <summary>
     /// This is populated when the previous :ref:`DiscoveryResponse &lt;envoy_v3_api_msg_service.discovery.v3.DiscoveryResponse>`
-    /// failed to update configuration. The *message* field in *error_details* provides the Envoy
+    /// failed to update configuration. The ``message`` field in ``error_details`` provides the Envoy
     /// internal exception related to the failure. It is only intended for consumption during manual
     /// debugging, the string provided is not guaranteed to be stable across Envoy versions.
     /// </summary>
@@ -1568,9 +1569,9 @@ namespace Envoy.Service.Discovery.V3 {
     private string typeUrl_ = "";
     /// <summary>
     /// Type of the resource that is being requested, e.g.
-    /// "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment". This does not need to be set if
-    /// resources are only referenced via *xds_resource_subscribe* and
-    /// *xds_resources_unsubscribe*.
+    /// ``type.googleapis.com/envoy.api.v2.ClusterLoadAssignment``. This does not need to be set if
+    /// resources are only referenced via ``xds_resource_subscribe`` and
+    /// ``xds_resources_unsubscribe``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1636,10 +1637,10 @@ namespace Envoy.Service.Discovery.V3 {
     private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> resourceLocatorsSubscribe_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator>();
     /// <summary>
     /// [#not-implemented-hide:]
-    /// Alternative to *resource_names_subscribe* field that allows specifying dynamic parameters
+    /// Alternative to ``resource_names_subscribe`` field that allows specifying dynamic parameters
     /// along with each resource name.
     /// Note that it is legal for a request to have some resources listed
-    /// in *resource_names_subscribe* and others in *resource_locators_subscribe*.
+    /// in ``resource_names_subscribe`` and others in ``resource_locators_subscribe``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1654,10 +1655,10 @@ namespace Envoy.Service.Discovery.V3 {
     private readonly pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator> resourceLocatorsUnsubscribe_ = new pbc::RepeatedField<global::Envoy.Service.Discovery.V3.ResourceLocator>();
     /// <summary>
     /// [#not-implemented-hide:]
-    /// Alternative to *resource_names_unsubscribe* field that allows specifying dynamic parameters
+    /// Alternative to ``resource_names_unsubscribe`` field that allows specifying dynamic parameters
     /// along with each resource name.
     /// Note that it is legal for a request to have some resources listed
-    /// in *resource_names_unsubscribe* and others in *resource_locators_unsubscribe*.
+    /// in ``resource_names_unsubscribe`` and others in ``resource_locators_unsubscribe``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1709,7 +1710,7 @@ namespace Envoy.Service.Discovery.V3 {
     private global::Google.Rpc.Status errorDetail_;
     /// <summary>
     /// This is populated when the previous :ref:`DiscoveryResponse &lt;envoy_v3_api_msg_service.discovery.v3.DiscoveryResponse>`
-    /// failed to update configuration. The *message* field in *error_details*
+    /// failed to update configuration. The ``message`` field in ``error_details``
     /// provides the Envoy internal exception related to the failure.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3515,7 +3516,7 @@ namespace Envoy.Service.Discovery.V3 {
   }
 
   /// <summary>
-  /// [#next-free-field: 9]
+  /// [#next-free-field: 10]
   /// </summary>
   public sealed partial class Resource : pb::IMessage<Resource>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3558,6 +3559,7 @@ namespace Envoy.Service.Discovery.V3 {
       resource_ = other.resource_ != null ? other.resource_.Clone() : null;
       ttl_ = other.ttl_ != null ? other.ttl_.Clone() : null;
       cacheControl_ = other.cacheControl_ != null ? other.cacheControl_.Clone() : null;
+      metadata_ = other.metadata_ != null ? other.metadata_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3572,7 +3574,7 @@ namespace Envoy.Service.Discovery.V3 {
     private string name_ = "";
     /// <summary>
     /// The resource's name, to distinguish it from others of the same type of resource.
-    /// Only one of *name* or *resource_name* may be set.
+    /// Only one of ``name`` or ``resource_name`` may be set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3587,10 +3589,10 @@ namespace Envoy.Service.Discovery.V3 {
     public const int ResourceNameFieldNumber = 8;
     private global::Envoy.Service.Discovery.V3.ResourceName resourceName_;
     /// <summary>
-    /// Alternative to the *name* field, to be used when the server supports
+    /// Alternative to the ``name`` field, to be used when the server supports
     /// multiple variants of the named resource that are differentiated by
     /// dynamic parameter constraints.
-    /// Only one of *name* or *resource_name* may be set.
+    /// Only one of ``name`` or ``resource_name`` may be set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3689,6 +3691,22 @@ namespace Envoy.Service.Discovery.V3 {
       }
     }
 
+    /// <summary>Field number for the "metadata" field.</summary>
+    public const int MetadataFieldNumber = 9;
+    private global::Envoy.Config.Core.V3.Metadata metadata_;
+    /// <summary>
+    /// The Metadata field can be used to provide additional information for the resource.
+    /// E.g. the trace data for debugging.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Config.Core.V3.Metadata Metadata {
+      get { return metadata_; }
+      set {
+        metadata_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3711,6 +3729,7 @@ namespace Envoy.Service.Discovery.V3 {
       if (!object.Equals(Resource_, other.Resource_)) return false;
       if (!object.Equals(Ttl, other.Ttl)) return false;
       if (!object.Equals(CacheControl, other.CacheControl)) return false;
+      if (!object.Equals(Metadata, other.Metadata)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3725,6 +3744,7 @@ namespace Envoy.Service.Discovery.V3 {
       if (resource_ != null) hash ^= Resource_.GetHashCode();
       if (ttl_ != null) hash ^= Ttl.GetHashCode();
       if (cacheControl_ != null) hash ^= CacheControl.GetHashCode();
+      if (metadata_ != null) hash ^= Metadata.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3768,6 +3788,10 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(66);
         output.WriteMessage(ResourceName);
       }
+      if (metadata_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(Metadata);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3803,6 +3827,10 @@ namespace Envoy.Service.Discovery.V3 {
         output.WriteRawTag(66);
         output.WriteMessage(ResourceName);
       }
+      if (metadata_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(Metadata);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3831,6 +3859,9 @@ namespace Envoy.Service.Discovery.V3 {
       }
       if (cacheControl_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CacheControl);
+      }
+      if (metadata_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Metadata);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3874,6 +3905,12 @@ namespace Envoy.Service.Discovery.V3 {
           CacheControl = new global::Envoy.Service.Discovery.V3.Resource.Types.CacheControl();
         }
         CacheControl.MergeFrom(other.CacheControl);
+      }
+      if (other.metadata_ != null) {
+        if (metadata_ == null) {
+          Metadata = new global::Envoy.Config.Core.V3.Metadata();
+        }
+        Metadata.MergeFrom(other.Metadata);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3930,6 +3967,13 @@ namespace Envoy.Service.Discovery.V3 {
             input.ReadMessage(ResourceName);
             break;
           }
+          case 74: {
+            if (metadata_ == null) {
+              Metadata = new global::Envoy.Config.Core.V3.Metadata();
+            }
+            input.ReadMessage(Metadata);
+            break;
+          }
         }
       }
     #endif
@@ -3983,6 +4027,13 @@ namespace Envoy.Service.Discovery.V3 {
               ResourceName = new global::Envoy.Service.Discovery.V3.ResourceName();
             }
             input.ReadMessage(ResourceName);
+            break;
+          }
+          case 74: {
+            if (metadata_ == null) {
+              Metadata = new global::Envoy.Config.Core.V3.Metadata();
+            }
+            input.ReadMessage(Metadata);
             break;
           }
         }

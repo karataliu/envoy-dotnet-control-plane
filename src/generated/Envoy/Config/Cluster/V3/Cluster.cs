@@ -45,7 +45,7 @@ namespace Envoy.Config.Cluster.V3 {
             "c3RhdHVzLnByb3RvGiF1ZHBhL2Fubm90YXRpb25zL3ZlcnNpb25pbmcucHJv",
             "dG8aF3ZhbGlkYXRlL3ZhbGlkYXRlLnByb3RvIkIKEUNsdXN0ZXJDb2xsZWN0",
             "aW9uEi0KB2VudHJpZXMYASABKAsyHC54ZHMuY29yZS52My5Db2xsZWN0aW9u",
-            "RW50cnki6UEKB0NsdXN0ZXISVwoYdHJhbnNwb3J0X3NvY2tldF9tYXRjaGVz",
+            "RW50cnki/kMKB0NsdXN0ZXISVwoYdHJhbnNwb3J0X3NvY2tldF9tYXRjaGVz",
             "GCsgAygLMjUuZW52b3kuY29uZmlnLmNsdXN0ZXIudjMuQ2x1c3Rlci5UcmFu",
             "c3BvcnRTb2NrZXRNYXRjaBIVCgRuYW1lGAEgASgJQgf6QgRyAhABEjEKDWFs",
             "dF9zdGF0X25hbWUYHCABKAlCGvKY/o8FFAoSb2JzZXJ2YWJpbGl0eV9uYW1l",
@@ -137,7 +137,7 @@ namespace Envoy.Config.Cluster.V3 {
             "dXN0ZXJDb25maWcSNgoKZWRzX2NvbmZpZxgBIAEoCzIiLmVudm95LmNvbmZp",
             "Zy5jb3JlLnYzLkNvbmZpZ1NvdXJjZRIUCgxzZXJ2aWNlX25hbWUYAiABKAk6",
             "LJrFiB4nCiVlbnZveS5hcGkudjIuQ2x1c3Rlci5FZHNDbHVzdGVyQ29uZmln",
-            "Go4HCg5MYlN1YnNldENvbmZpZxJpCg9mYWxsYmFja19wb2xpY3kYASABKA4y",
+            "GtkICg5MYlN1YnNldENvbmZpZxJpCg9mYWxsYmFja19wb2xpY3kYASABKA4y",
             "Ri5lbnZveS5jb25maWcuY2x1c3Rlci52My5DbHVzdGVyLkxiU3Vic2V0Q29u",
             "ZmlnLkxiU3Vic2V0RmFsbGJhY2tQb2xpY3lCCPpCBYIBAhABEi8KDmRlZmF1",
             "bHRfc3Vic2V0GAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdBJaChBz",
@@ -145,113 +145,116 @@ namespace Envoy.Config.Cluster.V3 {
             "djMuQ2x1c3Rlci5MYlN1YnNldENvbmZpZy5MYlN1YnNldFNlbGVjdG9yEh0K",
             "FWxvY2FsaXR5X3dlaWdodF9hd2FyZRgEIAEoCBIdChVzY2FsZV9sb2NhbGl0",
             "eV93ZWlnaHQYBSABKAgSFgoOcGFuaWNfbW9kZV9hbnkYBiABKAgSEwoLbGlz",
-            "dF9hc19hbnkYByABKAgamwMKEExiU3Vic2V0U2VsZWN0b3ISDAoEa2V5cxgB",
-            "IAMoCRIeChZzaW5nbGVfaG9zdF9wZXJfc3Vic2V0GAQgASgIEoIBCg9mYWxs",
-            "YmFja19wb2xpY3kYAiABKA4yXy5lbnZveS5jb25maWcuY2x1c3Rlci52My5D",
-            "bHVzdGVyLkxiU3Vic2V0Q29uZmlnLkxiU3Vic2V0U2VsZWN0b3IuTGJTdWJz",
-            "ZXRTZWxlY3RvckZhbGxiYWNrUG9saWN5Qgj6QgWCAQIQARIcChRmYWxsYmFj",
-            "a19rZXlzX3N1YnNldBgDIAMoCSJ5Ch5MYlN1YnNldFNlbGVjdG9yRmFsbGJh",
-            "Y2tQb2xpY3kSDwoLTk9UX0RFRklORUQQABIPCgtOT19GQUxMQkFDSxABEhAK",
-            "DEFOWV9FTkRQT0lOVBACEhIKDkRFRkFVTFRfU1VCU0VUEAMSDwoLS0VZU19T",
-            "VUJTRVQQBDo7msWIHjYKNGVudm95LmFwaS52Mi5DbHVzdGVyLkxiU3Vic2V0",
-            "Q29uZmlnLkxiU3Vic2V0U2VsZWN0b3IiTwoWTGJTdWJzZXRGYWxsYmFja1Bv",
-            "bGljeRIPCgtOT19GQUxMQkFDSxAAEhAKDEFOWV9FTkRQT0lOVBABEhIKDkRF",
-            "RkFVTFRfU1VCU0VUEAI6KprFiB4lCiNlbnZveS5hcGkudjIuQ2x1c3Rlci5M",
-            "YlN1YnNldENvbmZpZxq0AQoPU2xvd1N0YXJ0Q29uZmlnEjQKEXNsb3dfc3Rh",
-            "cnRfd2luZG93GAEgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEjcK",
-            "CmFnZ3Jlc3Npb24YAiABKAsyIy5lbnZveS5jb25maWcuY29yZS52My5SdW50",
-            "aW1lRG91YmxlEjIKEm1pbl93ZWlnaHRfcGVyY2VudBgDIAEoCzIWLmVudm95",
-            "LnR5cGUudjMuUGVyY2VudBphChJSb3VuZFJvYmluTGJDb25maWcSSwoRc2xv",
-            "d19zdGFydF9jb25maWcYASABKAsyMC5lbnZveS5jb25maWcuY2x1c3Rlci52",
-            "My5DbHVzdGVyLlNsb3dTdGFydENvbmZpZxqUAgoUTGVhc3RSZXF1ZXN0TGJD",
-            "b25maWcSOwoMY2hvaWNlX2NvdW50GAEgASgLMhwuZ29vZ2xlLnByb3RvYnVm",
-            "LlVJbnQzMlZhbHVlQgf6QgQqAigCEkAKE2FjdGl2ZV9yZXF1ZXN0X2JpYXMY",
-            "AiABKAsyIy5lbnZveS5jb25maWcuY29yZS52My5SdW50aW1lRG91YmxlEksK",
-            "EXNsb3dfc3RhcnRfY29uZmlnGAMgASgLMjAuZW52b3kuY29uZmlnLmNsdXN0",
-            "ZXIudjMuQ2x1c3Rlci5TbG93U3RhcnRDb25maWc6MJrFiB4rCillbnZveS5h",
-            "cGkudjIuQ2x1c3Rlci5MZWFzdFJlcXVlc3RMYkNvbmZpZxrhAgoQUmluZ0hh",
-            "c2hMYkNvbmZpZxJDChFtaW5pbXVtX3Jpbmdfc2l6ZRgBIAEoCzIcLmdvb2ds",
-            "ZS5wcm90b2J1Zi5VSW50NjRWYWx1ZUIK+kIHMgUYgICABBJfCg1oYXNoX2Z1",
-            "bmN0aW9uGAMgASgOMj4uZW52b3kuY29uZmlnLmNsdXN0ZXIudjMuQ2x1c3Rl",
-            "ci5SaW5nSGFzaExiQ29uZmlnLkhhc2hGdW5jdGlvbkII+kIFggECEAESQwoR",
-            "bWF4aW11bV9yaW5nX3NpemUYBCABKAsyHC5nb29nbGUucHJvdG9idWYuVUlu",
-            "dDY0VmFsdWVCCvpCBzIFGICAgAQiLgoMSGFzaEZ1bmN0aW9uEgsKB1hYX0hB",
-            "U0gQABIRCg1NVVJNVVJfSEFTSF8yEAE6LJrFiB4nCiVlbnZveS5hcGkudjIu",
-            "Q2x1c3Rlci5SaW5nSGFzaExiQ29uZmlnSgQIAhADGk4KDk1hZ2xldkxiQ29u",
-            "ZmlnEjwKCnRhYmxlX3NpemUYASABKAsyHC5nb29nbGUucHJvdG9idWYuVUlu",
-            "dDY0VmFsdWVCCvpCBzIFGMuWsQIaeQoTT3JpZ2luYWxEc3RMYkNvbmZpZxIX",
-            "Cg91c2VfaHR0cF9oZWFkZXIYASABKAgSGAoQaHR0cF9oZWFkZXJfbmFtZRgC",
-            "IAEoCTovmsWIHioKKGVudm95LmFwaS52Mi5DbHVzdGVyLk9yaWdpbmFsRHN0",
-            "TGJDb25maWcasgkKDkNvbW1vbkxiQ29uZmlnEjcKF2hlYWx0aHlfcGFuaWNf",
-            "dGhyZXNob2xkGAEgASgLMhYuZW52b3kudHlwZS52My5QZXJjZW50EmEKFHpv",
-            "bmVfYXdhcmVfbGJfY29uZmlnGAIgASgLMkEuZW52b3kuY29uZmlnLmNsdXN0",
-            "ZXIudjMuQ2x1c3Rlci5Db21tb25MYkNvbmZpZy5ab25lQXdhcmVMYkNvbmZp",
-            "Z0gAEm8KG2xvY2FsaXR5X3dlaWdodGVkX2xiX2NvbmZpZxgDIAEoCzJILmVu",
-            "dm95LmNvbmZpZy5jbHVzdGVyLnYzLkNsdXN0ZXIuQ29tbW9uTGJDb25maWcu",
-            "TG9jYWxpdHlXZWlnaHRlZExiQ29uZmlnSAASNgoTdXBkYXRlX21lcmdlX3dp",
-            "bmRvdxgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhInCh9pZ25v",
-            "cmVfbmV3X2hvc3RzX3VudGlsX2ZpcnN0X2hjGAUgASgIEiwKJGNsb3NlX2Nv",
-            "bm5lY3Rpb25zX29uX2hvc3Rfc2V0X2NoYW5nZRgGIAEoCBJvChxjb25zaXN0",
-            "ZW50X2hhc2hpbmdfbGJfY29uZmlnGAcgASgLMkkuZW52b3kuY29uZmlnLmNs",
-            "dXN0ZXIudjMuQ2x1c3Rlci5Db21tb25MYkNvbmZpZy5Db25zaXN0ZW50SGFz",
-            "aGluZ0xiQ29uZmlnEkMKFG92ZXJyaWRlX2hvc3Rfc3RhdHVzGAggASgLMiUu",
-            "ZW52b3kuY29uZmlnLmNvcmUudjMuSGVhbHRoU3RhdHVzU2V0GtkBChFab25l",
-            "QXdhcmVMYkNvbmZpZxIvCg9yb3V0aW5nX2VuYWJsZWQYASABKAsyFi5lbnZv",
-            "eS50eXBlLnYzLlBlcmNlbnQSNgoQbWluX2NsdXN0ZXJfc2l6ZRgCIAEoCzIc",
-            "Lmdvb2dsZS5wcm90b2J1Zi5VSW50NjRWYWx1ZRIdChVmYWlsX3RyYWZmaWNf",
-            "b25fcGFuaWMYAyABKAg6PJrFiB43CjVlbnZveS5hcGkudjIuQ2x1c3Rlci5D",
-            "b21tb25MYkNvbmZpZy5ab25lQXdhcmVMYkNvbmZpZxpfChhMb2NhbGl0eVdl",
-            "aWdodGVkTGJDb25maWc6Q5rFiB4+CjxlbnZveS5hcGkudjIuQ2x1c3Rlci5D",
-            "b21tb25MYkNvbmZpZy5Mb2NhbGl0eVdlaWdodGVkTGJDb25maWcaxwEKGUNv",
-            "bnNpc3RlbnRIYXNoaW5nTGJDb25maWcSIAoYdXNlX2hvc3RuYW1lX2Zvcl9o",
-            "YXNoaW5nGAEgASgIEkIKE2hhc2hfYmFsYW5jZV9mYWN0b3IYAiABKAsyHC5n",
-            "b29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCB/pCBCoCKGQ6RJrFiB4/Cj1l",
-            "bnZveS5hcGkudjIuQ2x1c3Rlci5Db21tb25MYkNvbmZpZy5Db25zaXN0ZW50",
-            "SGFzaGluZ0xiQ29uZmlnOiqaxYgeJQojZW52b3kuYXBpLnYyLkNsdXN0ZXIu",
-            "Q29tbW9uTGJDb25maWdCGwoZbG9jYWxpdHlfY29uZmlnX3NwZWNpZmllchq3",
-            "AQoLUmVmcmVzaFJhdGUSQAoNYmFzZV9pbnRlcnZhbBgBIAEoCzIZLmdvb2ds",
-            "ZS5wcm90b2J1Zi5EdXJhdGlvbkIO+kILqgEICAEqBBDAhD0SPQoMbWF4X2lu",
-            "dGVydmFsGAIgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgz6Qgmq",
-            "AQYqBBDAhD06J5rFiB4iCiBlbnZveS5hcGkudjIuQ2x1c3Rlci5SZWZyZXNo",
-            "UmF0ZRrMAQoQUHJlY29ubmVjdFBvbGljeRJcCh1wZXJfdXBzdHJlYW1fcHJl",
-            "Y29ubmVjdF9yYXRpbxgBIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5Eb3VibGVW",
-            "YWx1ZUIX+kIUEhIZAAAAAAAACEApAAAAAAAA8D8SWgobcHJlZGljdGl2ZV9w",
-            "cmVjb25uZWN0X3JhdGlvGAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLkRvdWJs",
-            "ZVZhbHVlQhf6QhQSEhkAAAAAAAAIQCkAAAAAAADwPxpaCiJUeXBlZEV4dGVu",
-            "c2lvblByb3RvY29sT3B0aW9uc0VudHJ5EgsKA2tleRgBIAEoCRIjCgV2YWx1",
-            "ZRgCIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5Bbnk6AjgBIlcKDURpc2NvdmVy",
-            "eVR5cGUSCgoGU1RBVElDEAASDgoKU1RSSUNUX0ROUxABEg8KC0xPR0lDQUxf",
-            "RE5TEAISBwoDRURTEAMSEAoMT1JJR0lOQUxfRFNUEAQipAEKCExiUG9saWN5",
-            "Eg8KC1JPVU5EX1JPQklOEAASEQoNTEVBU1RfUkVRVUVTVBABEg0KCVJJTkdf",
-            "SEFTSBACEgoKBlJBTkRPTRADEgoKBk1BR0xFVhAFEhQKEENMVVNURVJfUFJP",
-            "VklERUQQBhIgChxMT0FEX0JBTEFOQ0lOR19QT0xJQ1lfQ09ORklHEAciBAgE",
-            "EAQqD09SSUdJTkFMX0RTVF9MQiJQCg9EbnNMb29rdXBGYW1pbHkSCAoEQVVU",
-            "TxAAEgsKB1Y0X09OTFkQARILCgdWNl9PTkxZEAISEAoMVjRfUFJFRkVSUkVE",
-            "EAMSBwoDQUxMEAQiVAoYQ2x1c3RlclByb3RvY29sU2VsZWN0aW9uEhsKF1VT",
-            "RV9DT05GSUdVUkVEX1BST1RPQ09MEAASGwoXVVNFX0RPV05TVFJFQU1fUFJP",
-            "VE9DT0wQATobmsWIHhYKFGVudm95LmFwaS52Mi5DbHVzdGVyQhgKFmNsdXN0",
-            "ZXJfZGlzY292ZXJ5X3R5cGVCCwoJbGJfY29uZmlnSgQIDBANSgQIDxAQSgQI",
-            "BxAISgQICxAMSgQIIxAkUgVob3N0c1ILdGxzX2NvbnRleHRSGmV4dGVuc2lv",
-            "bl9wcm90b2NvbF9vcHRpb25zIroCChNMb2FkQmFsYW5jaW5nUG9saWN5EkUK",
-            "CHBvbGljaWVzGAEgAygLMjMuZW52b3kuY29uZmlnLmNsdXN0ZXIudjMuTG9h",
-            "ZEJhbGFuY2luZ1BvbGljeS5Qb2xpY3kasgEKBlBvbGljeRJKChZ0eXBlZF9l",
-            "eHRlbnNpb25fY29uZmlnGAQgASgLMiouZW52b3kuY29uZmlnLmNvcmUudjMu",
-            "VHlwZWRFeHRlbnNpb25Db25maWc6LprFiB4pCidlbnZveS5hcGkudjIuTG9h",
-            "ZEJhbGFuY2luZ1BvbGljeS5Qb2xpY3lKBAgCEANKBAgBEAJKBAgDEARSBmNv",
-            "bmZpZ1IEbmFtZVIMdHlwZWRfY29uZmlnOieaxYgeIgogZW52b3kuYXBpLnYy",
-            "LkxvYWRCYWxhbmNpbmdQb2xpY3kicwoSVXBzdHJlYW1CaW5kQ29uZmlnEjUK",
-            "DnNvdXJjZV9hZGRyZXNzGAEgASgLMh0uZW52b3kuY29uZmlnLmNvcmUudjMu",
-            "QWRkcmVzczommsWIHiEKH2Vudm95LmFwaS52Mi5VcHN0cmVhbUJpbmRDb25m",
-            "aWcivwEKGVVwc3RyZWFtQ29ubmVjdGlvbk9wdGlvbnMSOQoNdGNwX2tlZXBh",
-            "bGl2ZRgBIAEoCzIiLmVudm95LmNvbmZpZy5jb3JlLnYzLlRjcEtlZXBhbGl2",
-            "ZRI4CjBzZXRfbG9jYWxfaW50ZXJmYWNlX25hbWVfb25fdXBzdHJlYW1fY29u",
-            "bmVjdGlvbnMYAiABKAg6LZrFiB4oCiZlbnZveS5hcGkudjIuVXBzdHJlYW1D",
-            "b25uZWN0aW9uT3B0aW9ucyJMChFUcmFja0NsdXN0ZXJTdGF0cxIXCg90aW1l",
-            "b3V0X2J1ZGdldHMYASABKAgSHgoWcmVxdWVzdF9yZXNwb25zZV9zaXplcxgC",
-            "IAEoCEKJAQolaW8uZW52b3lwcm94eS5lbnZveS5jb25maWcuY2x1c3Rlci52",
-            "M0IMQ2x1c3RlclByb3RvUAFaSGdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1j",
-            "b250cm9sLXBsYW5lL2Vudm95L2NvbmZpZy9jbHVzdGVyL3YzO2NsdXN0ZXJ2",
-            "M7qAyNEGAhACYgZwcm90bzM="));
+            "dF9hc19hbnkYByABKAgSegoYbWV0YWRhdGFfZmFsbGJhY2tfcG9saWN5GAgg",
+            "ASgOMk4uZW52b3kuY29uZmlnLmNsdXN0ZXIudjMuQ2x1c3Rlci5MYlN1YnNl",
+            "dENvbmZpZy5MYlN1YnNldE1ldGFkYXRhRmFsbGJhY2tQb2xpY3lCCPpCBYIB",
+            "AhABGpsDChBMYlN1YnNldFNlbGVjdG9yEgwKBGtleXMYASADKAkSHgoWc2lu",
+            "Z2xlX2hvc3RfcGVyX3N1YnNldBgEIAEoCBKCAQoPZmFsbGJhY2tfcG9saWN5",
+            "GAIgASgOMl8uZW52b3kuY29uZmlnLmNsdXN0ZXIudjMuQ2x1c3Rlci5MYlN1",
+            "YnNldENvbmZpZy5MYlN1YnNldFNlbGVjdG9yLkxiU3Vic2V0U2VsZWN0b3JG",
+            "YWxsYmFja1BvbGljeUII+kIFggECEAESHAoUZmFsbGJhY2tfa2V5c19zdWJz",
+            "ZXQYAyADKAkieQoeTGJTdWJzZXRTZWxlY3RvckZhbGxiYWNrUG9saWN5Eg8K",
+            "C05PVF9ERUZJTkVEEAASDwoLTk9fRkFMTEJBQ0sQARIQCgxBTllfRU5EUE9J",
+            "TlQQAhISCg5ERUZBVUxUX1NVQlNFVBADEg8KC0tFWVNfU1VCU0VUEAQ6O5rF",
+            "iB42CjRlbnZveS5hcGkudjIuQ2x1c3Rlci5MYlN1YnNldENvbmZpZy5MYlN1",
+            "YnNldFNlbGVjdG9yIk8KFkxiU3Vic2V0RmFsbGJhY2tQb2xpY3kSDwoLTk9f",
+            "RkFMTEJBQ0sQABIQCgxBTllfRU5EUE9JTlQQARISCg5ERUZBVUxUX1NVQlNF",
+            "VBACIk0KHkxiU3Vic2V0TWV0YWRhdGFGYWxsYmFja1BvbGljeRIYChRNRVRB",
+            "REFUQV9OT19GQUxMQkFDSxAAEhEKDUZBTExCQUNLX0xJU1QQAToqmsWIHiUK",
+            "I2Vudm95LmFwaS52Mi5DbHVzdGVyLkxiU3Vic2V0Q29uZmlnGrQBCg9TbG93",
+            "U3RhcnRDb25maWcSNAoRc2xvd19zdGFydF93aW5kb3cYASABKAsyGS5nb29n",
+            "bGUucHJvdG9idWYuRHVyYXRpb24SNwoKYWdncmVzc2lvbhgCIAEoCzIjLmVu",
+            "dm95LmNvbmZpZy5jb3JlLnYzLlJ1bnRpbWVEb3VibGUSMgoSbWluX3dlaWdo",
+            "dF9wZXJjZW50GAMgASgLMhYuZW52b3kudHlwZS52My5QZXJjZW50GmEKElJv",
+            "dW5kUm9iaW5MYkNvbmZpZxJLChFzbG93X3N0YXJ0X2NvbmZpZxgBIAEoCzIw",
+            "LmVudm95LmNvbmZpZy5jbHVzdGVyLnYzLkNsdXN0ZXIuU2xvd1N0YXJ0Q29u",
+            "ZmlnGpQCChRMZWFzdFJlcXVlc3RMYkNvbmZpZxI7CgxjaG9pY2VfY291bnQY",
+            "ASABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCB/pCBCoCKAIS",
+            "QAoTYWN0aXZlX3JlcXVlc3RfYmlhcxgCIAEoCzIjLmVudm95LmNvbmZpZy5j",
+            "b3JlLnYzLlJ1bnRpbWVEb3VibGUSSwoRc2xvd19zdGFydF9jb25maWcYAyAB",
+            "KAsyMC5lbnZveS5jb25maWcuY2x1c3Rlci52My5DbHVzdGVyLlNsb3dTdGFy",
+            "dENvbmZpZzowmsWIHisKKWVudm95LmFwaS52Mi5DbHVzdGVyLkxlYXN0UmVx",
+            "dWVzdExiQ29uZmlnGuECChBSaW5nSGFzaExiQ29uZmlnEkMKEW1pbmltdW1f",
+            "cmluZ19zaXplGAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQ2NFZhbHVl",
+            "Qgr6QgcyBRiAgIAEEl8KDWhhc2hfZnVuY3Rpb24YAyABKA4yPi5lbnZveS5j",
+            "b25maWcuY2x1c3Rlci52My5DbHVzdGVyLlJpbmdIYXNoTGJDb25maWcuSGFz",
+            "aEZ1bmN0aW9uQgj6QgWCAQIQARJDChFtYXhpbXVtX3Jpbmdfc2l6ZRgEIAEo",
+            "CzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50NjRWYWx1ZUIK+kIHMgUYgICABCIu",
+            "CgxIYXNoRnVuY3Rpb24SCwoHWFhfSEFTSBAAEhEKDU1VUk1VUl9IQVNIXzIQ",
+            "ATosmsWIHicKJWVudm95LmFwaS52Mi5DbHVzdGVyLlJpbmdIYXNoTGJDb25m",
+            "aWdKBAgCEAMaTgoOTWFnbGV2TGJDb25maWcSPAoKdGFibGVfc2l6ZRgBIAEo",
+            "CzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50NjRWYWx1ZUIK+kIHMgUYy5axAhrC",
+            "AQoTT3JpZ2luYWxEc3RMYkNvbmZpZxIXCg91c2VfaHR0cF9oZWFkZXIYASAB",
+            "KAgSGAoQaHR0cF9oZWFkZXJfbmFtZRgCIAEoCRJHChZ1cHN0cmVhbV9wb3J0",
+            "X292ZXJyaWRlGAMgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVl",
+            "Qgn6QgYqBBj//wM6L5rFiB4qCihlbnZveS5hcGkudjIuQ2x1c3Rlci5Pcmln",
+            "aW5hbERzdExiQ29uZmlnGrIJCg5Db21tb25MYkNvbmZpZxI3ChdoZWFsdGh5",
+            "X3BhbmljX3RocmVzaG9sZBgBIAEoCzIWLmVudm95LnR5cGUudjMuUGVyY2Vu",
+            "dBJhChR6b25lX2F3YXJlX2xiX2NvbmZpZxgCIAEoCzJBLmVudm95LmNvbmZp",
+            "Zy5jbHVzdGVyLnYzLkNsdXN0ZXIuQ29tbW9uTGJDb25maWcuWm9uZUF3YXJl",
+            "TGJDb25maWdIABJvChtsb2NhbGl0eV93ZWlnaHRlZF9sYl9jb25maWcYAyAB",
+            "KAsySC5lbnZveS5jb25maWcuY2x1c3Rlci52My5DbHVzdGVyLkNvbW1vbkxi",
+            "Q29uZmlnLkxvY2FsaXR5V2VpZ2h0ZWRMYkNvbmZpZ0gAEjYKE3VwZGF0ZV9t",
+            "ZXJnZV93aW5kb3cYBCABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24S",
+            "JwofaWdub3JlX25ld19ob3N0c191bnRpbF9maXJzdF9oYxgFIAEoCBIsCiRj",
+            "bG9zZV9jb25uZWN0aW9uc19vbl9ob3N0X3NldF9jaGFuZ2UYBiABKAgSbwoc",
+            "Y29uc2lzdGVudF9oYXNoaW5nX2xiX2NvbmZpZxgHIAEoCzJJLmVudm95LmNv",
+            "bmZpZy5jbHVzdGVyLnYzLkNsdXN0ZXIuQ29tbW9uTGJDb25maWcuQ29uc2lz",
+            "dGVudEhhc2hpbmdMYkNvbmZpZxJDChRvdmVycmlkZV9ob3N0X3N0YXR1cxgI",
+            "IAEoCzIlLmVudm95LmNvbmZpZy5jb3JlLnYzLkhlYWx0aFN0YXR1c1NldBrZ",
+            "AQoRWm9uZUF3YXJlTGJDb25maWcSLwoPcm91dGluZ19lbmFibGVkGAEgASgL",
+            "MhYuZW52b3kudHlwZS52My5QZXJjZW50EjYKEG1pbl9jbHVzdGVyX3NpemUY",
+            "AiABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDY0VmFsdWUSHQoVZmFpbF90",
+            "cmFmZmljX29uX3BhbmljGAMgASgIOjyaxYgeNwo1ZW52b3kuYXBpLnYyLkNs",
+            "dXN0ZXIuQ29tbW9uTGJDb25maWcuWm9uZUF3YXJlTGJDb25maWcaXwoYTG9j",
+            "YWxpdHlXZWlnaHRlZExiQ29uZmlnOkOaxYgePgo8ZW52b3kuYXBpLnYyLkNs",
+            "dXN0ZXIuQ29tbW9uTGJDb25maWcuTG9jYWxpdHlXZWlnaHRlZExiQ29uZmln",
+            "GscBChlDb25zaXN0ZW50SGFzaGluZ0xiQ29uZmlnEiAKGHVzZV9ob3N0bmFt",
+            "ZV9mb3JfaGFzaGluZxgBIAEoCBJCChNoYXNoX2JhbGFuY2VfZmFjdG9yGAIg",
+            "ASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQgf6QgQqAihkOkSa",
+            "xYgePwo9ZW52b3kuYXBpLnYyLkNsdXN0ZXIuQ29tbW9uTGJDb25maWcuQ29u",
+            "c2lzdGVudEhhc2hpbmdMYkNvbmZpZzoqmsWIHiUKI2Vudm95LmFwaS52Mi5D",
+            "bHVzdGVyLkNvbW1vbkxiQ29uZmlnQhsKGWxvY2FsaXR5X2NvbmZpZ19zcGVj",
+            "aWZpZXIatwEKC1JlZnJlc2hSYXRlEkAKDWJhc2VfaW50ZXJ2YWwYASABKAsy",
+            "GS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25CDvpCC6oBCAgBKgQQwIQ9Ej0K",
+            "DG1heF9pbnRlcnZhbBgCIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlv",
+            "bkIM+kIJqgEGKgQQwIQ9OieaxYgeIgogZW52b3kuYXBpLnYyLkNsdXN0ZXIu",
+            "UmVmcmVzaFJhdGUazAEKEFByZWNvbm5lY3RQb2xpY3kSXAodcGVyX3Vwc3Ry",
+            "ZWFtX3ByZWNvbm5lY3RfcmF0aW8YASABKAsyHC5nb29nbGUucHJvdG9idWYu",
+            "RG91YmxlVmFsdWVCF/pCFBISGQAAAAAAAAhAKQAAAAAAAPA/EloKG3ByZWRp",
+            "Y3RpdmVfcHJlY29ubmVjdF9yYXRpbxgCIAEoCzIcLmdvb2dsZS5wcm90b2J1",
+            "Zi5Eb3VibGVWYWx1ZUIX+kIUEhIZAAAAAAAACEApAAAAAAAA8D8aWgoiVHlw",
+            "ZWRFeHRlbnNpb25Qcm90b2NvbE9wdGlvbnNFbnRyeRILCgNrZXkYASABKAkS",
+            "IwoFdmFsdWUYAiABKAsyFC5nb29nbGUucHJvdG9idWYuQW55OgI4ASJXCg1E",
+            "aXNjb3ZlcnlUeXBlEgoKBlNUQVRJQxAAEg4KClNUUklDVF9ETlMQARIPCgtM",
+            "T0dJQ0FMX0ROUxACEgcKA0VEUxADEhAKDE9SSUdJTkFMX0RTVBAEIqQBCghM",
+            "YlBvbGljeRIPCgtST1VORF9ST0JJThAAEhEKDUxFQVNUX1JFUVVFU1QQARIN",
+            "CglSSU5HX0hBU0gQAhIKCgZSQU5ET00QAxIKCgZNQUdMRVYQBRIUChBDTFVT",
+            "VEVSX1BST1ZJREVEEAYSIAocTE9BRF9CQUxBTkNJTkdfUE9MSUNZX0NPTkZJ",
+            "RxAHIgQIBBAEKg9PUklHSU5BTF9EU1RfTEIiUAoPRG5zTG9va3VwRmFtaWx5",
+            "EggKBEFVVE8QABILCgdWNF9PTkxZEAESCwoHVjZfT05MWRACEhAKDFY0X1BS",
+            "RUZFUlJFRBADEgcKA0FMTBAEIlQKGENsdXN0ZXJQcm90b2NvbFNlbGVjdGlv",
+            "bhIbChdVU0VfQ09ORklHVVJFRF9QUk9UT0NPTBAAEhsKF1VTRV9ET1dOU1RS",
+            "RUFNX1BST1RPQ09MEAE6G5rFiB4WChRlbnZveS5hcGkudjIuQ2x1c3RlckIY",
+            "ChZjbHVzdGVyX2Rpc2NvdmVyeV90eXBlQgsKCWxiX2NvbmZpZ0oECAwQDUoE",
+            "CA8QEEoECAcQCEoECAsQDEoECCMQJFIFaG9zdHNSC3Rsc19jb250ZXh0Uhpl",
+            "eHRlbnNpb25fcHJvdG9jb2xfb3B0aW9ucyK6AgoTTG9hZEJhbGFuY2luZ1Bv",
+            "bGljeRJFCghwb2xpY2llcxgBIAMoCzIzLmVudm95LmNvbmZpZy5jbHVzdGVy",
+            "LnYzLkxvYWRCYWxhbmNpbmdQb2xpY3kuUG9saWN5GrIBCgZQb2xpY3kSSgoW",
+            "dHlwZWRfZXh0ZW5zaW9uX2NvbmZpZxgEIAEoCzIqLmVudm95LmNvbmZpZy5j",
+            "b3JlLnYzLlR5cGVkRXh0ZW5zaW9uQ29uZmlnOi6axYgeKQonZW52b3kuYXBp",
+            "LnYyLkxvYWRCYWxhbmNpbmdQb2xpY3kuUG9saWN5SgQIAhADSgQIARACSgQI",
+            "AxAEUgZjb25maWdSBG5hbWVSDHR5cGVkX2NvbmZpZzonmsWIHiIKIGVudm95",
+            "LmFwaS52Mi5Mb2FkQmFsYW5jaW5nUG9saWN5Ir8BChlVcHN0cmVhbUNvbm5l",
+            "Y3Rpb25PcHRpb25zEjkKDXRjcF9rZWVwYWxpdmUYASABKAsyIi5lbnZveS5j",
+            "b25maWcuY29yZS52My5UY3BLZWVwYWxpdmUSOAowc2V0X2xvY2FsX2ludGVy",
+            "ZmFjZV9uYW1lX29uX3Vwc3RyZWFtX2Nvbm5lY3Rpb25zGAIgASgIOi2axYge",
+            "KAomZW52b3kuYXBpLnYyLlVwc3RyZWFtQ29ubmVjdGlvbk9wdGlvbnMiTAoR",
+            "VHJhY2tDbHVzdGVyU3RhdHMSFwoPdGltZW91dF9idWRnZXRzGAEgASgIEh4K",
+            "FnJlcXVlc3RfcmVzcG9uc2Vfc2l6ZXMYAiABKAhCiQEKJWlvLmVudm95cHJv",
+            "eHkuZW52b3kuY29uZmlnLmNsdXN0ZXIudjNCDENsdXN0ZXJQcm90b1ABWkhn",
+            "aXRodWIuY29tL2Vudm95cHJveHkvZ28tY29udHJvbC1wbGFuZS9lbnZveS9j",
+            "b25maWcvY2x1c3Rlci92MztjbHVzdGVydjO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Cluster.V3.CircuitBreakerReflection.Descriptor, global::Envoy.Config.Cluster.V3.FilterReflection.Descriptor, global::Envoy.Config.Cluster.V3.OutlierDetectionReflection.Descriptor, global::Envoy.Config.Core.V3.AddressReflection.Descriptor, global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Envoy.Config.Core.V3.ConfigSourceReflection.Descriptor, global::Envoy.Config.Core.V3.ExtensionReflection.Descriptor, global::Envoy.Config.Core.V3.HealthCheckReflection.Descriptor, global::Envoy.Config.Core.V3.ProtocolReflection.Descriptor, global::Envoy.Config.Core.V3.ResolverReflection.Descriptor, global::Envoy.Config.Endpoint.V3.EndpointReflection.Descriptor, global::Envoy.Type.V3.PercentReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Xds.Core.V3.CollectionEntryReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.MigrateReflection.Descriptor, global::Udpa.Annotations.SecurityReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -259,13 +262,13 @@ namespace Envoy.Config.Cluster.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster), global::Envoy.Config.Cluster.V3.Cluster.Parser, new[]{ "TransportSocketMatches", "Name", "AltStatName", "Type", "ClusterType", "EdsClusterConfig", "ConnectTimeout", "PerConnectionBufferLimitBytes", "LbPolicy", "LoadAssignment", "HealthChecks", "MaxRequestsPerConnection", "CircuitBreakers", "UpstreamHttpProtocolOptions", "CommonHttpProtocolOptions", "HttpProtocolOptions", "Http2ProtocolOptions", "TypedExtensionProtocolOptions", "DnsRefreshRate", "DnsFailureRefreshRate", "RespectDnsTtl", "DnsLookupFamily", "DnsResolvers", "UseTcpForDnsLookups", "DnsResolutionConfig", "TypedDnsResolverConfig", "WaitForWarmOnInit", "OutlierDetection", "CleanupInterval", "UpstreamBindConfig", "LbSubsetConfig", "RingHashLbConfig", "MaglevLbConfig", "OriginalDstLbConfig", "LeastRequestLbConfig", "RoundRobinLbConfig", "CommonLbConfig", "TransportSocket", "Metadata", "ProtocolSelection", "UpstreamConnectionOptions", "CloseConnectionsOnHostHealthFailure", "IgnoreHealthOnHostRemoval", "Filters", "LoadBalancingPolicy", "LrsServer", "TrackTimeoutBudgets", "UpstreamConfig", "TrackClusterStats", "PreconnectPolicy", "ConnectionPoolPerDownstreamConnection" }, new[]{ "ClusterDiscoveryType", "LbConfig" }, new[]{ typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.DiscoveryType), typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbPolicy), typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.DnsLookupFamily), typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.ClusterProtocolSelection) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.TransportSocketMatch), global::Envoy.Config.Cluster.V3.Cluster.Types.TransportSocketMatch.Parser, new[]{ "Name", "Match", "TransportSocket" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.CustomClusterType), global::Envoy.Config.Cluster.V3.Cluster.Types.CustomClusterType.Parser, new[]{ "Name", "TypedConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.EdsClusterConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.EdsClusterConfig.Parser, new[]{ "EdsConfig", "ServiceName" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Parser, new[]{ "FallbackPolicy", "DefaultSubset", "SubsetSelectors", "LocalityWeightAware", "ScaleLocalityWeight", "PanicModeAny", "ListAsAny" }, null, new[]{ typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetFallbackPolicy) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector), global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector.Parser, new[]{ "Keys", "SingleHostPerSubset", "FallbackPolicy", "FallbackKeysSubset" }, null, new[]{ typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector.Types.LbSubsetSelectorFallbackPolicy) }, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Parser, new[]{ "FallbackPolicy", "DefaultSubset", "SubsetSelectors", "LocalityWeightAware", "ScaleLocalityWeight", "PanicModeAny", "ListAsAny", "MetadataFallbackPolicy" }, null, new[]{ typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetFallbackPolicy), typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector), global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector.Parser, new[]{ "Keys", "SingleHostPerSubset", "FallbackPolicy", "FallbackKeysSubset" }, null, new[]{ typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector.Types.LbSubsetSelectorFallbackPolicy) }, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.SlowStartConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.SlowStartConfig.Parser, new[]{ "SlowStartWindow", "Aggression", "MinWeightPercent" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.RoundRobinLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.RoundRobinLbConfig.Parser, new[]{ "SlowStartConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.LeastRequestLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.LeastRequestLbConfig.Parser, new[]{ "ChoiceCount", "ActiveRequestBias", "SlowStartConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.RingHashLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.RingHashLbConfig.Parser, new[]{ "MinimumRingSize", "HashFunction", "MaximumRingSize" }, null, new[]{ typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.RingHashLbConfig.Types.HashFunction) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.MaglevLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.MaglevLbConfig.Parser, new[]{ "TableSize" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.OriginalDstLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.OriginalDstLbConfig.Parser, new[]{ "UseHttpHeader", "HttpHeaderName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.OriginalDstLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.OriginalDstLbConfig.Parser, new[]{ "UseHttpHeader", "HttpHeaderName", "UpstreamPortOverride" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Parser, new[]{ "HealthyPanicThreshold", "ZoneAwareLbConfig", "LocalityWeightedLbConfig", "UpdateMergeWindow", "IgnoreNewHostsUntilFirstHc", "CloseConnectionsOnHostSetChange", "ConsistentHashingLbConfig", "OverrideHostStatus" }, new[]{ "LocalityConfigSpecifier" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Types.ZoneAwareLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Types.ZoneAwareLbConfig.Parser, new[]{ "RoutingEnabled", "MinClusterSize", "FailTrafficOnPanic" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Types.LocalityWeightedLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Types.LocalityWeightedLbConfig.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Types.ConsistentHashingLbConfig), global::Envoy.Config.Cluster.V3.Cluster.Types.CommonLbConfig.Types.ConsistentHashingLbConfig.Parser, new[]{ "UseHostnameForHashing", "HashBalanceFactor" }, null, null, null, null)}),
@@ -273,7 +276,6 @@ namespace Envoy.Config.Cluster.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.Cluster.Types.PreconnectPolicy), global::Envoy.Config.Cluster.V3.Cluster.Types.PreconnectPolicy.Parser, new[]{ "PerUpstreamPreconnectRatio", "PredictivePreconnectRatio" }, null, null, null, null),
             null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.LoadBalancingPolicy), global::Envoy.Config.Cluster.V3.LoadBalancingPolicy.Parser, new[]{ "Policies" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.LoadBalancingPolicy.Types.Policy), global::Envoy.Config.Cluster.V3.LoadBalancingPolicy.Types.Policy.Parser, new[]{ "TypedExtensionConfig" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.UpstreamBindConfig), global::Envoy.Config.Cluster.V3.UpstreamBindConfig.Parser, new[]{ "SourceAddress" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.UpstreamConnectionOptions), global::Envoy.Config.Cluster.V3.UpstreamConnectionOptions.Parser, new[]{ "TcpKeepalive", "SetLocalInterfaceNameOnUpstreamConnections" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Cluster.V3.TrackClusterStats), global::Envoy.Config.Cluster.V3.TrackClusterStats.Parser, new[]{ "TimeoutBudgets", "RequestResponseSizes" }, null, null, null, null)
           }));
@@ -283,7 +285,7 @@ namespace Envoy.Config.Cluster.V3 {
   }
   #region Messages
   /// <summary>
-  /// Cluster list collections. Entries are *Cluster* resources or references.
+  /// Cluster list collections. Entries are ``Cluster`` resources or references.
   /// [#not-implemented-hide:]
   /// </summary>
   public sealed partial class ClusterCollection : pb::IMessage<ClusterCollection>
@@ -609,7 +611,7 @@ namespace Envoy.Config.Cluster.V3 {
     private readonly pbc::RepeatedField<global::Envoy.Config.Cluster.V3.Cluster.Types.TransportSocketMatch> transportSocketMatches_ = new pbc::RepeatedField<global::Envoy.Config.Cluster.V3.Cluster.Types.TransportSocketMatch>();
     /// <summary>
     /// Configuration to use different transport sockets for different endpoints.
-    /// The entry of *envoy.transport_socket_match* in the
+    /// The entry of ``envoy.transport_socket_match`` in the
     /// :ref:`LbEndpoint.Metadata &lt;envoy_v3_api_field_config.endpoint.v3.LbEndpoint.metadata>`
     /// is used to match against the transport sockets as they appear in the list. The first
     /// :ref:`match &lt;envoy_v3_api_msg_config.cluster.v3.Cluster.TransportSocketMatch>` is used.
@@ -629,16 +631,16 @@ namespace Envoy.Config.Cluster.V3 {
     ///    transport_socket:
     ///      name: envoy.transport_sockets.raw_buffer
     ///
-    /// Connections to the endpoints whose metadata value under *envoy.transport_socket_match*
+    /// Connections to the endpoints whose metadata value under ``envoy.transport_socket_match``
     /// having "acceptMTLS"/"true" key/value pair use the "enableMTLS" socket configuration.
     ///
     /// If a :ref:`socket match &lt;envoy_v3_api_msg_config.cluster.v3.Cluster.TransportSocketMatch>` with empty match
     /// criteria is provided, that always match any endpoint. For example, the "defaultToPlaintext"
     /// socket match in case above.
     ///
-    /// If an endpoint metadata's value under *envoy.transport_socket_match* does not match any
-    /// *TransportSocketMatch*, socket configuration fallbacks to use the *tls_context* or
-    /// *transport_socket* specified in this cluster.
+    /// If an endpoint metadata's value under ``envoy.transport_socket_match`` does not match any
+    /// ``TransportSocketMatch``, socket configuration fallbacks to use the ``tls_context`` or
+    /// ``transport_socket`` specified in this cluster.
     ///
     /// This field allows gradual and flexible transport socket configuration changes.
     ///
@@ -649,8 +651,8 @@ namespace Envoy.Config.Cluster.V3 {
     ///
     /// Then the xDS server can configure the CDS to a client, Envoy A, to send mutual TLS
     /// traffic for endpoints with "acceptMTLS": "true", by adding a corresponding
-    /// *TransportSocketMatch* in this field. Other client Envoys receive CDS without
-    /// *transport_socket_match* set, and still send plain text traffic to the same cluster.
+    /// ``TransportSocketMatch`` in this field. Other client Envoys receive CDS without
+    /// ``transport_socket_match`` set, and still send plain text traffic to the same cluster.
     ///
     /// This field can be used to specify custom transport socket configurations for health
     /// checks by adding matching key/value pairs in a health check's
@@ -808,7 +810,7 @@ namespace Envoy.Config.Cluster.V3 {
     /// :ref:`STATIC&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.STATIC>`,
     /// :ref:`STRICT_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.STRICT_DNS>`
     /// or :ref:`LOGICAL_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.LOGICAL_DNS>` clusters.
-    /// This field supersedes the *hosts* field in the v2 API.
+    /// This field supersedes the ``hosts`` field in the v2 API.
     ///
     /// .. attention::
     ///
@@ -961,7 +963,7 @@ namespace Envoy.Config.Cluster.V3 {
     /// set so that Envoy will assume that the upstream supports HTTP/2 when
     /// making new HTTP connection pool connections. Currently, Envoy only
     /// supports prior knowledge for upstream connections. Even if TLS is used
-    /// with ALPN, `http2_protocol_options` must be specified. As an aside this allows HTTP/2
+    /// with ALPN, ``http2_protocol_options`` must be specified. As an aside this allows HTTP/2
     /// connections to happen over plain text.
     /// This has been deprecated in favor of http2_protocol_options fields in the
     /// :ref:`http_protocol_options &lt;envoy_v3_api_msg_extensions.upstreams.http.v3.HttpProtocolOptions>`
@@ -1094,7 +1096,7 @@ namespace Envoy.Config.Cluster.V3 {
     /// :ref:`STRICT_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.STRICT_DNS>`
     /// and :ref:`LOGICAL_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.LOGICAL_DNS>`
     /// this setting is ignored.
-    /// This field is deprecated in favor of *dns_resolution_config*
+    /// This field is deprecated in favor of ``dns_resolution_config``
     /// which aggregates all of the DNS resolver configuration in a single message.
     /// </summary>
     [global::System.ObsoleteAttribute]
@@ -1109,7 +1111,7 @@ namespace Envoy.Config.Cluster.V3 {
     private bool useTcpForDnsLookups_;
     /// <summary>
     /// Always use TCP queries instead of UDP queries for DNS lookups.
-    /// This field is deprecated in favor of *dns_resolution_config*
+    /// This field is deprecated in favor of ``dns_resolution_config``
     /// which aggregates all of the DNS resolver configuration in a single message.
     /// </summary>
     [global::System.ObsoleteAttribute]
@@ -1148,12 +1150,12 @@ namespace Envoy.Config.Cluster.V3 {
     /// or any other DNS resolver types and the related parameters.
     /// For example, an object of
     /// :ref:`CaresDnsResolverConfig &lt;envoy_v3_api_msg_extensions.network.dns_resolver.cares.v3.CaresDnsResolverConfig>`
-    /// can be packed into this *typed_dns_resolver_config*. This configuration replaces the
+    /// can be packed into this ``typed_dns_resolver_config``. This configuration replaces the
     /// :ref:`dns_resolution_config &lt;envoy_v3_api_field_config.cluster.v3.Cluster.dns_resolution_config>`
     /// configuration.
-    /// During the transition period when both *dns_resolution_config* and *typed_dns_resolver_config* exists,
-    /// when *typed_dns_resolver_config* is in place, Envoy will use it and ignore *dns_resolution_config*.
-    /// When *typed_dns_resolver_config* is missing, the default behavior is in place.
+    /// During the transition period when both ``dns_resolution_config`` and ``typed_dns_resolver_config`` exists,
+    /// when ``typed_dns_resolver_config`` is in place, Envoy will use it and ignore ``dns_resolution_config``.
+    /// When ``typed_dns_resolver_config`` is missing, the default behavior is in place.
     /// [#extension-category: envoy.network.dns_resolver]
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1357,8 +1359,8 @@ namespace Envoy.Config.Cluster.V3 {
     private global::Envoy.Config.Core.V3.TransportSocket transportSocket_;
     /// <summary>
     /// Optional custom transport socket implementation to use for upstream connections.
-    /// To setup TLS, set a transport socket with name `envoy.transport_sockets.tls` and
-    /// :ref:`UpstreamTlsContexts &lt;envoy_v3_api_msg_extensions.transport_sockets.tls.v3.UpstreamTlsContext>` in the `typed_config`.
+    /// To setup TLS, set a transport socket with name ``envoy.transport_sockets.tls`` and
+    /// :ref:`UpstreamTlsContexts &lt;envoy_v3_api_msg_extensions.transport_sockets.tls.v3.UpstreamTlsContext>` in the ``typed_config``.
     /// If no transport socket configuration is specified, new connections
     /// will be set up with plaintext.
     /// </summary>
@@ -1379,7 +1381,7 @@ namespace Envoy.Config.Cluster.V3 {
     /// cluster. It can be used for stats, logging, and varying filter behavior.
     /// Fields should use reverse DNS notation to denote which entity within Envoy
     /// will need the information. For instance, if the metadata is intended for
-    /// the Router filter, the filter name should be specified as *envoy.filters.http.router*.
+    /// the Router filter, the filter name should be specified as ``envoy.filters.http.router``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1542,7 +1544,7 @@ namespace Envoy.Config.Cluster.V3 {
     ///
     /// .. attention::
     ///
-    ///   This field has been deprecated in favor of `timeout_budgets`, part of
+    ///   This field has been deprecated in favor of ``timeout_budgets``, part of
     ///   :ref:`track_cluster_stats &lt;envoy_v3_api_field_config.cluster.v3.Cluster.track_cluster_stats>`.
     /// </summary>
     [global::System.ObsoleteAttribute]
@@ -1565,7 +1567,7 @@ namespace Envoy.Config.Cluster.V3 {
     /// TCP upstreams.
     ///
     /// For HTTP traffic, Envoy will generally take downstream HTTP and send it upstream as upstream
-    /// HTTP, using the http connection pool and the codec from `http2_protocol_options`
+    /// HTTP, using the http connection pool and the codec from ``http2_protocol_options``
     ///
     /// For routes where CONNECT termination is configured, Envoy will take downstream CONNECT
     /// requests and forward the CONNECT payload upstream over raw TCP using the tcp connection pool.
@@ -1621,7 +1623,7 @@ namespace Envoy.Config.Cluster.V3 {
     public const int ConnectionPoolPerDownstreamConnectionFieldNumber = 51;
     private bool connectionPoolPerDownstreamConnection_;
     /// <summary>
-    /// If `connection_pool_per_downstream_connection` is true, the cluster will use a separate
+    /// If ``connection_pool_per_downstream_connection`` is true, the cluster will use a separate
     /// connection pool for every downstream connection
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3498,7 +3500,7 @@ namespace Envoy.Config.Cluster.V3 {
         /// Optional endpoint metadata match criteria.
         /// The connection to the endpoint with metadata matching what is set in this field
         /// will use the transport socket configuration specified here.
-        /// The endpoint's metadata entry in *envoy.transport_socket_match* is used to match
+        /// The endpoint's metadata entry in ``envoy.transport_socket_match`` is used to match
         /// against the values specified in this field.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4220,7 +4222,7 @@ namespace Envoy.Config.Cluster.V3 {
       /// <summary>
       /// Optionally divide the endpoints in this cluster into subsets defined by
       /// endpoint metadata and selected by route and weighted cluster metadata.
-      /// [#next-free-field: 8]
+      /// [#next-free-field: 9]
       /// </summary>
       public sealed partial class LbSubsetConfig : pb::IMessage<LbSubsetConfig>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4263,6 +4265,7 @@ namespace Envoy.Config.Cluster.V3 {
           scaleLocalityWeight_ = other.scaleLocalityWeight_;
           panicModeAny_ = other.panicModeAny_;
           listAsAny_ = other.listAsAny_;
+          metadataFallbackPolicy_ = other.metadataFallbackPolicy_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -4297,7 +4300,7 @@ namespace Envoy.Config.Cluster.V3 {
         /// fallback_policy is
         /// :ref:`DEFAULT_SUBSET&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.LbSubsetConfig.LbSubsetFallbackPolicy.DEFAULT_SUBSET>`.
         /// Each field in default_subset is
-        /// compared to the matching LbEndpoint.Metadata under the *envoy.lb*
+        /// compared to the matching LbEndpoint.Metadata under the ``envoy.lb``
         /// namespace. It is valid for no hosts to match, in which case the behavior
         /// is the same as a fallback_policy of
         /// :ref:`NO_FALLBACK&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.LbSubsetConfig.LbSubsetFallbackPolicy.NO_FALLBACK>`.
@@ -4318,7 +4321,7 @@ namespace Envoy.Config.Cluster.V3 {
         private readonly pbc::RepeatedField<global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector> subsetSelectors_ = new pbc::RepeatedField<global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetSelector>();
         /// <summary>
         /// For each entry, LbEndpoint.Metadata's
-        /// *envoy.lb* namespace is traversed and a subset is created for each unique
+        /// ``envoy.lb`` namespace is traversed and a subset is created for each unique
         /// combination of key and value. For example:
         ///
         /// .. code-block:: json
@@ -4417,6 +4420,27 @@ namespace Envoy.Config.Cluster.V3 {
           }
         }
 
+        /// <summary>Field number for the "metadata_fallback_policy" field.</summary>
+        public const int MetadataFallbackPolicyFieldNumber = 8;
+        private global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy metadataFallbackPolicy_ = global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy.MetadataNoFallback;
+        /// <summary>
+        /// Fallback mechanism that allows to try different route metadata until a host is found.
+        /// If load balancing process, including all its mechanisms (like
+        /// :ref:`fallback_policy&lt;envoy_v3_api_field_config.cluster.v3.Cluster.LbSubsetConfig.fallback_policy>`)
+        /// fails to select a host, this policy decides if and how the process is repeated using another metadata.
+        ///
+        /// The value defaults to
+        /// :ref:`METADATA_NO_FALLBACK&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.LbSubsetConfig.LbSubsetMetadataFallbackPolicy.METADATA_NO_FALLBACK>`.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy MetadataFallbackPolicy {
+          get { return metadataFallbackPolicy_; }
+          set {
+            metadataFallbackPolicy_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -4439,6 +4463,7 @@ namespace Envoy.Config.Cluster.V3 {
           if (ScaleLocalityWeight != other.ScaleLocalityWeight) return false;
           if (PanicModeAny != other.PanicModeAny) return false;
           if (ListAsAny != other.ListAsAny) return false;
+          if (MetadataFallbackPolicy != other.MetadataFallbackPolicy) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -4453,6 +4478,7 @@ namespace Envoy.Config.Cluster.V3 {
           if (ScaleLocalityWeight != false) hash ^= ScaleLocalityWeight.GetHashCode();
           if (PanicModeAny != false) hash ^= PanicModeAny.GetHashCode();
           if (ListAsAny != false) hash ^= ListAsAny.GetHashCode();
+          if (MetadataFallbackPolicy != global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy.MetadataNoFallback) hash ^= MetadataFallbackPolicy.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -4496,6 +4522,10 @@ namespace Envoy.Config.Cluster.V3 {
             output.WriteRawTag(56);
             output.WriteBool(ListAsAny);
           }
+          if (MetadataFallbackPolicy != global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy.MetadataNoFallback) {
+            output.WriteRawTag(64);
+            output.WriteEnum((int) MetadataFallbackPolicy);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -4531,6 +4561,10 @@ namespace Envoy.Config.Cluster.V3 {
             output.WriteRawTag(56);
             output.WriteBool(ListAsAny);
           }
+          if (MetadataFallbackPolicy != global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy.MetadataNoFallback) {
+            output.WriteRawTag(64);
+            output.WriteEnum((int) MetadataFallbackPolicy);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -4559,6 +4593,9 @@ namespace Envoy.Config.Cluster.V3 {
           }
           if (ListAsAny != false) {
             size += 1 + 1;
+          }
+          if (MetadataFallbackPolicy != global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy.MetadataNoFallback) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) MetadataFallbackPolicy);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -4593,6 +4630,9 @@ namespace Envoy.Config.Cluster.V3 {
           }
           if (other.ListAsAny != false) {
             ListAsAny = other.ListAsAny;
+          }
+          if (other.MetadataFallbackPolicy != global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy.MetadataNoFallback) {
+            MetadataFallbackPolicy = other.MetadataFallbackPolicy;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -4638,6 +4678,10 @@ namespace Envoy.Config.Cluster.V3 {
               }
               case 56: {
                 ListAsAny = input.ReadBool();
+                break;
+              }
+              case 64: {
+                MetadataFallbackPolicy = (global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy) input.ReadEnum();
                 break;
               }
             }
@@ -4686,6 +4730,10 @@ namespace Envoy.Config.Cluster.V3 {
                 ListAsAny = input.ReadBool();
                 break;
               }
+              case 64: {
+                MetadataFallbackPolicy = (global::Envoy.Config.Cluster.V3.Cluster.Types.LbSubsetConfig.Types.LbSubsetMetadataFallbackPolicy) input.ReadEnum();
+                break;
+              }
             }
           }
         }
@@ -4707,6 +4755,55 @@ namespace Envoy.Config.Cluster.V3 {
             [pbr::OriginalName("NO_FALLBACK")] NoFallback = 0,
             [pbr::OriginalName("ANY_ENDPOINT")] AnyEndpoint = 1,
             [pbr::OriginalName("DEFAULT_SUBSET")] DefaultSubset = 2,
+          }
+
+          public enum LbSubsetMetadataFallbackPolicy {
+            /// <summary>
+            /// No fallback. Route metadata will be used as-is.
+            /// </summary>
+            [pbr::OriginalName("METADATA_NO_FALLBACK")] MetadataNoFallback = 0,
+            /// <summary>
+            /// A special metadata key ``fallback_list`` will be used to provide variants of metadata to try.
+            /// Value of ``fallback_list`` key has to be a list. Every list element has to be a struct - it will
+            /// be merged with route metadata, overriding keys that appear in both places.
+            /// ``fallback_list`` entries will be used in order until a host is found.
+            ///
+            /// ``fallback_list`` key itself is removed from metadata before subset load balancing is performed.
+            ///
+            /// Example:
+            ///
+            /// for metadata:
+            ///
+            /// .. code-block:: yaml
+            ///
+            ///   version: 1.0
+            ///   fallback_list:
+            ///     - version: 2.0
+            ///       hardware: c64
+            ///     - hardware: c32
+            ///     - version: 3.0
+            ///
+            /// at first, metadata:
+            ///
+            /// .. code-block:: json
+            ///
+            ///   {"version": "2.0", "hardware": "c64"}
+            ///
+            /// will be used for load balancing. If no host is found, metadata:
+            ///
+            /// .. code-block:: json
+            ///
+            ///   {"version": "1.0", "hardware": "c32"}
+            ///
+            /// is next to try. If it still results in no host, finally metadata:
+            ///
+            /// .. code-block:: json
+            ///
+            ///   {"version": "3.0"}
+            ///
+            /// is used.
+            /// </summary>
+            [pbr::OriginalName("FALLBACK_LIST")] FallbackList = 1,
           }
 
           /// <summary>
@@ -4780,12 +4877,9 @@ namespace Envoy.Config.Cluster.V3 {
             /// Selects a mode of operation in which each subset has only one host. This mode uses the same rules for
             /// choosing a host, but updating hosts is faster, especially for large numbers of hosts.
             ///
-            /// If a match is found to a host, that host will be used regardless of priority levels, unless the host is unhealthy.
+            /// If a match is found to a host, that host will be used regardless of priority levels.
             ///
-            /// Currently, this mode is only supported if `subset_selectors` has only one entry, and `keys` contains
-            /// only one entry.
-            ///
-            /// When this mode is enabled, configurations that contain more than one host with the same metadata value for the single key in `keys`
+            /// When this mode is enabled, configurations that contain more than one host with the same metadata value for the single key in ``keys``
             /// will use only one of the hosts with the given key; no requests will be routed to the others. The cluster gauge
             /// :ref:`lb_subsets_single_host_per_subset_duplicate&lt;config_cluster_manager_cluster_stats_subset_lb>` indicates how many duplicates are
             /// present in the current configuration.
@@ -4829,7 +4923,7 @@ namespace Envoy.Config.Cluster.V3 {
             /// For any other fallback policy the parameter is not used and should not be set.
             /// Only values also present in
             /// :ref:`keys&lt;envoy_v3_api_field_config.cluster.v3.Cluster.LbSubsetConfig.LbSubsetSelector.keys>` are allowed, but
-            /// `fallback_keys_subset` cannot be equal to `keys`.
+            /// ``fallback_keys_subset`` cannot be equal to ``keys``.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5144,8 +5238,8 @@ namespace Envoy.Config.Cluster.V3 {
         /// By tuning the parameter, is possible to achieve polynomial or exponential shape of ramp-up curve.
         ///
         /// During slow start window, effective weight of an endpoint would be scaled with time factor and aggression:
-        /// `new_weight = weight * max(min_weight_percent, time_factor ^ (1 / aggression))`,
-        /// where `time_factor=(time_since_start_seconds / slow_start_time_seconds)`.
+        /// ``new_weight = weight * max(min_weight_percent, time_factor ^ (1 / aggression))``,
+        /// where ``time_factor=(time_since_start_seconds / slow_start_time_seconds)``.
         ///
         /// As time progresses, more and more traffic would be sent to endpoint, which is in slow start window.
         /// Once host exits slow start, time_factor and aggression no longer affect its weight.
@@ -5663,18 +5757,18 @@ namespace Envoy.Config.Cluster.V3 {
         /// The following formula is used to calculate the dynamic weights when hosts have different load
         /// balancing weights:
         ///
-        /// `weight = load_balancing_weight / (active_requests + 1)^active_request_bias`
+        /// ``weight = load_balancing_weight / (active_requests + 1)^active_request_bias``
         ///
         /// The larger the active request bias is, the more aggressively active requests will lower the
         /// effective weight when all host weights are not equal.
         ///
-        /// `active_request_bias` must be greater than or equal to 0.0.
+        /// ``active_request_bias`` must be greater than or equal to 0.0.
         ///
-        /// When `active_request_bias == 0.0` the Least Request Load Balancer doesn't consider the number
+        /// When ``active_request_bias == 0.0`` the Least Request Load Balancer doesn't consider the number
         /// of active requests at the time it picks a host and behaves like the Round Robin Load
         /// Balancer.
         ///
-        /// When `active_request_bias > 0.0` the Least Request Load Balancer scales the load balancing
+        /// When ``active_request_bias > 0.0`` the Least Request Load Balancer scales the load balancing
         /// weight by the number of active requests at the time it does a pick.
         ///
         /// The value is cached for performance reasons and refreshed whenever one of the Load Balancer's
@@ -6289,8 +6383,8 @@ namespace Envoy.Config.Cluster.V3 {
         private static readonly pb::FieldCodec<ulong?> _single_tableSize_codec = pb::FieldCodec.ForStructWrapper<ulong>(10);
         private ulong? tableSize_;
         /// <summary>
-        /// The table size for Maglev hashing. The Maglev aims for ‘minimal disruption’ rather than an absolute guarantee.
-        /// Minimal disruption means that when the set of upstreams changes, a connection will likely be sent to the same
+        /// The table size for Maglev hashing. Maglev aims for "minimal disruption" rather than an absolute guarantee.
+        /// Minimal disruption means that when the set of upstream hosts change, a connection will likely be sent to the same
         /// upstream as it was before. Increasing the table size reduces the amount of disruption.
         /// The table size must be prime number limited to 5000011. If it is not specified, the default is 65537.
         /// </summary>
@@ -6447,6 +6541,7 @@ namespace Envoy.Config.Cluster.V3 {
       /// Specific configuration for the
       /// :ref:`Original Destination &lt;arch_overview_load_balancing_types_original_destination>`
       /// load balancing policy.
+      /// [#extension: envoy.clusters.original_dst]
       /// </summary>
       public sealed partial class OriginalDstLbConfig : pb::IMessage<OriginalDstLbConfig>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -6484,6 +6579,7 @@ namespace Envoy.Config.Cluster.V3 {
         public OriginalDstLbConfig(OriginalDstLbConfig other) : this() {
           useHttpHeader_ = other.useHttpHeader_;
           httpHeaderName_ = other.httpHeaderName_;
+          UpstreamPortOverride = other.UpstreamPortOverride;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -6535,6 +6631,24 @@ namespace Envoy.Config.Cluster.V3 {
           }
         }
 
+        /// <summary>Field number for the "upstream_port_override" field.</summary>
+        public const int UpstreamPortOverrideFieldNumber = 3;
+        private static readonly pb::FieldCodec<uint?> _single_upstreamPortOverride_codec = pb::FieldCodec.ForStructWrapper<uint>(26);
+        private uint? upstreamPortOverride_;
+        /// <summary>
+        /// The port to override for the original dst address. This port
+        /// will take precedence over filter state and header override ports
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint? UpstreamPortOverride {
+          get { return upstreamPortOverride_; }
+          set {
+            upstreamPortOverride_ = value;
+          }
+        }
+
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -6552,6 +6666,7 @@ namespace Envoy.Config.Cluster.V3 {
           }
           if (UseHttpHeader != other.UseHttpHeader) return false;
           if (HttpHeaderName != other.HttpHeaderName) return false;
+          if (UpstreamPortOverride != other.UpstreamPortOverride) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -6561,6 +6676,7 @@ namespace Envoy.Config.Cluster.V3 {
           int hash = 1;
           if (UseHttpHeader != false) hash ^= UseHttpHeader.GetHashCode();
           if (HttpHeaderName.Length != 0) hash ^= HttpHeaderName.GetHashCode();
+          if (upstreamPortOverride_ != null) hash ^= UpstreamPortOverride.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -6587,6 +6703,9 @@ namespace Envoy.Config.Cluster.V3 {
             output.WriteRawTag(18);
             output.WriteString(HttpHeaderName);
           }
+          if (upstreamPortOverride_ != null) {
+            _single_upstreamPortOverride_codec.WriteTagAndValue(output, UpstreamPortOverride);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -6605,6 +6724,9 @@ namespace Envoy.Config.Cluster.V3 {
             output.WriteRawTag(18);
             output.WriteString(HttpHeaderName);
           }
+          if (upstreamPortOverride_ != null) {
+            _single_upstreamPortOverride_codec.WriteTagAndValue(ref output, UpstreamPortOverride);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -6620,6 +6742,9 @@ namespace Envoy.Config.Cluster.V3 {
           }
           if (HttpHeaderName.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(HttpHeaderName);
+          }
+          if (upstreamPortOverride_ != null) {
+            size += _single_upstreamPortOverride_codec.CalculateSizeWithTag(UpstreamPortOverride);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -6638,6 +6763,11 @@ namespace Envoy.Config.Cluster.V3 {
           }
           if (other.HttpHeaderName.Length != 0) {
             HttpHeaderName = other.HttpHeaderName;
+          }
+          if (other.upstreamPortOverride_ != null) {
+            if (upstreamPortOverride_ == null || other.UpstreamPortOverride != 0) {
+              UpstreamPortOverride = other.UpstreamPortOverride;
+            }
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -6662,6 +6792,13 @@ namespace Envoy.Config.Cluster.V3 {
                 HttpHeaderName = input.ReadString();
                 break;
               }
+              case 26: {
+                uint? value = _single_upstreamPortOverride_codec.Read(input);
+                if (upstreamPortOverride_ == null || value != 0) {
+                  UpstreamPortOverride = value;
+                }
+                break;
+              }
             }
           }
         #endif
@@ -6683,6 +6820,13 @@ namespace Envoy.Config.Cluster.V3 {
               }
               case 18: {
                 HttpHeaderName = input.ReadString();
+                break;
+              }
+              case 26: {
+                uint? value = _single_upstreamPortOverride_codec.Read(ref input);
+                if (upstreamPortOverride_ == null || value != 0) {
+                  UpstreamPortOverride = value;
+                }
                 break;
               }
             }
@@ -6847,7 +6991,7 @@ namespace Envoy.Config.Cluster.V3 {
         public const int CloseConnectionsOnHostSetChangeFieldNumber = 6;
         private bool closeConnectionsOnHostSetChange_;
         /// <summary>
-        /// If set to `true`, the cluster manager will drain all existing
+        /// If set to ``true``, the cluster manager will drain all existing
         /// connections to upstream hosts whenever hosts are added or removed from the cluster.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7797,7 +7941,7 @@ namespace Envoy.Config.Cluster.V3 {
             public const int UseHostnameForHashingFieldNumber = 1;
             private bool useHostnameForHashing_;
             /// <summary>
-            /// If set to `true`, the cluster will use hostname instead of the resolved
+            /// If set to ``true``, the cluster will use hostname instead of the resolved
             /// address as the key to consistently hash to an upstream host. Only valid for StrictDNS clusters with hostnames which resolve to a single IP address.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7822,7 +7966,7 @@ namespace Envoy.Config.Cluster.V3 {
             /// Applies to both Ring Hash and Maglev load balancers.
             ///
             /// This is implemented based on the method described in the paper https://arxiv.org/abs/1608.01350. For the specified
-            /// `hash_balance_factor`, requests to any upstream host are capped at `hash_balance_factor/100` times the average number of requests
+            /// ``hash_balance_factor``, requests to any upstream host are capped at ``hash_balance_factor/100`` times the average number of requests
             /// across the cluster. When a request arrives for an upstream host that is currently serving at its max capacity, linear probing
             /// is used to identify an eligible host. Further, the linear probe is implemented using a random jump in hosts ring/table to identify
             /// the eligible host (this technique is as described in the paper https://arxiv.org/abs/1908.08762 - the random jump avoids the
@@ -7830,7 +7974,7 @@ namespace Envoy.Config.Cluster.V3 {
             ///
             /// If weights are specified on the hosts, they are respected.
             ///
-            /// This is an O(N) algorithm, unlike other load balancers. Using a lower `hash_balance_factor` results in more hosts
+            /// This is an O(N) algorithm, unlike other load balancers. Using a lower ``hash_balance_factor`` results in more hosts
             /// being probed, so use a higher value if you require better performance.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8359,7 +8503,7 @@ namespace Envoy.Config.Cluster.V3 {
         /// Indicates how many many streams (rounded up) can be anticipated across a cluster for each
         /// stream, useful for low QPS services. This is currently supported for a subset of
         /// deterministic non-hash-based load-balancing algorithms (weighted round robin, random).
-        /// Unlike *per_upstream_preconnect_ratio* this preconnects across the upstream instances in a
+        /// Unlike ``per_upstream_preconnect_ratio`` this preconnects across the upstream instances in a
         /// cluster, doing best effort predictions of what upstream would be picked next and
         /// pre-establishing a connection.
         ///
@@ -8973,211 +9117,6 @@ namespace Envoy.Config.Cluster.V3 {
 
   }
 
-  /// <summary>
-  /// An extensible structure containing the address Envoy should bind to when
-  /// establishing upstream connections.
-  /// </summary>
-  public sealed partial class UpstreamBindConfig : pb::IMessage<UpstreamBindConfig>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpstreamBindConfig> _parser = new pb::MessageParser<UpstreamBindConfig>(() => new UpstreamBindConfig());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UpstreamBindConfig> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Cluster.V3.ClusterReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpstreamBindConfig() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpstreamBindConfig(UpstreamBindConfig other) : this() {
-      sourceAddress_ = other.sourceAddress_ != null ? other.sourceAddress_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpstreamBindConfig Clone() {
-      return new UpstreamBindConfig(this);
-    }
-
-    /// <summary>Field number for the "source_address" field.</summary>
-    public const int SourceAddressFieldNumber = 1;
-    private global::Envoy.Config.Core.V3.Address sourceAddress_;
-    /// <summary>
-    /// The address Envoy should bind to when establishing upstream connections.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Envoy.Config.Core.V3.Address SourceAddress {
-      get { return sourceAddress_; }
-      set {
-        sourceAddress_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as UpstreamBindConfig);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UpstreamBindConfig other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(SourceAddress, other.SourceAddress)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (sourceAddress_ != null) hash ^= SourceAddress.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (sourceAddress_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(SourceAddress);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (sourceAddress_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(SourceAddress);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (sourceAddress_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SourceAddress);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UpstreamBindConfig other) {
-      if (other == null) {
-        return;
-      }
-      if (other.sourceAddress_ != null) {
-        if (sourceAddress_ == null) {
-          SourceAddress = new global::Envoy.Config.Core.V3.Address();
-        }
-        SourceAddress.MergeFrom(other.SourceAddress);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (sourceAddress_ == null) {
-              SourceAddress = new global::Envoy.Config.Core.V3.Address();
-            }
-            input.ReadMessage(SourceAddress);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (sourceAddress_ == null) {
-              SourceAddress = new global::Envoy.Config.Core.V3.Address();
-            }
-            input.ReadMessage(SourceAddress);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   public sealed partial class UpstreamConnectionOptions : pb::IMessage<UpstreamConnectionOptions>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9192,7 +9131,7 @@ namespace Envoy.Config.Cluster.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Cluster.V3.ClusterReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Envoy.Config.Cluster.V3.ClusterReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9435,7 +9374,7 @@ namespace Envoy.Config.Cluster.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Cluster.V3.ClusterReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Envoy.Config.Cluster.V3.ClusterReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

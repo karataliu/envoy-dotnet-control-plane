@@ -28,21 +28,22 @@ namespace Envoy.Type.Matcher.V3 {
             "cGUubWF0Y2hlci52MxoeZ29vZ2xlL3Byb3RvYnVmL3dyYXBwZXJzLnByb3Rv",
             "GiNlbnZveS9hbm5vdGF0aW9ucy9kZXByZWNhdGlvbi5wcm90bxoddWRwYS9h",
             "bm5vdGF0aW9ucy9zdGF0dXMucHJvdG8aIXVkcGEvYW5ub3RhdGlvbnMvdmVy",
-            "c2lvbmluZy5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8itgIKDFJl",
-            "Z2V4TWF0Y2hlchJNCgpnb29nbGVfcmUyGAEgASgLMi0uZW52b3kudHlwZS5t",
-            "YXRjaGVyLnYzLlJlZ2V4TWF0Y2hlci5Hb29nbGVSRTJCCPpCBYoBAhABSAAS",
-            "FgoFcmVnZXgYAiABKAlCB/pCBHICEAEaggEKCUdvb2dsZVJFMhJDChBtYXhf",
-            "cHJvZ3JhbV9zaXplGAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZh",
-            "bHVlQgsYAZLHhtgEAzMuMDowmsWIHisKKWVudm95LnR5cGUubWF0Y2hlci5S",
-            "ZWdleE1hdGNoZXIuR29vZ2xlUkUyOiaaxYgeIQofZW52b3kudHlwZS5tYXRj",
-            "aGVyLlJlZ2V4TWF0Y2hlckISCgtlbmdpbmVfdHlwZRID+EIBIqIBChdSZWdl",
-            "eE1hdGNoQW5kU3Vic3RpdHV0ZRI+CgdwYXR0ZXJuGAEgASgLMiMuZW52b3ku",
-            "dHlwZS5tYXRjaGVyLnYzLlJlZ2V4TWF0Y2hlckII+kIFigECEAESFAoMc3Vi",
-            "c3RpdHV0aW9uGAIgASgJOjGaxYgeLAoqZW52b3kudHlwZS5tYXRjaGVyLlJl",
-            "Z2V4TWF0Y2hBbmRTdWJzdGl0dXRlQoMBCiNpby5lbnZveXByb3h5LmVudm95",
-            "LnR5cGUubWF0Y2hlci52M0IKUmVnZXhQcm90b1ABWkZnaXRodWIuY29tL2Vu",
-            "dm95cHJveHkvZ28tY29udHJvbC1wbGFuZS9lbnZveS90eXBlL21hdGNoZXIv",
-            "djM7bWF0Y2hlcnYzuoDI0QYCEAJiBnByb3RvMw=="));
+            "c2lvbmluZy5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8ivAIKDFJl",
+            "Z2V4TWF0Y2hlchJYCgpnb29nbGVfcmUyGAEgASgLMi0uZW52b3kudHlwZS5t",
+            "YXRjaGVyLnYzLlJlZ2V4TWF0Y2hlci5Hb29nbGVSRTJCExgB+kIFigECEAGS",
+            "x4bYBAMzLjBIABIWCgVyZWdleBgCIAEoCUIH+kIEcgIQARqCAQoJR29vZ2xl",
+            "UkUyEkMKEG1heF9wcm9ncmFtX3NpemUYASABKAsyHC5nb29nbGUucHJvdG9i",
+            "dWYuVUludDMyVmFsdWVCCxgBkseG2AQDMy4wOjCaxYgeKwopZW52b3kudHlw",
+            "ZS5tYXRjaGVyLlJlZ2V4TWF0Y2hlci5Hb29nbGVSRTI6JprFiB4hCh9lbnZv",
+            "eS50eXBlLm1hdGNoZXIuUmVnZXhNYXRjaGVyQg0KC2VuZ2luZV90eXBlIq8B",
+            "ChdSZWdleE1hdGNoQW5kU3Vic3RpdHV0ZRI+CgdwYXR0ZXJuGAEgASgLMiMu",
+            "ZW52b3kudHlwZS5tYXRjaGVyLnYzLlJlZ2V4TWF0Y2hlckII+kIFigECEAES",
+            "IQoMc3Vic3RpdHV0aW9uGAIgASgJQgv6QghyBsABAsgBADoxmsWIHiwKKmVu",
+            "dm95LnR5cGUubWF0Y2hlci5SZWdleE1hdGNoQW5kU3Vic3RpdHV0ZUKDAQoj",
+            "aW8uZW52b3lwcm94eS5lbnZveS50eXBlLm1hdGNoZXIudjNCClJlZ2V4UHJv",
+            "dG9QAVpGZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUv",
+            "ZW52b3kvdHlwZS9tYXRjaGVyL3YzO21hdGNoZXJ2M7qAyNEGAhACYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -112,6 +113,7 @@ namespace Envoy.Type.Matcher.V3 {
     /// <summary>
     /// Google's RE2 regex engine.
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Envoy.Type.Matcher.V3.RegexMatcher.Types.GoogleRE2 GoogleRe2 {
@@ -341,14 +343,14 @@ namespace Envoy.Type.Matcher.V3 {
       /// the documented `syntax &lt;https://github.com/google/re2/wiki/Syntax>`_. The engine is designed
       /// to complete execution in linear time as well as limit the amount of memory used.
       ///
-      /// Envoy supports program size checking via runtime. The runtime keys `re2.max_program_size.error_level`
-      /// and `re2.max_program_size.warn_level` can be set to integers as the maximum program size or
+      /// Envoy supports program size checking via runtime. The runtime keys ``re2.max_program_size.error_level``
+      /// and ``re2.max_program_size.warn_level`` can be set to integers as the maximum program size or
       /// complexity that a compiled regex can have before an exception is thrown or a warning is
-      /// logged, respectively. `re2.max_program_size.error_level` defaults to 100, and
-      /// `re2.max_program_size.warn_level` has no default if unset (will not check/log a warning).
+      /// logged, respectively. ``re2.max_program_size.error_level`` defaults to 100, and
+      /// ``re2.max_program_size.warn_level`` has no default if unset (will not check/log a warning).
       ///
-      /// Envoy emits two stats for tracking the program size of regexes: the histogram `re2.program_size`,
-      /// which records the program size, and the counter `re2.exceeded_warn_level`, which is incremented
+      /// Envoy emits two stats for tracking the program size of regexes: the histogram ``re2.program_size``,
+      /// which records the program size, and the counter ``re2.exceeded_warn_level``, which is incremented
       /// each time the program size exceeds the warn level threshold.
       /// </summary>
       public sealed partial class GoogleRE2 : pb::IMessage<GoogleRE2>

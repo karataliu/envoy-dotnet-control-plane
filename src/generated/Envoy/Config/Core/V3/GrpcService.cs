@@ -586,7 +586,7 @@ namespace Envoy.Config.Core.V3 {
         public const int AuthorityFieldNumber = 2;
         private string authority_ = "";
         /// <summary>
-        /// The `:authority` header in the grpc request. If this field is not set, the authority header value will be `cluster_name`.
+        /// The ``:authority`` header in the grpc request. If this field is not set, the authority header value will be ``cluster_name``.
         /// Note that this authority does not override the SNI. The SNI is provided by the transport socket of the cluster.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3418,7 +3418,7 @@ namespace Envoy.Config.Core.V3 {
                 /// <summary>
                 /// URI of the token exchange service that handles token exchange requests.
                 /// [#comment:TODO(asraa): Add URI validation when implemented. Tracked by
-                /// https://github.com/envoyproxy/protoc-gen-validate/issues/303]
+                /// https://github.com/bufbuild/protoc-gen-validate/issues/303]
                 /// </summary>
                 [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
                 [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

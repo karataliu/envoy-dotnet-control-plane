@@ -80,7 +80,7 @@ namespace Envoy.Service.Auth.V3 {
   /// For example, the size of an HTTP request, or the status code of an HTTP response.
   ///
   /// Each attribute has a type and a name, which is logically defined as a proto message field
-  /// of the `AttributeContext`. The `AttributeContext` is a collection of individual attributes
+  /// of the ``AttributeContext``. The ``AttributeContext`` is a collection of individual attributes
   /// supported by Envoy authorization system.
   /// [#comment: The following items are left out of this proto
   /// Request.Auth field for jwt tokens
@@ -485,8 +485,8 @@ namespace Envoy.Service.Auth.V3 {
       /// <summary>
       /// This message defines attributes for a node that handles a network request.
       /// The node can be either a service or an application that sends, forwards,
-      /// or receives the request. Service peers should fill in the `service`,
-      /// `principal`, and `labels` as appropriate.
+      /// or receives the request. Service peers should fill in the ``service``,
+      /// ``principal``, and ``labels`` as appropriate.
       /// [#next-free-field: 6]
       /// </summary>
       public sealed partial class Peer : pb::IMessage<Peer>
@@ -595,12 +595,12 @@ namespace Envoy.Service.Auth.V3 {
         /// The authenticated identity of this peer.
         /// For example, the identity associated with the workload such as a service account.
         /// If an X.509 certificate is used to assert the identity this field should be sourced from
-        /// `URI Subject Alternative Names`, `DNS Subject Alternate Names` or `Subject` in that order.
+        /// ``URI Subject Alternative Names``, ``DNS Subject Alternate Names`` or ``Subject`` in that order.
         /// The primary identity should be the principal. The principal format is issuer specific.
         ///
         /// Example:
-        /// *    SPIFFE format is `spiffe://trust-domain/path`
-        /// *    Google account format is `https://accounts.google.com/{userid}`
+        /// *    SPIFFE format is ``spiffe://trust-domain/path``
+        /// *    Google account format is ``https://accounts.google.com/{userid}``
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1190,7 +1190,7 @@ namespace Envoy.Service.Auth.V3 {
         public const int MethodFieldNumber = 2;
         private string method_ = "";
         /// <summary>
-        /// The HTTP request method, such as `GET`, `POST`.
+        /// The HTTP request method, such as ``GET``, ``POST``.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1237,7 +1237,7 @@ namespace Envoy.Service.Auth.V3 {
         public const int HostFieldNumber = 5;
         private string host_ = "";
         /// <summary>
-        /// The HTTP request `Host` or 'Authority` header value.
+        /// The HTTP request ``Host`` or '`Authority`` header value.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1252,7 +1252,7 @@ namespace Envoy.Service.Auth.V3 {
         public const int SchemeFieldNumber = 6;
         private string scheme_ = "";
         /// <summary>
-        /// The HTTP URL scheme, such as `http` and `https`.
+        /// The HTTP URL scheme, such as ``http`` and ``https``.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1268,7 +1268,7 @@ namespace Envoy.Service.Auth.V3 {
         private string query_ = "";
         /// <summary>
         /// This field is always empty, and exists for compatibility reasons. The HTTP URL query is
-        /// included in `path` field.
+        /// included in ``path`` field.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

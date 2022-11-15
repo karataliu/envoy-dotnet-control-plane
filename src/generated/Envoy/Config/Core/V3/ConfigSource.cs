@@ -317,7 +317,7 @@ namespace Envoy.Config.Core.V3 {
     /// A list of config validators that will be executed when a new update is
     /// received from the ApiConfigSource. Note that each validator handles a
     /// specific xDS service type, and only the validators corresponding to the
-    /// type url (in `:ref: DiscoveryResponse` or `:ref: DeltaDiscoveryResponse`)
+    /// type url (in ``:ref: DiscoveryResponse`` or ``:ref: DeltaDiscoveryResponse``)
     /// will be invoked.
     /// If the validator returns false or throws an exception, the config will be rejected by
     /// the client, and a NACK will be sent.
@@ -1369,11 +1369,11 @@ namespace Envoy.Config.Core.V3 {
     ///
     /// .. note::
     ///
-    ///   If `watched_directory` is *not* configured, Envoy will watch the file path for *moves.*
+    ///   If ``watched_directory`` is *not* configured, Envoy will watch the file path for *moves*.
     ///   This is because in general only moves are atomic. The same method of swapping files as is
     ///   demonstrated in the :ref:`runtime documentation &lt;config_runtime_symbolic_link_swap>` can be
-    ///   used here also. If `watched_directory` is configured, no watch will be placed directly on
-    ///   this path. Instead, the configured `watched_directory` will be used to trigger reloads of
+    ///   used here also. If ``watched_directory`` is configured, no watch will be placed directly on
+    ///   this path. Instead, the configured ``watched_directory`` will be used to trigger reloads of
     ///   this path. This is required in certain deployment scenarios. See below for more information.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1389,16 +1389,16 @@ namespace Envoy.Config.Core.V3 {
     public const int WatchedDirectoryFieldNumber = 2;
     private global::Envoy.Config.Core.V3.WatchedDirectory watchedDirectory_;
     /// <summary>
-    /// If configured, this directory will be watched for *moves.* When an entry in this directory is
-    /// moved to, the `path` will be reloaded. This is required in certain deployment scenarios.
+    /// If configured, this directory will be watched for *moves*. When an entry in this directory is
+    /// moved to, the ``path`` will be reloaded. This is required in certain deployment scenarios.
     ///
     /// Specifically, if trying to load an xDS resource using a
     /// `Kubernetes ConfigMap &lt;https://kubernetes.io/docs/concepts/configuration/configmap/>`_, the
     /// following configuration might be used:
     /// 1. Store xds.yaml inside a ConfigMap.
-    /// 2. Mount the ConfigMap to `/config_map/xds`
-    /// 3. Configure path `/config_map/xds/xds.yaml`
-    /// 4. Configure watched directory `/config_map/xds`
+    /// 2. Mount the ConfigMap to ``/config_map/xds``
+    /// 3. Configure path ``/config_map/xds/xds.yaml``
+    /// 4. Configure watched directory ``/config_map/xds``
     ///
     /// The above configuration will ensure that Envoy watches the owning directory for moves which is
     /// required due to how Kubernetes manages ConfigMap symbolic links during atomic updates.
@@ -1658,7 +1658,7 @@ namespace Envoy.Config.Core.V3 {
     private readonly pbc::RepeatedField<global::Xds.Core.V3.Authority> authorities_ = new pbc::RepeatedField<global::Xds.Core.V3.Authority>();
     /// <summary>
     /// Authorities that this config source may be used for. An authority specified in a xdstp:// URL
-    /// is resolved to a *ConfigSource* prior to configuration fetch. This field provides the
+    /// is resolved to a ``ConfigSource`` prior to configuration fetch. This field provides the
     /// association between authority name and configuration source.
     /// [#not-implemented-hide:]
     /// </summary>
@@ -1671,7 +1671,7 @@ namespace Envoy.Config.Core.V3 {
     /// <summary>Field number for the "path" field.</summary>
     public const int PathFieldNumber = 1;
     /// <summary>
-    /// Deprecated in favor of `path_config_source`. Use that field instead.
+    /// Deprecated in favor of ``path_config_source``. Use that field instead.
     /// </summary>
     [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2252,7 +2252,7 @@ namespace Envoy.Config.Core.V3 {
     /// <summary>
     /// Optional default configuration to use as the initial configuration if
     /// there is a failure to receive the initial extension configuration or if
-    /// `apply_default_config_without_warming` flag is set.
+    /// ``apply_default_config_without_warming`` flag is set.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

@@ -31,46 +31,48 @@ namespace Envoy.Config.Endpoint.V3 {
             "cmNlLnByb3RvGidlbnZveS9jb25maWcvY29yZS92My9oZWFsdGhfY2hlY2su",
             "cHJvdG8aHmdvb2dsZS9wcm90b2J1Zi93cmFwcGVycy5wcm90bxoddWRwYS9h",
             "bm5vdGF0aW9ucy9zdGF0dXMucHJvdG8aIXVkcGEvYW5ub3RhdGlvbnMvdmVy",
-            "c2lvbmluZy5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8ixQIKCEVu",
+            "c2lvbmluZy5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8imwMKCEVu",
             "ZHBvaW50Ei4KB2FkZHJlc3MYASABKAsyHS5lbnZveS5jb25maWcuY29yZS52",
             "My5BZGRyZXNzElEKE2hlYWx0aF9jaGVja19jb25maWcYAiABKAsyNC5lbnZv",
             "eS5jb25maWcuZW5kcG9pbnQudjMuRW5kcG9pbnQuSGVhbHRoQ2hlY2tDb25m",
-            "aWcSEAoIaG9zdG5hbWUYAyABKAkafQoRSGVhbHRoQ2hlY2tDb25maWcSHQoK",
-            "cG9ydF92YWx1ZRgBIAEoDUIJ+kIGKgQY//8DEhAKCGhvc3RuYW1lGAIgASgJ",
-            "OjeaxYgeMgowZW52b3kuYXBpLnYyLmVuZHBvaW50LkVuZHBvaW50LkhlYWx0",
-            "aENoZWNrQ29uZmlnOiWaxYgeIAoeZW52b3kuYXBpLnYyLmVuZHBvaW50LkVu",
-            "ZHBvaW50IswCCgpMYkVuZHBvaW50EjYKCGVuZHBvaW50GAEgASgLMiIuZW52",
-            "b3kuY29uZmlnLmVuZHBvaW50LnYzLkVuZHBvaW50SAASFwoNZW5kcG9pbnRf",
-            "bmFtZRgFIAEoCUgAEjkKDWhlYWx0aF9zdGF0dXMYAiABKA4yIi5lbnZveS5j",
-            "b25maWcuY29yZS52My5IZWFsdGhTdGF0dXMSMAoIbWV0YWRhdGEYAyABKAsy",
-            "Hi5lbnZveS5jb25maWcuY29yZS52My5NZXRhZGF0YRJEChVsb2FkX2JhbGFu",
-            "Y2luZ193ZWlnaHQYBCABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFs",
-            "dWVCB/pCBCoCKAE6J5rFiB4iCiBlbnZveS5hcGkudjIuZW5kcG9pbnQuTGJF",
-            "bmRwb2ludEIRCg9ob3N0X2lkZW50aWZpZXIicgoZTGVkc0NsdXN0ZXJMb2Nh",
-            "bGl0eUNvbmZpZxI3CgtsZWRzX2NvbmZpZxgBIAEoCzIiLmVudm95LmNvbmZp",
-            "Zy5jb3JlLnYzLkNvbmZpZ1NvdXJjZRIcChRsZWRzX2NvbGxlY3Rpb25fbmFt",
-            "ZRgCIAEoCSLhBAoTTG9jYWxpdHlMYkVuZHBvaW50cxIwCghsb2NhbGl0eRgB",
-            "IAEoCzIeLmVudm95LmNvbmZpZy5jb3JlLnYzLkxvY2FsaXR5EjoKDGxiX2Vu",
-            "ZHBvaW50cxgCIAMoCzIkLmVudm95LmNvbmZpZy5lbmRwb2ludC52My5MYkVu",
-            "ZHBvaW50El8KF2xvYWRfYmFsYW5jZXJfZW5kcG9pbnRzGAcgASgLMjwuZW52",
-            "b3kuY29uZmlnLmVuZHBvaW50LnYzLkxvY2FsaXR5TGJFbmRwb2ludHMuTGJF",
-            "bmRwb2ludExpc3RIABJbChxsZWRzX2NsdXN0ZXJfbG9jYWxpdHlfY29uZmln",
-            "GAggASgLMjMuZW52b3kuY29uZmlnLmVuZHBvaW50LnYzLkxlZHNDbHVzdGVy",
-            "TG9jYWxpdHlDb25maWdIABJEChVsb2FkX2JhbGFuY2luZ193ZWlnaHQYAyAB",
-            "KAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCB/pCBCoCKAESGgoI",
-            "cHJpb3JpdHkYBSABKA1CCPpCBSoDGIABEi8KCXByb3hpbWl0eRgGIAEoCzIc",
-            "Lmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZRpMCg5MYkVuZHBvaW50TGlz",
-            "dBI6CgxsYl9lbmRwb2ludHMYASADKAsyJC5lbnZveS5jb25maWcuZW5kcG9p",
-            "bnQudjMuTGJFbmRwb2ludDowmsWIHisKKWVudm95LmFwaS52Mi5lbmRwb2lu",
-            "dC5Mb2NhbGl0eUxiRW5kcG9pbnRzQgsKCWxiX2NvbmZpZ0KXAQomaW8uZW52",
-            "b3lwcm94eS5lbnZveS5jb25maWcuZW5kcG9pbnQudjNCF0VuZHBvaW50Q29t",
-            "cG9uZW50c1Byb3RvUAFaSmdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250",
-            "cm9sLXBsYW5lL2Vudm95L2NvbmZpZy9lbmRwb2ludC92MztlbmRwb2ludHYz",
-            "uoDI0QYCEAJiBnByb3RvMw=="));
+            "aWcSEAoIaG9zdG5hbWUYAyABKAka0gEKEUhlYWx0aENoZWNrQ29uZmlnEh0K",
+            "CnBvcnRfdmFsdWUYASABKA1CCfpCBioEGP//AxIQCghob3N0bmFtZRgCIAEo",
+            "CRIuCgdhZGRyZXNzGAMgASgLMh0uZW52b3kuY29uZmlnLmNvcmUudjMuQWRk",
+            "cmVzcxIjChtkaXNhYmxlX2FjdGl2ZV9oZWFsdGhfY2hlY2sYBCABKAg6N5rF",
+            "iB4yCjBlbnZveS5hcGkudjIuZW5kcG9pbnQuRW5kcG9pbnQuSGVhbHRoQ2hl",
+            "Y2tDb25maWc6JZrFiB4gCh5lbnZveS5hcGkudjIuZW5kcG9pbnQuRW5kcG9p",
+            "bnQizAIKCkxiRW5kcG9pbnQSNgoIZW5kcG9pbnQYASABKAsyIi5lbnZveS5j",
+            "b25maWcuZW5kcG9pbnQudjMuRW5kcG9pbnRIABIXCg1lbmRwb2ludF9uYW1l",
+            "GAUgASgJSAASOQoNaGVhbHRoX3N0YXR1cxgCIAEoDjIiLmVudm95LmNvbmZp",
+            "Zy5jb3JlLnYzLkhlYWx0aFN0YXR1cxIwCghtZXRhZGF0YRgDIAEoCzIeLmVu",
+            "dm95LmNvbmZpZy5jb3JlLnYzLk1ldGFkYXRhEkQKFWxvYWRfYmFsYW5jaW5n",
+            "X3dlaWdodBgEIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZUIH",
+            "+kIEKgIoATonmsWIHiIKIGVudm95LmFwaS52Mi5lbmRwb2ludC5MYkVuZHBv",
+            "aW50QhEKD2hvc3RfaWRlbnRpZmllciJyChlMZWRzQ2x1c3RlckxvY2FsaXR5",
+            "Q29uZmlnEjcKC2xlZHNfY29uZmlnGAEgASgLMiIuZW52b3kuY29uZmlnLmNv",
+            "cmUudjMuQ29uZmlnU291cmNlEhwKFGxlZHNfY29sbGVjdGlvbl9uYW1lGAIg",
+            "ASgJIuEEChNMb2NhbGl0eUxiRW5kcG9pbnRzEjAKCGxvY2FsaXR5GAEgASgL",
+            "Mh4uZW52b3kuY29uZmlnLmNvcmUudjMuTG9jYWxpdHkSOgoMbGJfZW5kcG9p",
+            "bnRzGAIgAygLMiQuZW52b3kuY29uZmlnLmVuZHBvaW50LnYzLkxiRW5kcG9p",
+            "bnQSXwoXbG9hZF9iYWxhbmNlcl9lbmRwb2ludHMYByABKAsyPC5lbnZveS5j",
+            "b25maWcuZW5kcG9pbnQudjMuTG9jYWxpdHlMYkVuZHBvaW50cy5MYkVuZHBv",
+            "aW50TGlzdEgAElsKHGxlZHNfY2x1c3Rlcl9sb2NhbGl0eV9jb25maWcYCCAB",
+            "KAsyMy5lbnZveS5jb25maWcuZW5kcG9pbnQudjMuTGVkc0NsdXN0ZXJMb2Nh",
+            "bGl0eUNvbmZpZ0gAEkQKFWxvYWRfYmFsYW5jaW5nX3dlaWdodBgDIAEoCzIc",
+            "Lmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZUIH+kIEKgIoARIaCghwcmlv",
+            "cml0eRgFIAEoDUII+kIFKgMYgAESLwoJcHJveGltaXR5GAYgASgLMhwuZ29v",
+            "Z2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlGkwKDkxiRW5kcG9pbnRMaXN0EjoK",
+            "DGxiX2VuZHBvaW50cxgBIAMoCzIkLmVudm95LmNvbmZpZy5lbmRwb2ludC52",
+            "My5MYkVuZHBvaW50OjCaxYgeKwopZW52b3kuYXBpLnYyLmVuZHBvaW50Lkxv",
+            "Y2FsaXR5TGJFbmRwb2ludHNCCwoJbGJfY29uZmlnQpcBCiZpby5lbnZveXBy",
+            "b3h5LmVudm95LmNvbmZpZy5lbmRwb2ludC52M0IXRW5kcG9pbnRDb21wb25l",
+            "bnRzUHJvdG9QAVpKZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wt",
+            "cGxhbmUvZW52b3kvY29uZmlnL2VuZHBvaW50L3YzO2VuZHBvaW50djO6gMjR",
+            "BgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.AddressReflection.Descriptor, global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Envoy.Config.Core.V3.ConfigSourceReflection.Descriptor, global::Envoy.Config.Core.V3.HealthCheckReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.Endpoint), global::Envoy.Config.Endpoint.V3.Endpoint.Parser, new[]{ "Address", "HealthCheckConfig", "Hostname" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.Endpoint.Types.HealthCheckConfig), global::Envoy.Config.Endpoint.V3.Endpoint.Types.HealthCheckConfig.Parser, new[]{ "PortValue", "Hostname" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.Endpoint), global::Envoy.Config.Endpoint.V3.Endpoint.Parser, new[]{ "Address", "HealthCheckConfig", "Hostname" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.Endpoint.Types.HealthCheckConfig), global::Envoy.Config.Endpoint.V3.Endpoint.Types.HealthCheckConfig.Parser, new[]{ "PortValue", "Hostname", "Address", "DisableActiveHealthCheck" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.LbEndpoint), global::Envoy.Config.Endpoint.V3.LbEndpoint.Parser, new[]{ "Endpoint", "EndpointName", "HealthStatus", "Metadata", "LoadBalancingWeight" }, new[]{ "HostIdentifier" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.LedsClusterLocalityConfig), global::Envoy.Config.Endpoint.V3.LedsClusterLocalityConfig.Parser, new[]{ "LedsConfig", "LedsCollectionName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.LocalityLbEndpoints), global::Envoy.Config.Endpoint.V3.LocalityLbEndpoints.Parser, new[]{ "Locality", "LbEndpoints", "LoadBalancerEndpoints", "LedsClusterLocalityConfig", "LoadBalancingWeight", "Priority", "Proximity" }, new[]{ "LbConfig" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Endpoint.V3.LocalityLbEndpoints.Types.LbEndpointList), global::Envoy.Config.Endpoint.V3.LocalityLbEndpoints.Types.LbEndpointList.Parser, new[]{ "LbEndpoints" }, null, null, null, null)})
@@ -432,6 +434,8 @@ namespace Envoy.Config.Endpoint.V3 {
         public HealthCheckConfig(HealthCheckConfig other) : this() {
           portValue_ = other.portValue_;
           hostname_ = other.hostname_;
+          address_ = other.address_ != null ? other.address_.Clone() : null;
+          disableActiveHealthCheck_ = other.disableActiveHealthCheck_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -480,6 +484,41 @@ namespace Envoy.Config.Endpoint.V3 {
           }
         }
 
+        /// <summary>Field number for the "address" field.</summary>
+        public const int AddressFieldNumber = 3;
+        private global::Envoy.Config.Core.V3.Address address_;
+        /// <summary>
+        /// Optional alternative health check host address.
+        ///
+        /// .. attention::
+        ///
+        ///   The form of the health check host address is expected to be a direct IP address.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Envoy.Config.Core.V3.Address Address {
+          get { return address_; }
+          set {
+            address_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "disable_active_health_check" field.</summary>
+        public const int DisableActiveHealthCheckFieldNumber = 4;
+        private bool disableActiveHealthCheck_;
+        /// <summary>
+        /// Optional flag to control if perform active health check for this endpoint.
+        /// Active health check is enabled by default if there is a health checker.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool DisableActiveHealthCheck {
+          get { return disableActiveHealthCheck_; }
+          set {
+            disableActiveHealthCheck_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -497,6 +536,8 @@ namespace Envoy.Config.Endpoint.V3 {
           }
           if (PortValue != other.PortValue) return false;
           if (Hostname != other.Hostname) return false;
+          if (!object.Equals(Address, other.Address)) return false;
+          if (DisableActiveHealthCheck != other.DisableActiveHealthCheck) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -506,6 +547,8 @@ namespace Envoy.Config.Endpoint.V3 {
           int hash = 1;
           if (PortValue != 0) hash ^= PortValue.GetHashCode();
           if (Hostname.Length != 0) hash ^= Hostname.GetHashCode();
+          if (address_ != null) hash ^= Address.GetHashCode();
+          if (DisableActiveHealthCheck != false) hash ^= DisableActiveHealthCheck.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -532,6 +575,14 @@ namespace Envoy.Config.Endpoint.V3 {
             output.WriteRawTag(18);
             output.WriteString(Hostname);
           }
+          if (address_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Address);
+          }
+          if (DisableActiveHealthCheck != false) {
+            output.WriteRawTag(32);
+            output.WriteBool(DisableActiveHealthCheck);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -550,6 +601,14 @@ namespace Envoy.Config.Endpoint.V3 {
             output.WriteRawTag(18);
             output.WriteString(Hostname);
           }
+          if (address_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(Address);
+          }
+          if (DisableActiveHealthCheck != false) {
+            output.WriteRawTag(32);
+            output.WriteBool(DisableActiveHealthCheck);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -565,6 +624,12 @@ namespace Envoy.Config.Endpoint.V3 {
           }
           if (Hostname.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(Hostname);
+          }
+          if (address_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Address);
+          }
+          if (DisableActiveHealthCheck != false) {
+            size += 1 + 1;
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -583,6 +648,15 @@ namespace Envoy.Config.Endpoint.V3 {
           }
           if (other.Hostname.Length != 0) {
             Hostname = other.Hostname;
+          }
+          if (other.address_ != null) {
+            if (address_ == null) {
+              Address = new global::Envoy.Config.Core.V3.Address();
+            }
+            Address.MergeFrom(other.Address);
+          }
+          if (other.DisableActiveHealthCheck != false) {
+            DisableActiveHealthCheck = other.DisableActiveHealthCheck;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -607,6 +681,17 @@ namespace Envoy.Config.Endpoint.V3 {
                 Hostname = input.ReadString();
                 break;
               }
+              case 26: {
+                if (address_ == null) {
+                  Address = new global::Envoy.Config.Core.V3.Address();
+                }
+                input.ReadMessage(Address);
+                break;
+              }
+              case 32: {
+                DisableActiveHealthCheck = input.ReadBool();
+                break;
+              }
             }
           }
         #endif
@@ -628,6 +713,17 @@ namespace Envoy.Config.Endpoint.V3 {
               }
               case 18: {
                 Hostname = input.ReadString();
+                break;
+              }
+              case 26: {
+                if (address_ == null) {
+                  Address = new global::Envoy.Config.Core.V3.Address();
+                }
+                input.ReadMessage(Address);
+                break;
+              }
+              case 32: {
+                DisableActiveHealthCheck = input.ReadBool();
                 break;
               }
             }
@@ -749,8 +845,8 @@ namespace Envoy.Config.Endpoint.V3 {
     /// <summary>
     /// The endpoint metadata specifies values that may be used by the load
     /// balancer to select endpoints in a cluster for a given request. The filter
-    /// name should be specified as *envoy.lb*. An example boolean key-value pair
-    /// is *canary*, providing the optional canary status of the upstream host.
+    /// name should be specified as ``envoy.lb``. An example boolean key-value pair
+    /// is ``canary``, providing the optional canary status of the upstream host.
     /// This may be matched against in a route's
     /// :ref:`RouteAction &lt;envoy_v3_api_msg_config.route.v3.RouteAction>` metadata_match field
     /// to subset the endpoints considered in cluster load balancing.
@@ -775,9 +871,9 @@ namespace Envoy.Config.Endpoint.V3 {
     /// of the weights of all endpoints in the endpoint's locality to produce a
     /// percentage of traffic for the endpoint. This percentage is then further
     /// weighted by the endpoint's locality's load balancing weight from
-    /// LocalityLbEndpoints. If unspecified, each host is presumed to have equal
-    /// weight in a locality. The sum of the weights of all endpoints in the
-    /// endpoint's locality must not exceed uint32_t maximal value (4294967295).
+    /// LocalityLbEndpoints. If unspecified, will be treated as 1. The sum
+    /// of the weights of all endpoints in the endpoint's locality must not
+    /// exceed uint32_t maximal value (4294967295).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1404,7 +1500,7 @@ namespace Envoy.Config.Endpoint.V3 {
     /// <summary>
     /// The group of endpoints belonging to the locality specified.
     /// [#comment:TODO(adisuissa): Once LEDS is implemented this field needs to be
-    /// deprecated and replaced by *load_balancer_endpoints*.]
+    /// deprecated and replaced by ``load_balancer_endpoints``.]
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1416,7 +1512,7 @@ namespace Envoy.Config.Endpoint.V3 {
     public const int LoadBalancerEndpointsFieldNumber = 7;
     /// <summary>
     /// The group of endpoints belonging to the locality.
-    /// [#comment:TODO(adisuissa): Once LEDS is implemented the *lb_endpoints* field
+    /// [#comment:TODO(adisuissa): Once LEDS is implemented the ``lb_endpoints`` field
     /// needs to be deprecated.]
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

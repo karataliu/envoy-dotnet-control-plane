@@ -154,9 +154,9 @@ namespace Envoy.Config.Cluster.V3 {
     private static readonly pb::FieldCodec<uint?> _single_consecutive5Xx_codec = pb::FieldCodec.ForStructWrapper<uint>(10);
     private uint? consecutive5Xx_;
     /// <summary>
-    /// The number of consecutive 5xx responses or local origin errors that are mapped
-    /// to 5xx error codes before a consecutive 5xx ejection
-    /// occurs. Defaults to 5.
+    /// The number of consecutive server-side error responses (for HTTP traffic,
+    /// 5xx responses; for TCP traffic, connection failures; for Redis, failure to
+    /// respond PONG; etc.) before a consecutive 5xx ejection occurs. Defaults to 5.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

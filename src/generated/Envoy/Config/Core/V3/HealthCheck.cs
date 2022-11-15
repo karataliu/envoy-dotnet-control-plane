@@ -35,7 +35,7 @@ namespace Envoy.Config.Core.V3 {
             "YS9hbm5vdGF0aW9ucy9zdGF0dXMucHJvdG8aIXVkcGEvYW5ub3RhdGlvbnMv",
             "dmVyc2lvbmluZy5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8iVgoP",
             "SGVhbHRoU3RhdHVzU2V0EkMKCHN0YXR1c2VzGAEgAygOMiIuZW52b3kuY29u",
-            "ZmlnLmNvcmUudjMuSGVhbHRoU3RhdHVzQg36QgqSAQciBYIBAhABItEXCgtI",
+            "ZmlnLmNvcmUudjMuSGVhbHRoU3RhdHVzQg36QgqSAQciBYIBAhABItcYCgtI",
             "ZWFsdGhDaGVjaxI2Cgd0aW1lb3V0GAEgASgLMhkuZ29vZ2xlLnByb3RvYnVm",
             "LkR1cmF0aW9uQgr6QgeqAQQIASoAEjcKCGludGVydmFsGAIgASgLMhkuZ29v",
             "Z2xlLnByb3RvYnVmLkR1cmF0aW9uQgr6QgeqAQQIASoAEjEKDmluaXRpYWxf",
@@ -70,51 +70,54 @@ namespace Envoy.Config.Core.V3 {
             "GBcgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdBpyCgdQYXlsb2FkEhcK",
             "BHRleHQYASABKAlCB/pCBHICEAFIABIQCgZiaW5hcnkYAiABKAxIADosmsWI",
             "HicKJWVudm95LmFwaS52Mi5jb3JlLkhlYWx0aENoZWNrLlBheWxvYWRCDgoH",
-            "cGF5bG9hZBID+EIBGpgFCg9IdHRwSGVhbHRoQ2hlY2sSGQoEaG9zdBgBIAEo",
+            "cGF5bG9hZBID+EIBGp4GCg9IdHRwSGVhbHRoQ2hlY2sSGQoEaG9zdBgBIAEo",
             "CUIL+kIIcgbAAQLIAQASGwoEcGF0aBgCIAEoCUIN+kIKcggQAcABAsgBABI3",
             "CgRzZW5kGAMgASgLMikuZW52b3kuY29uZmlnLmNvcmUudjMuSGVhbHRoQ2hl",
-            "Y2suUGF5bG9hZBI6CgdyZWNlaXZlGAQgASgLMikuZW52b3kuY29uZmlnLmNv",
-            "cmUudjMuSGVhbHRoQ2hlY2suUGF5bG9hZBJSChZyZXF1ZXN0X2hlYWRlcnNf",
-            "dG9fYWRkGAYgAygLMicuZW52b3kuY29uZmlnLmNvcmUudjMuSGVhZGVyVmFs",
-            "dWVPcHRpb25CCfpCBpIBAxDoBxIzChlyZXF1ZXN0X2hlYWRlcnNfdG9fcmVt",
-            "b3ZlGAggAygJQhD6Qg2SAQoiCHIGwAEByAEAEjQKEWV4cGVjdGVkX3N0YXR1",
-            "c2VzGAkgAygLMhkuZW52b3kudHlwZS52My5JbnQ2NFJhbmdlEjUKEnJldHJp",
-            "YWJsZV9zdGF0dXNlcxgMIAMoCzIZLmVudm95LnR5cGUudjMuSW50NjRSYW5n",
-            "ZRJDChFjb2RlY19jbGllbnRfdHlwZRgKIAEoDjIeLmVudm95LnR5cGUudjMu",
-            "Q29kZWNDbGllbnRUeXBlQgj6QgWCAQIQARJCChRzZXJ2aWNlX25hbWVfbWF0",
-            "Y2hlchgLIAEoCzIkLmVudm95LnR5cGUubWF0Y2hlci52My5TdHJpbmdNYXRj",
-            "aGVyOjSaxYgeLwotZW52b3kuYXBpLnYyLmNvcmUuSGVhbHRoQ2hlY2suSHR0",
-            "cEhlYWx0aENoZWNrSgQIBRAGSgQIBxAIUgxzZXJ2aWNlX25hbWVSCXVzZV9o",
-            "dHRwMhq6AQoOVGNwSGVhbHRoQ2hlY2sSNwoEc2VuZBgBIAEoCzIpLmVudm95",
-            "LmNvbmZpZy5jb3JlLnYzLkhlYWx0aENoZWNrLlBheWxvYWQSOgoHcmVjZWl2",
-            "ZRgCIAMoCzIpLmVudm95LmNvbmZpZy5jb3JlLnYzLkhlYWx0aENoZWNrLlBh",
-            "eWxvYWQ6M5rFiB4uCixlbnZveS5hcGkudjIuY29yZS5IZWFsdGhDaGVjay5U",
-            "Y3BIZWFsdGhDaGVjaxpWChBSZWRpc0hlYWx0aENoZWNrEgsKA2tleRgBIAEo",
-            "CTo1msWIHjAKLmVudm95LmFwaS52Mi5jb3JlLkhlYWx0aENoZWNrLlJlZGlz",
-            "SGVhbHRoQ2hlY2saywEKD0dycGNIZWFsdGhDaGVjaxIUCgxzZXJ2aWNlX25h",
-            "bWUYASABKAkSHgoJYXV0aG9yaXR5GAIgASgJQgv6QghyBsABAsgBABJMChBp",
-            "bml0aWFsX21ldGFkYXRhGAMgAygLMicuZW52b3kuY29uZmlnLmNvcmUudjMu",
-            "SGVhZGVyVmFsdWVPcHRpb25CCfpCBpIBAxDoBzo0msWIHi8KLWVudm95LmFw",
-            "aS52Mi5jb3JlLkhlYWx0aENoZWNrLkdycGNIZWFsdGhDaGVjaxqtAQoRQ3Vz",
-            "dG9tSGVhbHRoQ2hlY2sSFQoEbmFtZRgBIAEoCUIH+kIEcgIQARIsCgx0eXBl",
-            "ZF9jb25maWcYAyABKAsyFC5nb29nbGUucHJvdG9idWYuQW55SAA6NprFiB4x",
-            "Ci9lbnZveS5hcGkudjIuY29yZS5IZWFsdGhDaGVjay5DdXN0b21IZWFsdGhD",
-            "aGVja0INCgtjb25maWdfdHlwZUoECAIQA1IGY29uZmlnGlUKClRsc09wdGlv",
-            "bnMSFgoOYWxwbl9wcm90b2NvbHMYASADKAk6L5rFiB4qCihlbnZveS5hcGku",
-            "djIuY29yZS5IZWFsdGhDaGVjay5UbHNPcHRpb25zOiSaxYgeHwodZW52b3ku",
-            "YXBpLnYyLmNvcmUuSGVhbHRoQ2hlY2tCFQoOaGVhbHRoX2NoZWNrZXISA/hC",
-            "AUoECAoQCypgCgxIZWFsdGhTdGF0dXMSCwoHVU5LTk9XThAAEgsKB0hFQUxU",
-            "SFkQARINCglVTkhFQUxUSFkQAhIMCghEUkFJTklORxADEgsKB1RJTUVPVVQQ",
-            "BBIMCghERUdSQURFRBAFQoQBCiJpby5lbnZveXByb3h5LmVudm95LmNvbmZp",
-            "Zy5jb3JlLnYzQhBIZWFsdGhDaGVja1Byb3RvUAFaQmdpdGh1Yi5jb20vZW52",
-            "b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95L2NvbmZpZy9jb3JlL3Yz",
-            "O2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
+            "Y2suUGF5bG9hZBI6CgdyZWNlaXZlGAQgAygLMikuZW52b3kuY29uZmlnLmNv",
+            "cmUudjMuSGVhbHRoQ2hlY2suUGF5bG9hZBJDChRyZXNwb25zZV9idWZmZXJf",
+            "c2l6ZRgOIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50NjRWYWx1ZUIH+kIE",
+            "MgIoABJSChZyZXF1ZXN0X2hlYWRlcnNfdG9fYWRkGAYgAygLMicuZW52b3ku",
+            "Y29uZmlnLmNvcmUudjMuSGVhZGVyVmFsdWVPcHRpb25CCfpCBpIBAxDoBxIz",
+            "ChlyZXF1ZXN0X2hlYWRlcnNfdG9fcmVtb3ZlGAggAygJQhD6Qg2SAQoiCHIG",
+            "wAEByAEAEjQKEWV4cGVjdGVkX3N0YXR1c2VzGAkgAygLMhkuZW52b3kudHlw",
+            "ZS52My5JbnQ2NFJhbmdlEjUKEnJldHJpYWJsZV9zdGF0dXNlcxgMIAMoCzIZ",
+            "LmVudm95LnR5cGUudjMuSW50NjRSYW5nZRJDChFjb2RlY19jbGllbnRfdHlw",
+            "ZRgKIAEoDjIeLmVudm95LnR5cGUudjMuQ29kZWNDbGllbnRUeXBlQgj6QgWC",
+            "AQIQARJCChRzZXJ2aWNlX25hbWVfbWF0Y2hlchgLIAEoCzIkLmVudm95LnR5",
+            "cGUubWF0Y2hlci52My5TdHJpbmdNYXRjaGVyEj8KBm1ldGhvZBgNIAEoDjIj",
+            "LmVudm95LmNvbmZpZy5jb3JlLnYzLlJlcXVlc3RNZXRob2RCCvpCB4IBBBAB",
+            "IAY6NJrFiB4vCi1lbnZveS5hcGkudjIuY29yZS5IZWFsdGhDaGVjay5IdHRw",
+            "SGVhbHRoQ2hlY2tKBAgFEAZKBAgHEAhSDHNlcnZpY2VfbmFtZVIJdXNlX2h0",
+            "dHAyGroBCg5UY3BIZWFsdGhDaGVjaxI3CgRzZW5kGAEgASgLMikuZW52b3ku",
+            "Y29uZmlnLmNvcmUudjMuSGVhbHRoQ2hlY2suUGF5bG9hZBI6CgdyZWNlaXZl",
+            "GAIgAygLMikuZW52b3kuY29uZmlnLmNvcmUudjMuSGVhbHRoQ2hlY2suUGF5",
+            "bG9hZDozmsWIHi4KLGVudm95LmFwaS52Mi5jb3JlLkhlYWx0aENoZWNrLlRj",
+            "cEhlYWx0aENoZWNrGlYKEFJlZGlzSGVhbHRoQ2hlY2sSCwoDa2V5GAEgASgJ",
+            "OjWaxYgeMAouZW52b3kuYXBpLnYyLmNvcmUuSGVhbHRoQ2hlY2suUmVkaXNI",
+            "ZWFsdGhDaGVjaxrLAQoPR3JwY0hlYWx0aENoZWNrEhQKDHNlcnZpY2VfbmFt",
+            "ZRgBIAEoCRIeCglhdXRob3JpdHkYAiABKAlCC/pCCHIGwAECyAEAEkwKEGlu",
+            "aXRpYWxfbWV0YWRhdGEYAyADKAsyJy5lbnZveS5jb25maWcuY29yZS52My5I",
+            "ZWFkZXJWYWx1ZU9wdGlvbkIJ+kIGkgEDEOgHOjSaxYgeLwotZW52b3kuYXBp",
+            "LnYyLmNvcmUuSGVhbHRoQ2hlY2suR3JwY0hlYWx0aENoZWNrGq0BChFDdXN0",
+            "b21IZWFsdGhDaGVjaxIVCgRuYW1lGAEgASgJQgf6QgRyAhABEiwKDHR5cGVk",
+            "X2NvbmZpZxgDIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnlIADo2msWIHjEK",
+            "L2Vudm95LmFwaS52Mi5jb3JlLkhlYWx0aENoZWNrLkN1c3RvbUhlYWx0aENo",
+            "ZWNrQg0KC2NvbmZpZ190eXBlSgQIAhADUgZjb25maWcaVQoKVGxzT3B0aW9u",
+            "cxIWCg5hbHBuX3Byb3RvY29scxgBIAMoCTovmsWIHioKKGVudm95LmFwaS52",
+            "Mi5jb3JlLkhlYWx0aENoZWNrLlRsc09wdGlvbnM6JJrFiB4fCh1lbnZveS5h",
+            "cGkudjIuY29yZS5IZWFsdGhDaGVja0IVCg5oZWFsdGhfY2hlY2tlchID+EIB",
+            "SgQIChALKmAKDEhlYWx0aFN0YXR1cxILCgdVTktOT1dOEAASCwoHSEVBTFRI",
+            "WRABEg0KCVVOSEVBTFRIWRACEgwKCERSQUlOSU5HEAMSCwoHVElNRU9VVBAE",
+            "EgwKCERFR1JBREVEEAVChAEKImlvLmVudm95cHJveHkuZW52b3kuY29uZmln",
+            "LmNvcmUudjNCEEhlYWx0aENoZWNrUHJvdG9QAVpCZ2l0aHViLmNvbS9lbnZv",
+            "eXByb3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kvY29uZmlnL2NvcmUvdjM7",
+            "Y29yZXYzuoDI0QYCEAJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Envoy.Config.Core.V3.EventServiceConfigReflection.Descriptor, global::Envoy.Type.Matcher.V3.StringReflection.Descriptor, global::Envoy.Type.V3.HttpReflection.Descriptor, global::Envoy.Type.V3.RangeReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Envoy.Config.Core.V3.HealthStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthStatusSet), global::Envoy.Config.Core.V3.HealthStatusSet.Parser, new[]{ "Statuses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck), global::Envoy.Config.Core.V3.HealthCheck.Parser, new[]{ "Timeout", "Interval", "InitialJitter", "IntervalJitter", "IntervalJitterPercent", "UnhealthyThreshold", "HealthyThreshold", "AltPort", "ReuseConnection", "HttpHealthCheck", "TcpHealthCheck", "GrpcHealthCheck", "CustomHealthCheck", "NoTrafficInterval", "NoTrafficHealthyInterval", "UnhealthyInterval", "UnhealthyEdgeInterval", "HealthyEdgeInterval", "EventLogPath", "EventService", "AlwaysLogHealthCheckFailures", "TlsOptions", "TransportSocketMatchCriteria" }, new[]{ "HealthChecker" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck.Types.Payload), global::Envoy.Config.Core.V3.HealthCheck.Types.Payload.Parser, new[]{ "Text", "Binary" }, new[]{ "Payload" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck.Types.HttpHealthCheck), global::Envoy.Config.Core.V3.HealthCheck.Types.HttpHealthCheck.Parser, new[]{ "Host", "Path", "Send", "Receive", "RequestHeadersToAdd", "RequestHeadersToRemove", "ExpectedStatuses", "RetriableStatuses", "CodecClientType", "ServiceNameMatcher" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck.Types.HttpHealthCheck), global::Envoy.Config.Core.V3.HealthCheck.Types.HttpHealthCheck.Parser, new[]{ "Host", "Path", "Send", "Receive", "ResponseBufferSize", "RequestHeadersToAdd", "RequestHeadersToRemove", "ExpectedStatuses", "RetriableStatuses", "CodecClientType", "ServiceNameMatcher", "Method" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck.Types.TcpHealthCheck), global::Envoy.Config.Core.V3.HealthCheck.Types.TcpHealthCheck.Parser, new[]{ "Send", "Receive" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck.Types.RedisHealthCheck), global::Envoy.Config.Core.V3.HealthCheck.Types.RedisHealthCheck.Parser, new[]{ "Key" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HealthCheck.Types.GrpcHealthCheck), global::Envoy.Config.Core.V3.HealthCheck.Types.GrpcHealthCheck.Parser, new[]{ "ServiceName", "Authority", "InitialMetadata" }, null, null, null, null),
@@ -131,7 +134,7 @@ namespace Envoy.Config.Core.V3 {
   /// </summary>
   public enum HealthStatus {
     /// <summary>
-    /// The health status is not known. This is interpreted by Envoy as *HEALTHY*.
+    /// The health status is not known. This is interpreted by Envoy as ``HEALTHY``.
     /// </summary>
     [pbr::OriginalName("UNKNOWN")] Unknown = 0,
     /// <summary>
@@ -147,12 +150,12 @@ namespace Envoy.Config.Core.V3 {
     /// `&lt;https://aws.amazon.com/blogs/aws/elb-connection-draining-remove-instances-from-service-with-care/>`_
     /// or
     /// `&lt;https://cloud.google.com/compute/docs/load-balancing/enabling-connection-draining>`_.
-    /// This is interpreted by Envoy as *UNHEALTHY*.
+    /// This is interpreted by Envoy as ``UNHEALTHY``.
     /// </summary>
     [pbr::OriginalName("DRAINING")] Draining = 3,
     /// <summary>
     /// Health check timed out. This is part of HDS and is interpreted by Envoy as
-    /// *UNHEALTHY*.
+    /// ``UNHEALTHY``.
     /// </summary>
     [pbr::OriginalName("TIMEOUT")] Timeout = 4,
     /// <summary>
@@ -496,8 +499,8 @@ namespace Envoy.Config.Core.V3 {
     private uint intervalJitterPercent_;
     /// <summary>
     /// An optional jitter amount as a percentage of interval_ms. If specified,
-    /// during every interval Envoy will add interval_ms *
-    /// interval_jitter_percent / 100 to the wait time.
+    /// during every interval Envoy will add ``interval_ms`` *
+    /// ``interval_jitter_percent`` / 100 to the wait time.
     ///
     /// If interval_jitter_ms and interval_jitter_percent are both set, both of
     /// them will be used to increase the wait time.
@@ -517,7 +520,7 @@ namespace Envoy.Config.Core.V3 {
     private uint? unhealthyThreshold_;
     /// <summary>
     /// The number of unhealthy health checks required before a host is marked
-    /// unhealthy. Note that for *http* health checking if a host responds with a code not in
+    /// unhealthy. Note that for ``http`` health checking if a host responds with a code not in
     /// :ref:`expected_statuses &lt;envoy_v3_api_field_config.core.v3.HealthCheck.HttpHealthCheck.expected_statuses>`
     /// or :ref:`retriable_statuses &lt;envoy_v3_api_field_config.core.v3.HealthCheck.HttpHealthCheck.retriable_statuses>`,
     /// this threshold is ignored and the host is considered immediately unhealthy.
@@ -676,7 +679,7 @@ namespace Envoy.Config.Core.V3 {
     /// (including new hosts) when the cluster has received no traffic.
     ///
     /// This is useful for when we want to send frequent health checks with
-    /// `no_traffic_interval` but then revert to lower frequency `no_traffic_healthy_interval` once
+    /// ``no_traffic_interval`` but then revert to lower frequency ``no_traffic_healthy_interval`` once
     /// a host in the cluster is marked as healthy.
     ///
     /// Once a cluster has been used for traffic routing, Envoy will shift back to using the
@@ -842,7 +845,7 @@ namespace Envoy.Config.Core.V3 {
     ///      name: envoy.transport_sockets.tls
     ///      config: { ... } # tls socket configuration
     ///
-    /// If this field is set, then for health checks it will supersede an entry of *envoy.transport_socket* in the
+    /// If this field is set, then for health checks it will supersede an entry of ``envoy.transport_socket`` in the
     /// :ref:`LbEndpoint.Metadata &lt;envoy_v3_api_field_config.endpoint.v3.LbEndpoint.metadata>`.
     /// This allows using different transport socket capabilities for health checking versus proxying to the
     /// endpoint.
@@ -1810,7 +1813,7 @@ namespace Envoy.Config.Core.V3 {
         /// <summary>Field number for the "binary" field.</summary>
         public const int BinaryFieldNumber = 2;
         /// <summary>
-        /// [#not-implemented-hide:] Binary payload.
+        /// Binary payload.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2006,7 +2009,7 @@ namespace Envoy.Config.Core.V3 {
       }
 
       /// <summary>
-      /// [#next-free-field: 13]
+      /// [#next-free-field: 15]
       /// </summary>
       public sealed partial class HttpHealthCheck : pb::IMessage<HttpHealthCheck>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2045,13 +2048,15 @@ namespace Envoy.Config.Core.V3 {
           host_ = other.host_;
           path_ = other.path_;
           send_ = other.send_ != null ? other.send_.Clone() : null;
-          receive_ = other.receive_ != null ? other.receive_.Clone() : null;
+          receive_ = other.receive_.Clone();
+          ResponseBufferSize = other.ResponseBufferSize;
           requestHeadersToAdd_ = other.requestHeadersToAdd_.Clone();
           requestHeadersToRemove_ = other.requestHeadersToRemove_.Clone();
           expectedStatuses_ = other.expectedStatuses_.Clone();
           retriableStatuses_ = other.retriableStatuses_.Clone();
           codecClientType_ = other.codecClientType_;
           serviceNameMatcher_ = other.serviceNameMatcher_ != null ? other.serviceNameMatcher_.Clone() : null;
+          method_ = other.method_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -2084,7 +2089,7 @@ namespace Envoy.Config.Core.V3 {
         private string path_ = "";
         /// <summary>
         /// Specifies the HTTP path that will be requested during health checking. For example
-        /// */healthcheck*.
+        /// ``/healthcheck``.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2112,18 +2117,43 @@ namespace Envoy.Config.Core.V3 {
 
         /// <summary>Field number for the "receive" field.</summary>
         public const int ReceiveFieldNumber = 4;
-        private global::Envoy.Config.Core.V3.HealthCheck.Types.Payload receive_;
+        private static readonly pb::FieldCodec<global::Envoy.Config.Core.V3.HealthCheck.Types.Payload> _repeated_receive_codec
+            = pb::FieldCodec.ForMessage(34, global::Envoy.Config.Core.V3.HealthCheck.Types.Payload.Parser);
+        private readonly pbc::RepeatedField<global::Envoy.Config.Core.V3.HealthCheck.Types.Payload> receive_ = new pbc::RepeatedField<global::Envoy.Config.Core.V3.HealthCheck.Types.Payload>();
         /// <summary>
-        /// [#not-implemented-hide:] HTTP specific response.
+        /// Specifies a list of HTTP expected responses to match in the first ``response_buffer_size`` bytes of the response body.
+        /// If it is set, both the expected response check and status code determine the health check.
+        /// When checking the response, “fuzzy” matching is performed such that each payload block must be found,
+        /// and in the order specified, but not necessarily contiguous.
+        ///
+        /// .. note::
+        ///
+        ///   It is recommended to set ``response_buffer_size`` based on the total Payload size for efficiency.
+        ///   The default buffer size is 1024 bytes when it is not set.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public global::Envoy.Config.Core.V3.HealthCheck.Types.Payload Receive {
+        public pbc::RepeatedField<global::Envoy.Config.Core.V3.HealthCheck.Types.Payload> Receive {
           get { return receive_; }
+        }
+
+        /// <summary>Field number for the "response_buffer_size" field.</summary>
+        public const int ResponseBufferSizeFieldNumber = 14;
+        private static readonly pb::FieldCodec<ulong?> _single_responseBufferSize_codec = pb::FieldCodec.ForStructWrapper<ulong>(114);
+        private ulong? responseBufferSize_;
+        /// <summary>
+        /// Specifies the size of response buffer in bytes that is used to Payload match.
+        /// The default value is 1024. Setting to 0 implies that the Payload will be matched against the entire response.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public ulong? ResponseBufferSize {
+          get { return responseBufferSize_; }
           set {
-            receive_ = value;
+            responseBufferSize_ = value;
           }
         }
+
 
         /// <summary>Field number for the "request_headers_to_add" field.</summary>
         public const int RequestHeadersToAddFieldNumber = 6;
@@ -2230,6 +2260,24 @@ namespace Envoy.Config.Core.V3 {
           }
         }
 
+        /// <summary>Field number for the "method" field.</summary>
+        public const int MethodFieldNumber = 13;
+        private global::Envoy.Config.Core.V3.RequestMethod method_ = global::Envoy.Config.Core.V3.RequestMethod.MethodUnspecified;
+        /// <summary>
+        /// HTTP Method that will be used for health checking, default is "GET".
+        /// GET, HEAD, POST, PUT, DELETE, OPTIONS, TRACE, PATCH methods are supported, but making request body is not supported.
+        /// CONNECT method is disallowed because it is not appropriate for health check request.
+        /// If a non-200 response is expected by the method, it needs to be set in :ref:`expected_statuses &lt;envoy_v3_api_field_config.core.v3.HealthCheck.HttpHealthCheck.expected_statuses>`.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Envoy.Config.Core.V3.RequestMethod Method {
+          get { return method_; }
+          set {
+            method_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -2248,13 +2296,15 @@ namespace Envoy.Config.Core.V3 {
           if (Host != other.Host) return false;
           if (Path != other.Path) return false;
           if (!object.Equals(Send, other.Send)) return false;
-          if (!object.Equals(Receive, other.Receive)) return false;
+          if(!receive_.Equals(other.receive_)) return false;
+          if (ResponseBufferSize != other.ResponseBufferSize) return false;
           if(!requestHeadersToAdd_.Equals(other.requestHeadersToAdd_)) return false;
           if(!requestHeadersToRemove_.Equals(other.requestHeadersToRemove_)) return false;
           if(!expectedStatuses_.Equals(other.expectedStatuses_)) return false;
           if(!retriableStatuses_.Equals(other.retriableStatuses_)) return false;
           if (CodecClientType != other.CodecClientType) return false;
           if (!object.Equals(ServiceNameMatcher, other.ServiceNameMatcher)) return false;
+          if (Method != other.Method) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -2265,13 +2315,15 @@ namespace Envoy.Config.Core.V3 {
           if (Host.Length != 0) hash ^= Host.GetHashCode();
           if (Path.Length != 0) hash ^= Path.GetHashCode();
           if (send_ != null) hash ^= Send.GetHashCode();
-          if (receive_ != null) hash ^= Receive.GetHashCode();
+          hash ^= receive_.GetHashCode();
+          if (responseBufferSize_ != null) hash ^= ResponseBufferSize.GetHashCode();
           hash ^= requestHeadersToAdd_.GetHashCode();
           hash ^= requestHeadersToRemove_.GetHashCode();
           hash ^= expectedStatuses_.GetHashCode();
           hash ^= retriableStatuses_.GetHashCode();
           if (CodecClientType != global::Envoy.Type.V3.CodecClientType.Http1) hash ^= CodecClientType.GetHashCode();
           if (serviceNameMatcher_ != null) hash ^= ServiceNameMatcher.GetHashCode();
+          if (Method != global::Envoy.Config.Core.V3.RequestMethod.MethodUnspecified) hash ^= Method.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -2302,10 +2354,7 @@ namespace Envoy.Config.Core.V3 {
             output.WriteRawTag(26);
             output.WriteMessage(Send);
           }
-          if (receive_ != null) {
-            output.WriteRawTag(34);
-            output.WriteMessage(Receive);
-          }
+          receive_.WriteTo(output, _repeated_receive_codec);
           requestHeadersToAdd_.WriteTo(output, _repeated_requestHeadersToAdd_codec);
           requestHeadersToRemove_.WriteTo(output, _repeated_requestHeadersToRemove_codec);
           expectedStatuses_.WriteTo(output, _repeated_expectedStatuses_codec);
@@ -2318,6 +2367,13 @@ namespace Envoy.Config.Core.V3 {
             output.WriteMessage(ServiceNameMatcher);
           }
           retriableStatuses_.WriteTo(output, _repeated_retriableStatuses_codec);
+          if (Method != global::Envoy.Config.Core.V3.RequestMethod.MethodUnspecified) {
+            output.WriteRawTag(104);
+            output.WriteEnum((int) Method);
+          }
+          if (responseBufferSize_ != null) {
+            _single_responseBufferSize_codec.WriteTagAndValue(output, ResponseBufferSize);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -2340,10 +2396,7 @@ namespace Envoy.Config.Core.V3 {
             output.WriteRawTag(26);
             output.WriteMessage(Send);
           }
-          if (receive_ != null) {
-            output.WriteRawTag(34);
-            output.WriteMessage(Receive);
-          }
+          receive_.WriteTo(ref output, _repeated_receive_codec);
           requestHeadersToAdd_.WriteTo(ref output, _repeated_requestHeadersToAdd_codec);
           requestHeadersToRemove_.WriteTo(ref output, _repeated_requestHeadersToRemove_codec);
           expectedStatuses_.WriteTo(ref output, _repeated_expectedStatuses_codec);
@@ -2356,6 +2409,13 @@ namespace Envoy.Config.Core.V3 {
             output.WriteMessage(ServiceNameMatcher);
           }
           retriableStatuses_.WriteTo(ref output, _repeated_retriableStatuses_codec);
+          if (Method != global::Envoy.Config.Core.V3.RequestMethod.MethodUnspecified) {
+            output.WriteRawTag(104);
+            output.WriteEnum((int) Method);
+          }
+          if (responseBufferSize_ != null) {
+            _single_responseBufferSize_codec.WriteTagAndValue(ref output, ResponseBufferSize);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -2375,8 +2435,9 @@ namespace Envoy.Config.Core.V3 {
           if (send_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(Send);
           }
-          if (receive_ != null) {
-            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Receive);
+          size += receive_.CalculateSize(_repeated_receive_codec);
+          if (responseBufferSize_ != null) {
+            size += _single_responseBufferSize_codec.CalculateSizeWithTag(ResponseBufferSize);
           }
           size += requestHeadersToAdd_.CalculateSize(_repeated_requestHeadersToAdd_codec);
           size += requestHeadersToRemove_.CalculateSize(_repeated_requestHeadersToRemove_codec);
@@ -2387,6 +2448,9 @@ namespace Envoy.Config.Core.V3 {
           }
           if (serviceNameMatcher_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(ServiceNameMatcher);
+          }
+          if (Method != global::Envoy.Config.Core.V3.RequestMethod.MethodUnspecified) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Method);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -2412,11 +2476,11 @@ namespace Envoy.Config.Core.V3 {
             }
             Send.MergeFrom(other.Send);
           }
-          if (other.receive_ != null) {
-            if (receive_ == null) {
-              Receive = new global::Envoy.Config.Core.V3.HealthCheck.Types.Payload();
+          receive_.Add(other.receive_);
+          if (other.responseBufferSize_ != null) {
+            if (responseBufferSize_ == null || other.ResponseBufferSize != 0UL) {
+              ResponseBufferSize = other.ResponseBufferSize;
             }
-            Receive.MergeFrom(other.Receive);
           }
           requestHeadersToAdd_.Add(other.requestHeadersToAdd_);
           requestHeadersToRemove_.Add(other.requestHeadersToRemove_);
@@ -2430,6 +2494,9 @@ namespace Envoy.Config.Core.V3 {
               ServiceNameMatcher = new global::Envoy.Type.Matcher.V3.StringMatcher();
             }
             ServiceNameMatcher.MergeFrom(other.ServiceNameMatcher);
+          }
+          if (other.Method != global::Envoy.Config.Core.V3.RequestMethod.MethodUnspecified) {
+            Method = other.Method;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -2462,10 +2529,7 @@ namespace Envoy.Config.Core.V3 {
                 break;
               }
               case 34: {
-                if (receive_ == null) {
-                  Receive = new global::Envoy.Config.Core.V3.HealthCheck.Types.Payload();
-                }
-                input.ReadMessage(Receive);
+                receive_.AddEntriesFrom(input, _repeated_receive_codec);
                 break;
               }
               case 50: {
@@ -2493,6 +2557,17 @@ namespace Envoy.Config.Core.V3 {
               }
               case 98: {
                 retriableStatuses_.AddEntriesFrom(input, _repeated_retriableStatuses_codec);
+                break;
+              }
+              case 104: {
+                Method = (global::Envoy.Config.Core.V3.RequestMethod) input.ReadEnum();
+                break;
+              }
+              case 114: {
+                ulong? value = _single_responseBufferSize_codec.Read(input);
+                if (responseBufferSize_ == null || value != 0UL) {
+                  ResponseBufferSize = value;
+                }
                 break;
               }
             }
@@ -2526,10 +2601,7 @@ namespace Envoy.Config.Core.V3 {
                 break;
               }
               case 34: {
-                if (receive_ == null) {
-                  Receive = new global::Envoy.Config.Core.V3.HealthCheck.Types.Payload();
-                }
-                input.ReadMessage(Receive);
+                receive_.AddEntriesFrom(ref input, _repeated_receive_codec);
                 break;
               }
               case 50: {
@@ -2557,6 +2629,17 @@ namespace Envoy.Config.Core.V3 {
               }
               case 98: {
                 retriableStatuses_.AddEntriesFrom(ref input, _repeated_retriableStatuses_codec);
+                break;
+              }
+              case 104: {
+                Method = (global::Envoy.Config.Core.V3.RequestMethod) input.ReadEnum();
+                break;
+              }
+              case 114: {
+                ulong? value = _single_responseBufferSize_codec.Read(ref input);
+                if (responseBufferSize_ == null || value != 0UL) {
+                  ResponseBufferSize = value;
+                }
                 break;
               }
             }
@@ -2633,7 +2716,7 @@ namespace Envoy.Config.Core.V3 {
         private readonly pbc::RepeatedField<global::Envoy.Config.Core.V3.HealthCheck.Types.Payload> receive_ = new pbc::RepeatedField<global::Envoy.Config.Core.V3.HealthCheck.Types.Payload>();
         /// <summary>
         /// When checking the response, “fuzzy” matching is performed such that each
-        /// binary block must be found, and in the order specified, but not
+        /// payload block must be found, and in the order specified, but not
         /// necessarily contiguous.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

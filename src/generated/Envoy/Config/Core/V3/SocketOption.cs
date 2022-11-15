@@ -34,14 +34,17 @@ namespace Envoy.Config.Core.V3 {
             "LlNvY2tldFN0YXRlQgj6QgWCAQIQASJGCgtTb2NrZXRTdGF0ZRIRCg1TVEFU",
             "RV9QUkVCSU5EEAASDwoLU1RBVEVfQk9VTkQQARITCg9TVEFURV9MSVNURU5J",
             "TkcQAjolmsWIHiAKHmVudm95LmFwaS52Mi5jb3JlLlNvY2tldE9wdGlvbkIM",
-            "CgV2YWx1ZRID+EIBQoUBCiJpby5lbnZveXByb3h5LmVudm95LmNvbmZpZy5j",
-            "b3JlLnYzQhFTb2NrZXRPcHRpb25Qcm90b1ABWkJnaXRodWIuY29tL2Vudm95",
-            "cHJveHkvZ28tY29udHJvbC1wbGFuZS9lbnZveS9jb25maWcvY29yZS92Mztj",
-            "b3JldjO6gMjRBgIQAmIGcHJvdG8z"));
+            "CgV2YWx1ZRID+EIBIlMKFVNvY2tldE9wdGlvbnNPdmVycmlkZRI6Cg5zb2Nr",
+            "ZXRfb3B0aW9ucxgBIAMoCzIiLmVudm95LmNvbmZpZy5jb3JlLnYzLlNvY2tl",
+            "dE9wdGlvbkKFAQoiaW8uZW52b3lwcm94eS5lbnZveS5jb25maWcuY29yZS52",
+            "M0IRU29ja2V0T3B0aW9uUHJvdG9QAVpCZ2l0aHViLmNvbS9lbnZveXByb3h5",
+            "L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kvY29uZmlnL2NvcmUvdjM7Y29yZXYz",
+            "uoDI0QYCEAJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.SocketOption), global::Envoy.Config.Core.V3.SocketOption.Parser, new[]{ "Description", "Level", "Name", "IntValue", "BufValue", "State" }, new[]{ "Value" }, new[]{ typeof(global::Envoy.Config.Core.V3.SocketOption.Types.SocketState) }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.SocketOption), global::Envoy.Config.Core.V3.SocketOption.Parser, new[]{ "Description", "Level", "Name", "IntValue", "BufValue", "State" }, new[]{ "Value" }, new[]{ typeof(global::Envoy.Config.Core.V3.SocketOption.Types.SocketState) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.SocketOptionsOverride), global::Envoy.Config.Core.V3.SocketOptionsOverride.Parser, new[]{ "SocketOptions" }, null, null, null, null)
           }));
     }
     #endregion
@@ -520,6 +523,184 @@ namespace Envoy.Config.Core.V3 {
 
     }
     #endregion
+
+  }
+
+  public sealed partial class SocketOptionsOverride : pb::IMessage<SocketOptionsOverride>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SocketOptionsOverride> _parser = new pb::MessageParser<SocketOptionsOverride>(() => new SocketOptionsOverride());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SocketOptionsOverride> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Envoy.Config.Core.V3.SocketOptionReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SocketOptionsOverride() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SocketOptionsOverride(SocketOptionsOverride other) : this() {
+      socketOptions_ = other.socketOptions_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SocketOptionsOverride Clone() {
+      return new SocketOptionsOverride(this);
+    }
+
+    /// <summary>Field number for the "socket_options" field.</summary>
+    public const int SocketOptionsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Envoy.Config.Core.V3.SocketOption> _repeated_socketOptions_codec
+        = pb::FieldCodec.ForMessage(10, global::Envoy.Config.Core.V3.SocketOption.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Config.Core.V3.SocketOption> socketOptions_ = new pbc::RepeatedField<global::Envoy.Config.Core.V3.SocketOption>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Config.Core.V3.SocketOption> SocketOptions {
+      get { return socketOptions_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SocketOptionsOverride);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SocketOptionsOverride other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!socketOptions_.Equals(other.socketOptions_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= socketOptions_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      socketOptions_.WriteTo(output, _repeated_socketOptions_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      socketOptions_.WriteTo(ref output, _repeated_socketOptions_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += socketOptions_.CalculateSize(_repeated_socketOptions_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SocketOptionsOverride other) {
+      if (other == null) {
+        return;
+      }
+      socketOptions_.Add(other.socketOptions_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            socketOptions_.AddEntriesFrom(input, _repeated_socketOptions_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            socketOptions_.AddEntriesFrom(ref input, _repeated_socketOptions_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 

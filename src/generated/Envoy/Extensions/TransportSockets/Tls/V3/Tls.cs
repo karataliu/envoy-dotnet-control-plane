@@ -1455,8 +1455,8 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// RSA certificate is used for clients that only support RSA and the first ECDSA certificate is
     /// used for clients that support ECDSA.
     ///
-    /// Only one of *tls_certificates*, *tls_certificate_sds_secret_configs*,
-    /// and *tls_certificate_provider_instance* may be used.
+    /// Only one of ``tls_certificates``, ``tls_certificate_sds_secret_configs``,
+    /// and ``tls_certificate_provider_instance`` may be used.
     /// [#next-major-version: These mutually exclusive fields should ideally be in a oneof, but it's
     /// not legal to put a repeated field in a oneof. In the next major version, we should rework
     /// this to avoid this problem.]
@@ -1479,8 +1479,8 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// The same number and types of certificates as :ref:`tls_certificates &lt;envoy_v3_api_field_extensions.transport_sockets.tls.v3.CommonTlsContext.tls_certificates>`
     /// are valid in the the certificates fetched through this setting.
     ///
-    /// Only one of *tls_certificates*, *tls_certificate_sds_secret_configs*,
-    /// and *tls_certificate_provider_instance* may be used.
+    /// Only one of ``tls_certificates``, ``tls_certificate_sds_secret_configs``,
+    /// and ``tls_certificate_provider_instance`` may be used.
     /// [#next-major-version: These mutually exclusive fields should ideally be in a oneof, but it's
     /// not legal to put a repeated field in a oneof. In the next major version, we should rework
     /// this to avoid this problem.]
@@ -1497,8 +1497,8 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// <summary>
     /// Certificate provider instance for fetching TLS certs.
     ///
-    /// Only one of *tls_certificates*, *tls_certificate_sds_secret_configs*,
-    /// and *tls_certificate_provider_instance* may be used.
+    /// Only one of ``tls_certificates``, ``tls_certificate_sds_secret_configs``,
+    /// and ``tls_certificate_provider_instance`` may be used.
     /// [#not-implemented-hide:]
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2867,7 +2867,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
         private global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Types.CertificateProvider validationContextCertificateProvider_;
         /// <summary>
         /// Certificate provider for fetching CA certs. This will populate the
-        /// *default_validation_context.trusted_ca* field.
+        /// ``default_validation_context.trusted_ca`` field.
         /// [#not-implemented-hide:]
         /// </summary>
         [global::System.ObsoleteAttribute]
@@ -2885,7 +2885,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
         private global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Types.CertificateProviderInstance validationContextCertificateProviderInstance_;
         /// <summary>
         /// Certificate provider instance for fetching CA certs. This will populate the
-        /// *default_validation_context.trusted_ca* field.
+        /// ``default_validation_context.trusted_ca`` field.
         /// [#not-implemented-hide:]
         /// </summary>
         [global::System.ObsoleteAttribute]

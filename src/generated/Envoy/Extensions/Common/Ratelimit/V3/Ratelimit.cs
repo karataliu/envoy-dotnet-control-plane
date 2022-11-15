@@ -45,14 +45,15 @@ namespace Envoy.Extensions.Common.Ratelimit.V3 {
             "My5SYXRlTGltaXREZXNjcmlwdG9yLkVudHJ5Qgj6QgWSAQIIARI6Cgx0b2tl",
             "bl9idWNrZXQYAiABKAsyGi5lbnZveS50eXBlLnYzLlRva2VuQnVja2V0Qgj6",
             "QgWKAQIQASo8ChtYUmF0ZUxpbWl0SGVhZGVyc1JGQ1ZlcnNpb24SBwoDT0ZG",
-            "EAASFAoQRFJBRlRfVkVSU0lPTl8wMxABQqcBCjJpby5lbnZveXByb3h5LmVu",
-            "dm95LmV4dGVuc2lvbnMuY29tbW9uLnJhdGVsaW1pdC52M0IOUmF0ZWxpbWl0",
-            "UHJvdG9QAVpXZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxh",
-            "bmUvZW52b3kvZXh0ZW5zaW9ucy9jb21tb24vcmF0ZWxpbWl0L3YzO3JhdGVs",
-            "aW1pdHYzuoDI0QYCEAJiBnByb3RvMw=="));
+            "EAASFAoQRFJBRlRfVkVSU0lPTl8wMxABKjwKE1ZoUmF0ZUxpbWl0c09wdGlv",
+            "bnMSDAoIT1ZFUlJJREUQABILCgdJTkNMVURFEAESCgoGSUdOT1JFEAJCpwEK",
+            "MmlvLmVudm95cHJveHkuZW52b3kuZXh0ZW5zaW9ucy5jb21tb24ucmF0ZWxp",
+            "bWl0LnYzQg5SYXRlbGltaXRQcm90b1ABWldnaXRodWIuY29tL2Vudm95cHJv",
+            "eHkvZ28tY29udHJvbC1wbGFuZS9lbnZveS9leHRlbnNpb25zL2NvbW1vbi9y",
+            "YXRlbGltaXQvdjM7cmF0ZWxpbWl0djO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Type.V3.RatelimitUnitReflection.Descriptor, global::Envoy.Type.V3.TokenBucketReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Envoy.Extensions.Common.Ratelimit.V3.XRateLimitHeadersRFCVersion), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Envoy.Extensions.Common.Ratelimit.V3.XRateLimitHeadersRFCVersion), typeof(global::Envoy.Extensions.Common.Ratelimit.V3.VhRateLimitsOptions), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Common.Ratelimit.V3.RateLimitDescriptor), global::Envoy.Extensions.Common.Ratelimit.V3.RateLimitDescriptor.Parser, new[]{ "Entries", "Limit" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Common.Ratelimit.V3.RateLimitDescriptor.Types.Entry), global::Envoy.Extensions.Common.Ratelimit.V3.RateLimitDescriptor.Types.Entry.Parser, new[]{ "Key", "Value" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Common.Ratelimit.V3.RateLimitDescriptor.Types.RateLimitOverride), global::Envoy.Extensions.Common.Ratelimit.V3.RateLimitDescriptor.Types.RateLimitOverride.Parser, new[]{ "RequestsPerUnit", "Unit" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Common.Ratelimit.V3.LocalRateLimitDescriptor), global::Envoy.Extensions.Common.Ratelimit.V3.LocalRateLimitDescriptor.Parser, new[]{ "Entries", "TokenBucket" }, null, null, null, null)
@@ -82,6 +83,21 @@ namespace Envoy.Extensions.Common.Ratelimit.V3 {
     ///   the current time-window. The value is returned by the remaining fill interval of the token bucket.
     /// </summary>
     [pbr::OriginalName("DRAFT_VERSION_03")] DraftVersion03 = 1,
+  }
+
+  public enum VhRateLimitsOptions {
+    /// <summary>
+    /// Use the virtual host rate limits unless the route has a rate limit policy.
+    /// </summary>
+    [pbr::OriginalName("OVERRIDE")] Override = 0,
+    /// <summary>
+    /// Use the virtual host rate limits even if the route has a rate limit policy.
+    /// </summary>
+    [pbr::OriginalName("INCLUDE")] Include = 1,
+    /// <summary>
+    /// Ignore the virtual host rate limits even if the route does not have a rate limit policy.
+    /// </summary>
+    [pbr::OriginalName("IGNORE")] Ignore = 2,
   }
 
   #endregion

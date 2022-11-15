@@ -27,48 +27,52 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
             "Cj5lbnZveS9leHRlbnNpb25zL3Vwc3RyZWFtcy9odHRwL3YzL2h0dHBfcHJv",
             "dG9jb2xfb3B0aW9ucy5wcm90bxIiZW52b3kuZXh0ZW5zaW9ucy51cHN0cmVh",
             "bXMuaHR0cC52MxojZW52b3kvY29uZmlnL2NvcmUvdjMvcHJvdG9jb2wucHJv",
-            "dG8aHXVkcGEvYW5ub3RhdGlvbnMvc3RhdHVzLnByb3RvGhd2YWxpZGF0ZS92",
-            "YWxpZGF0ZS5wcm90byKXCwoTSHR0cFByb3RvY29sT3B0aW9ucxJPChxjb21t",
-            "b25faHR0cF9wcm90b2NvbF9vcHRpb25zGAEgASgLMikuZW52b3kuY29uZmln",
-            "LmNvcmUudjMuSHR0cFByb3RvY29sT3B0aW9ucxJZCh51cHN0cmVhbV9odHRw",
-            "X3Byb3RvY29sX29wdGlvbnMYAiABKAsyMS5lbnZveS5jb25maWcuY29yZS52",
-            "My5VcHN0cmVhbUh0dHBQcm90b2NvbE9wdGlvbnMSagoUZXhwbGljaXRfaHR0",
-            "cF9jb25maWcYAyABKAsySi5lbnZveS5leHRlbnNpb25zLnVwc3RyZWFtcy5o",
-            "dHRwLnYzLkh0dHBQcm90b2NvbE9wdGlvbnMuRXhwbGljaXRIdHRwQ29uZmln",
-            "SAASeQoedXNlX2Rvd25zdHJlYW1fcHJvdG9jb2xfY29uZmlnGAQgASgLMk8u",
-            "ZW52b3kuZXh0ZW5zaW9ucy51cHN0cmVhbXMuaHR0cC52My5IdHRwUHJvdG9j",
-            "b2xPcHRpb25zLlVzZURvd25zdHJlYW1IdHRwQ29uZmlnSAASXQoLYXV0b19j",
-            "b25maWcYBSABKAsyRi5lbnZveS5leHRlbnNpb25zLnVwc3RyZWFtcy5odHRw",
-            "LnYzLkh0dHBQcm90b2NvbE9wdGlvbnMuQXV0b0h0dHBDb25maWdIABqVAgoS",
-            "RXhwbGljaXRIdHRwQ29uZmlnEksKFWh0dHBfcHJvdG9jb2xfb3B0aW9ucxgB",
-            "IAEoCzIqLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9jb2xPcHRp",
-            "b25zSAASTAoWaHR0cDJfcHJvdG9jb2xfb3B0aW9ucxgCIAEoCzIqLmVudm95",
-            "LmNvbmZpZy5jb3JlLnYzLkh0dHAyUHJvdG9jb2xPcHRpb25zSAASTAoWaHR0",
-            "cDNfcHJvdG9jb2xfb3B0aW9ucxgDIAEoCzIqLmVudm95LmNvbmZpZy5jb3Jl",
-            "LnYzLkh0dHAzUHJvdG9jb2xPcHRpb25zSABCFgoPcHJvdG9jb2xfY29uZmln",
-            "EgP4QgEa/AEKF1VzZURvd25zdHJlYW1IdHRwQ29uZmlnEkkKFWh0dHBfcHJv",
-            "dG9jb2xfb3B0aW9ucxgBIAEoCzIqLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0",
-            "dHAxUHJvdG9jb2xPcHRpb25zEkoKFmh0dHAyX3Byb3RvY29sX29wdGlvbnMY",
-            "AiABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5IdHRwMlByb3RvY29sT3B0",
-            "aW9ucxJKChZodHRwM19wcm90b2NvbF9vcHRpb25zGAMgASgLMiouZW52b3ku",
-            "Y29uZmlnLmNvcmUudjMuSHR0cDNQcm90b2NvbE9wdGlvbnMa1AIKDkF1dG9I",
-            "dHRwQ29uZmlnEkkKFWh0dHBfcHJvdG9jb2xfb3B0aW9ucxgBIAEoCzIqLmVu",
-            "dm95LmNvbmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9jb2xPcHRpb25zEkoKFmh0",
-            "dHAyX3Byb3RvY29sX29wdGlvbnMYAiABKAsyKi5lbnZveS5jb25maWcuY29y",
-            "ZS52My5IdHRwMlByb3RvY29sT3B0aW9ucxJKChZodHRwM19wcm90b2NvbF9v",
-            "cHRpb25zGAMgASgLMiouZW52b3kuY29uZmlnLmNvcmUudjMuSHR0cDNQcm90",
-            "b2NvbE9wdGlvbnMSXwohYWx0ZXJuYXRlX3Byb3RvY29sc19jYWNoZV9vcHRp",
-            "b25zGAQgASgLMjQuZW52b3kuY29uZmlnLmNvcmUudjMuQWx0ZXJuYXRlUHJv",
-            "dG9jb2xzQ2FjaGVPcHRpb25zQiAKGXVwc3RyZWFtX3Byb3RvY29sX29wdGlv",
-            "bnMSA/hCAUKoAQowaW8uZW52b3lwcm94eS5lbnZveS5leHRlbnNpb25zLnVw",
-            "c3RyZWFtcy5odHRwLnYzQhhIdHRwUHJvdG9jb2xPcHRpb25zUHJvdG9QAVpQ",
-            "Z2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kv",
-            "ZXh0ZW5zaW9ucy91cHN0cmVhbXMvaHR0cC92MztodHRwdjO6gMjRBgIQAmIG",
-            "cHJvdG8z"));
+            "dG8aWWVudm95L2V4dGVuc2lvbnMvZmlsdGVycy9uZXR3b3JrL2h0dHBfY29u",
+            "bmVjdGlvbl9tYW5hZ2VyL3YzL2h0dHBfY29ubmVjdGlvbl9tYW5hZ2VyLnBy",
+            "b3RvGh11ZHBhL2Fubm90YXRpb25zL3N0YXR1cy5wcm90bxoXdmFsaWRhdGUv",
+            "dmFsaWRhdGUucHJvdG8i9gsKE0h0dHBQcm90b2NvbE9wdGlvbnMSTwocY29t",
+            "bW9uX2h0dHBfcHJvdG9jb2xfb3B0aW9ucxgBIAEoCzIpLmVudm95LmNvbmZp",
+            "Zy5jb3JlLnYzLkh0dHBQcm90b2NvbE9wdGlvbnMSWQoedXBzdHJlYW1faHR0",
+            "cF9wcm90b2NvbF9vcHRpb25zGAIgASgLMjEuZW52b3kuY29uZmlnLmNvcmUu",
+            "djMuVXBzdHJlYW1IdHRwUHJvdG9jb2xPcHRpb25zEmoKFGV4cGxpY2l0X2h0",
+            "dHBfY29uZmlnGAMgASgLMkouZW52b3kuZXh0ZW5zaW9ucy51cHN0cmVhbXMu",
+            "aHR0cC52My5IdHRwUHJvdG9jb2xPcHRpb25zLkV4cGxpY2l0SHR0cENvbmZp",
+            "Z0gAEnkKHnVzZV9kb3duc3RyZWFtX3Byb3RvY29sX2NvbmZpZxgEIAEoCzJP",
+            "LmVudm95LmV4dGVuc2lvbnMudXBzdHJlYW1zLmh0dHAudjMuSHR0cFByb3Rv",
+            "Y29sT3B0aW9ucy5Vc2VEb3duc3RyZWFtSHR0cENvbmZpZ0gAEl0KC2F1dG9f",
+            "Y29uZmlnGAUgASgLMkYuZW52b3kuZXh0ZW5zaW9ucy51cHN0cmVhbXMuaHR0",
+            "cC52My5IdHRwUHJvdG9jb2xPcHRpb25zLkF1dG9IdHRwQ29uZmlnSAASXQoM",
+            "aHR0cF9maWx0ZXJzGAYgAygLMkcuZW52b3kuZXh0ZW5zaW9ucy5maWx0ZXJz",
+            "Lm5ldHdvcmsuaHR0cF9jb25uZWN0aW9uX21hbmFnZXIudjMuSHR0cEZpbHRl",
+            "chqVAgoSRXhwbGljaXRIdHRwQ29uZmlnEksKFWh0dHBfcHJvdG9jb2xfb3B0",
+            "aW9ucxgBIAEoCzIqLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9j",
+            "b2xPcHRpb25zSAASTAoWaHR0cDJfcHJvdG9jb2xfb3B0aW9ucxgCIAEoCzIq",
+            "LmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAyUHJvdG9jb2xPcHRpb25zSAAS",
+            "TAoWaHR0cDNfcHJvdG9jb2xfb3B0aW9ucxgDIAEoCzIqLmVudm95LmNvbmZp",
+            "Zy5jb3JlLnYzLkh0dHAzUHJvdG9jb2xPcHRpb25zSABCFgoPcHJvdG9jb2xf",
+            "Y29uZmlnEgP4QgEa/AEKF1VzZURvd25zdHJlYW1IdHRwQ29uZmlnEkkKFWh0",
+            "dHBfcHJvdG9jb2xfb3B0aW9ucxgBIAEoCzIqLmVudm95LmNvbmZpZy5jb3Jl",
+            "LnYzLkh0dHAxUHJvdG9jb2xPcHRpb25zEkoKFmh0dHAyX3Byb3RvY29sX29w",
+            "dGlvbnMYAiABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5IdHRwMlByb3Rv",
+            "Y29sT3B0aW9ucxJKChZodHRwM19wcm90b2NvbF9vcHRpb25zGAMgASgLMiou",
+            "ZW52b3kuY29uZmlnLmNvcmUudjMuSHR0cDNQcm90b2NvbE9wdGlvbnMa1AIK",
+            "DkF1dG9IdHRwQ29uZmlnEkkKFWh0dHBfcHJvdG9jb2xfb3B0aW9ucxgBIAEo",
+            "CzIqLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9jb2xPcHRpb25z",
+            "EkoKFmh0dHAyX3Byb3RvY29sX29wdGlvbnMYAiABKAsyKi5lbnZveS5jb25m",
+            "aWcuY29yZS52My5IdHRwMlByb3RvY29sT3B0aW9ucxJKChZodHRwM19wcm90",
+            "b2NvbF9vcHRpb25zGAMgASgLMiouZW52b3kuY29uZmlnLmNvcmUudjMuSHR0",
+            "cDNQcm90b2NvbE9wdGlvbnMSXwohYWx0ZXJuYXRlX3Byb3RvY29sc19jYWNo",
+            "ZV9vcHRpb25zGAQgASgLMjQuZW52b3kuY29uZmlnLmNvcmUudjMuQWx0ZXJu",
+            "YXRlUHJvdG9jb2xzQ2FjaGVPcHRpb25zQiAKGXVwc3RyZWFtX3Byb3RvY29s",
+            "X29wdGlvbnMSA/hCAUKoAQowaW8uZW52b3lwcm94eS5lbnZveS5leHRlbnNp",
+            "b25zLnVwc3RyZWFtcy5odHRwLnYzQhhIdHRwUHJvdG9jb2xPcHRpb25zUHJv",
+            "dG9QAVpQZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUv",
+            "ZW52b3kvZXh0ZW5zaW9ucy91cHN0cmVhbXMvaHR0cC92MztodHRwdjO6gMjR",
+            "BgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.ProtocolReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.ProtocolReflection.Descriptor, global::Envoy.Extensions.Filters.Network.HttpConnectionManager.V3.HttpConnectionManagerReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions), global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Parser, new[]{ "CommonHttpProtocolOptions", "UpstreamHttpProtocolOptions", "ExplicitHttpConfig", "UseDownstreamProtocolConfig", "AutoConfig" }, new[]{ "UpstreamProtocolOptions" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.ExplicitHttpConfig), global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.ExplicitHttpConfig.Parser, new[]{ "HttpProtocolOptions", "Http2ProtocolOptions", "Http3ProtocolOptions" }, new[]{ "ProtocolConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions), global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Parser, new[]{ "CommonHttpProtocolOptions", "UpstreamHttpProtocolOptions", "ExplicitHttpConfig", "UseDownstreamProtocolConfig", "AutoConfig", "HttpFilters" }, new[]{ "UpstreamProtocolOptions" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.ExplicitHttpConfig), global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.ExplicitHttpConfig.Parser, new[]{ "HttpProtocolOptions", "Http2ProtocolOptions", "Http3ProtocolOptions" }, new[]{ "ProtocolConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.UseDownstreamHttpConfig), global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.UseDownstreamHttpConfig.Parser, new[]{ "HttpProtocolOptions", "Http2ProtocolOptions", "Http3ProtocolOptions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.AutoHttpConfig), global::Envoy.Extensions.Upstreams.Http.V3.HttpProtocolOptions.Types.AutoHttpConfig.Parser, new[]{ "HttpProtocolOptions", "Http2ProtocolOptions", "Http3ProtocolOptions", "AlternateProtocolsCacheOptions" }, null, null, null, null)})
           }));
@@ -81,7 +85,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
   /// HttpProtocolOptions specifies Http upstream protocol options. This object
   /// is used in
   /// :ref:`typed_extension_protocol_options&lt;envoy_v3_api_field_config.cluster.v3.Cluster.typed_extension_protocol_options>`,
-  /// keyed by the name `envoy.extensions.upstreams.http.v3.HttpProtocolOptions`.
+  /// keyed by the name ``envoy.extensions.upstreams.http.v3.HttpProtocolOptions``.
   ///
   /// This controls what protocol(s) should be used for upstream and how said protocol(s) are configured.
   ///
@@ -119,7 +123,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
   ///             http2_protocol_options:
   ///               max_concurrent_streams: 100
   ///        .... [further cluster config]
-  /// [#next-free-field: 6]
+  /// [#next-free-field: 7]
   /// </summary>
   public sealed partial class HttpProtocolOptions : pb::IMessage<HttpProtocolOptions>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -157,6 +161,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
     public HttpProtocolOptions(HttpProtocolOptions other) : this() {
       commonHttpProtocolOptions_ = other.commonHttpProtocolOptions_ != null ? other.commonHttpProtocolOptions_.Clone() : null;
       upstreamHttpProtocolOptions_ = other.upstreamHttpProtocolOptions_ != null ? other.upstreamHttpProtocolOptions_.Clone() : null;
+      httpFilters_ = other.httpFilters_.Clone();
       switch (other.UpstreamProtocolOptionsCase) {
         case UpstreamProtocolOptionsOneofCase.ExplicitHttpConfig:
           ExplicitHttpConfig = other.ExplicitHttpConfig.Clone();
@@ -211,8 +216,8 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
     /// <summary>Field number for the "explicit_http_config" field.</summary>
     public const int ExplicitHttpConfigFieldNumber = 3;
     /// <summary>
-    /// To explicitly configure either HTTP/1 or HTTP/2 (but not both!) use *explicit_http_config*.
-    /// If the *explicit_http_config* is empty, HTTP/1.1 is used.
+    /// To explicitly configure either HTTP/1 or HTTP/2 (but not both!) use ``explicit_http_config``.
+    /// If the ``explicit_http_config`` is empty, HTTP/1.1 is used.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -253,6 +258,32 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
         upstreamProtocolOptions_ = value;
         upstreamProtocolOptionsCase_ = value == null ? UpstreamProtocolOptionsOneofCase.None : UpstreamProtocolOptionsOneofCase.AutoConfig;
       }
+    }
+
+    /// <summary>Field number for the "http_filters" field.</summary>
+    public const int HttpFiltersFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Envoy.Extensions.Filters.Network.HttpConnectionManager.V3.HttpFilter> _repeated_httpFilters_codec
+        = pb::FieldCodec.ForMessage(50, global::Envoy.Extensions.Filters.Network.HttpConnectionManager.V3.HttpFilter.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Extensions.Filters.Network.HttpConnectionManager.V3.HttpFilter> httpFilters_ = new pbc::RepeatedField<global::Envoy.Extensions.Filters.Network.HttpConnectionManager.V3.HttpFilter>();
+    /// <summary>
+    /// .. warning::
+    ///   Upstream HTTP filters are not supported by default.
+    ///   This warning will be removed as support moves beyond alpha.
+    ///
+    /// Optional HTTP filters for the upstream filter chain.
+    ///
+    /// These filters will be applied for all HTTP streams which flow through this
+    /// cluster. Unlike downstream filters, they will *not* be applied to terminated CONNECT requests.
+    ///
+    /// If using upstream filters, please be aware that local errors sent by
+    /// upstream filters will not trigger retries, and local errors sent by
+    /// upstream filters will count as a final response if hedging is configured.
+    /// [#extension-category: envoy.filters.http.upstream]
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Extensions.Filters.Network.HttpConnectionManager.V3.HttpFilter> HttpFilters {
+      get { return httpFilters_; }
     }
 
     private object upstreamProtocolOptions_;
@@ -297,6 +328,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
       if (!object.Equals(ExplicitHttpConfig, other.ExplicitHttpConfig)) return false;
       if (!object.Equals(UseDownstreamProtocolConfig, other.UseDownstreamProtocolConfig)) return false;
       if (!object.Equals(AutoConfig, other.AutoConfig)) return false;
+      if(!httpFilters_.Equals(other.httpFilters_)) return false;
       if (UpstreamProtocolOptionsCase != other.UpstreamProtocolOptionsCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -310,6 +342,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
       if (upstreamProtocolOptionsCase_ == UpstreamProtocolOptionsOneofCase.ExplicitHttpConfig) hash ^= ExplicitHttpConfig.GetHashCode();
       if (upstreamProtocolOptionsCase_ == UpstreamProtocolOptionsOneofCase.UseDownstreamProtocolConfig) hash ^= UseDownstreamProtocolConfig.GetHashCode();
       if (upstreamProtocolOptionsCase_ == UpstreamProtocolOptionsOneofCase.AutoConfig) hash ^= AutoConfig.GetHashCode();
+      hash ^= httpFilters_.GetHashCode();
       hash ^= (int) upstreamProtocolOptionsCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -349,6 +382,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
         output.WriteRawTag(42);
         output.WriteMessage(AutoConfig);
       }
+      httpFilters_.WriteTo(output, _repeated_httpFilters_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -379,6 +413,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
         output.WriteRawTag(42);
         output.WriteMessage(AutoConfig);
       }
+      httpFilters_.WriteTo(ref output, _repeated_httpFilters_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -404,6 +439,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
       if (upstreamProtocolOptionsCase_ == UpstreamProtocolOptionsOneofCase.AutoConfig) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AutoConfig);
       }
+      size += httpFilters_.CalculateSize(_repeated_httpFilters_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -428,6 +464,7 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
         }
         UpstreamHttpProtocolOptions.MergeFrom(other.UpstreamHttpProtocolOptions);
       }
+      httpFilters_.Add(other.httpFilters_);
       switch (other.UpstreamProtocolOptionsCase) {
         case UpstreamProtocolOptionsOneofCase.ExplicitHttpConfig:
           if (ExplicitHttpConfig == null) {
@@ -505,6 +542,10 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
             AutoConfig = subBuilder;
             break;
           }
+          case 50: {
+            httpFilters_.AddEntriesFrom(input, _repeated_httpFilters_codec);
+            break;
+          }
         }
       }
     #endif
@@ -559,6 +600,10 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
             }
             input.ReadMessage(subBuilder);
             AutoConfig = subBuilder;
+            break;
+          }
+          case 50: {
+            httpFilters_.AddEntriesFrom(ref input, _repeated_httpFilters_codec);
             break;
           }
         }
@@ -1223,9 +1268,9 @@ namespace Envoy.Extensions.Upstreams.Http.V3 {
       /// <summary>
       /// If this is used, the cluster can use either HTTP/1 or HTTP/2, and will use whichever
       /// protocol is negotiated by ALPN with the upstream.
-      /// Clusters configured with *AutoHttpConfig* will use the highest available
+      /// Clusters configured with ``AutoHttpConfig`` will use the highest available
       /// protocol; HTTP/2 if supported, otherwise HTTP/1.
-      /// If the upstream does not support ALPN, *AutoHttpConfig* will fail over to HTTP/1.
+      /// If the upstream does not support ALPN, ``AutoHttpConfig`` will fail over to HTTP/1.
       /// This can only be used with transport sockets which support ALPN. Using a
       /// transport socket which does not support ALPN will result in configuration
       /// failure. The transport layer may be configured with custom ALPN, but the default ALPN

@@ -40,51 +40,52 @@ namespace Envoy.Config.Core.V3 {
             "dm95LmFwaS52Mi5jb3JlLkxvY2FsaXR5IpEBCgxCdWlsZFZlcnNpb24SLwoH",
             "dmVyc2lvbhgBIAEoCzIeLmVudm95LnR5cGUudjMuU2VtYW50aWNWZXJzaW9u",
             "EikKCG1ldGFkYXRhGAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdDol",
-            "msWIHiAKHmVudm95LmFwaS52Mi5jb3JlLkJ1aWxkVmVyc2lvbiKvAQoJRXh0",
-            "ZW5zaW9uEgwKBG5hbWUYASABKAkSEAoIY2F0ZWdvcnkYAiABKAkSFwoPdHlw",
-            "ZV9kZXNjcmlwdG9yGAMgASgJEjMKB3ZlcnNpb24YBCABKAsyIi5lbnZveS5j",
-            "b25maWcuY29yZS52My5CdWlsZFZlcnNpb24SEAoIZGlzYWJsZWQYBSABKAg6",
-            "IprFiB4dChtlbnZveS5hcGkudjIuY29yZS5FeHRlbnNpb24iigUKBE5vZGUS",
-            "CgoCaWQYASABKAkSDwoHY2x1c3RlchgCIAEoCRIpCghtZXRhZGF0YRgDIAEo",
-            "CzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3QSTQoSZHluYW1pY19wYXJhbWV0",
-            "ZXJzGAwgAygLMjEuZW52b3kuY29uZmlnLmNvcmUudjMuTm9kZS5EeW5hbWlj",
-            "UGFyYW1ldGVyc0VudHJ5EjAKCGxvY2FsaXR5GAQgASgLMh4uZW52b3kuY29u",
-            "ZmlnLmNvcmUudjMuTG9jYWxpdHkSFwoPdXNlcl9hZ2VudF9uYW1lGAYgASgJ",
-            "EhwKEnVzZXJfYWdlbnRfdmVyc2lvbhgHIAEoCUgAEkYKGHVzZXJfYWdlbnRf",
-            "YnVpbGRfdmVyc2lvbhgIIAEoCzIiLmVudm95LmNvbmZpZy5jb3JlLnYzLkJ1",
-            "aWxkVmVyc2lvbkgAEjMKCmV4dGVuc2lvbnMYCSADKAsyHy5lbnZveS5jb25m",
-            "aWcuY29yZS52My5FeHRlbnNpb24SFwoPY2xpZW50X2ZlYXR1cmVzGAogAygJ",
-            "EkcKE2xpc3RlbmluZ19hZGRyZXNzZXMYCyADKAsyHS5lbnZveS5jb25maWcu",
-            "Y29yZS52My5BZGRyZXNzQgsYAZLHhtgEAzMuMBpUChZEeW5hbWljUGFyYW1l",
-            "dGVyc0VudHJ5EgsKA2tleRgBIAEoCRIpCgV2YWx1ZRgCIAEoCzIaLnhkcy5j",
-            "b3JlLnYzLkNvbnRleHRQYXJhbXM6AjgBOh2axYgeGAoWZW52b3kuYXBpLnYy",
-            "LmNvcmUuTm9kZUIZChd1c2VyX2FnZW50X3ZlcnNpb25fdHlwZUoECAUQBlIN",
-            "YnVpbGRfdmVyc2lvbiL0AgoITWV0YWRhdGESSwoPZmlsdGVyX21ldGFkYXRh",
-            "GAEgAygLMjIuZW52b3kuY29uZmlnLmNvcmUudjMuTWV0YWRhdGEuRmlsdGVy",
-            "TWV0YWRhdGFFbnRyeRJWChV0eXBlZF9maWx0ZXJfbWV0YWRhdGEYAiADKAsy",
-            "Ny5lbnZveS5jb25maWcuY29yZS52My5NZXRhZGF0YS5UeXBlZEZpbHRlck1l",
-            "dGFkYXRhRW50cnkaTgoTRmlsdGVyTWV0YWRhdGFFbnRyeRILCgNrZXkYASAB",
-            "KAkSJgoFdmFsdWUYAiABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0OgI4",
-            "ARpQChhUeXBlZEZpbHRlck1ldGFkYXRhRW50cnkSCwoDa2V5GAEgASgJEiMK",
-            "BXZhbHVlGAIgASgLMhQuZ29vZ2xlLnByb3RvYnVmLkFueToCOAE6IZrFiB4c",
-            "ChplbnZveS5hcGkudjIuY29yZS5NZXRhZGF0YSJsCg1SdW50aW1lVUludDMy",
-            "EhUKDWRlZmF1bHRfdmFsdWUYAiABKA0SHAoLcnVudGltZV9rZXkYAyABKAlC",
-            "B/pCBHICEAE6JprFiB4hCh9lbnZveS5hcGkudjIuY29yZS5SdW50aW1lVUlu",
-            "dDMyIl0KDlJ1bnRpbWVQZXJjZW50Ei0KDWRlZmF1bHRfdmFsdWUYASABKAsy",
-            "Fi5lbnZveS50eXBlLnYzLlBlcmNlbnQSHAoLcnVudGltZV9rZXkYAiABKAlC",
-            "B/pCBHICEAEibAoNUnVudGltZURvdWJsZRIVCg1kZWZhdWx0X3ZhbHVlGAEg",
-            "ASgBEhwKC3J1bnRpbWVfa2V5GAIgASgJQgf6QgRyAhABOiaaxYgeIQofZW52",
-            "b3kuYXBpLnYyLmNvcmUuUnVudGltZURvdWJsZSKcAQoSUnVudGltZUZlYXR1",
-            "cmVGbGFnEjsKDWRlZmF1bHRfdmFsdWUYASABKAsyGi5nb29nbGUucHJvdG9i",
-            "dWYuQm9vbFZhbHVlQgj6QgWKAQIQARIcCgtydW50aW1lX2tleRgCIAEoCUIH",
-            "+kIEcgIQATormsWIHiYKJGVudm95LmFwaS52Mi5jb3JlLlJ1bnRpbWVGZWF0",
-            "dXJlRmxhZyI1Cg5RdWVyeVBhcmFtZXRlchIUCgNrZXkYASABKAlCB/pCBHIC",
-            "EAESDQoFdmFsdWUYAiABKAkicwoLSGVhZGVyVmFsdWUSHgoDa2V5GAEgASgJ",
-            "QhH6Qg5yDBABKICAAcABAcgBABIeCgV2YWx1ZRgCIAEoCUIP+kIMcgoogIAB",
-            "wAECyAEAOiSaxYgeHwodZW52b3kuYXBpLnYyLmNvcmUuSGVhZGVyVmFsdWUi",
-            "hQMKEUhlYWRlclZhbHVlT3B0aW9uEjsKBmhlYWRlchgBIAEoCzIhLmVudm95",
-            "LmNvbmZpZy5jb3JlLnYzLkhlYWRlclZhbHVlQgj6QgWKAQIQARIqCgZhcHBl",
-            "bmQYAiABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlElsKDWFwcGVu",
+            "msWIHiAKHmVudm95LmFwaS52Mi5jb3JlLkJ1aWxkVmVyc2lvbiLPAQoJRXh0",
+            "ZW5zaW9uEgwKBG5hbWUYASABKAkSEAoIY2F0ZWdvcnkYAiABKAkSJAoPdHlw",
+            "ZV9kZXNjcmlwdG9yGAMgASgJQgsYAZLHhtgEAzMuMBIzCgd2ZXJzaW9uGAQg",
+            "ASgLMiIuZW52b3kuY29uZmlnLmNvcmUudjMuQnVpbGRWZXJzaW9uEhAKCGRp",
+            "c2FibGVkGAUgASgIEhEKCXR5cGVfdXJscxgGIAMoCToimsWIHh0KG2Vudm95",
+            "LmFwaS52Mi5jb3JlLkV4dGVuc2lvbiKKBQoETm9kZRIKCgJpZBgBIAEoCRIP",
+            "CgdjbHVzdGVyGAIgASgJEikKCG1ldGFkYXRhGAMgASgLMhcuZ29vZ2xlLnBy",
+            "b3RvYnVmLlN0cnVjdBJNChJkeW5hbWljX3BhcmFtZXRlcnMYDCADKAsyMS5l",
+            "bnZveS5jb25maWcuY29yZS52My5Ob2RlLkR5bmFtaWNQYXJhbWV0ZXJzRW50",
+            "cnkSMAoIbG9jYWxpdHkYBCABKAsyHi5lbnZveS5jb25maWcuY29yZS52My5M",
+            "b2NhbGl0eRIXCg91c2VyX2FnZW50X25hbWUYBiABKAkSHAoSdXNlcl9hZ2Vu",
+            "dF92ZXJzaW9uGAcgASgJSAASRgoYdXNlcl9hZ2VudF9idWlsZF92ZXJzaW9u",
+            "GAggASgLMiIuZW52b3kuY29uZmlnLmNvcmUudjMuQnVpbGRWZXJzaW9uSAAS",
+            "MwoKZXh0ZW5zaW9ucxgJIAMoCzIfLmVudm95LmNvbmZpZy5jb3JlLnYzLkV4",
+            "dGVuc2lvbhIXCg9jbGllbnRfZmVhdHVyZXMYCiADKAkSRwoTbGlzdGVuaW5n",
+            "X2FkZHJlc3NlcxgLIAMoCzIdLmVudm95LmNvbmZpZy5jb3JlLnYzLkFkZHJl",
+            "c3NCCxgBkseG2AQDMy4wGlQKFkR5bmFtaWNQYXJhbWV0ZXJzRW50cnkSCwoD",
+            "a2V5GAEgASgJEikKBXZhbHVlGAIgASgLMhoueGRzLmNvcmUudjMuQ29udGV4",
+            "dFBhcmFtczoCOAE6HZrFiB4YChZlbnZveS5hcGkudjIuY29yZS5Ob2RlQhkK",
+            "F3VzZXJfYWdlbnRfdmVyc2lvbl90eXBlSgQIBRAGUg1idWlsZF92ZXJzaW9u",
+            "IvQCCghNZXRhZGF0YRJLCg9maWx0ZXJfbWV0YWRhdGEYASADKAsyMi5lbnZv",
+            "eS5jb25maWcuY29yZS52My5NZXRhZGF0YS5GaWx0ZXJNZXRhZGF0YUVudHJ5",
+            "ElYKFXR5cGVkX2ZpbHRlcl9tZXRhZGF0YRgCIAMoCzI3LmVudm95LmNvbmZp",
+            "Zy5jb3JlLnYzLk1ldGFkYXRhLlR5cGVkRmlsdGVyTWV0YWRhdGFFbnRyeRpO",
+            "ChNGaWx0ZXJNZXRhZGF0YUVudHJ5EgsKA2tleRgBIAEoCRImCgV2YWx1ZRgC",
+            "IAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3Q6AjgBGlAKGFR5cGVkRmls",
+            "dGVyTWV0YWRhdGFFbnRyeRILCgNrZXkYASABKAkSIwoFdmFsdWUYAiABKAsy",
+            "FC5nb29nbGUucHJvdG9idWYuQW55OgI4ATohmsWIHhwKGmVudm95LmFwaS52",
+            "Mi5jb3JlLk1ldGFkYXRhImwKDVJ1bnRpbWVVSW50MzISFQoNZGVmYXVsdF92",
+            "YWx1ZRgCIAEoDRIcCgtydW50aW1lX2tleRgDIAEoCUIH+kIEcgIQATommsWI",
+            "HiEKH2Vudm95LmFwaS52Mi5jb3JlLlJ1bnRpbWVVSW50MzIiXQoOUnVudGlt",
+            "ZVBlcmNlbnQSLQoNZGVmYXVsdF92YWx1ZRgBIAEoCzIWLmVudm95LnR5cGUu",
+            "djMuUGVyY2VudBIcCgtydW50aW1lX2tleRgCIAEoCUIH+kIEcgIQASJsCg1S",
+            "dW50aW1lRG91YmxlEhUKDWRlZmF1bHRfdmFsdWUYASABKAESHAoLcnVudGlt",
+            "ZV9rZXkYAiABKAlCB/pCBHICEAE6JprFiB4hCh9lbnZveS5hcGkudjIuY29y",
+            "ZS5SdW50aW1lRG91YmxlIpwBChJSdW50aW1lRmVhdHVyZUZsYWcSOwoNZGVm",
+            "YXVsdF92YWx1ZRgBIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWVC",
+            "CPpCBYoBAhABEhwKC3J1bnRpbWVfa2V5GAIgASgJQgf6QgRyAhABOiuaxYge",
+            "JgokZW52b3kuYXBpLnYyLmNvcmUuUnVudGltZUZlYXR1cmVGbGFnIjUKDlF1",
+            "ZXJ5UGFyYW1ldGVyEhQKA2tleRgBIAEoCUIH+kIEcgIQARINCgV2YWx1ZRgC",
+            "IAEoCSJzCgtIZWFkZXJWYWx1ZRIeCgNrZXkYASABKAlCEfpCDnIMEAEogIAB",
+            "wAEByAEAEh4KBXZhbHVlGAIgASgJQg/6QgxyCiiAgAHAAQLIAQA6JJrFiB4f",
+            "Ch1lbnZveS5hcGkudjIuY29yZS5IZWFkZXJWYWx1ZSKSAwoRSGVhZGVyVmFs",
+            "dWVPcHRpb24SOwoGaGVhZGVyGAEgASgLMiEuZW52b3kuY29uZmlnLmNvcmUu",
+            "djMuSGVhZGVyVmFsdWVCCPpCBYoBAhABEjcKBmFwcGVuZBgCIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5Cb29sVmFsdWVCCxgBkseG2AQDMy4wElsKDWFwcGVu",
             "ZF9hY3Rpb24YAyABKA4yOi5lbnZveS5jb25maWcuY29yZS52My5IZWFkZXJW",
             "YWx1ZU9wdGlvbi5IZWFkZXJBcHBlbmRBY3Rpb25CCPpCBYIBAhABEhgKEGtl",
             "ZXBfZW1wdHlfdmFsdWUYBCABKAgiZAoSSGVhZGVyQXBwZW5kQWN0aW9uEhsK",
@@ -134,7 +135,7 @@ namespace Envoy.Config.Core.V3 {
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Envoy.Config.Core.V3.RoutingPriority), typeof(global::Envoy.Config.Core.V3.RequestMethod), typeof(global::Envoy.Config.Core.V3.TrafficDirection), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Locality), global::Envoy.Config.Core.V3.Locality.Parser, new[]{ "Region", "Zone", "SubZone" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.BuildVersion), global::Envoy.Config.Core.V3.BuildVersion.Parser, new[]{ "Version", "Metadata" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Extension), global::Envoy.Config.Core.V3.Extension.Parser, new[]{ "Name", "Category", "TypeDescriptor", "Version", "Disabled" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Extension), global::Envoy.Config.Core.V3.Extension.Parser, new[]{ "Name", "Category", "TypeDescriptor", "Version", "Disabled", "TypeUrls" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Node), global::Envoy.Config.Core.V3.Node.Parser, new[]{ "Id", "Cluster", "Metadata", "DynamicParameters", "Locality", "UserAgentName", "UserAgentVersion", "UserAgentBuildVersion", "Extensions", "ClientFeatures", "ListeningAddresses" }, new[]{ "UserAgentVersionType" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Metadata), global::Envoy.Config.Core.V3.Metadata.Parser, new[]{ "FilterMetadata", "TypedFilterMetadata" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.RuntimeUInt32), global::Envoy.Config.Core.V3.RuntimeUInt32.Parser, new[]{ "DefaultValue", "RuntimeKey" }, null, null, null, null),
@@ -751,7 +752,7 @@ namespace Envoy.Config.Core.V3 {
 
   /// <summary>
   /// Version and identification for an Envoy extension.
-  /// [#next-free-field: 6]
+  /// [#next-free-field: 7]
   /// </summary>
   public sealed partial class Extension : pb::IMessage<Extension>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -792,6 +793,7 @@ namespace Envoy.Config.Core.V3 {
       typeDescriptor_ = other.typeDescriptor_;
       version_ = other.version_ != null ? other.version_.Clone() : null;
       disabled_ = other.disabled_;
+      typeUrls_ = other.typeUrls_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -844,6 +846,7 @@ namespace Envoy.Config.Core.V3 {
     /// [#comment:TODO(yanavlasov): Link to the doc with existing configuration protos.]
     /// [#comment:TODO(yanavlasov): Add tests when PR #9391 lands.]
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string TypeDescriptor {
@@ -885,6 +888,20 @@ namespace Envoy.Config.Core.V3 {
       }
     }
 
+    /// <summary>Field number for the "type_urls" field.</summary>
+    public const int TypeUrlsFieldNumber = 6;
+    private static readonly pb::FieldCodec<string> _repeated_typeUrls_codec
+        = pb::FieldCodec.ForString(50);
+    private readonly pbc::RepeatedField<string> typeUrls_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// Type URLs of extension configuration protos.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> TypeUrls {
+      get { return typeUrls_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -905,6 +922,7 @@ namespace Envoy.Config.Core.V3 {
       if (TypeDescriptor != other.TypeDescriptor) return false;
       if (!object.Equals(Version, other.Version)) return false;
       if (Disabled != other.Disabled) return false;
+      if(!typeUrls_.Equals(other.typeUrls_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -917,6 +935,7 @@ namespace Envoy.Config.Core.V3 {
       if (TypeDescriptor.Length != 0) hash ^= TypeDescriptor.GetHashCode();
       if (version_ != null) hash ^= Version.GetHashCode();
       if (Disabled != false) hash ^= Disabled.GetHashCode();
+      hash ^= typeUrls_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -955,6 +974,7 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(40);
         output.WriteBool(Disabled);
       }
+      typeUrls_.WriteTo(output, _repeated_typeUrls_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -985,6 +1005,7 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(40);
         output.WriteBool(Disabled);
       }
+      typeUrls_.WriteTo(ref output, _repeated_typeUrls_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1010,6 +1031,7 @@ namespace Envoy.Config.Core.V3 {
       if (Disabled != false) {
         size += 1 + 1;
       }
+      size += typeUrls_.CalculateSize(_repeated_typeUrls_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1040,6 +1062,7 @@ namespace Envoy.Config.Core.V3 {
       if (other.Disabled != false) {
         Disabled = other.Disabled;
       }
+      typeUrls_.Add(other.typeUrls_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1078,6 +1101,10 @@ namespace Envoy.Config.Core.V3 {
             Disabled = input.ReadBool();
             break;
           }
+          case 50: {
+            typeUrls_.AddEntriesFrom(input, _repeated_typeUrls_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1114,6 +1141,10 @@ namespace Envoy.Config.Core.V3 {
           }
           case 40: {
             Disabled = input.ReadBool();
+            break;
+          }
+          case 50: {
+            typeUrls_.AddEntriesFrom(ref input, _repeated_typeUrls_codec);
             break;
           }
         }
@@ -1354,7 +1385,7 @@ namespace Envoy.Config.Core.V3 {
     /// <summary>
     /// Client feature support list. These are well known features described
     /// in the Envoy API repository for a given major version of an API. Client features
-    /// use reverse DNS naming scheme, for example `com.acme.feature`.
+    /// use reverse DNS naming scheme, for example ``com.acme.feature``.
     /// See :ref:`the list of features &lt;client_features>` that xDS client may
     /// support.
     /// </summary>
@@ -1373,7 +1404,7 @@ namespace Envoy.Config.Core.V3 {
     /// Known listening ports on the node as a generic hint to the management server
     /// for filtering :ref:`listeners &lt;config_listeners>` to be returned. For example,
     /// if there is a listener bound to port 80, the list can optionally contain the
-    /// SocketAddress `(0.0.0.0,80)`. The field is optional and just a hint.
+    /// SocketAddress ``(0.0.0.0,80)``. The field is optional and just a hint.
     /// </summary>
     [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1847,12 +1878,12 @@ namespace Envoy.Config.Core.V3 {
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Struct>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Struct.Parser), 10);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Struct> filterMetadata_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Struct>();
     /// <summary>
-    /// Key is the reverse DNS filter name, e.g. com.acme.widget. The envoy.*
+    /// Key is the reverse DNS filter name, e.g. com.acme.widget. The ``envoy.*``
     /// namespace is reserved for Envoy's built-in filters.
-    /// If both *filter_metadata* and
+    /// If both ``filter_metadata`` and
     /// :ref:`typed_filter_metadata &lt;envoy_v3_api_field_config.core.v3.Metadata.typed_filter_metadata>`
     /// fields are present in the metadata with same keys,
-    /// only *typed_filter_metadata* field will be parsed.
+    /// only ``typed_filter_metadata`` field will be parsed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1866,12 +1897,12 @@ namespace Envoy.Config.Core.V3 {
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Any>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Any.Parser), 18);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Any> typedFilterMetadata_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Any>();
     /// <summary>
-    /// Key is the reverse DNS filter name, e.g. com.acme.widget. The envoy.*
+    /// Key is the reverse DNS filter name, e.g. com.acme.widget. The ``envoy.*``
     /// namespace is reserved for Envoy's built-in filters.
     /// The value is encoded as google.protobuf.Any.
     /// If both :ref:`filter_metadata &lt;envoy_v3_api_field_config.core.v3.Metadata.filter_metadata>`
-    /// and *typed_filter_metadata* fields are present in the metadata with same keys,
-    /// only *typed_filter_metadata* field will be parsed.
+    /// and ``typed_filter_metadata`` fields are present in the metadata with same keys,
+    /// only ``typed_filter_metadata`` field will be parsed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3281,7 +3312,7 @@ namespace Envoy.Config.Core.V3 {
     ///
     /// The same :ref:`format specifier &lt;config_access_log_format>` as used for
     /// :ref:`HTTP access logging &lt;config_access_log>` applies here, however
-    /// unknown header values are replaced with the empty string instead of `-`.
+    /// unknown header values are replaced with the empty string instead of ``-``.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3521,7 +3552,15 @@ namespace Envoy.Config.Core.V3 {
     /// <summary>
     /// Should the value be appended? If true (default), the value is appended to
     /// existing values. Otherwise it replaces any existing values.
+    /// This field is deprecated and please use
+    /// :ref:`append_action &lt;envoy_v3_api_field_config.core.v3.HeaderValueOption.append_action>` as replacement.
+    ///
+    /// .. note::
+    ///   The :ref:`external authorization service &lt;envoy_v3_api_msg_service.auth.v3.CheckResponse>` and
+    ///   :ref:`external processor service &lt;envoy_v3_api_msg_service.ext_proc.v3.ProcessingResponse>` have
+    ///   default value (``false``) for this field.
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool? Append {
@@ -3536,8 +3575,10 @@ namespace Envoy.Config.Core.V3 {
     public const int AppendActionFieldNumber = 3;
     private global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction appendAction_ = global::Envoy.Config.Core.V3.HeaderValueOption.Types.HeaderAppendAction.AppendIfExistsOrAdd;
     /// <summary>
-    /// [#not-implemented-hide:] Describes the action taken to append/overwrite the given value for an existing header
-    /// or to only add this header if it's absent. Value defaults to :ref:`APPEND_IF_EXISTS_OR_ADD&lt;envoy_v3_api_enum_value_config.core.v3.HeaderValueOption.HeaderAppendAction.APPEND_IF_EXISTS_OR_ADD>`.
+    /// Describes the action taken to append/overwrite the given value for an existing header
+    /// or to only add this header if it's absent.
+    /// Value defaults to :ref:`APPEND_IF_EXISTS_OR_ADD
+    /// &lt;envoy_v3_api_enum_value_config.core.v3.HeaderValueOption.HeaderAppendAction.APPEND_IF_EXISTS_OR_ADD>`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5677,7 +5718,7 @@ namespace Envoy.Config.Core.V3 {
   ///   :ref:`FractionalPercent &lt;envoy_v3_api_msg_type.v3.FractionalPercent>` proto represented as JSON/YAML
   ///   and may also be represented as an integer with the assumption that the value is an integral
   ///   percentage out of 100. For instance, a runtime key lookup returning the value "42" would parse
-  ///   as a `FractionalPercent` whose numerator is 42 and denominator is HUNDRED.
+  ///   as a ``FractionalPercent`` whose numerator is 42 and denominator is HUNDRED.
   /// </summary>
   public sealed partial class RuntimeFractionalPercent : pb::IMessage<RuntimeFractionalPercent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

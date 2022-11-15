@@ -26,50 +26,59 @@ namespace Envoy.Config.Core.V3 {
           string.Concat(
             "CiJlbnZveS9jb25maWcvY29yZS92My9hZGRyZXNzLnByb3RvEhRlbnZveS5j",
             "b25maWcuY29yZS52MxooZW52b3kvY29uZmlnL2NvcmUvdjMvc29ja2V0X29w",
-            "dGlvbi5wcm90bxoeZ29vZ2xlL3Byb3RvYnVmL3dyYXBwZXJzLnByb3RvGh11",
-            "ZHBhL2Fubm90YXRpb25zL3N0YXR1cy5wcm90bxohdWRwYS9hbm5vdGF0aW9u",
-            "cy92ZXJzaW9uaW5nLnByb3RvGhd2YWxpZGF0ZS92YWxpZGF0ZS5wcm90byJU",
-            "CgRQaXBlEhUKBHBhdGgYASABKAlCB/pCBHICEAESFgoEbW9kZRgCIAEoDUII",
-            "+kIFKgMY/wM6HZrFiB4YChZlbnZveS5hcGkudjIuY29yZS5QaXBlIlUKFEVu",
-            "dm95SW50ZXJuYWxBZGRyZXNzEh4KFHNlcnZlcl9saXN0ZW5lcl9uYW1lGAEg",
-            "ASgJSABCHQoWYWRkcmVzc19uYW1lX3NwZWNpZmllchID+EIBIrMCCg1Tb2Nr",
-            "ZXRBZGRyZXNzEkgKCHByb3RvY29sGAEgASgOMiwuZW52b3kuY29uZmlnLmNv",
-            "cmUudjMuU29ja2V0QWRkcmVzcy5Qcm90b2NvbEII+kIFggECEAESGAoHYWRk",
-            "cmVzcxgCIAEoCUIH+kIEcgIQARIfCgpwb3J0X3ZhbHVlGAMgASgNQgn6QgYq",
-            "BBj//wNIABIUCgpuYW1lZF9wb3J0GAQgASgJSAASFQoNcmVzb2x2ZXJfbmFt",
-            "ZRgFIAEoCRITCgtpcHY0X2NvbXBhdBgGIAEoCCIcCghQcm90b2NvbBIHCgNU",
-            "Q1AQABIHCgNVRFAQATommsWIHiEKH2Vudm95LmFwaS52Mi5jb3JlLlNvY2tl",
-            "dEFkZHJlc3NCFQoOcG9ydF9zcGVjaWZpZXISA/hCASLdAQoMVGNwS2VlcGFs",
-            "aXZlEjYKEGtlZXBhbGl2ZV9wcm9iZXMYASABKAsyHC5nb29nbGUucHJvdG9i",
-            "dWYuVUludDMyVmFsdWUSNAoOa2VlcGFsaXZlX3RpbWUYAiABKAsyHC5nb29n",
-            "bGUucHJvdG9idWYuVUludDMyVmFsdWUSOAoSa2VlcGFsaXZlX2ludGVydmFs",
-            "GAMgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlOiWaxYgeIAoe",
-            "ZW52b3kuYXBpLnYyLmNvcmUuVGNwS2VlcGFsaXZlIuIBCgpCaW5kQ29uZmln",
-            "EkUKDnNvdXJjZV9hZGRyZXNzGAEgASgLMiMuZW52b3kuY29uZmlnLmNvcmUu",
-            "djMuU29ja2V0QWRkcmVzc0II+kIFigECEAESLAoIZnJlZWJpbmQYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEjoKDnNvY2tldF9vcHRpb25z",
-            "GAMgAygLMiIuZW52b3kuY29uZmlnLmNvcmUudjMuU29ja2V0T3B0aW9uOiOa",
-            "xYgeHgocZW52b3kuYXBpLnYyLmNvcmUuQmluZENvbmZpZyL0AQoHQWRkcmVz",
-            "cxI9Cg5zb2NrZXRfYWRkcmVzcxgBIAEoCzIjLmVudm95LmNvbmZpZy5jb3Jl",
-            "LnYzLlNvY2tldEFkZHJlc3NIABIqCgRwaXBlGAIgASgLMhouZW52b3kuY29u",
-            "ZmlnLmNvcmUudjMuUGlwZUgAEkwKFmVudm95X2ludGVybmFsX2FkZHJlc3MY",
-            "AyABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5FbnZveUludGVybmFsQWRk",
-            "cmVzc0gAOiCaxYgeGwoZZW52b3kuYXBpLnYyLmNvcmUuQWRkcmVzc0IOCgdh",
-            "ZGRyZXNzEgP4QgEijAEKCUNpZHJSYW5nZRIfCg5hZGRyZXNzX3ByZWZpeBgB",
-            "IAEoCUIH+kIEcgIQARI6CgpwcmVmaXhfbGVuGAIgASgLMhwuZ29vZ2xlLnBy",
-            "b3RvYnVmLlVJbnQzMlZhbHVlQgj6QgUqAxiAAToimsWIHh0KG2Vudm95LmFw",
-            "aS52Mi5jb3JlLkNpZHJSYW5nZUKAAQoiaW8uZW52b3lwcm94eS5lbnZveS5j",
-            "b25maWcuY29yZS52M0IMQWRkcmVzc1Byb3RvUAFaQmdpdGh1Yi5jb20vZW52",
-            "b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95L2NvbmZpZy9jb3JlL3Yz",
-            "O2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
+            "dGlvbi5wcm90bxoeZ29vZ2xlL3Byb3RvYnVmL3dyYXBwZXJzLnByb3RvGiNl",
+            "bnZveS9hbm5vdGF0aW9ucy9kZXByZWNhdGlvbi5wcm90bxoddWRwYS9hbm5v",
+            "dGF0aW9ucy9zdGF0dXMucHJvdG8aIXVkcGEvYW5ub3RhdGlvbnMvdmVyc2lv",
+            "bmluZy5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8iVAoEUGlwZRIV",
+            "CgRwYXRoGAEgASgJQgf6QgRyAhABEhYKBG1vZGUYAiABKA1CCPpCBSoDGP8D",
+            "Oh2axYgeGAoWZW52b3kuYXBpLnYyLmNvcmUuUGlwZSJqChRFbnZveUludGVy",
+            "bmFsQWRkcmVzcxIeChRzZXJ2ZXJfbGlzdGVuZXJfbmFtZRgBIAEoCUgAEhMK",
+            "C2VuZHBvaW50X2lkGAIgASgJQh0KFmFkZHJlc3NfbmFtZV9zcGVjaWZpZXIS",
+            "A/hCASKzAgoNU29ja2V0QWRkcmVzcxJICghwcm90b2NvbBgBIAEoDjIsLmVu",
+            "dm95LmNvbmZpZy5jb3JlLnYzLlNvY2tldEFkZHJlc3MuUHJvdG9jb2xCCPpC",
+            "BYIBAhABEhgKB2FkZHJlc3MYAiABKAlCB/pCBHICEAESHwoKcG9ydF92YWx1",
+            "ZRgDIAEoDUIJ+kIGKgQY//8DSAASFAoKbmFtZWRfcG9ydBgEIAEoCUgAEhUK",
+            "DXJlc29sdmVyX25hbWUYBSABKAkSEwoLaXB2NF9jb21wYXQYBiABKAgiHAoI",
+            "UHJvdG9jb2wSBwoDVENQEAASBwoDVURQEAE6JprFiB4hCh9lbnZveS5hcGku",
+            "djIuY29yZS5Tb2NrZXRBZGRyZXNzQhUKDnBvcnRfc3BlY2lmaWVyEgP4QgEi",
+            "3QEKDFRjcEtlZXBhbGl2ZRI2ChBrZWVwYWxpdmVfcHJvYmVzGAEgASgLMhwu",
+            "Z29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlEjQKDmtlZXBhbGl2ZV90aW1l",
+            "GAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlEjgKEmtlZXBh",
+            "bGl2ZV9pbnRlcnZhbBgDIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50MzJW",
+            "YWx1ZTolmsWIHiAKHmVudm95LmFwaS52Mi5jb3JlLlRjcEtlZXBhbGl2ZSKZ",
+            "AQoSRXh0cmFTb3VyY2VBZGRyZXNzEj4KB2FkZHJlc3MYASABKAsyIy5lbnZv",
+            "eS5jb25maWcuY29yZS52My5Tb2NrZXRBZGRyZXNzQgj6QgWKAQIQARJDCg5z",
+            "b2NrZXRfb3B0aW9ucxgCIAEoCzIrLmVudm95LmNvbmZpZy5jb3JlLnYzLlNv",
+            "Y2tldE9wdGlvbnNPdmVycmlkZSKDAwoKQmluZENvbmZpZxJFCg5zb3VyY2Vf",
+            "YWRkcmVzcxgBIAEoCzIjLmVudm95LmNvbmZpZy5jb3JlLnYzLlNvY2tldEFk",
+            "ZHJlc3NCCPpCBYoBAhABEiwKCGZyZWViaW5kGAIgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLkJvb2xWYWx1ZRI6Cg5zb2NrZXRfb3B0aW9ucxgDIAMoCzIiLmVu",
+            "dm95LmNvbmZpZy5jb3JlLnYzLlNvY2tldE9wdGlvbhJIChZleHRyYV9zb3Vy",
+            "Y2VfYWRkcmVzc2VzGAUgAygLMiguZW52b3kuY29uZmlnLmNvcmUudjMuRXh0",
+            "cmFTb3VyY2VBZGRyZXNzElUKG2FkZGl0aW9uYWxfc291cmNlX2FkZHJlc3Nl",
+            "cxgEIAMoCzIjLmVudm95LmNvbmZpZy5jb3JlLnYzLlNvY2tldEFkZHJlc3NC",
+            "CxgBkseG2AQDMy4wOiOaxYgeHgocZW52b3kuYXBpLnYyLmNvcmUuQmluZENv",
+            "bmZpZyL0AQoHQWRkcmVzcxI9Cg5zb2NrZXRfYWRkcmVzcxgBIAEoCzIjLmVu",
+            "dm95LmNvbmZpZy5jb3JlLnYzLlNvY2tldEFkZHJlc3NIABIqCgRwaXBlGAIg",
+            "ASgLMhouZW52b3kuY29uZmlnLmNvcmUudjMuUGlwZUgAEkwKFmVudm95X2lu",
+            "dGVybmFsX2FkZHJlc3MYAyABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5F",
+            "bnZveUludGVybmFsQWRkcmVzc0gAOiCaxYgeGwoZZW52b3kuYXBpLnYyLmNv",
+            "cmUuQWRkcmVzc0IOCgdhZGRyZXNzEgP4QgEijAEKCUNpZHJSYW5nZRIfCg5h",
+            "ZGRyZXNzX3ByZWZpeBgBIAEoCUIH+kIEcgIQARI6CgpwcmVmaXhfbGVuGAIg",
+            "ASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQgj6QgUqAxiAAToi",
+            "msWIHh0KG2Vudm95LmFwaS52Mi5jb3JlLkNpZHJSYW5nZUKAAQoiaW8uZW52",
+            "b3lwcm94eS5lbnZveS5jb25maWcuY29yZS52M0IMQWRkcmVzc1Byb3RvUAFa",
+            "QmdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95",
+            "L2NvbmZpZy9jb3JlL3YzO2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.SocketOptionReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.SocketOptionReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Pipe), global::Envoy.Config.Core.V3.Pipe.Parser, new[]{ "Path", "Mode" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.EnvoyInternalAddress), global::Envoy.Config.Core.V3.EnvoyInternalAddress.Parser, new[]{ "ServerListenerName" }, new[]{ "AddressNameSpecifier" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.EnvoyInternalAddress), global::Envoy.Config.Core.V3.EnvoyInternalAddress.Parser, new[]{ "ServerListenerName", "EndpointId" }, new[]{ "AddressNameSpecifier" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.SocketAddress), global::Envoy.Config.Core.V3.SocketAddress.Parser, new[]{ "Protocol", "Address", "PortValue", "NamedPort", "ResolverName", "Ipv4Compat" }, new[]{ "PortSpecifier" }, new[]{ typeof(global::Envoy.Config.Core.V3.SocketAddress.Types.Protocol) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.TcpKeepalive), global::Envoy.Config.Core.V3.TcpKeepalive.Parser, new[]{ "KeepaliveProbes", "KeepaliveTime", "KeepaliveInterval" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.BindConfig), global::Envoy.Config.Core.V3.BindConfig.Parser, new[]{ "SourceAddress", "Freebind", "SocketOptions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.ExtraSourceAddress), global::Envoy.Config.Core.V3.ExtraSourceAddress.Parser, new[]{ "Address", "SocketOptions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.BindConfig), global::Envoy.Config.Core.V3.BindConfig.Parser, new[]{ "SourceAddress", "Freebind", "SocketOptions", "ExtraSourceAddresses", "AdditionalSourceAddresses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Address), global::Envoy.Config.Core.V3.Address.Parser, new[]{ "SocketAddress", "Pipe", "EnvoyInternalAddress" }, new[]{ "Address" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.CidrRange), global::Envoy.Config.Core.V3.CidrRange.Parser, new[]{ "AddressPrefix", "PrefixLen" }, null, null, null, null)
           }));
@@ -315,8 +324,7 @@ namespace Envoy.Config.Core.V3 {
 
   /// <summary>
   /// The address represents an envoy internal listener.
-  /// [#comment: TODO(lambdai): Make this address available for listener and endpoint.
-  /// TODO(asraa): When address available, remove workaround from test/server/server_fuzz_test.cc:30.]
+  /// [#comment: TODO(asraa): When address available, remove workaround from test/server/server_fuzz_test.cc:30.]
   /// </summary>
   public sealed partial class EnvoyInternalAddress : pb::IMessage<EnvoyInternalAddress>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -352,6 +360,7 @@ namespace Envoy.Config.Core.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public EnvoyInternalAddress(EnvoyInternalAddress other) : this() {
+      endpointId_ = other.endpointId_;
       switch (other.AddressNameSpecifierCase) {
         case AddressNameSpecifierOneofCase.ServerListenerName:
           ServerListenerName = other.ServerListenerName;
@@ -370,7 +379,8 @@ namespace Envoy.Config.Core.V3 {
     /// <summary>Field number for the "server_listener_name" field.</summary>
     public const int ServerListenerNameFieldNumber = 1;
     /// <summary>
-    /// [#not-implemented-hide:] The :ref:`listener name &lt;envoy_v3_api_field_config.listener.v3.Listener.name>` of the destination internal listener.
+    /// Specifies the :ref:`name &lt;envoy_v3_api_field_config.listener.v3.Listener.name>` of the
+    /// internal listener.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -379,6 +389,23 @@ namespace Envoy.Config.Core.V3 {
       set {
         addressNameSpecifier_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         addressNameSpecifierCase_ = AddressNameSpecifierOneofCase.ServerListenerName;
+      }
+    }
+
+    /// <summary>Field number for the "endpoint_id" field.</summary>
+    public const int EndpointIdFieldNumber = 2;
+    private string endpointId_ = "";
+    /// <summary>
+    /// Specifies an endpoint identifier to distinguish between multiple endpoints for the same internal listener in a
+    /// single upstream pool. Only used in the upstream addresses for tracking changes to individual endpoints. This, for
+    /// example, may be set to the final destination IP for the target internal listener.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string EndpointId {
+      get { return endpointId_; }
+      set {
+        endpointId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -418,6 +445,7 @@ namespace Envoy.Config.Core.V3 {
         return true;
       }
       if (ServerListenerName != other.ServerListenerName) return false;
+      if (EndpointId != other.EndpointId) return false;
       if (AddressNameSpecifierCase != other.AddressNameSpecifierCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -427,6 +455,7 @@ namespace Envoy.Config.Core.V3 {
     public override int GetHashCode() {
       int hash = 1;
       if (addressNameSpecifierCase_ == AddressNameSpecifierOneofCase.ServerListenerName) hash ^= ServerListenerName.GetHashCode();
+      if (EndpointId.Length != 0) hash ^= EndpointId.GetHashCode();
       hash ^= (int) addressNameSpecifierCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -450,6 +479,10 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(10);
         output.WriteString(ServerListenerName);
       }
+      if (EndpointId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(EndpointId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -464,6 +497,10 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(10);
         output.WriteString(ServerListenerName);
       }
+      if (EndpointId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(EndpointId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -477,6 +514,9 @@ namespace Envoy.Config.Core.V3 {
       if (addressNameSpecifierCase_ == AddressNameSpecifierOneofCase.ServerListenerName) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ServerListenerName);
       }
+      if (EndpointId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EndpointId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -488,6 +528,9 @@ namespace Envoy.Config.Core.V3 {
     public void MergeFrom(EnvoyInternalAddress other) {
       if (other == null) {
         return;
+      }
+      if (other.EndpointId.Length != 0) {
+        EndpointId = other.EndpointId;
       }
       switch (other.AddressNameSpecifierCase) {
         case AddressNameSpecifierOneofCase.ServerListenerName:
@@ -514,6 +557,10 @@ namespace Envoy.Config.Core.V3 {
             ServerListenerName = input.ReadString();
             break;
           }
+          case 18: {
+            EndpointId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -531,6 +578,10 @@ namespace Envoy.Config.Core.V3 {
             break;
           case 10: {
             ServerListenerName = input.ReadString();
+            break;
+          }
+          case 18: {
+            EndpointId = input.ReadString();
             break;
           }
         }
@@ -623,8 +674,8 @@ namespace Envoy.Config.Core.V3 {
     /// within an upstream :ref:`BindConfig &lt;envoy_v3_api_msg_config.core.v3.BindConfig>`, the address
     /// controls the source address of outbound connections. For :ref:`clusters
     /// &lt;envoy_v3_api_msg_config.cluster.v3.Cluster>`, the cluster type determines whether the
-    /// address must be an IP (*STATIC* or *EDS* clusters) or a hostname resolved by DNS
-    /// (*STRICT_DNS* or *LOGICAL_DNS* clusters). Address resolution can be customized
+    /// address must be an IP (``STATIC`` or ``EDS`` clusters) or a hostname resolved by DNS
+    /// (``STRICT_DNS`` or ``LOGICAL_DNS`` clusters). Address resolution can be customized
     /// via :ref:`resolver_name &lt;envoy_v3_api_field_config.core.v3.SocketAddress.resolver_name>`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -673,7 +724,7 @@ namespace Envoy.Config.Core.V3 {
     /// this is empty, a context dependent default applies. If the address is a concrete
     /// IP address, no resolution will occur. If address is a hostname this
     /// should be set for resolution other than DNS. Specifying a custom resolver with
-    /// *STRICT_DNS* or *LOGICAL_DNS* will generate an error at runtime.
+    /// ``STRICT_DNS`` or ``LOGICAL_DNS`` will generate an error at runtime.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1295,6 +1346,265 @@ namespace Envoy.Config.Core.V3 {
 
   }
 
+  public sealed partial class ExtraSourceAddress : pb::IMessage<ExtraSourceAddress>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ExtraSourceAddress> _parser = new pb::MessageParser<ExtraSourceAddress>(() => new ExtraSourceAddress());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ExtraSourceAddress> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExtraSourceAddress() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExtraSourceAddress(ExtraSourceAddress other) : this() {
+      address_ = other.address_ != null ? other.address_.Clone() : null;
+      socketOptions_ = other.socketOptions_ != null ? other.socketOptions_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExtraSourceAddress Clone() {
+      return new ExtraSourceAddress(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private global::Envoy.Config.Core.V3.SocketAddress address_;
+    /// <summary>
+    /// The additional address to bind.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Config.Core.V3.SocketAddress Address {
+      get { return address_; }
+      set {
+        address_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "socket_options" field.</summary>
+    public const int SocketOptionsFieldNumber = 2;
+    private global::Envoy.Config.Core.V3.SocketOptionsOverride socketOptions_;
+    /// <summary>
+    /// Additional socket options that may not be present in Envoy source code or
+    /// precompiled binaries. If specified, this will override the
+    /// :ref:`socket_options &lt;envoy_v3_api_field_config.core.v3.BindConfig.socket_options>`
+    /// in the BindConfig. If specified with no
+    /// :ref:`socket_options &lt;envoy_v3_api_field_config.core.v3.SocketOptionsOverride.socket_options>`
+    /// or an empty list of :ref:`socket_options &lt;envoy_v3_api_field_config.core.v3.SocketOptionsOverride.socket_options>`,
+    /// it means no socket option will apply.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Config.Core.V3.SocketOptionsOverride SocketOptions {
+      get { return socketOptions_; }
+      set {
+        socketOptions_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ExtraSourceAddress);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ExtraSourceAddress other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Address, other.Address)) return false;
+      if (!object.Equals(SocketOptions, other.SocketOptions)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (address_ != null) hash ^= Address.GetHashCode();
+      if (socketOptions_ != null) hash ^= SocketOptions.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (address_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Address);
+      }
+      if (socketOptions_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SocketOptions);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (address_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Address);
+      }
+      if (socketOptions_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SocketOptions);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (address_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Address);
+      }
+      if (socketOptions_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SocketOptions);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ExtraSourceAddress other) {
+      if (other == null) {
+        return;
+      }
+      if (other.address_ != null) {
+        if (address_ == null) {
+          Address = new global::Envoy.Config.Core.V3.SocketAddress();
+        }
+        Address.MergeFrom(other.Address);
+      }
+      if (other.socketOptions_ != null) {
+        if (socketOptions_ == null) {
+          SocketOptions = new global::Envoy.Config.Core.V3.SocketOptionsOverride();
+        }
+        SocketOptions.MergeFrom(other.SocketOptions);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (address_ == null) {
+              Address = new global::Envoy.Config.Core.V3.SocketAddress();
+            }
+            input.ReadMessage(Address);
+            break;
+          }
+          case 18: {
+            if (socketOptions_ == null) {
+              SocketOptions = new global::Envoy.Config.Core.V3.SocketOptionsOverride();
+            }
+            input.ReadMessage(SocketOptions);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (address_ == null) {
+              Address = new global::Envoy.Config.Core.V3.SocketAddress();
+            }
+            input.ReadMessage(Address);
+            break;
+          }
+          case 18: {
+            if (socketOptions_ == null) {
+              SocketOptions = new global::Envoy.Config.Core.V3.SocketOptionsOverride();
+            }
+            input.ReadMessage(SocketOptions);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// [#next-free-field: 6]
+  /// </summary>
   public sealed partial class BindConfig : pb::IMessage<BindConfig>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1309,7 +1619,7 @@ namespace Envoy.Config.Core.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1332,6 +1642,8 @@ namespace Envoy.Config.Core.V3 {
       sourceAddress_ = other.sourceAddress_ != null ? other.sourceAddress_.Clone() : null;
       Freebind = other.Freebind;
       socketOptions_ = other.socketOptions_.Clone();
+      extraSourceAddresses_ = other.extraSourceAddresses_.Clone();
+      additionalSourceAddresses_ = other.additionalSourceAddresses_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1361,11 +1673,11 @@ namespace Envoy.Config.Core.V3 {
     private static readonly pb::FieldCodec<bool?> _single_freebind_codec = pb::FieldCodec.ForStructWrapper<bool>(18);
     private bool? freebind_;
     /// <summary>
-    /// Whether to set the *IP_FREEBIND* option when creating the socket. When this
+    /// Whether to set the ``IP_FREEBIND`` option when creating the socket. When this
     /// flag is set to true, allows the :ref:`source_address
-    /// &lt;envoy_v3_api_field_config.cluster.v3.UpstreamBindConfig.source_address>` to be an IP address
+    /// &lt;envoy_v3_api_field_config.core.v3.BindConfig.source_address>` to be an IP address
     /// that is not configured on the system running Envoy. When this flag is set
-    /// to false, the option *IP_FREEBIND* is disabled on the socket. When this
+    /// to false, the option ``IP_FREEBIND`` is disabled on the socket. When this
     /// flag is not set (default), the socket is not modified, i.e. the option is
     /// neither enabled nor disabled.
     /// </summary>
@@ -1394,6 +1706,43 @@ namespace Envoy.Config.Core.V3 {
       get { return socketOptions_; }
     }
 
+    /// <summary>Field number for the "extra_source_addresses" field.</summary>
+    public const int ExtraSourceAddressesFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::Envoy.Config.Core.V3.ExtraSourceAddress> _repeated_extraSourceAddresses_codec
+        = pb::FieldCodec.ForMessage(42, global::Envoy.Config.Core.V3.ExtraSourceAddress.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Config.Core.V3.ExtraSourceAddress> extraSourceAddresses_ = new pbc::RepeatedField<global::Envoy.Config.Core.V3.ExtraSourceAddress>();
+    /// <summary>
+    /// Extra source addresses appended to the address specified in the `source_address`
+    /// field. This enables to specify multiple source addresses. Currently, only one extra
+    /// address can be supported, and the extra address should have a different IP version
+    /// with the address in the `source_address` field. The address which has the same IP
+    /// version with the target host's address IP version will be used as bind address. If more
+    /// than one extra address specified, only the first address matched IP version will be
+    /// returned. If there is no same IP version address found, the address in the `source_address`
+    /// will be returned.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Config.Core.V3.ExtraSourceAddress> ExtraSourceAddresses {
+      get { return extraSourceAddresses_; }
+    }
+
+    /// <summary>Field number for the "additional_source_addresses" field.</summary>
+    public const int AdditionalSourceAddressesFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Envoy.Config.Core.V3.SocketAddress> _repeated_additionalSourceAddresses_codec
+        = pb::FieldCodec.ForMessage(34, global::Envoy.Config.Core.V3.SocketAddress.Parser);
+    private readonly pbc::RepeatedField<global::Envoy.Config.Core.V3.SocketAddress> additionalSourceAddresses_ = new pbc::RepeatedField<global::Envoy.Config.Core.V3.SocketAddress>();
+    /// <summary>
+    /// Deprecated by
+    /// :ref:`extra_source_addresses &lt;envoy_v3_api_field_config.core.v3.BindConfig.extra_source_addresses>`
+    /// </summary>
+    [global::System.ObsoleteAttribute]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Envoy.Config.Core.V3.SocketAddress> AdditionalSourceAddresses {
+      get { return additionalSourceAddresses_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1412,6 +1761,8 @@ namespace Envoy.Config.Core.V3 {
       if (!object.Equals(SourceAddress, other.SourceAddress)) return false;
       if (Freebind != other.Freebind) return false;
       if(!socketOptions_.Equals(other.socketOptions_)) return false;
+      if(!extraSourceAddresses_.Equals(other.extraSourceAddresses_)) return false;
+      if(!additionalSourceAddresses_.Equals(other.additionalSourceAddresses_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1422,6 +1773,8 @@ namespace Envoy.Config.Core.V3 {
       if (sourceAddress_ != null) hash ^= SourceAddress.GetHashCode();
       if (freebind_ != null) hash ^= Freebind.GetHashCode();
       hash ^= socketOptions_.GetHashCode();
+      hash ^= extraSourceAddresses_.GetHashCode();
+      hash ^= additionalSourceAddresses_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1448,6 +1801,8 @@ namespace Envoy.Config.Core.V3 {
         _single_freebind_codec.WriteTagAndValue(output, Freebind);
       }
       socketOptions_.WriteTo(output, _repeated_socketOptions_codec);
+      additionalSourceAddresses_.WriteTo(output, _repeated_additionalSourceAddresses_codec);
+      extraSourceAddresses_.WriteTo(output, _repeated_extraSourceAddresses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1466,6 +1821,8 @@ namespace Envoy.Config.Core.V3 {
         _single_freebind_codec.WriteTagAndValue(ref output, Freebind);
       }
       socketOptions_.WriteTo(ref output, _repeated_socketOptions_codec);
+      additionalSourceAddresses_.WriteTo(ref output, _repeated_additionalSourceAddresses_codec);
+      extraSourceAddresses_.WriteTo(ref output, _repeated_extraSourceAddresses_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1483,6 +1840,8 @@ namespace Envoy.Config.Core.V3 {
         size += _single_freebind_codec.CalculateSizeWithTag(Freebind);
       }
       size += socketOptions_.CalculateSize(_repeated_socketOptions_codec);
+      size += extraSourceAddresses_.CalculateSize(_repeated_extraSourceAddresses_codec);
+      size += additionalSourceAddresses_.CalculateSize(_repeated_additionalSourceAddresses_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1507,6 +1866,8 @@ namespace Envoy.Config.Core.V3 {
         }
       }
       socketOptions_.Add(other.socketOptions_);
+      extraSourceAddresses_.Add(other.extraSourceAddresses_);
+      additionalSourceAddresses_.Add(other.additionalSourceAddresses_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1538,6 +1899,14 @@ namespace Envoy.Config.Core.V3 {
           }
           case 26: {
             socketOptions_.AddEntriesFrom(input, _repeated_socketOptions_codec);
+            break;
+          }
+          case 34: {
+            additionalSourceAddresses_.AddEntriesFrom(input, _repeated_additionalSourceAddresses_codec);
+            break;
+          }
+          case 42: {
+            extraSourceAddresses_.AddEntriesFrom(input, _repeated_extraSourceAddresses_codec);
             break;
           }
         }
@@ -1573,6 +1942,14 @@ namespace Envoy.Config.Core.V3 {
             socketOptions_.AddEntriesFrom(ref input, _repeated_socketOptions_codec);
             break;
           }
+          case 34: {
+            additionalSourceAddresses_.AddEntriesFrom(ref input, _repeated_additionalSourceAddresses_codec);
+            break;
+          }
+          case 42: {
+            extraSourceAddresses_.AddEntriesFrom(ref input, _repeated_extraSourceAddresses_codec);
+            break;
+          }
         }
       }
     }
@@ -1599,7 +1976,7 @@ namespace Envoy.Config.Core.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1667,7 +2044,8 @@ namespace Envoy.Config.Core.V3 {
     /// <summary>Field number for the "envoy_internal_address" field.</summary>
     public const int EnvoyInternalAddressFieldNumber = 3;
     /// <summary>
-    /// [#not-implemented-hide:]
+    /// Specifies a user-space address handled by :ref:`internal listeners
+    /// &lt;envoy_v3_api_field_config.listener.v3.Listener.internal_listener>`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1944,7 +2322,7 @@ namespace Envoy.Config.Core.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Envoy.Config.Core.V3.AddressReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
