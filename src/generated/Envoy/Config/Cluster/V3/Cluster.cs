@@ -1174,7 +1174,8 @@ namespace Envoy.Config.Cluster.V3 {
     /// <summary>
     /// Optional configuration for having cluster readiness block on warm-up. Currently, only applicable for
     /// :ref:`STRICT_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.STRICT_DNS>`,
-    /// or :ref:`LOGICAL_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.LOGICAL_DNS>`.
+    /// or :ref:`LOGICAL_DNS&lt;envoy_v3_api_enum_value_config.cluster.v3.Cluster.DiscoveryType.LOGICAL_DNS>`,
+    /// or :ref:`Redis Cluster&lt;arch_overview_redis>`.
     /// If true, cluster readiness blocks on warm-up. If false, the cluster will complete
     /// initialization whether or not warm-up has completed. Defaults to true.
     /// </summary>
@@ -8961,6 +8962,9 @@ namespace Envoy.Config.Cluster.V3 {
         /// <summary>Field number for the "typed_extension_config" field.</summary>
         public const int TypedExtensionConfigFieldNumber = 4;
         private global::Envoy.Config.Core.V3.TypedExtensionConfig typedExtensionConfig_;
+        /// <summary>
+        /// [#extension-category: envoy.load_balancing_policies]
+        /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public global::Envoy.Config.Core.V3.TypedExtensionConfig TypedExtensionConfig {

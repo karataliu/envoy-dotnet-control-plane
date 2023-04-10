@@ -35,7 +35,7 @@ namespace Envoy.Service.Ratelimit.V3 {
             "Eg4KBmRvbWFpbhgBIAEoCRJOCgtkZXNjcmlwdG9ycxgCIAMoCzI5LmVudm95",
             "LmV4dGVuc2lvbnMuY29tbW9uLnJhdGVsaW1pdC52My5SYXRlTGltaXREZXNj",
             "cmlwdG9yEhMKC2hpdHNfYWRkZW5kGAMgASgNOjKaxYgeLQorZW52b3kuc2Vy",
-            "dmljZS5yYXRlbGltaXQudjIuUmF0ZUxpbWl0UmVxdWVzdCKhCgoRUmF0ZUxp",
+            "dmljZS5yYXRlbGltaXQudjIuUmF0ZUxpbWl0UmVxdWVzdCK2CgoRUmF0ZUxp",
             "bWl0UmVzcG9uc2USSAoMb3ZlcmFsbF9jb2RlGAEgASgOMjIuZW52b3kuc2Vy",
             "dmljZS5yYXRlbGltaXQudjMuUmF0ZUxpbWl0UmVzcG9uc2UuQ29kZRJQCghz",
             "dGF0dXNlcxgCIAMoCzI+LmVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYzLlJh",
@@ -45,33 +45,33 @@ namespace Envoy.Service.Ratelimit.V3 {
             "ZW52b3kuY29uZmlnLmNvcmUudjMuSGVhZGVyVmFsdWUSEAoIcmF3X2JvZHkY",
             "BSABKAwSMQoQZHluYW1pY19tZXRhZGF0YRgGIAEoCzIXLmdvb2dsZS5wcm90",
             "b2J1Zi5TdHJ1Y3QSQgoFcXVvdGEYByABKAsyMy5lbnZveS5zZXJ2aWNlLnJh",
-            "dGVsaW1pdC52My5SYXRlTGltaXRSZXNwb25zZS5RdW90YRr/AQoJUmF0ZUxp",
+            "dGVsaW1pdC52My5SYXRlTGltaXRSZXNwb25zZS5RdW90YRqUAgoJUmF0ZUxp",
             "bWl0EgwKBG5hbWUYAyABKAkSGQoRcmVxdWVzdHNfcGVyX3VuaXQYASABKA0S",
             "SgoEdW5pdBgCIAEoDjI8LmVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYzLlJh",
-            "dGVMaW1pdFJlc3BvbnNlLlJhdGVMaW1pdC5Vbml0Ij4KBFVuaXQSCwoHVU5L",
+            "dGVMaW1pdFJlc3BvbnNlLlJhdGVMaW1pdC5Vbml0IlMKBFVuaXQSCwoHVU5L",
             "Tk9XThAAEgoKBlNFQ09ORBABEgoKBk1JTlVURRACEggKBEhPVVIQAxIHCgNE",
-            "QVkQBDo9msWIHjgKNmVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYyLlJhdGVM",
-            "aW1pdFJlc3BvbnNlLlJhdGVMaW1pdBp5CgVRdW90YRIZCghyZXF1ZXN0cxgB",
-            "IAEoDUIH+kIEKgIgABIxCgt2YWxpZF91bnRpbBgCIAEoCzIaLmdvb2dsZS5w",
-            "cm90b2J1Zi5UaW1lc3RhbXBIABIKCgJpZBgDIAEoCUIWChRleHBpcmF0aW9u",
-            "X3NwZWNpZmllchqAAwoQRGVzY3JpcHRvclN0YXR1cxJACgRjb2RlGAEgASgO",
-            "MjIuZW52b3kuc2VydmljZS5yYXRlbGltaXQudjMuUmF0ZUxpbWl0UmVzcG9u",
-            "c2UuQ29kZRJOCg1jdXJyZW50X2xpbWl0GAIgASgLMjcuZW52b3kuc2Vydmlj",
-            "ZS5yYXRlbGltaXQudjMuUmF0ZUxpbWl0UmVzcG9uc2UuUmF0ZUxpbWl0EhcK",
-            "D2xpbWl0X3JlbWFpbmluZxgDIAEoDRI3ChRkdXJhdGlvbl91bnRpbF9yZXNl",
-            "dBgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhJCCgVxdW90YRgF",
-            "IAEoCzIzLmVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYzLlJhdGVMaW1pdFJl",
-            "c3BvbnNlLlF1b3RhOkSaxYgePwo9ZW52b3kuc2VydmljZS5yYXRlbGltaXQu",
-            "djIuUmF0ZUxpbWl0UmVzcG9uc2UuRGVzY3JpcHRvclN0YXR1cyIrCgRDb2Rl",
-            "EgsKB1VOS05PV04QABIGCgJPSxABEg4KCk9WRVJfTElNSVQQAjozmsWIHi4K",
-            "LGVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYyLlJhdGVMaW1pdFJlc3BvbnNl",
-            "MoQBChBSYXRlTGltaXRTZXJ2aWNlEnAKD1Nob3VsZFJhdGVMaW1pdBIsLmVu",
-            "dm95LnNlcnZpY2UucmF0ZWxpbWl0LnYzLlJhdGVMaW1pdFJlcXVlc3QaLS5l",
-            "bnZveS5zZXJ2aWNlLnJhdGVsaW1pdC52My5SYXRlTGltaXRSZXNwb25zZSIA",
-            "QpABCihpby5lbnZveXByb3h5LmVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYz",
-            "QghSbHNQcm90b1ABWk1naXRodWIuY29tL2Vudm95cHJveHkvZ28tY29udHJv",
-            "bC1wbGFuZS9lbnZveS9zZXJ2aWNlL3JhdGVsaW1pdC92MztyYXRlbGltaXR2",
-            "M4gBAbqAyNEGAhACYgZwcm90bzM="));
+            "QVkQBBIJCgVNT05USBAFEggKBFlFQVIQBjo9msWIHjgKNmVudm95LnNlcnZp",
+            "Y2UucmF0ZWxpbWl0LnYyLlJhdGVMaW1pdFJlc3BvbnNlLlJhdGVMaW1pdBp5",
+            "CgVRdW90YRIZCghyZXF1ZXN0cxgBIAEoDUIH+kIEKgIgABIxCgt2YWxpZF91",
+            "bnRpbBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBIABIKCgJp",
+            "ZBgDIAEoCUIWChRleHBpcmF0aW9uX3NwZWNpZmllchqAAwoQRGVzY3JpcHRv",
+            "clN0YXR1cxJACgRjb2RlGAEgASgOMjIuZW52b3kuc2VydmljZS5yYXRlbGlt",
+            "aXQudjMuUmF0ZUxpbWl0UmVzcG9uc2UuQ29kZRJOCg1jdXJyZW50X2xpbWl0",
+            "GAIgASgLMjcuZW52b3kuc2VydmljZS5yYXRlbGltaXQudjMuUmF0ZUxpbWl0",
+            "UmVzcG9uc2UuUmF0ZUxpbWl0EhcKD2xpbWl0X3JlbWFpbmluZxgDIAEoDRI3",
+            "ChRkdXJhdGlvbl91bnRpbF9yZXNldBgEIAEoCzIZLmdvb2dsZS5wcm90b2J1",
+            "Zi5EdXJhdGlvbhJCCgVxdW90YRgFIAEoCzIzLmVudm95LnNlcnZpY2UucmF0",
+            "ZWxpbWl0LnYzLlJhdGVMaW1pdFJlc3BvbnNlLlF1b3RhOkSaxYgePwo9ZW52",
+            "b3kuc2VydmljZS5yYXRlbGltaXQudjIuUmF0ZUxpbWl0UmVzcG9uc2UuRGVz",
+            "Y3JpcHRvclN0YXR1cyIrCgRDb2RlEgsKB1VOS05PV04QABIGCgJPSxABEg4K",
+            "Ck9WRVJfTElNSVQQAjozmsWIHi4KLGVudm95LnNlcnZpY2UucmF0ZWxpbWl0",
+            "LnYyLlJhdGVMaW1pdFJlc3BvbnNlMoQBChBSYXRlTGltaXRTZXJ2aWNlEnAK",
+            "D1Nob3VsZFJhdGVMaW1pdBIsLmVudm95LnNlcnZpY2UucmF0ZWxpbWl0LnYz",
+            "LlJhdGVMaW1pdFJlcXVlc3QaLS5lbnZveS5zZXJ2aWNlLnJhdGVsaW1pdC52",
+            "My5SYXRlTGltaXRSZXNwb25zZSIAQo0BCihpby5lbnZveXByb3h5LmVudm95",
+            "LnNlcnZpY2UucmF0ZWxpbWl0LnYzQghSbHNQcm90b1ABWk1naXRodWIuY29t",
+            "L2Vudm95cHJveHkvZ28tY29udHJvbC1wbGFuZS9lbnZveS9zZXJ2aWNlL3Jh",
+            "dGVsaW1pdC92MztyYXRlbGltaXR2M7qAyNEGAhACYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Envoy.Extensions.Common.Ratelimit.V3.RatelimitReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -1120,6 +1120,14 @@ namespace Envoy.Service.Ratelimit.V3 {
             /// The time unit representing a day.
             /// </summary>
             [pbr::OriginalName("DAY")] Day = 4,
+            /// <summary>
+            /// The time unit representing a month.
+            /// </summary>
+            [pbr::OriginalName("MONTH")] Month = 5,
+            /// <summary>
+            /// The time unit representing a year.
+            /// </summary>
+            [pbr::OriginalName("YEAR")] Year = 6,
           }
 
         }

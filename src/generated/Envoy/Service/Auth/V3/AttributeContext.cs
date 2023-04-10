@@ -29,7 +29,7 @@ namespace Envoy.Service.Auth.V3 {
             "djMvYWRkcmVzcy5wcm90bxofZW52b3kvY29uZmlnL2NvcmUvdjMvYmFzZS5w",
             "cm90bxofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxoddWRwYS9h",
             "bm5vdGF0aW9ucy9zdGF0dXMucHJvdG8aIXVkcGEvYW5ub3RhdGlvbnMvdmVy",
-            "c2lvbmluZy5wcm90byKaCgoQQXR0cmlidXRlQ29udGV4dBI8CgZzb3VyY2UY",
+            "c2lvbmluZy5wcm90byL+CgoQQXR0cmlidXRlQ29udGV4dBI8CgZzb3VyY2UY",
             "ASABKAsyLC5lbnZveS5zZXJ2aWNlLmF1dGgudjMuQXR0cmlidXRlQ29udGV4",
             "dC5QZWVyEkEKC2Rlc3RpbmF0aW9uGAIgASgLMiwuZW52b3kuc2VydmljZS5h",
             "dXRoLnYzLkF0dHJpYnV0ZUNvbnRleHQuUGVlchJACgdyZXF1ZXN0GAQgASgL",
@@ -37,37 +37,40 @@ namespace Envoy.Service.Auth.V3 {
             "dWVzdBJaChJjb250ZXh0X2V4dGVuc2lvbnMYCiADKAsyPi5lbnZveS5zZXJ2",
             "aWNlLmF1dGgudjMuQXR0cmlidXRlQ29udGV4dC5Db250ZXh0RXh0ZW5zaW9u",
             "c0VudHJ5EjgKEG1ldGFkYXRhX2NvbnRleHQYCyABKAsyHi5lbnZveS5jb25m",
-            "aWcuY29yZS52My5NZXRhZGF0YRqcAgoEUGVlchIuCgdhZGRyZXNzGAEgASgL",
-            "Mh0uZW52b3kuY29uZmlnLmNvcmUudjMuQWRkcmVzcxIPCgdzZXJ2aWNlGAIg",
-            "ASgJEkgKBmxhYmVscxgDIAMoCzI4LmVudm95LnNlcnZpY2UuYXV0aC52My5B",
-            "dHRyaWJ1dGVDb250ZXh0LlBlZXIuTGFiZWxzRW50cnkSEQoJcHJpbmNpcGFs",
-            "GAQgASgJEhMKC2NlcnRpZmljYXRlGAUgASgJGi0KC0xhYmVsc0VudHJ5EgsK",
-            "A2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAE6MprFiB4tCitlbnZveS5z",
-            "ZXJ2aWNlLmF1dGgudjIuQXR0cmlidXRlQ29udGV4dC5QZWVyGq0BCgdSZXF1",
-            "ZXN0EigKBHRpbWUYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
-            "EkEKBGh0dHAYAiABKAsyMy5lbnZveS5zZXJ2aWNlLmF1dGgudjMuQXR0cmli",
-            "dXRlQ29udGV4dC5IdHRwUmVxdWVzdDo1msWIHjAKLmVudm95LnNlcnZpY2Uu",
-            "YXV0aC52Mi5BdHRyaWJ1dGVDb250ZXh0LlJlcXVlc3Qa9AIKC0h0dHBSZXF1",
-            "ZXN0EgoKAmlkGAEgASgJEg4KBm1ldGhvZBgCIAEoCRJRCgdoZWFkZXJzGAMg",
-            "AygLMkAuZW52b3kuc2VydmljZS5hdXRoLnYzLkF0dHJpYnV0ZUNvbnRleHQu",
-            "SHR0cFJlcXVlc3QuSGVhZGVyc0VudHJ5EgwKBHBhdGgYBCABKAkSDAoEaG9z",
-            "dBgFIAEoCRIOCgZzY2hlbWUYBiABKAkSDQoFcXVlcnkYByABKAkSEAoIZnJh",
-            "Z21lbnQYCCABKAkSDAoEc2l6ZRgJIAEoAxIQCghwcm90b2NvbBgKIAEoCRIM",
-            "CgRib2R5GAsgASgJEhAKCHJhd19ib2R5GAwgASgMGi4KDEhlYWRlcnNFbnRy",
-            "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBOjmaxYgeNAoyZW52",
-            "b3kuc2VydmljZS5hdXRoLnYyLkF0dHJpYnV0ZUNvbnRleHQuSHR0cFJlcXVl",
-            "c3QaOAoWQ29udGV4dEV4dGVuc2lvbnNFbnRyeRILCgNrZXkYASABKAkSDQoF",
-            "dmFsdWUYAiABKAk6AjgBOi2axYgeKAomZW52b3kuc2VydmljZS5hdXRoLnYy",
-            "LkF0dHJpYnV0ZUNvbnRleHRCiwEKI2lvLmVudm95cHJveHkuZW52b3kuc2Vy",
-            "dmljZS5hdXRoLnYzQhVBdHRyaWJ1dGVDb250ZXh0UHJvdG9QAVpDZ2l0aHVi",
-            "LmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kvc2Vydmlj",
-            "ZS9hdXRoL3YzO2F1dGh2M7qAyNEGAhACYgZwcm90bzM="));
+            "aWcuY29yZS52My5NZXRhZGF0YRJHCgt0bHNfc2Vzc2lvbhgMIAEoCzIyLmVu",
+            "dm95LnNlcnZpY2UuYXV0aC52My5BdHRyaWJ1dGVDb250ZXh0LlRMU1Nlc3Np",
+            "b24anAIKBFBlZXISLgoHYWRkcmVzcxgBIAEoCzIdLmVudm95LmNvbmZpZy5j",
+            "b3JlLnYzLkFkZHJlc3MSDwoHc2VydmljZRgCIAEoCRJICgZsYWJlbHMYAyAD",
+            "KAsyOC5lbnZveS5zZXJ2aWNlLmF1dGgudjMuQXR0cmlidXRlQ29udGV4dC5Q",
+            "ZWVyLkxhYmVsc0VudHJ5EhEKCXByaW5jaXBhbBgEIAEoCRITCgtjZXJ0aWZp",
+            "Y2F0ZRgFIAEoCRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFs",
+            "dWUYAiABKAk6AjgBOjKaxYgeLQorZW52b3kuc2VydmljZS5hdXRoLnYyLkF0",
+            "dHJpYnV0ZUNvbnRleHQuUGVlchqtAQoHUmVxdWVzdBIoCgR0aW1lGAEgASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBJBCgRodHRwGAIgASgLMjMu",
+            "ZW52b3kuc2VydmljZS5hdXRoLnYzLkF0dHJpYnV0ZUNvbnRleHQuSHR0cFJl",
+            "cXVlc3Q6NZrFiB4wCi5lbnZveS5zZXJ2aWNlLmF1dGgudjIuQXR0cmlidXRl",
+            "Q29udGV4dC5SZXF1ZXN0GvQCCgtIdHRwUmVxdWVzdBIKCgJpZBgBIAEoCRIO",
+            "CgZtZXRob2QYAiABKAkSUQoHaGVhZGVycxgDIAMoCzJALmVudm95LnNlcnZp",
+            "Y2UuYXV0aC52My5BdHRyaWJ1dGVDb250ZXh0Lkh0dHBSZXF1ZXN0LkhlYWRl",
+            "cnNFbnRyeRIMCgRwYXRoGAQgASgJEgwKBGhvc3QYBSABKAkSDgoGc2NoZW1l",
+            "GAYgASgJEg0KBXF1ZXJ5GAcgASgJEhAKCGZyYWdtZW50GAggASgJEgwKBHNp",
+            "emUYCSABKAMSEAoIcHJvdG9jb2wYCiABKAkSDAoEYm9keRgLIAEoCRIQCghy",
+            "YXdfYm9keRgMIAEoDBouCgxIZWFkZXJzRW50cnkSCwoDa2V5GAEgASgJEg0K",
+            "BXZhbHVlGAIgASgJOgI4ATo5msWIHjQKMmVudm95LnNlcnZpY2UuYXV0aC52",
+            "Mi5BdHRyaWJ1dGVDb250ZXh0Lkh0dHBSZXF1ZXN0GhkKClRMU1Nlc3Npb24S",
+            "CwoDc25pGAEgASgJGjgKFkNvbnRleHRFeHRlbnNpb25zRW50cnkSCwoDa2V5",
+            "GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ATotmsWIHigKJmVudm95LnNlcnZp",
+            "Y2UuYXV0aC52Mi5BdHRyaWJ1dGVDb250ZXh0QosBCiNpby5lbnZveXByb3h5",
+            "LmVudm95LnNlcnZpY2UuYXV0aC52M0IVQXR0cmlidXRlQ29udGV4dFByb3Rv",
+            "UAFaQ2dpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vu",
+            "dm95L3NlcnZpY2UvYXV0aC92MzthdXRodjO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.AddressReflection.Descriptor, global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext), global::Envoy.Service.Auth.V3.AttributeContext.Parser, new[]{ "Source", "Destination", "Request", "ContextExtensions", "MetadataContext" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext.Types.Peer), global::Envoy.Service.Auth.V3.AttributeContext.Types.Peer.Parser, new[]{ "Address", "Service", "Labels", "Principal", "Certificate" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext), global::Envoy.Service.Auth.V3.AttributeContext.Parser, new[]{ "Source", "Destination", "Request", "ContextExtensions", "MetadataContext", "TlsSession" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext.Types.Peer), global::Envoy.Service.Auth.V3.AttributeContext.Types.Peer.Parser, new[]{ "Address", "Service", "Labels", "Principal", "Certificate" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext.Types.Request), global::Envoy.Service.Auth.V3.AttributeContext.Types.Request.Parser, new[]{ "Time", "Http" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext.Types.HttpRequest), global::Envoy.Service.Auth.V3.AttributeContext.Types.HttpRequest.Parser, new[]{ "Id", "Method", "Headers", "Path", "Host", "Scheme", "Query", "Fragment", "Size", "Protocol", "Body", "RawBody" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession), global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession.Parser, new[]{ "Sni" }, null, null, null, null),
             null, })
           }));
     }
@@ -93,7 +96,7 @@ namespace Envoy.Service.Auth.V3 {
   /// - field mask to send
   /// - which return values from request_context are copied back
   /// - which return values are copied into request_headers]
-  /// [#next-free-field: 12]
+  /// [#next-free-field: 13]
   /// </summary>
   public sealed partial class AttributeContext : pb::IMessage<AttributeContext>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -134,6 +137,7 @@ namespace Envoy.Service.Auth.V3 {
       request_ = other.request_ != null ? other.request_.Clone() : null;
       contextExtensions_ = other.contextExtensions_.Clone();
       metadataContext_ = other.metadataContext_ != null ? other.metadataContext_.Clone() : null;
+      tlsSession_ = other.tlsSession_ != null ? other.tlsSession_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -224,6 +228,23 @@ namespace Envoy.Service.Auth.V3 {
       }
     }
 
+    /// <summary>Field number for the "tls_session" field.</summary>
+    public const int TlsSessionFieldNumber = 12;
+    private global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession tlsSession_;
+    /// <summary>
+    /// TLS session details of the underlying connection.
+    /// This is not populated by default and will be populated if ext_authz filter's
+    /// :ref:`include_tls_session &lt;config_http_filters_ext_authz>` is set to true.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession TlsSession {
+      get { return tlsSession_; }
+      set {
+        tlsSession_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -244,6 +265,7 @@ namespace Envoy.Service.Auth.V3 {
       if (!object.Equals(Request, other.Request)) return false;
       if (!ContextExtensions.Equals(other.ContextExtensions)) return false;
       if (!object.Equals(MetadataContext, other.MetadataContext)) return false;
+      if (!object.Equals(TlsSession, other.TlsSession)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -256,6 +278,7 @@ namespace Envoy.Service.Auth.V3 {
       if (request_ != null) hash ^= Request.GetHashCode();
       hash ^= ContextExtensions.GetHashCode();
       if (metadataContext_ != null) hash ^= MetadataContext.GetHashCode();
+      if (tlsSession_ != null) hash ^= TlsSession.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -291,6 +314,10 @@ namespace Envoy.Service.Auth.V3 {
         output.WriteRawTag(90);
         output.WriteMessage(MetadataContext);
       }
+      if (tlsSession_ != null) {
+        output.WriteRawTag(98);
+        output.WriteMessage(TlsSession);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -318,6 +345,10 @@ namespace Envoy.Service.Auth.V3 {
         output.WriteRawTag(90);
         output.WriteMessage(MetadataContext);
       }
+      if (tlsSession_ != null) {
+        output.WriteRawTag(98);
+        output.WriteMessage(TlsSession);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -340,6 +371,9 @@ namespace Envoy.Service.Auth.V3 {
       size += contextExtensions_.CalculateSize(_map_contextExtensions_codec);
       if (metadataContext_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(MetadataContext);
+      }
+      if (tlsSession_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TlsSession);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -377,6 +411,12 @@ namespace Envoy.Service.Auth.V3 {
           MetadataContext = new global::Envoy.Config.Core.V3.Metadata();
         }
         MetadataContext.MergeFrom(other.MetadataContext);
+      }
+      if (other.tlsSession_ != null) {
+        if (tlsSession_ == null) {
+          TlsSession = new global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession();
+        }
+        TlsSession.MergeFrom(other.TlsSession);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -425,6 +465,13 @@ namespace Envoy.Service.Auth.V3 {
             input.ReadMessage(MetadataContext);
             break;
           }
+          case 98: {
+            if (tlsSession_ == null) {
+              TlsSession = new global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession();
+            }
+            input.ReadMessage(TlsSession);
+            break;
+          }
         }
       }
     #endif
@@ -470,6 +517,13 @@ namespace Envoy.Service.Auth.V3 {
               MetadataContext = new global::Envoy.Config.Core.V3.Metadata();
             }
             input.ReadMessage(MetadataContext);
+            break;
+          }
+          case 98: {
+            if (tlsSession_ == null) {
+              TlsSession = new global::Envoy.Service.Auth.V3.AttributeContext.Types.TLSSession();
+            }
+            input.ReadMessage(TlsSession);
             break;
           }
         }
@@ -598,9 +652,10 @@ namespace Envoy.Service.Auth.V3 {
         /// ``URI Subject Alternative Names``, ``DNS Subject Alternate Names`` or ``Subject`` in that order.
         /// The primary identity should be the principal. The principal format is issuer specific.
         ///
-        /// Example:
-        /// *    SPIFFE format is ``spiffe://trust-domain/path``
-        /// *    Google account format is ``https://accounts.google.com/{userid}``
+        /// Examples:
+        ///
+        /// - SPIFFE format is ``spiffe://trust-domain/path``.
+        /// - Google account format is ``https://accounts.google.com/{userid}``.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1237,7 +1292,7 @@ namespace Envoy.Service.Auth.V3 {
         public const int HostFieldNumber = 5;
         private string host_ = "";
         /// <summary>
-        /// The HTTP request ``Host`` or '`Authority`` header value.
+        /// The HTTP request ``Host`` or ``:authority`` header value.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1739,6 +1794,201 @@ namespace Envoy.Service.Auth.V3 {
               }
               case 98: {
                 RawBody = input.ReadBytes();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      /// <summary>
+      /// This message defines attributes for the underlying TLS session.
+      /// </summary>
+      public sealed partial class TLSSession : pb::IMessage<TLSSession>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<TLSSession> _parser = new pb::MessageParser<TLSSession>(() => new TLSSession());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<TLSSession> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Envoy.Service.Auth.V3.AttributeContext.Descriptor.NestedTypes[3]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public TLSSession() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public TLSSession(TLSSession other) : this() {
+          sni_ = other.sni_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public TLSSession Clone() {
+          return new TLSSession(this);
+        }
+
+        /// <summary>Field number for the "sni" field.</summary>
+        public const int SniFieldNumber = 1;
+        private string sni_ = "";
+        /// <summary>
+        /// SNI used for TLS session.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Sni {
+          get { return sni_; }
+          set {
+            sni_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as TLSSession);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(TLSSession other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Sni != other.Sni) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Sni.Length != 0) hash ^= Sni.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Sni.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Sni);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Sni.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Sni);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Sni.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Sni);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(TLSSession other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Sni.Length != 0) {
+            Sni = other.Sni;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Sni = input.ReadString();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Sni = input.ReadString();
                 break;
               }
             }

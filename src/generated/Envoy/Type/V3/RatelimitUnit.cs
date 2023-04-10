@@ -25,12 +25,12 @@ namespace Envoy.Type.V3 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiJlbnZveS90eXBlL3YzL3JhdGVsaW1pdF91bml0LnByb3RvEg1lbnZveS50",
-            "eXBlLnYzGh11ZHBhL2Fubm90YXRpb25zL3N0YXR1cy5wcm90bypHCg1SYXRl",
+            "eXBlLnYzGh11ZHBhL2Fubm90YXRpb25zL3N0YXR1cy5wcm90bypcCg1SYXRl",
             "TGltaXRVbml0EgsKB1VOS05PV04QABIKCgZTRUNPTkQQARIKCgZNSU5VVEUQ",
-            "AhIICgRIT1VSEAMSBwoDREFZEARCeAobaW8uZW52b3lwcm94eS5lbnZveS50",
-            "eXBlLnYzQhJSYXRlbGltaXRVbml0UHJvdG9QAVo7Z2l0aHViLmNvbS9lbnZv",
-            "eXByb3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kvdHlwZS92Mzt0eXBldjO6",
-            "gMjRBgIQAmIGcHJvdG8z"));
+            "AhIICgRIT1VSEAMSBwoDREFZEAQSCQoFTU9OVEgQBRIICgRZRUFSEAZCeAob",
+            "aW8uZW52b3lwcm94eS5lbnZveS50eXBlLnYzQhJSYXRlbGltaXRVbml0UHJv",
+            "dG9QAVo7Z2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUv",
+            "ZW52b3kvdHlwZS92Mzt0eXBldjO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Udpa.Annotations.StatusReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Envoy.Type.V3.RateLimitUnit), }, null, null));
@@ -63,6 +63,14 @@ namespace Envoy.Type.V3 {
     /// The time unit representing a day.
     /// </summary>
     [pbr::OriginalName("DAY")] Day = 4,
+    /// <summary>
+    /// The time unit representing a month.
+    /// </summary>
+    [pbr::OriginalName("MONTH")] Month = 5,
+    /// <summary>
+    /// The time unit representing a year.
+    /// </summary>
+    [pbr::OriginalName("YEAR")] Year = 6,
   }
 
   #endregion

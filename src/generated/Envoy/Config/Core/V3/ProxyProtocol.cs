@@ -26,22 +26,275 @@ namespace Envoy.Config.Core.V3 {
           string.Concat(
             "CillbnZveS9jb25maWcvY29yZS92My9wcm94eV9wcm90b2NvbC5wcm90bxIU",
             "ZW52b3kuY29uZmlnLmNvcmUudjMaHXVkcGEvYW5ub3RhdGlvbnMvc3RhdHVz",
-            "LnByb3RvInQKE1Byb3h5UHJvdG9jb2xDb25maWcSQgoHdmVyc2lvbhgBIAEo",
-            "DjIxLmVudm95LmNvbmZpZy5jb3JlLnYzLlByb3h5UHJvdG9jb2xDb25maWcu",
-            "VmVyc2lvbiIZCgdWZXJzaW9uEgYKAlYxEAASBgoCVjIQAUKGAQoiaW8uZW52",
-            "b3lwcm94eS5lbnZveS5jb25maWcuY29yZS52M0ISUHJveHlQcm90b2NvbFBy",
-            "b3RvUAFaQmdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5l",
-            "L2Vudm95L2NvbmZpZy9jb3JlL3YzO2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
+            "LnByb3RvGhd2YWxpZGF0ZS92YWxpZGF0ZS5wcm90byLMAQocUHJveHlQcm90",
+            "b2NvbFBhc3NUaHJvdWdoVExWcxJYCgptYXRjaF90eXBlGAEgASgOMkQuZW52",
+            "b3kuY29uZmlnLmNvcmUudjMuUHJveHlQcm90b2NvbFBhc3NUaHJvdWdoVExW",
+            "cy5QYXNzVExWc01hdGNoVHlwZRIfCgh0bHZfdHlwZRgCIAMoDUIN+kIKkgEH",
+            "IgUqAxCAAiIxChFQYXNzVExWc01hdGNoVHlwZRIPCgtJTkNMVURFX0FMTBAA",
+            "EgsKB0lOQ0xVREUQASLDAQoTUHJveHlQcm90b2NvbENvbmZpZxJCCgd2ZXJz",
+            "aW9uGAEgASgOMjEuZW52b3kuY29uZmlnLmNvcmUudjMuUHJveHlQcm90b2Nv",
+            "bENvbmZpZy5WZXJzaW9uEk0KEXBhc3NfdGhyb3VnaF90bHZzGAIgASgLMjIu",
+            "ZW52b3kuY29uZmlnLmNvcmUudjMuUHJveHlQcm90b2NvbFBhc3NUaHJvdWdo",
+            "VExWcyIZCgdWZXJzaW9uEgYKAlYxEAASBgoCVjIQAUKGAQoiaW8uZW52b3lw",
+            "cm94eS5lbnZveS5jb25maWcuY29yZS52M0ISUHJveHlQcm90b2NvbFByb3Rv",
+            "UAFaQmdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vu",
+            "dm95L2NvbmZpZy9jb3JlL3YzO2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Udpa.Annotations.StatusReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Udpa.Annotations.StatusReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.ProxyProtocolConfig), global::Envoy.Config.Core.V3.ProxyProtocolConfig.Parser, new[]{ "Version" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version) }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs), global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Parser, new[]{ "MatchType", "TlvType" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.ProxyProtocolConfig), global::Envoy.Config.Core.V3.ProxyProtocolConfig.Parser, new[]{ "Version", "PassThroughTlvs" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version) }, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
+  public sealed partial class ProxyProtocolPassThroughTLVs : pb::IMessage<ProxyProtocolPassThroughTLVs>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ProxyProtocolPassThroughTLVs> _parser = new pb::MessageParser<ProxyProtocolPassThroughTLVs>(() => new ProxyProtocolPassThroughTLVs());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ProxyProtocolPassThroughTLVs> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Envoy.Config.Core.V3.ProxyProtocolReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ProxyProtocolPassThroughTLVs() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ProxyProtocolPassThroughTLVs(ProxyProtocolPassThroughTLVs other) : this() {
+      matchType_ = other.matchType_;
+      tlvType_ = other.tlvType_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ProxyProtocolPassThroughTLVs Clone() {
+      return new ProxyProtocolPassThroughTLVs(this);
+    }
+
+    /// <summary>Field number for the "match_type" field.</summary>
+    public const int MatchTypeFieldNumber = 1;
+    private global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType matchType_ = global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType.IncludeAll;
+    /// <summary>
+    /// The strategy to pass through TLVs. Default is INCLUDE_ALL.
+    /// If INCLUDE_ALL is set, all TLVs will be passed through no matter the tlv_type field.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType MatchType {
+      get { return matchType_; }
+      set {
+        matchType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "tlv_type" field.</summary>
+    public const int TlvTypeFieldNumber = 2;
+    private static readonly pb::FieldCodec<uint> _repeated_tlvType_codec
+        = pb::FieldCodec.ForUInt32(18);
+    private readonly pbc::RepeatedField<uint> tlvType_ = new pbc::RepeatedField<uint>();
+    /// <summary>
+    /// The TLV types that are applied based on match_type.
+    /// TLV type is defined as uint8_t in proxy protocol. See `the spec
+    /// &lt;https://www.haproxy.org/download/2.1/doc/proxy-protocol.txt>`_ for details.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<uint> TlvType {
+      get { return tlvType_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ProxyProtocolPassThroughTLVs);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ProxyProtocolPassThroughTLVs other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (MatchType != other.MatchType) return false;
+      if(!tlvType_.Equals(other.tlvType_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (MatchType != global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType.IncludeAll) hash ^= MatchType.GetHashCode();
+      hash ^= tlvType_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (MatchType != global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType.IncludeAll) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) MatchType);
+      }
+      tlvType_.WriteTo(output, _repeated_tlvType_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (MatchType != global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType.IncludeAll) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) MatchType);
+      }
+      tlvType_.WriteTo(ref output, _repeated_tlvType_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (MatchType != global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType.IncludeAll) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) MatchType);
+      }
+      size += tlvType_.CalculateSize(_repeated_tlvType_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ProxyProtocolPassThroughTLVs other) {
+      if (other == null) {
+        return;
+      }
+      if (other.MatchType != global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType.IncludeAll) {
+        MatchType = other.MatchType;
+      }
+      tlvType_.Add(other.tlvType_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            MatchType = (global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType) input.ReadEnum();
+            break;
+          }
+          case 18:
+          case 16: {
+            tlvType_.AddEntriesFrom(input, _repeated_tlvType_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            MatchType = (global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs.Types.PassTLVsMatchType) input.ReadEnum();
+            break;
+          }
+          case 18:
+          case 16: {
+            tlvType_.AddEntriesFrom(ref input, _repeated_tlvType_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the ProxyProtocolPassThroughTLVs message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      public enum PassTLVsMatchType {
+        /// <summary>
+        /// Pass all TLVs.
+        /// </summary>
+        [pbr::OriginalName("INCLUDE_ALL")] IncludeAll = 0,
+        /// <summary>
+        /// Pass specific TLVs defined in tlv_type.
+        /// </summary>
+        [pbr::OriginalName("INCLUDE")] Include = 1,
+      }
+
+    }
+    #endregion
+
+  }
+
   public sealed partial class ProxyProtocolConfig : pb::IMessage<ProxyProtocolConfig>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -56,7 +309,7 @@ namespace Envoy.Config.Core.V3 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Envoy.Config.Core.V3.ProxyProtocolReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Envoy.Config.Core.V3.ProxyProtocolReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -77,6 +330,7 @@ namespace Envoy.Config.Core.V3 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ProxyProtocolConfig(ProxyProtocolConfig other) : this() {
       version_ = other.version_;
+      passThroughTlvs_ = other.passThroughTlvs_ != null ? other.passThroughTlvs_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -101,6 +355,22 @@ namespace Envoy.Config.Core.V3 {
       }
     }
 
+    /// <summary>Field number for the "pass_through_tlvs" field.</summary>
+    public const int PassThroughTlvsFieldNumber = 2;
+    private global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs passThroughTlvs_;
+    /// <summary>
+    /// This config controls which TLVs can be passed to upstream if it is Proxy Protocol
+    /// V2 header. If there is no setting for this field, no TLVs will be passed through.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs PassThroughTlvs {
+      get { return passThroughTlvs_; }
+      set {
+        passThroughTlvs_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -117,6 +387,7 @@ namespace Envoy.Config.Core.V3 {
         return true;
       }
       if (Version != other.Version) return false;
+      if (!object.Equals(PassThroughTlvs, other.PassThroughTlvs)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -125,6 +396,7 @@ namespace Envoy.Config.Core.V3 {
     public override int GetHashCode() {
       int hash = 1;
       if (Version != global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version.V1) hash ^= Version.GetHashCode();
+      if (passThroughTlvs_ != null) hash ^= PassThroughTlvs.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -147,6 +419,10 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(8);
         output.WriteEnum((int) Version);
       }
+      if (passThroughTlvs_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PassThroughTlvs);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -161,6 +437,10 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(8);
         output.WriteEnum((int) Version);
       }
+      if (passThroughTlvs_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PassThroughTlvs);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -173,6 +453,9 @@ namespace Envoy.Config.Core.V3 {
       int size = 0;
       if (Version != global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version.V1) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Version);
+      }
+      if (passThroughTlvs_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PassThroughTlvs);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -188,6 +471,12 @@ namespace Envoy.Config.Core.V3 {
       }
       if (other.Version != global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version.V1) {
         Version = other.Version;
+      }
+      if (other.passThroughTlvs_ != null) {
+        if (passThroughTlvs_ == null) {
+          PassThroughTlvs = new global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs();
+        }
+        PassThroughTlvs.MergeFrom(other.PassThroughTlvs);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -208,6 +497,13 @@ namespace Envoy.Config.Core.V3 {
             Version = (global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version) input.ReadEnum();
             break;
           }
+          case 18: {
+            if (passThroughTlvs_ == null) {
+              PassThroughTlvs = new global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs();
+            }
+            input.ReadMessage(PassThroughTlvs);
+            break;
+          }
         }
       }
     #endif
@@ -225,6 +521,13 @@ namespace Envoy.Config.Core.V3 {
             break;
           case 8: {
             Version = (global::Envoy.Config.Core.V3.ProxyProtocolConfig.Types.Version) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            if (passThroughTlvs_ == null) {
+              PassThroughTlvs = new global::Envoy.Config.Core.V3.ProxyProtocolPassThroughTLVs();
+            }
+            input.ReadMessage(PassThroughTlvs);
             break;
           }
         }

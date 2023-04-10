@@ -1787,7 +1787,10 @@ namespace Envoy.Config.Accesslog.V3 {
   }
 
   /// <summary>
-  /// Filters on total request duration in milliseconds.
+  /// Filters based on the duration of the request or stream, in milliseconds.
+  /// For end of stream access logs, the total duration of the stream will be used.
+  /// For :ref:`periodic access logs&lt;arch_overview_access_log_periodic>`,
+  /// the duration of the stream at the time of log recording will be used.
   /// </summary>
   public sealed partial class DurationFilter : pb::IMessage<DurationFilter>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

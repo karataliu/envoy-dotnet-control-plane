@@ -40,7 +40,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
             "dBIVCgNzbmkYAiABKAlCCPpCBXIDKP8BEhsKE2FsbG93X3JlbmVnb3RpYXRp",
             "b24YAyABKAgSNgoQbWF4X3Nlc3Npb25fa2V5cxgEIAEoCzIcLmdvb2dsZS5w",
             "cm90b2J1Zi5VSW50MzJWYWx1ZTormsWIHiYKJGVudm95LmFwaS52Mi5hdXRo",
-            "LlVwc3RyZWFtVGxzQ29udGV4dCK2BgoURG93bnN0cmVhbVRsc0NvbnRleHQS",
+            "LlVwc3RyZWFtVGxzQ29udGV4dCL7BgoURG93bnN0cmVhbVRsc0NvbnRleHQS",
             "VwoSY29tbW9uX3Rsc19jb250ZXh0GAEgASgLMjsuZW52b3kuZXh0ZW5zaW9u",
             "cy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuQ29tbW9uVGxzQ29udGV4dBI+",
             "ChpyZXF1aXJlX2NsaWVudF9jZXJ0aWZpY2F0ZRgCIAEoCzIaLmdvb2dsZS5w",
@@ -55,78 +55,79 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
             "dWYuRHVyYXRpb25CEPpCDaoBChoGCICAgIAQMgASdgoSb2NzcF9zdGFwbGVf",
             "cG9saWN5GAggASgOMlAuZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29j",
             "a2V0cy50bHMudjMuRG93bnN0cmVhbVRsc0NvbnRleHQuT2NzcFN0YXBsZVBv",
-            "bGljeUII+kIFggECEAEiTgoQT2NzcFN0YXBsZVBvbGljeRIUChBMRU5JRU5U",
-            "X1NUQVBMSU5HEAASEwoPU1RSSUNUX1NUQVBMSU5HEAESDwoLTVVTVF9TVEFQ",
-            "TEUQAjotmsWIHigKJmVudm95LmFwaS52Mi5hdXRoLkRvd25zdHJlYW1UbHND",
-            "b250ZXh0QhoKGHNlc3Npb25fdGlja2V0X2tleXNfdHlwZSKfAQoJVGxzS2V5",
-            "TG9nEhUKBHBhdGgYASABKAlCB/pCBHICEAESPAoTbG9jYWxfYWRkcmVzc19y",
-            "YW5nZRgCIAMoCzIfLmVudm95LmNvbmZpZy5jb3JlLnYzLkNpZHJSYW5nZRI9",
-            "ChRyZW1vdGVfYWRkcmVzc19yYW5nZRgDIAMoCzIfLmVudm95LmNvbmZpZy5j",
-            "b3JlLnYzLkNpZHJSYW5nZSK1EwoQQ29tbW9uVGxzQ29udGV4dBJMCgp0bHNf",
-            "cGFyYW1zGAEgASgLMjguZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29j",
-            "a2V0cy50bHMudjMuVGxzUGFyYW1ldGVycxJTChB0bHNfY2VydGlmaWNhdGVz",
-            "GAIgAygLMjkuZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50",
-            "bHMudjMuVGxzQ2VydGlmaWNhdGUScAoidGxzX2NlcnRpZmljYXRlX3Nkc19z",
-            "ZWNyZXRfY29uZmlncxgGIAMoCzI6LmVudm95LmV4dGVuc2lvbnMudHJhbnNw",
-            "b3J0X3NvY2tldHMudGxzLnYzLlNkc1NlY3JldENvbmZpZ0II+kIFkgECEAIS",
-            "dwohdGxzX2NlcnRpZmljYXRlX3Byb3ZpZGVyX2luc3RhbmNlGA4gASgLMkwu",
-            "ZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuQ2Vy",
-            "dGlmaWNhdGVQcm92aWRlclBsdWdpbkluc3RhbmNlEooBCiR0bHNfY2VydGlm",
-            "aWNhdGVfY2VydGlmaWNhdGVfcHJvdmlkZXIYCSABKAsyTy5lbnZveS5leHRl",
-            "bnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5Db21tb25UbHNDb250",
-            "ZXh0LkNlcnRpZmljYXRlUHJvdmlkZXJCCxgBkseG2AQDMy4wEpsBCi10bHNf",
-            "Y2VydGlmaWNhdGVfY2VydGlmaWNhdGVfcHJvdmlkZXJfaW5zdGFuY2UYCyAB",
-            "KAsyVy5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52",
-            "My5Db21tb25UbHNDb250ZXh0LkNlcnRpZmljYXRlUHJvdmlkZXJJbnN0YW5j",
-            "ZUILGAGSx4bYBAMzLjASZQoSdmFsaWRhdGlvbl9jb250ZXh0GAMgASgLMkcu",
-            "ZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuQ2Vy",
-            "dGlmaWNhdGVWYWxpZGF0aW9uQ29udGV4dEgAEmoKJHZhbGlkYXRpb25fY29u",
-            "dGV4dF9zZHNfc2VjcmV0X2NvbmZpZxgHIAEoCzI6LmVudm95LmV4dGVuc2lv",
-            "bnMudHJhbnNwb3J0X3NvY2tldHMudGxzLnYzLlNkc1NlY3JldENvbmZpZ0gA",
-            "EocBChtjb21iaW5lZF92YWxpZGF0aW9uX2NvbnRleHQYCCABKAsyYC5lbnZv",
-            "eS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5Db21tb25U",
-            "bHNDb250ZXh0LkNvbWJpbmVkQ2VydGlmaWNhdGVWYWxpZGF0aW9uQ29udGV4",
-            "dEgAEo8BCid2YWxpZGF0aW9uX2NvbnRleHRfY2VydGlmaWNhdGVfcHJvdmlk",
-            "ZXIYCiABKAsyTy5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRz",
-            "LnRscy52My5Db21tb25UbHNDb250ZXh0LkNlcnRpZmljYXRlUHJvdmlkZXJC",
-            "CxgBkseG2AQDMy4wSAASoAEKMHZhbGlkYXRpb25fY29udGV4dF9jZXJ0aWZp",
-            "Y2F0ZV9wcm92aWRlcl9pbnN0YW5jZRgMIAEoCzJXLmVudm95LmV4dGVuc2lv",
-            "bnMudHJhbnNwb3J0X3NvY2tldHMudGxzLnYzLkNvbW1vblRsc0NvbnRleHQu",
-            "Q2VydGlmaWNhdGVQcm92aWRlckluc3RhbmNlQgsYAZLHhtgEAzMuMEgAEhYK",
-            "DmFscG5fcHJvdG9jb2xzGAQgAygJEkUKEWN1c3RvbV9oYW5kc2hha2VyGA0g",
-            "ASgLMiouZW52b3kuY29uZmlnLmNvcmUudjMuVHlwZWRFeHRlbnNpb25Db25m",
-            "aWcSRQoHa2V5X2xvZxgPIAEoCzI0LmVudm95LmV4dGVuc2lvbnMudHJhbnNw",
-            "b3J0X3NvY2tldHMudGxzLnYzLlRsc0tleUxvZxp/ChNDZXJ0aWZpY2F0ZVBy",
-            "b3ZpZGVyEhUKBG5hbWUYASABKAlCB/pCBHICEAESQgoMdHlwZWRfY29uZmln",
-            "GAIgASgLMiouZW52b3kuY29uZmlnLmNvcmUudjMuVHlwZWRFeHRlbnNpb25D",
-            "b25maWdIAEINCgZjb25maWcSA/hCARpOChtDZXJ0aWZpY2F0ZVByb3ZpZGVy",
-            "SW5zdGFuY2USFQoNaW5zdGFuY2VfbmFtZRgBIAEoCRIYChBjZXJ0aWZpY2F0",
-            "ZV9uYW1lGAIgASgJGpIFCiRDb21iaW5lZENlcnRpZmljYXRlVmFsaWRhdGlv",
-            "bkNvbnRleHQSdQoaZGVmYXVsdF92YWxpZGF0aW9uX2NvbnRleHQYASABKAsy",
-            "Ry5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5D",
-            "ZXJ0aWZpY2F0ZVZhbGlkYXRpb25Db250ZXh0Qgj6QgWKAQIQARJyCiR2YWxp",
-            "ZGF0aW9uX2NvbnRleHRfc2RzX3NlY3JldF9jb25maWcYAiABKAsyOi5lbnZv",
-            "eS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5TZHNTZWNy",
-            "ZXRDb25maWdCCPpCBYoBAhABEo0BCid2YWxpZGF0aW9uX2NvbnRleHRfY2Vy",
-            "dGlmaWNhdGVfcHJvdmlkZXIYAyABKAsyTy5lbnZveS5leHRlbnNpb25zLnRy",
-            "YW5zcG9ydF9zb2NrZXRzLnRscy52My5Db21tb25UbHNDb250ZXh0LkNlcnRp",
-            "ZmljYXRlUHJvdmlkZXJCCxgBkseG2AQDMy4wEp4BCjB2YWxpZGF0aW9uX2Nv",
-            "bnRleHRfY2VydGlmaWNhdGVfcHJvdmlkZXJfaW5zdGFuY2UYBCABKAsyVy5l",
-            "bnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5Db21t",
-            "b25UbHNDb250ZXh0LkNlcnRpZmljYXRlUHJvdmlkZXJJbnN0YW5jZUILGAGS",
-            "x4bYBAMzLjA6TprFiB5JCkdlbnZveS5hcGkudjIuYXV0aC5Db21tb25UbHND",
-            "b250ZXh0LkNvbWJpbmVkQ2VydGlmaWNhdGVWYWxpZGF0aW9uQ29udGV4dDop",
-            "msWIHiQKImVudm95LmFwaS52Mi5hdXRoLkNvbW1vblRsc0NvbnRleHRCGQoX",
-            "dmFsaWRhdGlvbl9jb250ZXh0X3R5cGVKBAgFEAZCpQEKN2lvLmVudm95cHJv",
-            "eHkuZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjNC",
-            "CFRsc1Byb3RvUAFaVmdpdGh1Yi5jb20vZW52b3lwcm94eS9nby1jb250cm9s",
-            "LXBsYW5lL2Vudm95L2V4dGVuc2lvbnMvdHJhbnNwb3J0X3NvY2tldHMvdGxz",
-            "L3YzO3Rsc3YzuoDI0QYCEAJiBnByb3RvMw=="));
+            "bGljeUII+kIFggECEAESQwofZnVsbF9zY2FuX2NlcnRzX29uX3NuaV9taXNt",
+            "YXRjaBgJIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUiTgoQT2Nz",
+            "cFN0YXBsZVBvbGljeRIUChBMRU5JRU5UX1NUQVBMSU5HEAASEwoPU1RSSUNU",
+            "X1NUQVBMSU5HEAESDwoLTVVTVF9TVEFQTEUQAjotmsWIHigKJmVudm95LmFw",
+            "aS52Mi5hdXRoLkRvd25zdHJlYW1UbHNDb250ZXh0QhoKGHNlc3Npb25fdGlj",
+            "a2V0X2tleXNfdHlwZSKfAQoJVGxzS2V5TG9nEhUKBHBhdGgYASABKAlCB/pC",
+            "BHICEAESPAoTbG9jYWxfYWRkcmVzc19yYW5nZRgCIAMoCzIfLmVudm95LmNv",
+            "bmZpZy5jb3JlLnYzLkNpZHJSYW5nZRI9ChRyZW1vdGVfYWRkcmVzc19yYW5n",
+            "ZRgDIAMoCzIfLmVudm95LmNvbmZpZy5jb3JlLnYzLkNpZHJSYW5nZSKrEwoQ",
+            "Q29tbW9uVGxzQ29udGV4dBJMCgp0bHNfcGFyYW1zGAEgASgLMjguZW52b3ku",
+            "ZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuVGxzUGFyYW1l",
+            "dGVycxJTChB0bHNfY2VydGlmaWNhdGVzGAIgAygLMjkuZW52b3kuZXh0ZW5z",
+            "aW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuVGxzQ2VydGlmaWNhdGUS",
+            "ZgoidGxzX2NlcnRpZmljYXRlX3Nkc19zZWNyZXRfY29uZmlncxgGIAMoCzI6",
+            "LmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tldHMudGxzLnYzLlNk",
+            "c1NlY3JldENvbmZpZxJ3CiF0bHNfY2VydGlmaWNhdGVfcHJvdmlkZXJfaW5z",
+            "dGFuY2UYDiABKAsyTC5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2Nr",
+            "ZXRzLnRscy52My5DZXJ0aWZpY2F0ZVByb3ZpZGVyUGx1Z2luSW5zdGFuY2US",
+            "igEKJHRsc19jZXJ0aWZpY2F0ZV9jZXJ0aWZpY2F0ZV9wcm92aWRlchgJIAEo",
+            "CzJPLmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tldHMudGxzLnYz",
+            "LkNvbW1vblRsc0NvbnRleHQuQ2VydGlmaWNhdGVQcm92aWRlckILGAGSx4bY",
+            "BAMzLjASmwEKLXRsc19jZXJ0aWZpY2F0ZV9jZXJ0aWZpY2F0ZV9wcm92aWRl",
+            "cl9pbnN0YW5jZRgLIAEoCzJXLmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0",
+            "X3NvY2tldHMudGxzLnYzLkNvbW1vblRsc0NvbnRleHQuQ2VydGlmaWNhdGVQ",
+            "cm92aWRlckluc3RhbmNlQgsYAZLHhtgEAzMuMBJlChJ2YWxpZGF0aW9uX2Nv",
+            "bnRleHQYAyABKAsyRy5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2Nr",
+            "ZXRzLnRscy52My5DZXJ0aWZpY2F0ZVZhbGlkYXRpb25Db250ZXh0SAASagok",
+            "dmFsaWRhdGlvbl9jb250ZXh0X3Nkc19zZWNyZXRfY29uZmlnGAcgASgLMjou",
+            "ZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuU2Rz",
+            "U2VjcmV0Q29uZmlnSAAShwEKG2NvbWJpbmVkX3ZhbGlkYXRpb25fY29udGV4",
+            "dBgIIAEoCzJgLmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tldHMu",
+            "dGxzLnYzLkNvbW1vblRsc0NvbnRleHQuQ29tYmluZWRDZXJ0aWZpY2F0ZVZh",
+            "bGlkYXRpb25Db250ZXh0SAASjwEKJ3ZhbGlkYXRpb25fY29udGV4dF9jZXJ0",
+            "aWZpY2F0ZV9wcm92aWRlchgKIAEoCzJPLmVudm95LmV4dGVuc2lvbnMudHJh",
+            "bnNwb3J0X3NvY2tldHMudGxzLnYzLkNvbW1vblRsc0NvbnRleHQuQ2VydGlm",
+            "aWNhdGVQcm92aWRlckILGAGSx4bYBAMzLjBIABKgAQowdmFsaWRhdGlvbl9j",
+            "b250ZXh0X2NlcnRpZmljYXRlX3Byb3ZpZGVyX2luc3RhbmNlGAwgASgLMlcu",
+            "ZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuQ29t",
+            "bW9uVGxzQ29udGV4dC5DZXJ0aWZpY2F0ZVByb3ZpZGVySW5zdGFuY2VCCxgB",
+            "kseG2AQDMy4wSAASFgoOYWxwbl9wcm90b2NvbHMYBCADKAkSRQoRY3VzdG9t",
+            "X2hhbmRzaGFrZXIYDSABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5UeXBl",
+            "ZEV4dGVuc2lvbkNvbmZpZxJFCgdrZXlfbG9nGA8gASgLMjQuZW52b3kuZXh0",
+            "ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuVGxzS2V5TG9nGn8K",
+            "E0NlcnRpZmljYXRlUHJvdmlkZXISFQoEbmFtZRgBIAEoCUIH+kIEcgIQARJC",
+            "Cgx0eXBlZF9jb25maWcYAiABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5U",
+            "eXBlZEV4dGVuc2lvbkNvbmZpZ0gAQg0KBmNvbmZpZxID+EIBGk4KG0NlcnRp",
+            "ZmljYXRlUHJvdmlkZXJJbnN0YW5jZRIVCg1pbnN0YW5jZV9uYW1lGAEgASgJ",
+            "EhgKEGNlcnRpZmljYXRlX25hbWUYAiABKAkakgUKJENvbWJpbmVkQ2VydGlm",
+            "aWNhdGVWYWxpZGF0aW9uQ29udGV4dBJ1ChpkZWZhdWx0X3ZhbGlkYXRpb25f",
+            "Y29udGV4dBgBIAEoCzJHLmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3Nv",
+            "Y2tldHMudGxzLnYzLkNlcnRpZmljYXRlVmFsaWRhdGlvbkNvbnRleHRCCPpC",
+            "BYoBAhABEnIKJHZhbGlkYXRpb25fY29udGV4dF9zZHNfc2VjcmV0X2NvbmZp",
+            "ZxgCIAEoCzI6LmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tldHMu",
+            "dGxzLnYzLlNkc1NlY3JldENvbmZpZ0II+kIFigECEAESjQEKJ3ZhbGlkYXRp",
+            "b25fY29udGV4dF9jZXJ0aWZpY2F0ZV9wcm92aWRlchgDIAEoCzJPLmVudm95",
+            "LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tldHMudGxzLnYzLkNvbW1vblRs",
+            "c0NvbnRleHQuQ2VydGlmaWNhdGVQcm92aWRlckILGAGSx4bYBAMzLjASngEK",
+            "MHZhbGlkYXRpb25fY29udGV4dF9jZXJ0aWZpY2F0ZV9wcm92aWRlcl9pbnN0",
+            "YW5jZRgEIAEoCzJXLmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tl",
+            "dHMudGxzLnYzLkNvbW1vblRsc0NvbnRleHQuQ2VydGlmaWNhdGVQcm92aWRl",
+            "ckluc3RhbmNlQgsYAZLHhtgEAzMuMDpOmsWIHkkKR2Vudm95LmFwaS52Mi5h",
+            "dXRoLkNvbW1vblRsc0NvbnRleHQuQ29tYmluZWRDZXJ0aWZpY2F0ZVZhbGlk",
+            "YXRpb25Db250ZXh0OimaxYgeJAoiZW52b3kuYXBpLnYyLmF1dGguQ29tbW9u",
+            "VGxzQ29udGV4dEIZChd2YWxpZGF0aW9uX2NvbnRleHRfdHlwZUoECAUQBkKl",
+            "AQo3aW8uZW52b3lwcm94eS5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9z",
+            "b2NrZXRzLnRscy52M0IIVGxzUHJvdG9QAVpWZ2l0aHViLmNvbS9lbnZveXBy",
+            "b3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kvZXh0ZW5zaW9ucy90cmFuc3Bv",
+            "cnRfc29ja2V0cy90bHMvdjM7dGxzdjO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.AddressReflection.Descriptor, global::Envoy.Config.Core.V3.ExtensionReflection.Descriptor, global::Envoy.Extensions.TransportSockets.Tls.V3.CommonReflection.Descriptor, global::Envoy.Extensions.TransportSockets.Tls.V3.SecretReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.UpstreamTlsContext), global::Envoy.Extensions.TransportSockets.Tls.V3.UpstreamTlsContext.Parser, new[]{ "CommonTlsContext", "Sni", "AllowRenegotiation", "MaxSessionKeys" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext), global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Parser, new[]{ "CommonTlsContext", "RequireClientCertificate", "RequireSni", "SessionTicketKeys", "SessionTicketKeysSdsSecretConfig", "DisableStatelessSessionResumption", "SessionTimeout", "OcspStaplePolicy" }, new[]{ "SessionTicketKeysType" }, new[]{ typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext), global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Parser, new[]{ "CommonTlsContext", "RequireClientCertificate", "RequireSni", "SessionTicketKeys", "SessionTicketKeysSdsSecretConfig", "DisableStatelessSessionResumption", "SessionTimeout", "OcspStaplePolicy", "FullScanCertsOnSniMismatch" }, new[]{ "SessionTicketKeysType" }, new[]{ typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsKeyLog), global::Envoy.Extensions.TransportSockets.Tls.V3.TlsKeyLog.Parser, new[]{ "Path", "LocalAddressRange", "RemoteAddressRange" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext), global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Parser, new[]{ "TlsParams", "TlsCertificates", "TlsCertificateSdsSecretConfigs", "TlsCertificateProviderInstance", "TlsCertificateCertificateProvider", "TlsCertificateCertificateProviderInstance", "ValidationContext", "ValidationContextSdsSecretConfig", "CombinedValidationContext", "ValidationContextCertificateProvider", "ValidationContextCertificateProviderInstance", "AlpnProtocols", "CustomHandshaker", "KeyLog" }, new[]{ "ValidationContextType" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Types.CertificateProvider), global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Types.CertificateProvider.Parser, new[]{ "Name", "TypedConfig" }, new[]{ "Config" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Types.CertificateProviderInstance), global::Envoy.Extensions.TransportSockets.Tls.V3.CommonTlsContext.Types.CertificateProviderInstance.Parser, new[]{ "InstanceName", "CertificateName" }, null, null, null, null),
@@ -480,7 +481,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
   }
 
   /// <summary>
-  /// [#next-free-field: 9]
+  /// [#next-free-field: 10]
   /// </summary>
   public sealed partial class DownstreamTlsContext : pb::IMessage<DownstreamTlsContext>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -521,6 +522,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       RequireSni = other.RequireSni;
       sessionTimeout_ = other.sessionTimeout_ != null ? other.sessionTimeout_.Clone() : null;
       ocspStaplePolicy_ = other.ocspStaplePolicy_;
+      FullScanCertsOnSniMismatch = other.FullScanCertsOnSniMismatch;
       switch (other.SessionTicketKeysTypeCase) {
         case SessionTicketKeysTypeOneofCase.SessionTicketKeys:
           SessionTicketKeys = other.SessionTicketKeys.Clone();
@@ -679,6 +681,25 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
     }
 
+    /// <summary>Field number for the "full_scan_certs_on_sni_mismatch" field.</summary>
+    public const int FullScanCertsOnSniMismatchFieldNumber = 9;
+    private static readonly pb::FieldCodec<bool?> _single_fullScanCertsOnSniMismatch_codec = pb::FieldCodec.ForStructWrapper<bool>(74);
+    private bool? fullScanCertsOnSniMismatch_;
+    /// <summary>
+    /// Multiple certificates are allowed in Downstream transport socket to serve different SNI.
+    /// If the client provides SNI but no such cert matched, it will decide to full scan certificates or not based on this config.
+    /// Defaults to false. See more details in :ref:`Multiple TLS certificates &lt;arch_overview_ssl_cert_select>`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool? FullScanCertsOnSniMismatch {
+      get { return fullScanCertsOnSniMismatch_; }
+      set {
+        fullScanCertsOnSniMismatch_ = value;
+      }
+    }
+
+
     private object sessionTicketKeysType_;
     /// <summary>Enum of possible cases for the "session_ticket_keys_type" oneof.</summary>
     public enum SessionTicketKeysTypeOneofCase {
@@ -724,6 +745,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       if (DisableStatelessSessionResumption != other.DisableStatelessSessionResumption) return false;
       if (!object.Equals(SessionTimeout, other.SessionTimeout)) return false;
       if (OcspStaplePolicy != other.OcspStaplePolicy) return false;
+      if (FullScanCertsOnSniMismatch != other.FullScanCertsOnSniMismatch) return false;
       if (SessionTicketKeysTypeCase != other.SessionTicketKeysTypeCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -740,6 +762,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       if (sessionTicketKeysTypeCase_ == SessionTicketKeysTypeOneofCase.DisableStatelessSessionResumption) hash ^= DisableStatelessSessionResumption.GetHashCode();
       if (sessionTimeout_ != null) hash ^= SessionTimeout.GetHashCode();
       if (OcspStaplePolicy != global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy.LenientStapling) hash ^= OcspStaplePolicy.GetHashCode();
+      if (fullScanCertsOnSniMismatch_ != null) hash ^= FullScanCertsOnSniMismatch.GetHashCode();
       hash ^= (int) sessionTicketKeysTypeCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -789,6 +812,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
         output.WriteRawTag(64);
         output.WriteEnum((int) OcspStaplePolicy);
       }
+      if (fullScanCertsOnSniMismatch_ != null) {
+        _single_fullScanCertsOnSniMismatch_codec.WriteTagAndValue(output, FullScanCertsOnSniMismatch);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -829,6 +855,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
         output.WriteRawTag(64);
         output.WriteEnum((int) OcspStaplePolicy);
       }
+      if (fullScanCertsOnSniMismatch_ != null) {
+        _single_fullScanCertsOnSniMismatch_codec.WriteTagAndValue(ref output, FullScanCertsOnSniMismatch);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -862,6 +891,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
       if (OcspStaplePolicy != global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy.LenientStapling) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) OcspStaplePolicy);
+      }
+      if (fullScanCertsOnSniMismatch_ != null) {
+        size += _single_fullScanCertsOnSniMismatch_codec.CalculateSizeWithTag(FullScanCertsOnSniMismatch);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -899,6 +931,11 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
       if (other.OcspStaplePolicy != global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy.LenientStapling) {
         OcspStaplePolicy = other.OcspStaplePolicy;
+      }
+      if (other.fullScanCertsOnSniMismatch_ != null) {
+        if (fullScanCertsOnSniMismatch_ == null || other.FullScanCertsOnSniMismatch != false) {
+          FullScanCertsOnSniMismatch = other.FullScanCertsOnSniMismatch;
+        }
       }
       switch (other.SessionTicketKeysTypeCase) {
         case SessionTicketKeysTypeOneofCase.SessionTicketKeys:
@@ -987,6 +1024,13 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
             OcspStaplePolicy = (global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy) input.ReadEnum();
             break;
           }
+          case 74: {
+            bool? value = _single_fullScanCertsOnSniMismatch_codec.Read(input);
+            if (fullScanCertsOnSniMismatch_ == null || value != false) {
+              FullScanCertsOnSniMismatch = value;
+            }
+            break;
+          }
         }
       }
     #endif
@@ -1054,6 +1098,13 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
           }
           case 64: {
             OcspStaplePolicy = (global::Envoy.Extensions.TransportSockets.Tls.V3.DownstreamTlsContext.Types.OcspStaplePolicy) input.ReadEnum();
+            break;
+          }
+          case 74: {
+            bool? value = _single_fullScanCertsOnSniMismatch_codec.Read(ref input);
+            if (fullScanCertsOnSniMismatch_ == null || value != false) {
+              FullScanCertsOnSniMismatch = value;
+            }
             break;
           }
         }
@@ -1448,12 +1499,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
         = pb::FieldCodec.ForMessage(18, global::Envoy.Extensions.TransportSockets.Tls.V3.TlsCertificate.Parser);
     private readonly pbc::RepeatedField<global::Envoy.Extensions.TransportSockets.Tls.V3.TlsCertificate> tlsCertificates_ = new pbc::RepeatedField<global::Envoy.Extensions.TransportSockets.Tls.V3.TlsCertificate>();
     /// <summary>
+    /// Only a single TLS certificate is supported in client contexts. In server contexts,
     /// :ref:`Multiple TLS certificates &lt;arch_overview_ssl_cert_select>` can be associated with the
-    /// same context to allow both RSA and ECDSA certificates.
-    ///
-    /// Only a single TLS certificate is supported in client contexts. In server contexts, the first
-    /// RSA certificate is used for clients that only support RSA and the first ECDSA certificate is
-    /// used for clients that support ECDSA.
+    /// same context to allow both RSA and ECDSA certificates and support SNI-based selection.
     ///
     /// Only one of ``tls_certificates``, ``tls_certificate_sds_secret_configs``,
     /// and ``tls_certificate_provider_instance`` may be used.

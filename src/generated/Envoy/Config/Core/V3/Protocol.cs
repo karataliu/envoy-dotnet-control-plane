@@ -72,7 +72,7 @@ namespace Envoy.Config.Core.V3 {
             "LlVJbnQzMlZhbHVlIk4KHEhlYWRlcnNXaXRoVW5kZXJzY29yZXNBY3Rpb24S",
             "CQoFQUxMT1cQABISCg5SRUpFQ1RfUkVRVUVTVBABEg8KC0RST1BfSEVBREVS",
             "EAI6LJrFiB4nCiVlbnZveS5hcGkudjIuY29yZS5IdHRwUHJvdG9jb2xPcHRp",
-            "b25zIrgGChRIdHRwMVByb3RvY29sT3B0aW9ucxI2ChJhbGxvd19hYnNvbHV0",
+            "b25zIvgGChRIdHRwMVByb3RvY29sT3B0aW9ucxI2ChJhbGxvd19hYnNvbHV0",
             "ZV91cmwYASABKAsyGi5nb29nbGUucHJvdG9idWYuQm9vbFZhbHVlEhYKDmFj",
             "Y2VwdF9odHRwXzEwGAIgASgIEiAKGGRlZmF1bHRfaG9zdF9mb3JfaHR0cF8x",
             "MBgDIAEoCRJVChFoZWFkZXJfa2V5X2Zvcm1hdBgEIAEoCzI6LmVudm95LmNv",
@@ -80,67 +80,68 @@ namespace Envoy.Config.Core.V3 {
             "cm1hdBIXCg9lbmFibGVfdHJhaWxlcnMYBSABKAgSHAoUYWxsb3dfY2h1bmtl",
             "ZF9sZW5ndGgYBiABKAgSUQotb3ZlcnJpZGVfc3RyZWFtX2Vycm9yX29uX2lu",
             "dmFsaWRfaHR0cF9tZXNzYWdlGAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJv",
-            "b2xWYWx1ZRIgChhzZW5kX2Z1bGx5X3F1YWxpZmllZF91cmwYCCABKAga+wIK",
-            "D0hlYWRlcktleUZvcm1hdBJnChFwcm9wZXJfY2FzZV93b3JkcxgBIAEoCzJK",
-            "LmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAxUHJvdG9jb2xPcHRpb25zLkhl",
-            "YWRlcktleUZvcm1hdC5Qcm9wZXJDYXNlV29yZHNIABJIChJzdGF0ZWZ1bF9m",
-            "b3JtYXR0ZXIYCCABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5UeXBlZEV4",
-            "dGVuc2lvbkNvbmZpZ0gAGmAKD1Byb3BlckNhc2VXb3JkczpNmsWIHkgKRmVu",
-            "dm95LmFwaS52Mi5jb3JlLkh0dHAxUHJvdG9jb2xPcHRpb25zLkhlYWRlcktl",
-            "eUZvcm1hdC5Qcm9wZXJDYXNlV29yZHM6PZrFiB44CjZlbnZveS5hcGkudjIu",
-            "Y29yZS5IdHRwMVByb3RvY29sT3B0aW9ucy5IZWFkZXJLZXlGb3JtYXRCFAoN",
-            "aGVhZGVyX2Zvcm1hdBID+EIBOi2axYgeKAomZW52b3kuYXBpLnYyLmNvcmUu",
-            "SHR0cDFQcm90b2NvbE9wdGlvbnMihgIKEUtlZXBhbGl2ZVNldHRpbmdzEjkK",
-            "CGludGVydmFsGAEgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uQgz6",
-            "QgmqAQYyBBDAhD0SOgoHdGltZW91dBgCIAEoCzIZLmdvb2dsZS5wcm90b2J1",
-            "Zi5EdXJhdGlvbkIO+kILqgEICAEyBBDAhD0SLwoPaW50ZXJ2YWxfaml0dGVy",
-            "GAMgASgLMhYuZW52b3kudHlwZS52My5QZXJjZW50EkkKGGNvbm5lY3Rpb25f",
-            "aWRsZV9pbnRlcnZhbBgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlv",
-            "bkIM+kIJqgEGMgQQwIQ9Is0KChRIdHRwMlByb3RvY29sT3B0aW9ucxI2ChBo",
-            "cGFja190YWJsZV9zaXplGAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQz",
-            "MlZhbHVlEksKFm1heF9jb25jdXJyZW50X3N0cmVhbXMYAiABKAsyHC5nb29n",
-            "bGUucHJvdG9idWYuVUludDMyVmFsdWVCDfpCCioIGP////8HKAESUQoaaW5p",
-            "dGlhbF9zdHJlYW1fd2luZG93X3NpemUYAyABKAsyHC5nb29nbGUucHJvdG9i",
-            "dWYuVUludDMyVmFsdWVCD/pCDCoKGP////8HKP//AxJVCh5pbml0aWFsX2Nv",
-            "bm5lY3Rpb25fd2luZG93X3NpemUYBCABKAsyHC5nb29nbGUucHJvdG9idWYu",
-            "VUludDMyVmFsdWVCD/pCDCoKGP////8HKP//AxIVCg1hbGxvd19jb25uZWN0",
-            "GAUgASgIEhYKDmFsbG93X21ldGFkYXRhGAYgASgIEkIKE21heF9vdXRib3Vu",
-            "ZF9mcmFtZXMYByABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVC",
-            "B/pCBCoCKAESSgobbWF4X291dGJvdW5kX2NvbnRyb2xfZnJhbWVzGAggASgL",
-            "MhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQgf6QgQqAigBElcKMW1h",
-            "eF9jb25zZWN1dGl2ZV9pbmJvdW5kX2ZyYW1lc193aXRoX2VtcHR5X3BheWxv",
-            "YWQYCSABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWUSTAombWF4",
-            "X2luYm91bmRfcHJpb3JpdHlfZnJhbWVzX3Blcl9zdHJlYW0YCiABKAsyHC5n",
-            "b29nbGUucHJvdG9idWYuVUludDMyVmFsdWUSYwo0bWF4X2luYm91bmRfd2lu",
-            "ZG93X3VwZGF0ZV9mcmFtZXNfcGVyX2RhdGFfZnJhbWVfc2VudBgLIAEoCzIc",
-            "Lmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZUIH+kIEKgIoARI7CiZzdHJl",
-            "YW1fZXJyb3Jfb25faW52YWxpZF9odHRwX21lc3NhZ2luZxgMIAEoCEILGAGS",
-            "x4bYBAMzLjASUQotb3ZlcnJpZGVfc3RyZWFtX2Vycm9yX29uX2ludmFsaWRf",
-            "aHR0cF9tZXNzYWdlGA4gASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1",
-            "ZRJgChpjdXN0b21fc2V0dGluZ3NfcGFyYW1ldGVycxgNIAMoCzI8LmVudm95",
-            "LmNvbmZpZy5jb3JlLnYzLkh0dHAyUHJvdG9jb2xPcHRpb25zLlNldHRpbmdz",
-            "UGFyYW1ldGVyEkUKFGNvbm5lY3Rpb25fa2VlcGFsaXZlGA8gASgLMicuZW52",
-            "b3kuY29uZmlnLmNvcmUudjMuS2VlcGFsaXZlU2V0dGluZ3Ma0gEKEVNldHRp",
-            "bmdzUGFyYW1ldGVyEkUKCmlkZW50aWZpZXIYASABKAsyHC5nb29nbGUucHJv",
-            "dG9idWYuVUludDMyVmFsdWVCE/pCCCoGGP//AygA+kIFigECEAESNQoFdmFs",
-            "dWUYAiABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCCPpCBYoB",
-            "AhABOj+axYgeOgo4ZW52b3kuYXBpLnYyLmNvcmUuSHR0cDJQcm90b2NvbE9w",
-            "dGlvbnMuU2V0dGluZ3NQYXJhbWV0ZXI6LZrFiB4oCiZlbnZveS5hcGkudjIu",
-            "Y29yZS5IdHRwMlByb3RvY29sT3B0aW9ucyKPAQoTR3JwY1Byb3RvY29sT3B0",
-            "aW9ucxJKChZodHRwMl9wcm90b2NvbF9vcHRpb25zGAEgASgLMiouZW52b3ku",
-            "Y29uZmlnLmNvcmUudjMuSHR0cDJQcm90b2NvbE9wdGlvbnM6LJrFiB4nCiVl",
-            "bnZveS5hcGkudjIuY29yZS5HcnBjUHJvdG9jb2xPcHRpb25zIt0BChRIdHRw",
-            "M1Byb3RvY29sT3B0aW9ucxJIChVxdWljX3Byb3RvY29sX29wdGlvbnMYASAB",
-            "KAsyKS5lbnZveS5jb25maWcuY29yZS52My5RdWljUHJvdG9jb2xPcHRpb25z",
-            "ElEKLW92ZXJyaWRlX3N0cmVhbV9lcnJvcl9vbl9pbnZhbGlkX2h0dHBfbWVz",
-            "c2FnZRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29sVmFsdWUSKAoWYWxs",
-            "b3dfZXh0ZW5kZWRfY29ubmVjdBgFIAEoCEII0sak4QYCCAEiYQoaU2NoZW1l",
-            "SGVhZGVyVHJhbnNmb3JtYXRpb24SMQoTc2NoZW1lX3RvX292ZXJ3cml0ZRgB",
-            "IAEoCUIS+kIPcg1SBGh0dHBSBWh0dHBzSABCEAoOdHJhbnNmb3JtYXRpb25C",
-            "gQEKImlvLmVudm95cHJveHkuZW52b3kuY29uZmlnLmNvcmUudjNCDVByb3Rv",
-            "Y29sUHJvdG9QAVpCZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wt",
-            "cGxhbmUvZW52b3kvY29uZmlnL2NvcmUvdjM7Y29yZXYzuoDI0QYCEAJiBnBy",
-            "b3RvMw=="));
+            "b2xWYWx1ZRIgChhzZW5kX2Z1bGx5X3F1YWxpZmllZF91cmwYCCABKAgSPgoQ",
+            "dXNlX2JhbHNhX3BhcnNlchgJIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5Cb29s",
+            "VmFsdWVCCNLGpOEGAggBGvsCCg9IZWFkZXJLZXlGb3JtYXQSZwoRcHJvcGVy",
+            "X2Nhc2Vfd29yZHMYASABKAsySi5lbnZveS5jb25maWcuY29yZS52My5IdHRw",
+            "MVByb3RvY29sT3B0aW9ucy5IZWFkZXJLZXlGb3JtYXQuUHJvcGVyQ2FzZVdv",
+            "cmRzSAASSAoSc3RhdGVmdWxfZm9ybWF0dGVyGAggASgLMiouZW52b3kuY29u",
+            "ZmlnLmNvcmUudjMuVHlwZWRFeHRlbnNpb25Db25maWdIABpgCg9Qcm9wZXJD",
+            "YXNlV29yZHM6TZrFiB5ICkZlbnZveS5hcGkudjIuY29yZS5IdHRwMVByb3Rv",
+            "Y29sT3B0aW9ucy5IZWFkZXJLZXlGb3JtYXQuUHJvcGVyQ2FzZVdvcmRzOj2a",
+            "xYgeOAo2ZW52b3kuYXBpLnYyLmNvcmUuSHR0cDFQcm90b2NvbE9wdGlvbnMu",
+            "SGVhZGVyS2V5Rm9ybWF0QhQKDWhlYWRlcl9mb3JtYXQSA/hCATotmsWIHigK",
+            "JmVudm95LmFwaS52Mi5jb3JlLkh0dHAxUHJvdG9jb2xPcHRpb25zIoYCChFL",
+            "ZWVwYWxpdmVTZXR0aW5ncxI5CghpbnRlcnZhbBgBIAEoCzIZLmdvb2dsZS5w",
+            "cm90b2J1Zi5EdXJhdGlvbkIM+kIJqgEGMgQQwIQ9EjoKB3RpbWVvdXQYAiAB",
+            "KAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25CDvpCC6oBCAgBMgQQwIQ9",
+            "Ei8KD2ludGVydmFsX2ppdHRlchgDIAEoCzIWLmVudm95LnR5cGUudjMuUGVy",
+            "Y2VudBJJChhjb25uZWN0aW9uX2lkbGVfaW50ZXJ2YWwYBCABKAsyGS5nb29n",
+            "bGUucHJvdG9idWYuRHVyYXRpb25CDPpCCaoBBjIEEMCEPSLNCgoUSHR0cDJQ",
+            "cm90b2NvbE9wdGlvbnMSNgoQaHBhY2tfdGFibGVfc2l6ZRgBIAEoCzIcLmdv",
+            "b2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZRJLChZtYXhfY29uY3VycmVudF9z",
+            "dHJlYW1zGAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQg36",
+            "QgoqCBj/////BygBElEKGmluaXRpYWxfc3RyZWFtX3dpbmRvd19zaXplGAMg",
+            "ASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQg/6QgwqChj/////",
+            "Byj//wMSVQoeaW5pdGlhbF9jb25uZWN0aW9uX3dpbmRvd19zaXplGAQgASgL",
+            "MhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQg/6QgwqChj/////Byj/",
+            "/wMSFQoNYWxsb3dfY29ubmVjdBgFIAEoCBIWCg5hbGxvd19tZXRhZGF0YRgG",
+            "IAEoCBJCChNtYXhfb3V0Ym91bmRfZnJhbWVzGAcgASgLMhwuZ29vZ2xlLnBy",
+            "b3RvYnVmLlVJbnQzMlZhbHVlQgf6QgQqAigBEkoKG21heF9vdXRib3VuZF9j",
+            "b250cm9sX2ZyYW1lcxgIIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5VSW50MzJW",
+            "YWx1ZUIH+kIEKgIoARJXCjFtYXhfY29uc2VjdXRpdmVfaW5ib3VuZF9mcmFt",
+            "ZXNfd2l0aF9lbXB0eV9wYXlsb2FkGAkgASgLMhwuZ29vZ2xlLnByb3RvYnVm",
+            "LlVJbnQzMlZhbHVlEkwKJm1heF9pbmJvdW5kX3ByaW9yaXR5X2ZyYW1lc19w",
+            "ZXJfc3RyZWFtGAogASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVl",
+            "EmMKNG1heF9pbmJvdW5kX3dpbmRvd191cGRhdGVfZnJhbWVzX3Blcl9kYXRh",
+            "X2ZyYW1lX3NlbnQYCyABKAsyHC5nb29nbGUucHJvdG9idWYuVUludDMyVmFs",
+            "dWVCB/pCBCoCKAESOwomc3RyZWFtX2Vycm9yX29uX2ludmFsaWRfaHR0cF9t",
+            "ZXNzYWdpbmcYDCABKAhCCxgBkseG2AQDMy4wElEKLW92ZXJyaWRlX3N0cmVh",
+            "bV9lcnJvcl9vbl9pbnZhbGlkX2h0dHBfbWVzc2FnZRgOIAEoCzIaLmdvb2ds",
+            "ZS5wcm90b2J1Zi5Cb29sVmFsdWUSYAoaY3VzdG9tX3NldHRpbmdzX3BhcmFt",
+            "ZXRlcnMYDSADKAsyPC5lbnZveS5jb25maWcuY29yZS52My5IdHRwMlByb3Rv",
+            "Y29sT3B0aW9ucy5TZXR0aW5nc1BhcmFtZXRlchJFChRjb25uZWN0aW9uX2tl",
+            "ZXBhbGl2ZRgPIAEoCzInLmVudm95LmNvbmZpZy5jb3JlLnYzLktlZXBhbGl2",
+            "ZVNldHRpbmdzGtIBChFTZXR0aW5nc1BhcmFtZXRlchJFCgppZGVudGlmaWVy",
+            "GAEgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlVJbnQzMlZhbHVlQhP6QggqBhj/",
+            "/wMoAPpCBYoBAhABEjUKBXZhbHVlGAIgASgLMhwuZ29vZ2xlLnByb3RvYnVm",
+            "LlVJbnQzMlZhbHVlQgj6QgWKAQIQATo/msWIHjoKOGVudm95LmFwaS52Mi5j",
+            "b3JlLkh0dHAyUHJvdG9jb2xPcHRpb25zLlNldHRpbmdzUGFyYW1ldGVyOi2a",
+            "xYgeKAomZW52b3kuYXBpLnYyLmNvcmUuSHR0cDJQcm90b2NvbE9wdGlvbnMi",
+            "jwEKE0dycGNQcm90b2NvbE9wdGlvbnMSSgoWaHR0cDJfcHJvdG9jb2xfb3B0",
+            "aW9ucxgBIAEoCzIqLmVudm95LmNvbmZpZy5jb3JlLnYzLkh0dHAyUHJvdG9j",
+            "b2xPcHRpb25zOiyaxYgeJwolZW52b3kuYXBpLnYyLmNvcmUuR3JwY1Byb3Rv",
+            "Y29sT3B0aW9ucyLdAQoUSHR0cDNQcm90b2NvbE9wdGlvbnMSSAoVcXVpY19w",
+            "cm90b2NvbF9vcHRpb25zGAEgASgLMikuZW52b3kuY29uZmlnLmNvcmUudjMu",
+            "UXVpY1Byb3RvY29sT3B0aW9ucxJRCi1vdmVycmlkZV9zdHJlYW1fZXJyb3Jf",
+            "b25faW52YWxpZF9odHRwX21lc3NhZ2UYAiABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuQm9vbFZhbHVlEigKFmFsbG93X2V4dGVuZGVkX2Nvbm5lY3QYBSABKAhC",
+            "CNLGpOEGAggBImEKGlNjaGVtZUhlYWRlclRyYW5zZm9ybWF0aW9uEjEKE3Nj",
+            "aGVtZV90b19vdmVyd3JpdGUYASABKAlCEvpCD3INUgRodHRwUgVodHRwc0gA",
+            "QhAKDnRyYW5zZm9ybWF0aW9uQoEBCiJpby5lbnZveXByb3h5LmVudm95LmNv",
+            "bmZpZy5jb3JlLnYzQg1Qcm90b2NvbFByb3RvUAFaQmdpdGh1Yi5jb20vZW52",
+            "b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95L2NvbmZpZy9jb3JlL3Yz",
+            "O2NvcmV2M7qAyNEGAhACYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.ExtensionReflection.Descriptor, global::Envoy.Type.V3.PercentReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Xds.Annotations.V3.StatusReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -150,7 +151,7 @@ namespace Envoy.Config.Core.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.UpstreamHttpProtocolOptions), global::Envoy.Config.Core.V3.UpstreamHttpProtocolOptions.Parser, new[]{ "AutoSni", "AutoSanValidation", "OverrideAutoSniHeader" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions), global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Parser, new[]{ "Name", "MaxEntries", "KeyValueStoreConfig", "PrepopulatedEntries", "CanonicalSuffixes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Types.AlternateProtocolsCacheEntry), global::Envoy.Config.Core.V3.AlternateProtocolsCacheOptions.Types.AlternateProtocolsCacheEntry.Parser, new[]{ "Hostname", "Port" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.HttpProtocolOptions), global::Envoy.Config.Core.V3.HttpProtocolOptions.Parser, new[]{ "IdleTimeout", "MaxConnectionDuration", "MaxHeadersCount", "MaxStreamDuration", "HeadersWithUnderscoresAction", "MaxRequestsPerConnection" }, null, new[]{ typeof(global::Envoy.Config.Core.V3.HttpProtocolOptions.Types.HeadersWithUnderscoresAction) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Parser, new[]{ "AllowAbsoluteUrl", "AcceptHttp10", "DefaultHostForHttp10", "HeaderKeyFormat", "EnableTrailers", "AllowChunkedLength", "OverrideStreamErrorOnInvalidHttpMessage", "SendFullyQualifiedUrl" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Parser, new[]{ "ProperCaseWords", "StatefulFormatter" }, new[]{ "HeaderFormat" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords.Parser, null, null, null, null, null)})}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Parser, new[]{ "AllowAbsoluteUrl", "AcceptHttp10", "DefaultHostForHttp10", "HeaderKeyFormat", "EnableTrailers", "AllowChunkedLength", "OverrideStreamErrorOnInvalidHttpMessage", "SendFullyQualifiedUrl", "UseBalsaParser" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Parser, new[]{ "ProperCaseWords", "StatefulFormatter" }, new[]{ "HeaderFormat" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords), global::Envoy.Config.Core.V3.Http1ProtocolOptions.Types.HeaderKeyFormat.Types.ProperCaseWords.Parser, null, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.KeepaliveSettings), global::Envoy.Config.Core.V3.KeepaliveSettings.Parser, new[]{ "Interval", "Timeout", "IntervalJitter", "ConnectionIdleInterval" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http2ProtocolOptions), global::Envoy.Config.Core.V3.Http2ProtocolOptions.Parser, new[]{ "HpackTableSize", "MaxConcurrentStreams", "InitialStreamWindowSize", "InitialConnectionWindowSize", "AllowConnect", "AllowMetadata", "MaxOutboundFrames", "MaxOutboundControlFrames", "MaxConsecutiveInboundFramesWithEmptyPayload", "MaxInboundPriorityFramesPerStream", "MaxInboundWindowUpdateFramesPerDataFrameSent", "StreamErrorOnInvalidHttpMessaging", "OverrideStreamErrorOnInvalidHttpMessage", "CustomSettingsParameters", "ConnectionKeepalive" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.Http2ProtocolOptions.Types.SettingsParameter), global::Envoy.Config.Core.V3.Http2ProtocolOptions.Types.SettingsParameter.Parser, new[]{ "Identifier", "Value" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Config.Core.V3.GrpcProtocolOptions), global::Envoy.Config.Core.V3.GrpcProtocolOptions.Parser, new[]{ "Http2ProtocolOptions" }, null, null, null, null),
@@ -1421,7 +1422,7 @@ namespace Envoy.Config.Core.V3 {
     /// this list contained the value ``.c.example.com``, then an Alt-Svc entry for ``foo.c.example.com``
     /// could be shared with ``bar.c.example.com`` but would not be shared with ``baz.example.com``. On
     /// the other hand, if the list contained the value ``.example.com`` then all three hosts could share
-    /// Alt-Svc entries. Each entry must start with ``.``.  If a hostname matches multiple suffixes, the
+    /// Alt-Svc entries. Each entry must start with ``.``. If a hostname matches multiple suffixes, the
     /// first listed suffix will be used.
     ///
     /// Since lookup in this list is O(n), it is recommended that the number of suffixes be limited.
@@ -2411,7 +2412,7 @@ namespace Envoy.Config.Core.V3 {
   }
 
   /// <summary>
-  /// [#next-free-field: 9]
+  /// [#next-free-field: 10]
   /// </summary>
   public sealed partial class Http1ProtocolOptions : pb::IMessage<Http1ProtocolOptions>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2455,6 +2456,7 @@ namespace Envoy.Config.Core.V3 {
       allowChunkedLength_ = other.allowChunkedLength_;
       OverrideStreamErrorOnInvalidHttpMessage = other.OverrideStreamErrorOnInvalidHttpMessage;
       sendFullyQualifiedUrl_ = other.sendFullyQualifiedUrl_;
+      UseBalsaParser = other.UseBalsaParser;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2624,6 +2626,27 @@ namespace Envoy.Config.Core.V3 {
       }
     }
 
+    /// <summary>Field number for the "use_balsa_parser" field.</summary>
+    public const int UseBalsaParserFieldNumber = 9;
+    private static readonly pb::FieldCodec<bool?> _single_useBalsaParser_codec = pb::FieldCodec.ForStructWrapper<bool>(74);
+    private bool? useBalsaParser_;
+    /// <summary>
+    /// [#not-implemented-hide:] Hiding so that field can be removed after BalsaParser is rolled out.
+    /// If set, force HTTP/1 parser: BalsaParser if true, http-parser if false.
+    /// If unset, HTTP/1 parser is selected based on
+    /// envoy.reloadable_features.http1_use_balsa_parser.
+    /// See issue #21245.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool? UseBalsaParser {
+      get { return useBalsaParser_; }
+      set {
+        useBalsaParser_ = value;
+      }
+    }
+
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2647,6 +2670,7 @@ namespace Envoy.Config.Core.V3 {
       if (AllowChunkedLength != other.AllowChunkedLength) return false;
       if (OverrideStreamErrorOnInvalidHttpMessage != other.OverrideStreamErrorOnInvalidHttpMessage) return false;
       if (SendFullyQualifiedUrl != other.SendFullyQualifiedUrl) return false;
+      if (UseBalsaParser != other.UseBalsaParser) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2662,6 +2686,7 @@ namespace Envoy.Config.Core.V3 {
       if (AllowChunkedLength != false) hash ^= AllowChunkedLength.GetHashCode();
       if (overrideStreamErrorOnInvalidHttpMessage_ != null) hash ^= OverrideStreamErrorOnInvalidHttpMessage.GetHashCode();
       if (SendFullyQualifiedUrl != false) hash ^= SendFullyQualifiedUrl.GetHashCode();
+      if (useBalsaParser_ != null) hash ^= UseBalsaParser.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2710,6 +2735,9 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(64);
         output.WriteBool(SendFullyQualifiedUrl);
       }
+      if (useBalsaParser_ != null) {
+        _single_useBalsaParser_codec.WriteTagAndValue(output, UseBalsaParser);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2750,6 +2778,9 @@ namespace Envoy.Config.Core.V3 {
         output.WriteRawTag(64);
         output.WriteBool(SendFullyQualifiedUrl);
       }
+      if (useBalsaParser_ != null) {
+        _single_useBalsaParser_codec.WriteTagAndValue(ref output, UseBalsaParser);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2783,6 +2814,9 @@ namespace Envoy.Config.Core.V3 {
       }
       if (SendFullyQualifiedUrl != false) {
         size += 1 + 1;
+      }
+      if (useBalsaParser_ != null) {
+        size += _single_useBalsaParser_codec.CalculateSizeWithTag(UseBalsaParser);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2826,6 +2860,11 @@ namespace Envoy.Config.Core.V3 {
       }
       if (other.SendFullyQualifiedUrl != false) {
         SendFullyQualifiedUrl = other.SendFullyQualifiedUrl;
+      }
+      if (other.useBalsaParser_ != null) {
+        if (useBalsaParser_ == null || other.UseBalsaParser != false) {
+          UseBalsaParser = other.UseBalsaParser;
+        }
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2883,6 +2922,13 @@ namespace Envoy.Config.Core.V3 {
             SendFullyQualifiedUrl = input.ReadBool();
             break;
           }
+          case 74: {
+            bool? value = _single_useBalsaParser_codec.Read(input);
+            if (useBalsaParser_ == null || value != false) {
+              UseBalsaParser = value;
+            }
+            break;
+          }
         }
       }
     #endif
@@ -2937,6 +2983,13 @@ namespace Envoy.Config.Core.V3 {
           }
           case 64: {
             SendFullyQualifiedUrl = input.ReadBool();
+            break;
+          }
+          case 74: {
+            bool? value = _single_useBalsaParser_codec.Read(ref input);
+            if (useBalsaParser_ == null || value != false) {
+              UseBalsaParser = value;
+            }
             break;
           }
         }

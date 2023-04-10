@@ -40,10 +40,10 @@ namespace Envoy.Service.Cluster.V3 {
             "aXNjb3ZlcnkudjMuRGlzY292ZXJ5UmVxdWVzdBotLmVudm95LnNlcnZpY2Uu",
             "ZGlzY292ZXJ5LnYzLkRpc2NvdmVyeVJlc3BvbnNlIieC0+STAhgiFi92My9k",
             "aXNjb3Zlcnk6Y2x1c3RlcnOC0+STAgM6ASoaJ4qklvMHIQofZW52b3kuY29u",
-            "ZmlnLmNsdXN0ZXIudjMuQ2x1c3RlckKKAQomaW8uZW52b3lwcm94eS5lbnZv",
+            "ZmlnLmNsdXN0ZXIudjMuQ2x1c3RlckKHAQomaW8uZW52b3lwcm94eS5lbnZv",
             "eS5zZXJ2aWNlLmNsdXN0ZXIudjNCCENkc1Byb3RvUAFaSWdpdGh1Yi5jb20v",
             "ZW52b3lwcm94eS9nby1jb250cm9sLXBsYW5lL2Vudm95L3NlcnZpY2UvY2x1",
-            "c3Rlci92MztjbHVzdGVydjOIAQG6gMjRBgIQAmIGcHJvdG8z"));
+            "c3Rlci92MztjbHVzdGVydjO6gMjRBgIQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Service.Discovery.V3.DiscoveryReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Envoy.Annotations.ResourceReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

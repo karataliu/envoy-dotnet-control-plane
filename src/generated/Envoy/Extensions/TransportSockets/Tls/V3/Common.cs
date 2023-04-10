@@ -34,80 +34,81 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
             "dGlvbnMvbWlncmF0ZS5wcm90bxogdWRwYS9hbm5vdGF0aW9ucy9zZW5zaXRp",
             "dmUucHJvdG8aHXVkcGEvYW5ub3RhdGlvbnMvc3RhdHVzLnByb3RvGiF1ZHBh",
             "L2Fubm90YXRpb25zL3ZlcnNpb25pbmcucHJvdG8aF3ZhbGlkYXRlL3ZhbGlk",
-            "YXRlLnByb3RvIqADCg1UbHNQYXJhbWV0ZXJzEnQKHHRsc19taW5pbXVtX3By",
+            "YXRlLnByb3RvIr4DCg1UbHNQYXJhbWV0ZXJzEnQKHHRsc19taW5pbXVtX3By",
             "b3RvY29sX3ZlcnNpb24YASABKA4yRC5lbnZveS5leHRlbnNpb25zLnRyYW5z",
             "cG9ydF9zb2NrZXRzLnRscy52My5UbHNQYXJhbWV0ZXJzLlRsc1Byb3RvY29s",
             "Qgj6QgWCAQIQARJ0Chx0bHNfbWF4aW11bV9wcm90b2NvbF92ZXJzaW9uGAIg",
             "ASgOMkQuZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMu",
             "djMuVGxzUGFyYW1ldGVycy5UbHNQcm90b2NvbEII+kIFggECEAESFQoNY2lw",
-            "aGVyX3N1aXRlcxgDIAMoCRITCgtlY2RoX2N1cnZlcxgEIAMoCSJPCgtUbHNQ",
-            "cm90b2NvbBIMCghUTFNfQVVUTxAAEgsKB1RMU3YxXzAQARILCgdUTFN2MV8x",
-            "EAISCwoHVExTdjFfMhADEgsKB1RMU3YxXzMQBDommsWIHiEKH2Vudm95LmFw",
-            "aS52Mi5hdXRoLlRsc1BhcmFtZXRlcnMitAEKElByaXZhdGVLZXlQcm92aWRl",
-            "chIeCg1wcm92aWRlcl9uYW1lGAEgASgJQgf6QgRyAhABEjQKDHR5cGVkX2Nv",
-            "bmZpZxgDIAEoCzIULmdvb2dsZS5wcm90b2J1Zi5BbnlCBri3i6QCAUgAOiua",
-            "xYgeJgokZW52b3kuYXBpLnYyLmF1dGguUHJpdmF0ZUtleVByb3ZpZGVyQg0K",
-            "C2NvbmZpZ190eXBlSgQIAhADUgZjb25maWciygQKDlRsc0NlcnRpZmljYXRl",
-            "EjsKEWNlcnRpZmljYXRlX2NoYWluGAEgASgLMiAuZW52b3kuY29uZmlnLmNv",
-            "cmUudjMuRGF0YVNvdXJjZRI9Cgtwcml2YXRlX2tleRgCIAEoCzIgLmVudm95",
-            "LmNvbmZpZy5jb3JlLnYzLkRhdGFTb3VyY2VCBri3i6QCARI4CgZwa2NzMTIY",
-            "CCABKAsyIC5lbnZveS5jb25maWcuY29yZS52My5EYXRhU291cmNlQga4t4uk",
-            "AgESQQoRd2F0Y2hlZF9kaXJlY3RvcnkYByABKAsyJi5lbnZveS5jb25maWcu",
-            "Y29yZS52My5XYXRjaGVkRGlyZWN0b3J5ElsKFHByaXZhdGVfa2V5X3Byb3Zp",
-            "ZGVyGAYgASgLMj0uZW52b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0",
-            "cy50bHMudjMuUHJpdmF0ZUtleVByb3ZpZGVyEjoKCHBhc3N3b3JkGAMgASgL",
-            "MiAuZW52b3kuY29uZmlnLmNvcmUudjMuRGF0YVNvdXJjZUIGuLeLpAIBEjUK",
-            "C29jc3Bfc3RhcGxlGAQgASgLMiAuZW52b3kuY29uZmlnLmNvcmUudjMuRGF0",
-            "YVNvdXJjZRJGChxzaWduZWRfY2VydGlmaWNhdGVfdGltZXN0YW1wGAUgAygL",
-            "MiAuZW52b3kuY29uZmlnLmNvcmUudjMuRGF0YVNvdXJjZTonmsWIHiIKIGVu",
-            "dm95LmFwaS52Mi5hdXRoLlRsc0NlcnRpZmljYXRlIoUBChRUbHNTZXNzaW9u",
-            "VGlja2V0S2V5cxI+CgRrZXlzGAEgAygLMiAuZW52b3kuY29uZmlnLmNvcmUu",
-            "djMuRGF0YVNvdXJjZUIO+kIFkgECCAG4t4ukAgE6LZrFiB4oCiZlbnZveS5h",
-            "cGkudjIuYXV0aC5UbHNTZXNzaW9uVGlja2V0S2V5cyJUCiFDZXJ0aWZpY2F0",
-            "ZVByb3ZpZGVyUGx1Z2luSW5zdGFuY2USFQoNaW5zdGFuY2VfbmFtZRgBIAEo",
-            "CRIYChBjZXJ0aWZpY2F0ZV9uYW1lGAIgASgJIpICChVTdWJqZWN0QWx0TmFt",
-            "ZU1hdGNoZXISZgoIc2FuX3R5cGUYASABKA4ySC5lbnZveS5leHRlbnNpb25z",
-            "LnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5TdWJqZWN0QWx0TmFtZU1hdGNo",
-            "ZXIuU2FuVHlwZUIK+kIHggEEEAEgABI/CgdtYXRjaGVyGAIgASgLMiQuZW52",
-            "b3kudHlwZS5tYXRjaGVyLnYzLlN0cmluZ01hdGNoZXJCCPpCBYoBAhABIlAK",
-            "B1NhblR5cGUSGAoUU0FOX1RZUEVfVU5TUEVDSUZJRUQQABIJCgVFTUFJTBAB",
-            "EgcKA0ROUxACEgcKA1VSSRADEg4KCklQX0FERFJFU1MQBCLdCQocQ2VydGlm",
-            "aWNhdGVWYWxpZGF0aW9uQ29udGV4dBJMCgp0cnVzdGVkX2NhGAEgASgLMiAu",
-            "ZW52b3kuY29uZmlnLmNvcmUudjMuRGF0YVNvdXJjZUIW8pj+jwUQEg5jYV9j",
-            "ZXJ0X3NvdXJjZRKOAQogY2FfY2VydGlmaWNhdGVfcHJvdmlkZXJfaW5zdGFu",
-            "Y2UYDSABKAsyTC5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRz",
-            "LnRscy52My5DZXJ0aWZpY2F0ZVByb3ZpZGVyUGx1Z2luSW5zdGFuY2VCFvKY",
-            "/o8FEBIOY2FfY2VydF9zb3VyY2USQQoRd2F0Y2hlZF9kaXJlY3RvcnkYCyAB",
-            "KAsyJi5lbnZveS5jb25maWcuY29yZS52My5XYXRjaGVkRGlyZWN0b3J5Ei8K",
-            "F3ZlcmlmeV9jZXJ0aWZpY2F0ZV9zcGtpGAMgAygJQg76QguSAQgiBnIEECwo",
-            "LBIvChd2ZXJpZnlfY2VydGlmaWNhdGVfaGFzaBgCIAMoCUIO+kILkgEIIgZy",
-            "BBBAKF8SZwodbWF0Y2hfdHlwZWRfc3ViamVjdF9hbHRfbmFtZXMYDyADKAsy",
-            "QC5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5T",
-            "dWJqZWN0QWx0TmFtZU1hdGNoZXISUgoXbWF0Y2hfc3ViamVjdF9hbHRfbmFt",
-            "ZXMYCSADKAsyJC5lbnZveS50eXBlLm1hdGNoZXIudjMuU3RyaW5nTWF0Y2hl",
-            "ckILGAGSx4bYBAMzLjASSAokcmVxdWlyZV9zaWduZWRfY2VydGlmaWNhdGVf",
-            "dGltZXN0YW1wGAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRIt",
-            "CgNjcmwYByABKAsyIC5lbnZveS5jb25maWcuY29yZS52My5EYXRhU291cmNl",
-            "EiEKGWFsbG93X2V4cGlyZWRfY2VydGlmaWNhdGUYCCABKAgSigEKGHRydXN0",
-            "X2NoYWluX3ZlcmlmaWNhdGlvbhgKIAEoDjJeLmVudm95LmV4dGVuc2lvbnMu",
-            "dHJhbnNwb3J0X3NvY2tldHMudGxzLnYzLkNlcnRpZmljYXRlVmFsaWRhdGlv",
-            "bkNvbnRleHQuVHJ1c3RDaGFpblZlcmlmaWNhdGlvbkII+kIFggECEAESSwoX",
-            "Y3VzdG9tX3ZhbGlkYXRvcl9jb25maWcYDCABKAsyKi5lbnZveS5jb25maWcu",
-            "Y29yZS52My5UeXBlZEV4dGVuc2lvbkNvbmZpZxIhChlvbmx5X3ZlcmlmeV9s",
-            "ZWFmX2NlcnRfY3JsGA4gASgIEj8KEG1heF92ZXJpZnlfZGVwdGgYECABKAsy",
-            "HC5nb29nbGUucHJvdG9idWYuVUludDMyVmFsdWVCB/pCBCoCGGQiRgoWVHJ1",
-            "c3RDaGFpblZlcmlmaWNhdGlvbhIWChJWRVJJRllfVFJVU1RfQ0hBSU4QABIU",
-            "ChBBQ0NFUFRfVU5UUlVTVEVEEAE6NZrFiB4wCi5lbnZveS5hcGkudjIuYXV0",
-            "aC5DZXJ0aWZpY2F0ZVZhbGlkYXRpb25Db250ZXh0SgQIBBAFSgQIBRAGUhd2",
-            "ZXJpZnlfc3ViamVjdF9hbHRfbmFtZUKoAQo3aW8uZW52b3lwcm94eS5lbnZv",
-            "eS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52M0ILQ29tbW9u",
-            "UHJvdG9QAVpWZ2l0aHViLmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxh",
-            "bmUvZW52b3kvZXh0ZW5zaW9ucy90cmFuc3BvcnRfc29ja2V0cy90bHMvdjM7",
-            "dGxzdjO6gMjRBgIQAmIGcHJvdG8z"));
+            "aGVyX3N1aXRlcxgDIAMoCRITCgtlY2RoX2N1cnZlcxgEIAMoCRIcChRzaWdu",
+            "YXR1cmVfYWxnb3JpdGhtcxgFIAMoCSJPCgtUbHNQcm90b2NvbBIMCghUTFNf",
+            "QVVUTxAAEgsKB1RMU3YxXzAQARILCgdUTFN2MV8xEAISCwoHVExTdjFfMhAD",
+            "EgsKB1RMU3YxXzMQBDommsWIHiEKH2Vudm95LmFwaS52Mi5hdXRoLlRsc1Bh",
+            "cmFtZXRlcnMitAEKElByaXZhdGVLZXlQcm92aWRlchIeCg1wcm92aWRlcl9u",
+            "YW1lGAEgASgJQgf6QgRyAhABEjQKDHR5cGVkX2NvbmZpZxgDIAEoCzIULmdv",
+            "b2dsZS5wcm90b2J1Zi5BbnlCBri3i6QCAUgAOiuaxYgeJgokZW52b3kuYXBp",
+            "LnYyLmF1dGguUHJpdmF0ZUtleVByb3ZpZGVyQg0KC2NvbmZpZ190eXBlSgQI",
+            "AhADUgZjb25maWciygQKDlRsc0NlcnRpZmljYXRlEjsKEWNlcnRpZmljYXRl",
+            "X2NoYWluGAEgASgLMiAuZW52b3kuY29uZmlnLmNvcmUudjMuRGF0YVNvdXJj",
+            "ZRI9Cgtwcml2YXRlX2tleRgCIAEoCzIgLmVudm95LmNvbmZpZy5jb3JlLnYz",
+            "LkRhdGFTb3VyY2VCBri3i6QCARI4CgZwa2NzMTIYCCABKAsyIC5lbnZveS5j",
+            "b25maWcuY29yZS52My5EYXRhU291cmNlQga4t4ukAgESQQoRd2F0Y2hlZF9k",
+            "aXJlY3RvcnkYByABKAsyJi5lbnZveS5jb25maWcuY29yZS52My5XYXRjaGVk",
+            "RGlyZWN0b3J5ElsKFHByaXZhdGVfa2V5X3Byb3ZpZGVyGAYgASgLMj0uZW52",
+            "b3kuZXh0ZW5zaW9ucy50cmFuc3BvcnRfc29ja2V0cy50bHMudjMuUHJpdmF0",
+            "ZUtleVByb3ZpZGVyEjoKCHBhc3N3b3JkGAMgASgLMiAuZW52b3kuY29uZmln",
+            "LmNvcmUudjMuRGF0YVNvdXJjZUIGuLeLpAIBEjUKC29jc3Bfc3RhcGxlGAQg",
+            "ASgLMiAuZW52b3kuY29uZmlnLmNvcmUudjMuRGF0YVNvdXJjZRJGChxzaWdu",
+            "ZWRfY2VydGlmaWNhdGVfdGltZXN0YW1wGAUgAygLMiAuZW52b3kuY29uZmln",
+            "LmNvcmUudjMuRGF0YVNvdXJjZTonmsWIHiIKIGVudm95LmFwaS52Mi5hdXRo",
+            "LlRsc0NlcnRpZmljYXRlIoUBChRUbHNTZXNzaW9uVGlja2V0S2V5cxI+CgRr",
+            "ZXlzGAEgAygLMiAuZW52b3kuY29uZmlnLmNvcmUudjMuRGF0YVNvdXJjZUIO",
+            "+kIFkgECCAG4t4ukAgE6LZrFiB4oCiZlbnZveS5hcGkudjIuYXV0aC5UbHNT",
+            "ZXNzaW9uVGlja2V0S2V5cyJUCiFDZXJ0aWZpY2F0ZVByb3ZpZGVyUGx1Z2lu",
+            "SW5zdGFuY2USFQoNaW5zdGFuY2VfbmFtZRgBIAEoCRIYChBjZXJ0aWZpY2F0",
+            "ZV9uYW1lGAIgASgJIpICChVTdWJqZWN0QWx0TmFtZU1hdGNoZXISZgoIc2Fu",
+            "X3R5cGUYASABKA4ySC5lbnZveS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2Nr",
+            "ZXRzLnRscy52My5TdWJqZWN0QWx0TmFtZU1hdGNoZXIuU2FuVHlwZUIK+kIH",
+            "ggEEEAEgABI/CgdtYXRjaGVyGAIgASgLMiQuZW52b3kudHlwZS5tYXRjaGVy",
+            "LnYzLlN0cmluZ01hdGNoZXJCCPpCBYoBAhABIlAKB1NhblR5cGUSGAoUU0FO",
+            "X1RZUEVfVU5TUEVDSUZJRUQQABIJCgVFTUFJTBABEgcKA0ROUxACEgcKA1VS",
+            "SRADEg4KCklQX0FERFJFU1MQBCLdCQocQ2VydGlmaWNhdGVWYWxpZGF0aW9u",
+            "Q29udGV4dBJMCgp0cnVzdGVkX2NhGAEgASgLMiAuZW52b3kuY29uZmlnLmNv",
+            "cmUudjMuRGF0YVNvdXJjZUIW8pj+jwUQEg5jYV9jZXJ0X3NvdXJjZRKOAQog",
+            "Y2FfY2VydGlmaWNhdGVfcHJvdmlkZXJfaW5zdGFuY2UYDSABKAsyTC5lbnZv",
+            "eS5leHRlbnNpb25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5DZXJ0aWZp",
+            "Y2F0ZVByb3ZpZGVyUGx1Z2luSW5zdGFuY2VCFvKY/o8FEBIOY2FfY2VydF9z",
+            "b3VyY2USQQoRd2F0Y2hlZF9kaXJlY3RvcnkYCyABKAsyJi5lbnZveS5jb25m",
+            "aWcuY29yZS52My5XYXRjaGVkRGlyZWN0b3J5Ei8KF3ZlcmlmeV9jZXJ0aWZp",
+            "Y2F0ZV9zcGtpGAMgAygJQg76QguSAQgiBnIEECwoLBIvChd2ZXJpZnlfY2Vy",
+            "dGlmaWNhdGVfaGFzaBgCIAMoCUIO+kILkgEIIgZyBBBAKF8SZwodbWF0Y2hf",
+            "dHlwZWRfc3ViamVjdF9hbHRfbmFtZXMYDyADKAsyQC5lbnZveS5leHRlbnNp",
+            "b25zLnRyYW5zcG9ydF9zb2NrZXRzLnRscy52My5TdWJqZWN0QWx0TmFtZU1h",
+            "dGNoZXISUgoXbWF0Y2hfc3ViamVjdF9hbHRfbmFtZXMYCSADKAsyJC5lbnZv",
+            "eS50eXBlLm1hdGNoZXIudjMuU3RyaW5nTWF0Y2hlckILGAGSx4bYBAMzLjAS",
+            "SAokcmVxdWlyZV9zaWduZWRfY2VydGlmaWNhdGVfdGltZXN0YW1wGAYgASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRItCgNjcmwYByABKAsyIC5l",
+            "bnZveS5jb25maWcuY29yZS52My5EYXRhU291cmNlEiEKGWFsbG93X2V4cGly",
+            "ZWRfY2VydGlmaWNhdGUYCCABKAgSigEKGHRydXN0X2NoYWluX3ZlcmlmaWNh",
+            "dGlvbhgKIAEoDjJeLmVudm95LmV4dGVuc2lvbnMudHJhbnNwb3J0X3NvY2tl",
+            "dHMudGxzLnYzLkNlcnRpZmljYXRlVmFsaWRhdGlvbkNvbnRleHQuVHJ1c3RD",
+            "aGFpblZlcmlmaWNhdGlvbkII+kIFggECEAESSwoXY3VzdG9tX3ZhbGlkYXRv",
+            "cl9jb25maWcYDCABKAsyKi5lbnZveS5jb25maWcuY29yZS52My5UeXBlZEV4",
+            "dGVuc2lvbkNvbmZpZxIhChlvbmx5X3ZlcmlmeV9sZWFmX2NlcnRfY3JsGA4g",
+            "ASgIEj8KEG1heF92ZXJpZnlfZGVwdGgYECABKAsyHC5nb29nbGUucHJvdG9i",
+            "dWYuVUludDMyVmFsdWVCB/pCBCoCGGQiRgoWVHJ1c3RDaGFpblZlcmlmaWNh",
+            "dGlvbhIWChJWRVJJRllfVFJVU1RfQ0hBSU4QABIUChBBQ0NFUFRfVU5UUlVT",
+            "VEVEEAE6NZrFiB4wCi5lbnZveS5hcGkudjIuYXV0aC5DZXJ0aWZpY2F0ZVZh",
+            "bGlkYXRpb25Db250ZXh0SgQIBBAFSgQIBRAGUhd2ZXJpZnlfc3ViamVjdF9h",
+            "bHRfbmFtZUKoAQo3aW8uZW52b3lwcm94eS5lbnZveS5leHRlbnNpb25zLnRy",
+            "YW5zcG9ydF9zb2NrZXRzLnRscy52M0ILQ29tbW9uUHJvdG9QAVpWZ2l0aHVi",
+            "LmNvbS9lbnZveXByb3h5L2dvLWNvbnRyb2wtcGxhbmUvZW52b3kvZXh0ZW5z",
+            "aW9ucy90cmFuc3BvcnRfc29ja2V0cy90bHMvdjM7dGxzdjO6gMjRBgIQAmIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Envoy.Config.Core.V3.BaseReflection.Descriptor, global::Envoy.Config.Core.V3.ExtensionReflection.Descriptor, global::Envoy.Type.Matcher.V3.StringReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Envoy.Annotations.DeprecationReflection.Descriptor, global::Udpa.Annotations.MigrateReflection.Descriptor, global::Udpa.Annotations.SensitiveReflection.Descriptor, global::Udpa.Annotations.StatusReflection.Descriptor, global::Udpa.Annotations.VersioningReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters), global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Parser, new[]{ "TlsMinimumProtocolVersion", "TlsMaximumProtocolVersion", "CipherSuites", "EcdhCurves" }, null, new[]{ typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Types.TlsProtocol) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters), global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Parser, new[]{ "TlsMinimumProtocolVersion", "TlsMaximumProtocolVersion", "CipherSuites", "EcdhCurves", "SignatureAlgorithms" }, null, new[]{ typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Types.TlsProtocol) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.PrivateKeyProvider), global::Envoy.Extensions.TransportSockets.Tls.V3.PrivateKeyProvider.Parser, new[]{ "ProviderName", "TypedConfig" }, new[]{ "ConfigType" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsCertificate), global::Envoy.Extensions.TransportSockets.Tls.V3.TlsCertificate.Parser, new[]{ "CertificateChain", "PrivateKey", "Pkcs12", "WatchedDirectory", "PrivateKeyProvider", "Password", "OcspStaple", "SignedCertificateTimestamp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Envoy.Extensions.TransportSockets.Tls.V3.TlsSessionTicketKeys), global::Envoy.Extensions.TransportSockets.Tls.V3.TlsSessionTicketKeys.Parser, new[]{ "Keys" }, null, null, null, null),
@@ -120,6 +121,9 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
 
   }
   #region Messages
+  /// <summary>
+  /// [#next-free-field: 6]
+  /// </summary>
   public sealed partial class TlsParameters : pb::IMessage<TlsParameters>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -158,6 +162,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       tlsMaximumProtocolVersion_ = other.tlsMaximumProtocolVersion_;
       cipherSuites_ = other.cipherSuites_.Clone();
       ecdhCurves_ = other.ecdhCurves_.Clone();
+      signatureAlgorithms_ = other.signatureAlgorithms_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -290,6 +295,53 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       get { return ecdhCurves_; }
     }
 
+    /// <summary>Field number for the "signature_algorithms" field.</summary>
+    public const int SignatureAlgorithmsFieldNumber = 5;
+    private static readonly pb::FieldCodec<string> _repeated_signatureAlgorithms_codec
+        = pb::FieldCodec.ForString(42);
+    private readonly pbc::RepeatedField<string> signatureAlgorithms_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// If specified, the TLS connection will only support the specified signature algorithms.
+    /// The list is ordered by preference.
+    /// If not specified, the default signature algorithms defined by BoringSSL will be used.
+    ///
+    /// Default signature algorithms selected by BoringSSL (may be out of date):
+    ///
+    /// .. code-block:: none
+    ///
+    ///   ecdsa_secp256r1_sha256
+    ///   rsa_pss_rsae_sha256
+    ///   rsa_pkcs1_sha256
+    ///   ecdsa_secp384r1_sha384
+    ///   rsa_pss_rsae_sha384
+    ///   rsa_pkcs1_sha384
+    ///   rsa_pss_rsae_sha512
+    ///   rsa_pkcs1_sha512
+    ///   rsa_pkcs1_sha1
+    ///
+    /// Signature algorithms supported by BoringSSL (may be out of date):
+    ///
+    /// .. code-block:: none
+    ///
+    ///   rsa_pkcs1_sha256
+    ///   rsa_pkcs1_sha384
+    ///   rsa_pkcs1_sha512
+    ///   ecdsa_secp256r1_sha256
+    ///   ecdsa_secp384r1_sha384
+    ///   ecdsa_secp521r1_sha512
+    ///   rsa_pss_rsae_sha256
+    ///   rsa_pss_rsae_sha384
+    ///   rsa_pss_rsae_sha512
+    ///   ed25519
+    ///   rsa_pkcs1_sha1
+    ///   ecdsa_sha1
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> SignatureAlgorithms {
+      get { return signatureAlgorithms_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -309,6 +361,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       if (TlsMaximumProtocolVersion != other.TlsMaximumProtocolVersion) return false;
       if(!cipherSuites_.Equals(other.cipherSuites_)) return false;
       if(!ecdhCurves_.Equals(other.ecdhCurves_)) return false;
+      if(!signatureAlgorithms_.Equals(other.signatureAlgorithms_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -320,6 +373,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       if (TlsMaximumProtocolVersion != global::Envoy.Extensions.TransportSockets.Tls.V3.TlsParameters.Types.TlsProtocol.TlsAuto) hash ^= TlsMaximumProtocolVersion.GetHashCode();
       hash ^= cipherSuites_.GetHashCode();
       hash ^= ecdhCurves_.GetHashCode();
+      hash ^= signatureAlgorithms_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -348,6 +402,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
       cipherSuites_.WriteTo(output, _repeated_cipherSuites_codec);
       ecdhCurves_.WriteTo(output, _repeated_ecdhCurves_codec);
+      signatureAlgorithms_.WriteTo(output, _repeated_signatureAlgorithms_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -368,6 +423,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
       cipherSuites_.WriteTo(ref output, _repeated_cipherSuites_codec);
       ecdhCurves_.WriteTo(ref output, _repeated_ecdhCurves_codec);
+      signatureAlgorithms_.WriteTo(ref output, _repeated_signatureAlgorithms_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -386,6 +442,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
       size += cipherSuites_.CalculateSize(_repeated_cipherSuites_codec);
       size += ecdhCurves_.CalculateSize(_repeated_ecdhCurves_codec);
+      size += signatureAlgorithms_.CalculateSize(_repeated_signatureAlgorithms_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -406,6 +463,7 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
       }
       cipherSuites_.Add(other.cipherSuites_);
       ecdhCurves_.Add(other.ecdhCurves_);
+      signatureAlgorithms_.Add(other.signatureAlgorithms_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -437,6 +495,10 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
             ecdhCurves_.AddEntriesFrom(input, _repeated_ecdhCurves_codec);
             break;
           }
+          case 42: {
+            signatureAlgorithms_.AddEntriesFrom(input, _repeated_signatureAlgorithms_codec);
+            break;
+          }
         }
       }
     #endif
@@ -466,6 +528,10 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
           }
           case 34: {
             ecdhCurves_.AddEntriesFrom(ref input, _repeated_ecdhCurves_codec);
+            break;
+          }
+          case 42: {
+            signatureAlgorithms_.AddEntriesFrom(ref input, _repeated_signatureAlgorithms_codec);
             break;
           }
         }
@@ -2158,6 +2224,10 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     /// applies to dynamic secrets, when the ``CertificateValidationContext`` is
     /// delivered via SDS.
     ///
+    /// X509_V_FLAG_PARTIAL_CHAIN is set by default, so non-root/intermediate ca certificate in ``trusted_ca``
+    /// can be treated as trust anchor as well. It allows verification with building valid partial chain instead
+    /// of a full chain.
+    ///
     /// Only one of ``trusted_ca`` and ``ca_certificate_provider_instance`` may be specified.
     ///
     /// [#next-major-version: This field and watched_directory below should ideally be moved into a
@@ -2460,11 +2530,14 @@ namespace Envoy.Extensions.TransportSockets.Tls.V3 {
     private static readonly pb::FieldCodec<uint?> _single_maxVerifyDepth_codec = pb::FieldCodec.ForStructWrapper<uint>(130);
     private uint? maxVerifyDepth_;
     /// <summary>
-    /// Config for the max number of intermediate certificates in chain that are parsed during verification.
-    /// This does not include the leaf certificate. If configured, and the certificate chain is longer than allowed, the certificates
-    /// above the limit are ignored, and certificate validation will fail. The default limit is 100,
-    /// though this can be system-dependent.
-    /// https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_verify_depth.html
+    /// Defines maximum depth of a certificate chain accepted in verification, the default limit is 100, though this can be system-dependent.
+    /// This number does not include the leaf, so a depth of 1 allows the leaf and one CA certificate. If a trusted issuer appears in the chain,
+    /// but in a depth larger than configured, the certificate validation will fail.
+    /// See `BoringSSL SSL_CTX_set_verify_depth &lt;https://commondatastorage.googleapis.com/chromium-boringssl-docs/ssl.h.html#SSL_CTX_set_verify_depth>`
+    /// If you use OpenSSL, its behavior is different from BoringSSL, this will define a limit on the number of certificates between the end-entity and trust-anchor certificates.
+    /// Neither the end-entity nor the trust-anchor certificates count against depth.
+    /// See `OpenSSL SSL set_verify_depth &lt;https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_verify_depth.html>`_.
+    /// Trusted issues are specified by setting :ref:`trusted_ca &lt;envoy_v3_api_field_extensions.transport_sockets.tls.v3.CertificateValidationContext.trusted_ca>`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
