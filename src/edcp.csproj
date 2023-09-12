@@ -9,7 +9,7 @@
   <PropertyGroup>
     <PackageId>Envoy.ControlPlane</PackageId>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

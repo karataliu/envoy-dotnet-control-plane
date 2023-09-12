@@ -33,6 +33,7 @@ $files = (
 'data-plane-api/envoy/config/route/v3/route.proto',
 'data-plane-api/envoy/config/route/v3/scoped_route.proto',
 'data-plane-api/envoy/config/trace/v3/http_tracer.proto',
+'data-plane-api/envoy/data/accesslog/v3/accesslog.proto',
 'data-plane-api/envoy/extensions/common/ratelimit/v3/ratelimit.proto',
 'data-plane-api/envoy/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto',
 'data-plane-api/envoy/extensions/transport_sockets/tls/v3/common.proto',
